@@ -1,0 +1,1567 @@
+{
+ "id": "cap1",
+ "num": 1,
+ "title": "L'ordinamento e la norma giuridica",
+ "source": "Manuale, Cap. I, §§ 1-9",
+ "sections": [
+  {
+   "id": "1",
+   "title": "L'ordinamento giuridico"
+  },
+  {
+   "id": "2",
+   "title": "L'ordinamento giuridico dello Stato"
+  },
+  {
+   "id": "3",
+   "title": "Gli ordinamenti sovranazionali"
+  },
+  {
+   "id": "4",
+   "title": "La norma giuridica"
+  },
+  {
+   "id": "5",
+   "title": "Diritto positivo e diritto naturale"
+  },
+  {
+   "id": "6",
+   "title": "La struttura della norma"
+  },
+  {
+   "id": "7",
+   "title": "La sanzione"
+  },
+  {
+   "id": "8",
+   "title": "Generalità e astrattezza"
+  },
+  {
+   "id": "8-bis",
+   "title": "Il principio di eguaglianza"
+  },
+  {
+   "id": "9",
+   "title": "L'equità"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "c1-l1",
+   "title": "Ordinamento e Stato",
+   "secs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "c1-l2",
+   "title": "Ordinamenti sovranazionali e CEDU",
+   "secs": [
+    "3"
+   ]
+  },
+  {
+   "id": "c1-l3",
+   "title": "La norma giuridica",
+   "secs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "c1-l4",
+   "title": "Struttura della norma",
+   "secs": [
+    "6"
+   ]
+  },
+  {
+   "id": "c1-l5",
+   "title": "Sanzione, generalità, astrattezza",
+   "secs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "c1-l6",
+   "title": "Eguaglianza",
+   "secs": [
+    "8-bis"
+   ]
+  },
+  {
+   "id": "c1-l7",
+   "title": "L'equità",
+   "secs": [
+    "9"
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "cost-2",
+   "ref": "Art. 2 Cost.",
+   "fonte": "Cost.",
+   "sec": "6",
+   "tema": "Diritti inviolabili e doveri inderogabili di solidarietà",
+   "desc": "La Repubblica «riconosce» (non attribuisce) i diritti inviolabili dell'uomo e richiede l'adempimento dei doveri inderogabili di solidarietà. La buona fede oggettiva ne è una specificazione (Cass. 20106/2009).",
+   "tags": [
+    "costituzione-principi"
+   ],
+   "links": [
+    {
+     "to": "cc-1375",
+     "why": "La buona fede oggettiva (art. 1375 c.c.) è specificazione dei doveri di solidarietà dell'art. 2 Cost."
+    }
+   ]
+  },
+  {
+   "id": "cost-3-1",
+   "ref": "Art. 3, c. 1, Cost.",
+   "fonte": "Cost.",
+   "sec": "8-bis",
+   "tema": "Eguaglianza formale",
+   "desc": "Tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge, senza distinzione di sesso, razza, lingua, religione, opinioni politiche, condizioni personali e sociali. Destinatario: il legislatore; controllo di ragionevolezza della Corte costituzionale.",
+   "tags": [
+    "costituzione-principi"
+   ],
+   "links": [
+    {
+     "to": "cost-3-2",
+     "why": "Eguaglianza formale e sostanziale sono le due facce dell'art. 3 Cost."
+    },
+    {
+     "to": "cost-97-2",
+     "why": "L'eguaglianza riguarda il contenuto della legge, l'imparzialità la sua applicazione da parte della PA."
+    }
+   ]
+  },
+  {
+   "id": "cost-3-2",
+   "ref": "Art. 3, c. 2, Cost.",
+   "fonte": "Cost.",
+   "sec": "8-bis",
+   "tema": "Eguaglianza sostanziale",
+   "desc": "La Repubblica rimuove gli ostacoli di ordine economico e sociale che, limitando di fatto libertà ed eguaglianza, impediscono il pieno sviluppo della persona umana. Si rivolge agli organi dello Stato: servizi pubblici, azioni positive.",
+   "tags": [
+    "costituzione-principi"
+   ]
+  },
+  {
+   "id": "cost-97-2",
+   "ref": "Art. 97, c. 2, Cost.",
+   "fonte": "Cost.",
+   "sec": "8-bis",
+   "tema": "Imparzialità della pubblica amministrazione",
+   "desc": "Obbliga le pubbliche amministrazioni ad applicare le leggi in modo eguale, senza arbitrarie differenziazioni a favore o a danno di singoli.",
+   "tags": [
+    "costituzione-principi"
+   ]
+  },
+  {
+   "id": "cost-10-1",
+   "ref": "Art. 10, c. 1, Cost.",
+   "fonte": "Cost.",
+   "sec": "3",
+   "tema": "Conformità al diritto internazionale generalmente riconosciuto",
+   "desc": "L'ordinamento italiano si conforma alle norme del diritto internazionale generalmente riconosciute: le consuetudini internazionali entrano automaticamente e hanno rango costituzionale, salvo i principi supremi.",
+   "tags": [],
+   "links": [
+    {
+     "to": "cost-117-1",
+     "why": "I trattati invece entrano con legge ordinaria, rafforzata dall'art. 117, c. 1, Cost."
+    }
+   ]
+  },
+  {
+   "id": "cost-11",
+   "ref": "Art. 11 Cost.",
+   "fonte": "Cost.",
+   "sec": "3",
+   "tema": "Limitazioni di sovranità e ripudio della guerra",
+   "desc": "L'Italia ripudia la guerra e consente, in condizioni di parità con gli altri Stati, alle limitazioni di sovranità necessarie a un ordinamento che assicuri la pace e la giustizia fra le Nazioni. Base dell'adesione a ONU e Unione europea.",
+   "tags": [
+    "fonti-ue"
+   ],
+   "links": [
+    {
+     "to": "cost-117-1",
+     "why": "Insieme fondano la prevalenza del diritto UE sulle leggi ordinarie."
+    }
+   ]
+  },
+  {
+   "id": "cost-117-1",
+   "ref": "Art. 117, c. 1, Cost.",
+   "fonte": "Cost.",
+   "sec": "3",
+   "tema": "Vincoli comunitari e obblighi internazionali per il legislatore",
+   "desc": "La potestà legislativa di Stato e Regioni si esercita nel rispetto della Costituzione, dei vincoli derivanti dall'ordinamento comunitario e degli obblighi internazionali (testo della L. cost. 3/2001). Rende trattati e CEDU superiori alle leggi ordinarie.",
+   "tags": [
+    "fonti-ue",
+    "cedu"
+   ]
+  },
+  {
+   "id": "cedu-34",
+   "ref": "Art. 34 CEDU",
+   "fonte": "CEDU",
+   "sec": "3",
+   "tema": "Ricorso individuale alla Corte europea dei diritti dell'uomo",
+   "desc": "I singoli (e gli Stati) possono rivolgersi alla Corte EDU di Strasburgo contro atti di organi che svolgono pubbliche funzioni: leggi, provvedimenti amministrativi, sentenze.",
+   "tags": [
+    "cedu"
+   ],
+   "links": [
+    {
+     "to": "cedu-35-1",
+     "why": "Il ricorso individuale è ammesso solo dopo l'esaurimento delle vie di ricorso interne."
+    }
+   ]
+  },
+  {
+   "id": "cedu-35-1",
+   "ref": "Art. 35, § 1, CEDU",
+   "fonte": "CEDU",
+   "sec": "3",
+   "tema": "Esaurimento delle vie di ricorso interne",
+   "desc": "Alla Corte EDU si accede solo dopo aver esaurito i rimedi giurisdizionali nazionali.",
+   "tags": [
+    "cedu"
+   ]
+  },
+  {
+   "id": "cedu-46-1",
+   "ref": "Art. 46, par. 1, CEDU",
+   "fonte": "CEDU",
+   "sec": "3",
+   "tema": "Obbligo dello Stato di conformarsi alle sentenze della Corte EDU",
+   "desc": "Lo Stato condannato deve rimuovere le cause della violazione, ripristinando la situazione anteriore.",
+   "tags": [
+    "cedu"
+   ],
+   "links": [
+    {
+     "to": "cedu-41",
+     "why": "Oltre a conformarsi, lo Stato può essere condannato all'equa riparazione."
+    }
+   ]
+  },
+  {
+   "id": "cedu-41",
+   "ref": "Art. 41 CEDU",
+   "fonte": "CEDU",
+   "sec": "3",
+   "tema": "Equa riparazione",
+   "desc": "Se riconosciuta dalla Corte EDU, lo Stato versa alla parte lesa un'equa riparazione per il danno morale e patrimoniale e le spese di giustizia.",
+   "tags": [
+    "cedu"
+   ]
+  },
+  {
+   "id": "tue-6-3",
+   "ref": "Art. 6, par. 3, TUE",
+   "fonte": "TUE",
+   "sec": "3",
+   "tema": "I diritti CEDU come principi generali del diritto dell'Unione",
+   "desc": "I diritti fondamentali garantiti dalla CEDU e risultanti dalle tradizioni costituzionali comuni fanno parte del diritto dell'Unione come principi generali: consente di interpretare il diritto interno ed europeo alla luce della CEDU.",
+   "tags": [
+    "cedu",
+    "fonti-ue"
+   ]
+  },
+  {
+   "id": "cc-2043",
+   "ref": "Art. 2043 c.c.",
+   "fonte": "c.c.",
+   "sec": "4",
+   "tema": "Risarcimento per fatto illecito (danno ingiusto)",
+   "desc": "Qualunque fatto doloso o colposo che cagiona ad altri un danno ingiusto obbliga chi l'ha commesso a risarcire il danno. Clausola generale: dallo stesso testo la giurisprudenza ha ricavato norme diverse (Superga 1949, caso Meroni 1971).",
+   "tags": [
+    "responsabilita",
+    "fattispecie"
+   ]
+  },
+  {
+   "id": "cc-1229",
+   "ref": "Art. 1229 c.c.",
+   "fonte": "c.c.",
+   "sec": "4",
+   "tema": "Nullità dei patti di esonero da responsabilità per dolo o colpa grave",
+   "desc": "È nullo il patto che esclude o limita preventivamente la responsabilità del debitore per dolo o colpa grave: esempio di norma cogente.",
+   "tags": [
+    "cogenti",
+    "responsabilita"
+   ]
+  },
+  {
+   "id": "cc-1350",
+   "ref": "Art. 1350 c.c.",
+   "fonte": "c.c.",
+   "sec": "4",
+   "tema": "Forma scritta a pena di nullità (es. trasferimenti di immobili)",
+   "desc": "Devono farsi per atto pubblico o scrittura privata, sotto pena di nullità, i contratti che trasferiscono la proprietà di beni immobili: la previsione di nullità segnala l'inderogabilità.",
+   "tags": [
+    "cogenti",
+    "contratto"
+   ]
+  },
+  {
+   "id": "cc-2744",
+   "ref": "Art. 2744 c.c.",
+   "fonte": "c.c.",
+   "sec": "4",
+   "tema": "Divieto del patto commissorio",
+   "desc": "È nullo il patto con cui si conviene che, in mancanza di pagamento, la proprietà della cosa data in garanzia passi al creditore: norma cogente.",
+   "tags": [
+    "cogenti"
+   ]
+  },
+  {
+   "id": "cc-1294",
+   "ref": "Art. 1294 c.c.",
+   "fonte": "c.c.",
+   "sec": "4",
+   "tema": "Solidarietà tra condebitori (salvo diversa previsione)",
+   "desc": "I condebitori sono tenuti in solido, se dalla legge o dal titolo non risulta diversamente: esempio di norma dispositiva.",
+   "tags": [
+    "dispositive"
+   ]
+  },
+  {
+   "id": "cc-1510",
+   "ref": "Art. 1510 c.c.",
+   "fonte": "c.c.",
+   "sec": "4",
+   "tema": "Luogo della consegna nella vendita",
+   "desc": "In mancanza di patto o uso contrario stabilisce dove deve avvenire la consegna della cosa venduta: esempio di norma suppletiva e dispositiva.",
+   "tags": [
+    "dispositive",
+    "usi"
+   ]
+  },
+  {
+   "id": "cc-1158",
+   "ref": "Art. 1158 c.c.",
+   "fonte": "c.c.",
+   "sec": "6",
+   "tema": "Usucapione ventennale dei beni immobili",
+   "desc": "Chi possiede un immobile per vent'anni ne acquista la proprietà: norma che collega a una fattispecie l'acquisto di un diritto.",
+   "tags": [
+    "fattispecie"
+   ]
+  },
+  {
+   "id": "cc-1236",
+   "ref": "Art. 1236 c.c.",
+   "fonte": "c.c.",
+   "sec": "6",
+   "tema": "Remissione del debito",
+   "desc": "La dichiarazione del creditore di rimettere il debito estingue l'obbligazione: fattispecie con effetto estintivo.",
+   "tags": [
+    "fattispecie"
+   ]
+  },
+  {
+   "id": "cc-1241",
+   "ref": "Art. 1241 c.c.",
+   "fonte": "c.c.",
+   "sec": "6",
+   "tema": "Estinzione per compensazione",
+   "desc": "Quando due persone sono obbligate l'una verso l'altra, i due debiti si estinguono per le quantità corrispondenti.",
+   "tags": [
+    "fattispecie"
+   ]
+  },
+  {
+   "id": "cp-575",
+   "ref": "Art. 575 c.p.",
+   "fonte": "c.p.",
+   "sec": "6",
+   "tema": "Omicidio",
+   "desc": "Chi cagiona la morte di un uomo è punito con la reclusione non inferiore a ventuno anni: esempio di conseguenza afflittiva e di norma generale («chiunque»).",
+   "tags": [
+    "fattispecie"
+   ]
+  },
+  {
+   "id": "cc-456",
+   "ref": "Art. 456 c.c.",
+   "fonte": "c.c.",
+   "sec": "6",
+   "tema": "Apertura della successione",
+   "desc": "La successione si apre al momento della morte: esempio di fattispecie semplice (un solo fatto).",
+   "tags": [
+    "fattispecie"
+   ]
+  },
+  {
+   "id": "cc-107",
+   "ref": "Art. 107 c.c.",
+   "fonte": "c.c.",
+   "sec": "6",
+   "tema": "Celebrazione del matrimonio",
+   "desc": "Servono il consenso dei nubendi e la dichiarazione dell'ufficiale dello stato civile: esempio di fattispecie complessa (più fatti, tutti necessari).",
+   "tags": [
+    "fattispecie"
+   ]
+  },
+  {
+   "id": "cc-1353",
+   "ref": "Art. 1353 c.c.",
+   "fonte": "c.c.",
+   "sec": "6",
+   "tema": "Contratto condizionale",
+   "desc": "Le parti possono subordinare l'efficacia o la risoluzione del contratto a un evento futuro e incerto. Con la condizione sospensiva: fattispecie a formazione progressiva, con effetti prodromici (aspettativa).",
+   "tags": [
+    "fattispecie",
+    "contratto"
+   ]
+  },
+  {
+   "id": "cc-1375",
+   "ref": "Art. 1375 c.c.",
+   "fonte": "c.c.",
+   "sec": "6",
+   "tema": "Esecuzione del contratto secondo buona fede",
+   "desc": "Il contratto deve essere eseguito secondo buona fede: clausola generale, letta oggi come specificazione dei doveri di solidarietà dell'art. 2 Cost.",
+   "tags": [
+    "contratto"
+   ]
+  },
+  {
+   "id": "cost-41-2",
+   "ref": "Art. 41, c. 2, Cost.",
+   "fonte": "Cost.",
+   "sec": "6",
+   "tema": "Limiti dell'iniziativa economica privata (utilità sociale)",
+   "desc": "L'iniziativa economica privata non può svolgersi in contrasto con l'utilità sociale o in modo da recare danno a salute, ambiente, sicurezza, libertà, dignità umana.",
+   "tags": [
+    "costituzione-principi"
+   ]
+  },
+  {
+   "id": "cost-42-2",
+   "ref": "Art. 42, c. 2, Cost.",
+   "fonte": "Cost.",
+   "sec": "6",
+   "tema": "Funzione sociale della proprietà",
+   "desc": "La legge riconosce e garantisce la proprietà privata, determinandone modi di acquisto, godimento e limiti allo scopo di assicurarne la funzione sociale.",
+   "tags": [
+    "costituzione-principi"
+   ]
+  },
+  {
+   "id": "cpc-614-bis",
+   "ref": "Art. 614-bis c.p.c.",
+   "fonte": "c.p.c.",
+   "sec": "7",
+   "tema": "Misure di coercizione indiretta",
+   "desc": "Il giudice può fissare una somma dovuta per ogni violazione o ritardo nell'attuazione del provvedimento: misura di dissuasione, utile quando l'obbligato non può essere costretto materialmente.",
+   "tags": [
+    "sanzione"
+   ]
+  },
+  {
+   "id": "cc-315-bis-4",
+   "ref": "Art. 315-bis, c. 4, c.c.",
+   "fonte": "c.c.",
+   "sec": "7",
+   "tema": "Dovere del figlio di rispettare i genitori",
+   "desc": "Affermazione di principio priva di sanzione, con funzione di indirizzo: dimostra che la sanzione non è indispensabile in ogni norma.",
+   "tags": [
+    "sanzione"
+   ]
+  },
+  {
+   "id": "cc-2933",
+   "ref": "Art. 2933 c.c.",
+   "fonte": "c.c.",
+   "sec": "7",
+   "tema": "Esecuzione forzata degli obblighi di non fare",
+   "desc": "Si può ottenere che sia distrutto, a spese dell'obbligato, ciò che è stato fatto in violazione dell'obbligo di non fare: esempio di sanzione diretta.",
+   "tags": [
+    "sanzione"
+   ]
+  },
+  {
+   "id": "cc-2",
+   "ref": "Art. 2 c.c.",
+   "fonte": "c.c.",
+   "sec": "8",
+   "tema": "Maggiore età e capacità di agire",
+   "desc": "La maggiore età si raggiunge a diciotto anni e con essa si acquista la capacità di agire: norma generale rivolta a un gruppo individuato con criteri oggettivi (i maggiorenni).",
+   "tags": []
+  },
+  {
+   "id": "cpc-113-1",
+   "ref": "Art. 113, c. 1, c.p.c.",
+   "fonte": "c.p.c.",
+   "sec": "9",
+   "tema": "Il giudice decide secondo diritto",
+   "desc": "Nel pronunciare sulla causa il giudice deve seguire le norme del diritto, salvo che la legge gli attribuisca il potere di decidere secondo equità.",
+   "tags": [
+    "equita"
+   ],
+   "links": [
+    {
+     "to": "cpc-113-2",
+     "why": "Il comma 2 prevede proprio uno dei casi di decisione secondo equità."
+    }
+   ]
+  },
+  {
+   "id": "cpc-113-2",
+   "ref": "Art. 113, c. 2, c.p.c.",
+   "fonte": "c.p.c.",
+   "sec": "9",
+   "tema": "Equità del giudice di pace (fino a 1.100 euro)",
+   "desc": "Il giudice di pace decide secondo equità le cause di valore non superiore a 1.100 euro, salvo quelle derivanti da contratti conclusi mediante moduli o formulari.",
+   "tags": [
+    "equita"
+   ],
+   "links": [
+    {
+     "to": "cpc-114",
+     "why": "Sono i due casi di equità decisoria: giudice di pace e richiesta concorde delle parti."
+    }
+   ]
+  },
+  {
+   "id": "cpc-114",
+   "ref": "Art. 114 c.p.c.",
+   "fonte": "c.p.c.",
+   "sec": "9",
+   "tema": "Equità su richiesta concorde delle parti",
+   "desc": "Il giudice decide secondo equità se le parti gliene fanno concorde richiesta e si tratta di diritti disponibili, in primo grado o in appello.",
+   "tags": [
+    "equita"
+   ]
+  },
+  {
+   "id": "cc-1226",
+   "ref": "Art. 1226 c.c.",
+   "fonte": "c.c.",
+   "sec": "9",
+   "tema": "Valutazione equitativa del danno",
+   "desc": "Se il danno non può essere provato nel suo preciso ammontare, il giudice lo liquida con valutazione equitativa: equità integrativa, non giudizio di equità.",
+   "tags": [
+    "equita",
+    "responsabilita"
+   ]
+  },
+  {
+   "id": "cc-1371",
+   "ref": "Art. 1371 c.c.",
+   "fonte": "c.c.",
+   "sec": "9",
+   "tema": "Regole finali di interpretazione del contratto",
+   "desc": "Se il contratto resta oscuro va inteso nel senso meno gravoso per l'obbligato (se gratuito) o in quello che realizza l'equo contemperamento degli interessi delle parti (se oneroso): equità integrativa.",
+   "tags": [
+    "equita",
+    "contratto"
+   ]
+  },
+  {
+   "id": "cc-1374",
+   "ref": "Art. 1374 c.c.",
+   "fonte": "c.c.",
+   "sec": "9",
+   "tema": "Integrazione del contratto",
+   "desc": "Il contratto obbliga le parti a quanto vi è espresso e a tutte le conseguenze che ne derivano secondo la legge o, in mancanza, secondo gli usi e l'equità.",
+   "tags": [
+    "equita",
+    "contratto",
+    "usi"
+   ]
+  },
+  {
+   "id": "cc-1384",
+   "ref": "Art. 1384 c.c.",
+   "fonte": "c.c.",
+   "sec": "9",
+   "tema": "Riduzione equitativa della penale",
+   "desc": "La clausola penale manifestamente eccessiva può essere diminuita equamente dal giudice: esempio di equità correttiva.",
+   "tags": [
+    "equita",
+    "contratto"
+   ]
+  },
+  {
+   "id": "cost-70",
+   "ref": "Art. 70 Cost.",
+   "fonte": "Cost.",
+   "sec": "4",
+   "tema": "Funzione legislativa delle Camere",
+   "desc": "La funzione legislativa è esercitata collettivamente dalle due Camere: la legge in senso tecnico è l'atto approvato da entrambe secondo le procedure costituzionali (artt. 70 ss. Cost.).",
+   "tags": [
+    "legge-procedimento"
+   ]
+  },
+  {
+   "id": "dp-2",
+   "ref": "Art. 2 disp. prel. c.c.",
+   "fonte": "disp. prel.",
+   "sec": "4",
+   "tema": "Le leggi (formazione disciplinata da leggi costituzionali)",
+   "desc": "La formazione delle leggi e degli atti del Governo aventi forza di legge è disciplinata da leggi di carattere costituzionale.",
+   "tags": [
+    "legge-procedimento"
+   ]
+  }
+ ],
+ "concepts": [
+  {
+   "id": "k-ordinamento",
+   "sec": "1",
+   "term": "Ordinamento giuridico",
+   "def": "Sistema di regole mediante cui una collettività è organizzata e la vita sociale è disciplinata e diretta"
+  },
+  {
+   "id": "k-regole-condotta",
+   "sec": "1",
+   "term": "Regole di condotta",
+   "def": "Regole che stabiliscono il comportamento da tenere o da evitare"
+  },
+  {
+   "id": "k-regole-struttura",
+   "sec": "1",
+   "term": "Regole di struttura",
+   "def": "Regole che affidano ad appositi organi il compito di porre, attuare e far rispettare le regole"
+  },
+  {
+   "id": "k-effettivita",
+   "sec": "1",
+   "term": "Principio di effettività",
+   "def": "Le regole devono essere effettivamente osservate: segna il limite di esistenza dell'ordinamento nel suo insieme"
+  },
+  {
+   "id": "k-desuetudine",
+   "sec": "1",
+   "term": "Desuetudine",
+   "def": "Venir meno, di fatto, dell'osservanza di una regola nel tempo"
+  },
+  {
+   "id": "k-apparati",
+   "sec": "1",
+   "term": "Apparati",
+   "def": "Complessi di uomini e mezzi che verificano l'osservanza delle regole e irrogano le sanzioni"
+  },
+  {
+   "id": "k-dir-oggettivo",
+   "sec": "1",
+   "term": "Diritto in senso oggettivo",
+   "def": "L'ordinamento stesso: l'insieme delle regole che organizzano la vita sociale"
+  },
+  {
+   "id": "k-dir-soggettivo",
+   "sec": "1",
+   "term": "Diritto in senso soggettivo",
+   "def": "Situazione giuridica che fa capo a un determinato soggetto (es. la proprietà di Tizio su un bene)"
+  },
+  {
+   "id": "k-stato",
+   "sec": "2",
+   "term": "Stato",
+   "def": "Comunità di cittadini stanziata su un territorio su cui esercita la sovranità, organizzata secondo un proprio ordinamento"
+  },
+  {
+   "id": "k-pluralita",
+   "sec": "2",
+   "term": "Pluralità degli ordinamenti",
+   "def": "Coesistenza nello stesso territorio di più ordinamenti (statale, canonico, sportivo); teoria di Santi Romano"
+  },
+  {
+   "id": "k-stato-sociale",
+   "sec": "2",
+   "term": "Stato sociale",
+   "def": "Stato che eroga servizi (sanità, istruzione, previdenza) e promuove il progresso sociale"
+  },
+  {
+   "id": "k-ordine-esecuzione",
+   "sec": "3",
+   "term": "Ordine di esecuzione",
+   "def": "Atto che rinvia al testo di un trattato rendendolo applicabile nell'ordinamento (adattamento speciale)"
+  },
+  {
+   "id": "k-limit-sovranita",
+   "sec": "3",
+   "term": "Limitazioni di sovranità",
+   "def": "Assoggettamento, consentito dall'art. 11 Cost., alle regole di organizzazioni sovranazionali"
+  },
+  {
+   "id": "k-cedu",
+   "sec": "3",
+   "term": "CEDU",
+   "def": "Convenzione europea per la salvaguardia dei diritti dell'uomo e delle libertà fondamentali, firmata a Roma nel 1950"
+  },
+  {
+   "id": "k-corte-edu",
+   "sec": "3",
+   "term": "Corte EDU",
+   "def": "Corte europea dei diritti dell'uomo, con sede a Strasburgo"
+  },
+  {
+   "id": "k-controlimiti",
+   "sec": "3",
+   "term": "Controlimiti",
+   "def": "Principi fondamentali della Costituzione che le norme sovranazionali non possono violare"
+  },
+  {
+   "id": "k-norma-giuridica",
+   "sec": "4",
+   "term": "Norma giuridica",
+   "def": "Regola che appartiene a un ordinamento ed è resa vincolante verso tutti da un'autorità esterna"
+  },
+  {
+   "id": "k-disposizione",
+   "sec": "4",
+   "term": "Disposizione (testo)",
+   "def": "Enunciato normativo non ancora interpretato"
+  },
+  {
+   "id": "k-norma-precetto",
+   "sec": "4",
+   "term": "Norma (precetto)",
+   "def": "Significato ricavato da una disposizione attraverso l'interpretazione"
+  },
+  {
+   "id": "k-combinato",
+   "sec": "4",
+   "term": "Combinato disposto",
+   "def": "Lettura congiunta di più disposizioni da cui si ricava una norma"
+  },
+  {
+   "id": "k-prescrittivo",
+   "sec": "4",
+   "term": "Carattere prescrittivo",
+   "def": "La norma prescrive un dover essere: non è vera o falsa, ma opportuna o inopportuna"
+  },
+  {
+   "id": "k-cogenti",
+   "sec": "4",
+   "term": "Norme cogenti",
+   "def": "Norme inderogabili che tutelano interessi generali: l'atto contrario è nullo"
+  },
+  {
+   "id": "k-dispositive",
+   "sec": "4",
+   "term": "Norme dispositive",
+   "def": "Norme che le parti possono derogare regolando diversamente i propri interessi"
+  },
+  {
+   "id": "k-suppletive",
+   "sec": "4",
+   "term": "Norme suppletive",
+   "def": "Norme che si applicano solo se le parti non hanno regolato quell'aspetto"
+  },
+  {
+   "id": "k-dir-positivo",
+   "sec": "5",
+   "term": "Diritto positivo",
+   "def": "Complesso delle norme poste in un ordinamento (ius in civitate positum)"
+  },
+  {
+   "id": "k-dir-naturale",
+   "sec": "5",
+   "term": "Diritto naturale",
+   "def": "Idea di un diritto superiore a quello positivo, fondato su natura dell'uomo, ragione o natura delle cose"
+  },
+  {
+   "id": "k-fattispecie",
+   "sec": "6",
+   "term": "Fattispecie",
+   "def": "Parte della norma che descrive il fatto a cui sono collegati effetti giuridici (species facti)"
+  },
+  {
+   "id": "k-fatt-astratta",
+   "sec": "6",
+   "term": "Fattispecie astratta",
+   "def": "Fatto descritto ipoteticamente dalla norma, individuato interpretando il testo"
+  },
+  {
+   "id": "k-fatt-concreta",
+   "sec": "6",
+   "term": "Fattispecie concreta",
+   "def": "Fatto realmente verificatosi, accertato con le prove"
+  },
+  {
+   "id": "k-fatt-complessa",
+   "sec": "6",
+   "term": "Fattispecie complessa",
+   "def": "Fattispecie composta da più fatti, tutti necessari perché si produca l'effetto"
+  },
+  {
+   "id": "k-fatt-progressiva",
+   "sec": "6",
+   "term": "Fattispecie a formazione progressiva",
+   "def": "Serie di fatti successivi che producono effetti prodromici prima del completamento"
+  },
+  {
+   "id": "k-prodromici",
+   "sec": "6",
+   "term": "Effetti prodromici",
+   "def": "Effetti che si producono prima che la fattispecie sia completa (es. aspettativa del contratto sotto condizione sospensiva)"
+  },
+  {
+   "id": "k-sussunzione",
+   "sec": "6",
+   "term": "Sussunzione",
+   "def": "Riconduzione del fatto concreto alla fattispecie astratta, con applicazione del trattamento previsto"
+  },
+  {
+   "id": "k-bilanciamento",
+   "sec": "6",
+   "term": "Bilanciamento",
+   "def": "Metodo per cui un valore prevale o soccombe secondo l'interesse contrapposto nel caso concreto"
+  },
+  {
+   "id": "k-clausole-generali",
+   "sec": "6",
+   "term": "Clausole generali",
+   "def": "Frammenti di norme (buona fede, danno ingiusto) che affidano al giudice la regola del caso concreto"
+  },
+  {
+   "id": "k-sanzione",
+   "sec": "7",
+   "term": "Sanzione",
+   "def": "Conseguenza sfavorevole prevista per chi viola una norma"
+  },
+  {
+   "id": "k-norme-primarie",
+   "sec": "7",
+   "term": "Norme primarie e secondarie",
+   "def": "Norme di condotta (primarie) e norme sanzionatorie (secondarie)"
+  },
+  {
+   "id": "k-promozionali",
+   "sec": "7",
+   "term": "Norme promozionali",
+   "def": "Norme che prevedono incentivi o vantaggi per chi tiene certi comportamenti"
+  },
+  {
+   "id": "k-nemo-ad-factum",
+   "sec": "7",
+   "term": "Nemo ad factum cogi potest",
+   "def": "Nessuno può essere costretto materialmente a un fare: si ricorre al risarcimento"
+  },
+  {
+   "id": "k-generalita",
+   "sec": "8",
+   "term": "Generalità",
+   "def": "La norma si rivolge a tutti o a gruppi genericamente individuati (riguarda i destinatari)"
+  },
+  {
+   "id": "k-astrattezza",
+   "sec": "8",
+   "term": "Astrattezza",
+   "def": "La norma regola fattispecie ipotetiche e casi futuri, non situazioni concrete (riguarda i fatti)"
+  },
+  {
+   "id": "k-legge-provv",
+   "sec": "8",
+   "term": "Legge-provvedimento",
+   "def": "Legge che regola una situazione individualmente determinata; ammessa se rispetta l'eguaglianza (es. scioglimento della Loggia P2)"
+  },
+  {
+   "id": "k-ragionevolezza",
+   "sec": "8-bis",
+   "term": "Ragionevolezza",
+   "def": "Criterio con cui la Corte costituzionale verifica che le differenziazioni legislative non siano arbitrarie"
+  },
+  {
+   "id": "k-azioni-positive",
+   "sec": "8-bis",
+   "term": "Azioni positive",
+   "def": "Misure a favore di categorie svantaggiate per attuare l'eguaglianza sostanziale"
+  },
+  {
+   "id": "k-equita",
+   "sec": "9",
+   "term": "Equità",
+   "def": "Giustizia del caso singolo, ammessa come criterio decisorio solo nei casi previsti dalla legge"
+  },
+  {
+   "id": "k-equita-cerebrina",
+   "sec": "9",
+   "term": "Equità cerebrina",
+   "def": "Decisione fondata sulle concezioni personali del giudice: sempre vietata"
+  },
+  {
+   "id": "k-equita-integrativa",
+   "sec": "9",
+   "term": "Equità integrativa",
+   "def": "Il giudice completa secondo equità un elemento della fattispecie o del contratto (es. art. 1226 c.c.)"
+  },
+  {
+   "id": "k-equita-correttiva",
+   "sec": "9",
+   "term": "Equità correttiva",
+   "def": "Il giudice corregge secondo equità un elemento voluto dalle parti (es. art. 1384 c.c.)"
+  },
+  {
+   "id": "k-summum-ius",
+   "sec": "9",
+   "term": "Summum ius, summa iniuria",
+   "def": "L'applicazione rigorosa del diritto può dare risultati ingiusti nel caso singolo"
+  }
+ ],
+ "contrasts": [
+  {
+   "id": "cx-internaz",
+   "sec": "3",
+   "title": "Diritto internazionale consuetudinario o pattizio?",
+   "cols": [
+    "Consuetudinario",
+    "Pattizio (trattati)"
+   ],
+   "facts": [
+    [
+     "Nasce dalla prassi delle relazioni tra Stati",
+     0
+    ],
+    [
+     "Nasce da accordi bilaterali o plurilaterali",
+     1
+    ],
+    [
+     "Entra automaticamente nell'ordinamento (art. 10 Cost.)",
+     0
+    ],
+    [
+     "Richiede un adattamento speciale (ordine di esecuzione) o ordinario",
+     1
+    ],
+    [
+     "Ha rango costituzionale",
+     0
+    ],
+    [
+     "Ha rango di legge ordinaria, superiore però alle altre leggi ordinarie (art. 117, c. 1)",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-ue-cedu",
+   "sec": "3",
+   "title": "Diritto dell'Unione europea o CEDU?",
+   "cols": [
+    "Diritto UE",
+    "CEDU"
+   ],
+   "facts": [
+    [
+     "È l'ordinamento di un'organizzazione sovranazionale",
+     0
+    ],
+    [
+     "È un trattato multilaterale del Consiglio d'Europa",
+     1
+    ],
+    [
+     "Comporta limitazioni di sovranità ex art. 11 Cost.",
+     0
+    ],
+    [
+     "Non comporta limitazioni di sovranità ex art. 11 Cost.",
+     1
+    ],
+    [
+     "In caso di contrasto, il giudice disapplica la legge interna",
+     0
+    ],
+    [
+     "In caso di contrasto, il giudice solleva questione di legittimità costituzionale",
+     1
+    ],
+    [
+     "Il giudice di riferimento è la Corte di giustizia (Lussemburgo)",
+     0
+    ],
+    [
+     "Il giudice di riferimento è la Corte di Strasburgo",
+     1
+    ],
+    [
+     "Fondamento: artt. 11 e 117, c. 1, Cost.",
+     0
+    ],
+    [
+     "Fondamento: solo art. 117, c. 1, Cost. (norma interposta)",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-morale",
+   "sec": "4",
+   "title": "Norma morale o norma giuridica?",
+   "cols": [
+    "Norma morale",
+    "Norma giuridica"
+   ],
+   "facts": [
+    [
+     "Trova validità nel suo contenuto",
+     0
+    ],
+    [
+     "Trae forza dall'appartenenza a un ordinamento",
+     1
+    ],
+    [
+     "Obbliga solo chi ne riconosce il valore e vi aderisce",
+     0
+    ],
+    [
+     "Obbliga tutti i consociati",
+     1
+    ],
+    [
+     "Ha rilevanza interna (coscienza)",
+     0
+    ],
+    [
+     "È imposta da un'autorità esterna capace di coercizione",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-testo-norma",
+   "sec": "4",
+   "title": "Disposizione, norma o legge?",
+   "cols": [
+    "Disposizione",
+    "Norma",
+    "Legge"
+   ],
+   "facts": [
+    [
+     "Enunciato non ancora interpretato",
+     0
+    ],
+    [
+     "Significato del testo, risultato dell'interpretazione",
+     1
+    ],
+    [
+     "Atto normativo scritto approvato dalle Camere",
+     2
+    ],
+    [
+     "Dallo stesso art. 2043 ne sono state ricavate due diverse (Superga e Meroni)",
+     1
+    ],
+    [
+     "Ne contiene di regola una pluralità (si pensi al codice civile)",
+     2
+    ],
+    [
+     "È la formulazione concreta dell'atto",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "cx-cogenti",
+   "sec": "4",
+   "title": "Norma cogente o dispositiva?",
+   "cols": [
+    "Cogente",
+    "Dispositiva / suppletiva"
+   ],
+   "facts": [
+    [
+     "Art. 1229 c.c.: nullità dei patti di esonero per dolo o colpa grave",
+     0
+    ],
+    [
+     "Art. 1350 c.c.: forma scritta a pena di nullità",
+     0
+    ],
+    [
+     "Art. 2744 c.c.: divieto del patto commissorio",
+     0
+    ],
+    [
+     "Art. 1294 c.c.: solidarietà, se dal titolo non risulta diversamente",
+     1
+    ],
+    [
+     "Art. 1510 c.c.: luogo di consegna nella vendita",
+     1
+    ],
+    [
+     "Formula «in mancanza di patto contrario»",
+     1
+    ],
+    [
+     "Prevede la nullità dell'atto contrario",
+     0
+    ],
+    [
+     "Protegge interessi generali",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "cx-positivo",
+   "sec": "5",
+   "title": "Diritto positivo o diritto naturale?",
+   "cols": [
+    "Diritto positivo",
+    "Diritto naturale"
+   ],
+   "facts": [
+    [
+     "Ius in civitate positum",
+     0
+    ],
+    [
+     "Fondato su natura dell'uomo, ragione o natura delle cose",
+     1
+    ],
+    [
+     "Storico, legato al contesto politico",
+     0
+    ],
+    [
+     "Pretende universalità, ma il suo contenuto è mutato nel tempo (es. schiavitù)",
+     1
+    ],
+    [
+     "Rischio: arbitrio di chi detiene il potere",
+     0
+    ],
+    [
+     "Funzione: limite e indirizzo per il legislatore",
+     1
+    ],
+    [
+     "Quod principi placuit legis habet vigorem",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "cx-fattispecie",
+   "sec": "6",
+   "title": "Che tipo di fattispecie?",
+   "cols": [
+    "Semplice",
+    "Complessa",
+    "A formazione progressiva"
+   ],
+   "facts": [
+    [
+     "Un solo fatto",
+     0
+    ],
+    [
+     "Più fatti, tutti necessari",
+     1
+    ],
+    [
+     "Più fatti in successione, con effetti prodromici",
+     2
+    ],
+    [
+     "Morte e apertura della successione (art. 456 c.c.)",
+     0
+    ],
+    [
+     "Matrimonio (art. 107 c.c.)",
+     1
+    ],
+    [
+     "Contratto sotto condizione sospensiva (artt. 1353 ss.)",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "cx-sussunzione",
+   "sec": "6",
+   "title": "Sussunzione o bilanciamento?",
+   "cols": [
+    "Sussunzione",
+    "Bilanciamento"
+   ],
+   "facts": [
+    [
+     "Norme costruite su una fattispecie",
+     0
+    ],
+    [
+     "Principi, valori, clausole generali",
+     1
+    ],
+    [
+     "Il fatto è ricondotto alla fattispecie astratta",
+     0
+    ],
+    [
+     "Il valore prevale o soccombe secondo l'interesse contrapposto",
+     1
+    ],
+    [
+     "Prevedibilità alta (certezza)",
+     0
+    ],
+    [
+     "Prevedibilità ridotta (duttilità)",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-sanzione",
+   "sec": "7",
+   "title": "Sanzione diretta o indiretta?",
+   "cols": [
+    "Diretta",
+    "Indiretta"
+   ],
+   "facts": [
+    [
+     "Si ottiene il risultato prescritto",
+     0
+    ],
+    [
+     "Si ottiene un equivalente (risarcimento)",
+     1
+    ],
+    [
+     "Art. 2933 c.c.: distruzione a spese dell'obbligato",
+     0
+    ],
+    [
+     "Il cantante che rifiuta di esibirsi: nemo ad factum cogi potest",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-generalita",
+   "sec": "8",
+   "title": "Generalità o astrattezza?",
+   "cols": [
+    "Generalità",
+    "Astrattezza"
+   ],
+   "facts": [
+    [
+     "Riguarda i destinatari (chi)",
+     0
+    ],
+    [
+     "Riguarda i fatti regolati (che cosa)",
+     1
+    ],
+    [
+     "Tutti o gruppi genericamente individuati",
+     0
+    ],
+    [
+     "Fattispecie ipotetiche, casi futuri ed eventuali",
+     1
+    ],
+    [
+     "Eccezione: la legge ad personam",
+     0
+    ],
+    [
+     "Eccezione: la legge-provvedimento su un caso concreto",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-eguaglianza",
+   "sec": "8-bis",
+   "title": "Eguaglianza formale, sostanziale o imparzialità?",
+   "cols": [
+    "Eguaglianza formale",
+    "Eguaglianza sostanziale",
+    "Imparzialità"
+   ],
+   "facts": [
+    [
+     "Art. 3, c. 1, Cost.",
+     0
+    ],
+    [
+     "Art. 3, c. 2, Cost.",
+     1
+    ],
+    [
+     "Art. 97, c. 2, Cost.",
+     2
+    ],
+    [
+     "Destinatario: il legislatore",
+     0
+    ],
+    [
+     "Destinatari: gli organi dello Stato",
+     1
+    ],
+    [
+     "Destinatarie: le pubbliche amministrazioni",
+     2
+    ],
+    [
+     "Garantita dal controllo di ragionevolezza della Corte costituzionale",
+     0
+    ],
+    [
+     "Rimuovere gli ostacoli economici e sociali di fatto",
+     1
+    ],
+    [
+     "Divieto di favoritismi nell'applicare le leggi",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "cx-equita",
+   "sec": "9",
+   "title": "Equità decisoria o integrativa/correttiva?",
+   "cols": [
+    "Equità decisoria",
+    "Equità integrativa o correttiva"
+   ],
+   "facts": [
+    [
+     "Criterio per decidere la controversia al posto delle norme",
+     0
+    ],
+    [
+     "Strumento previsto da una norma per completare o correggere un elemento",
+     1
+    ],
+    [
+     "Artt. 113, c. 2, e 114 c.p.c.",
+     0
+    ],
+    [
+     "Artt. 1226, 1371, 1374, 1384 c.c.",
+     1
+    ],
+    [
+     "Eccezione alla decisione secondo diritto",
+     0
+    ],
+    [
+     "Il giudice decide comunque secondo diritto",
+     1
+    ]
+   ]
+  }
+ ],
+ "truefalse": [
+  {
+   "id": "tf1-1",
+   "sec": "1",
+   "s": "Il principio di effettività esige che ogni singola norma sia sempre rispettata.",
+   "v": false,
+   "why": "L'effettività riguarda l'ordinamento nel suo insieme: convive con trasgressioni e desuetudine."
+  },
+  {
+   "id": "tf1-2",
+   "sec": "1",
+   "s": "Lo stesso fatto può essere insieme reato e illecito civile.",
+   "v": true,
+   "why": "È il doppio illecito: Tizio che investe e uccide Caio commette un reato e deve risarcire il danno."
+  },
+  {
+   "id": "tf1-3",
+   "sec": "2",
+   "s": "Il diritto vigente coincide con le sole norme prodotte dagli organi dello Stato.",
+   "v": false,
+   "why": "Vi rientrano anche fonti non statali: diritto internazionale ed europeo, consuetudini."
+  },
+  {
+   "id": "tf1-4",
+   "sec": "2",
+   "s": "La teoria della pluralità degli ordinamenti giuridici si deve a Santi Romano.",
+   "v": true,
+   "why": "Es.: il cattolico è soggetto alle leggi dello Stato e al diritto canonico."
+  },
+  {
+   "id": "tf1-5",
+   "sec": "3",
+   "s": "Il giudice italiano disapplica la legge interna contraria alla CEDU.",
+   "v": false,
+   "why": "Deve sollevare questione di legittimità costituzionale per violazione dell'art. 117 Cost. La disapplicazione vale per il diritto UE."
+  },
+  {
+   "id": "tf1-6",
+   "sec": "3",
+   "s": "Alla Corte EDU si può ricorrere solo dopo aver esaurito le vie di ricorso interne.",
+   "v": true,
+   "why": "Art. 35, § 1, CEDU."
+  },
+  {
+   "id": "tf1-7",
+   "sec": "3",
+   "s": "La CEDU comporta limitazioni di sovranità ai sensi dell'art. 11 Cost.",
+   "v": false,
+   "why": "La CEDU non crea un'organizzazione come ONU o UE: la sua forza passa solo per l'art. 117, c. 1."
+  },
+  {
+   "id": "tf1-8",
+   "sec": "3",
+   "s": "Le sentenze gemelle sulla CEDU sono Corte cost. nn. 348 e 349 del 2007.",
+   "v": true,
+   "why": "Depositate il 24 ottobre 2007."
+  },
+  {
+   "id": "tf1-9",
+   "sec": "4",
+   "s": "Norma morale e norma giuridica si distinguono per il contenuto.",
+   "v": false,
+   "why": "Possono avere lo stesso contenuto: la giuridicità dipende dall'appartenenza all'ordinamento."
+  },
+  {
+   "id": "tf1-10",
+   "sec": "4",
+   "s": "«Legge» e «norma» sono sinonimi.",
+   "v": false,
+   "why": "La legge è un atto che contiene di regola più norme; una norma può nascere anche da regolamenti, consuetudini, contratti."
+  },
+  {
+   "id": "tf1-11",
+   "sec": "4",
+   "s": "Lo stesso testo può dare norme diverse nel tempo.",
+   "v": true,
+   "why": "Art. 2043 c.c.: Superga (1949, niente tutela del credito) e caso Meroni (Cass. s.u. 174/1971, tutela ammessa)."
+  },
+  {
+   "id": "tf1-12",
+   "sec": "4",
+   "s": "La previsione di nullità dell'atto contrario segnala una norma inderogabile.",
+   "v": true,
+   "why": "Se il testo non aiuta, si indagano gli interessi protetti."
+  },
+  {
+   "id": "tf1-13",
+   "sec": "5",
+   "s": "Il diritto naturale è diritto vigente e direttamente applicabile.",
+   "v": false,
+   "why": "È un fattore di indirizzo e di critica del diritto positivo, non diritto vigente."
+  },
+  {
+   "id": "tf1-14",
+   "sec": "5",
+   "s": "Soluzione legale e soluzione giusta coincidono sempre.",
+   "v": false,
+   "why": "Diritto e giustizia non coincidono: in nessun ordinamento si realizza un sistema unanimemente riconosciuto come giusto."
+  },
+  {
+   "id": "tf1-15",
+   "sec": "6",
+   "s": "Sia la fattispecie complessa sia quella a formazione progressiva producono effetti prima del completamento.",
+   "v": false,
+   "why": "Solo quella a formazione progressiva produce effetti prodromici."
+  },
+  {
+   "id": "tf1-16",
+   "sec": "6",
+   "s": "La buona fede oggettiva è specificazione dei doveri di solidarietà dell'art. 2 Cost.",
+   "v": true,
+   "why": "Cass. 18 settembre 2009, n. 20106 (caso Renault)."
+  },
+  {
+   "id": "tf1-17",
+   "sec": "6",
+   "s": "Con le clausole generali il giudice crea diritto senza base legale.",
+   "v": false,
+   "why": "Applica previsioni dettate ex ante, ma con margini di discrezionalità più ampi."
+  },
+  {
+   "id": "tf1-18",
+   "sec": "7",
+   "s": "La sanzione coincide con la pena.",
+   "v": false,
+   "why": "Esistono sanzioni civili (risarcimento), penali e amministrative."
+  },
+  {
+   "id": "tf1-19",
+   "sec": "7",
+   "s": "Ogni norma giuridica è necessariamente corredata da una sanzione.",
+   "v": false,
+   "why": "Ci sono affermazioni di principio (art. 315-bis, c. 4, c.c.) e norme promozionali."
+  },
+  {
+   "id": "tf1-20",
+   "sec": "8",
+   "s": "Una norma rivolta ai lavoratori dipendenti non è generale.",
+   "v": false,
+   "why": "È generale: si rivolge a un gruppo individuato genericamente, non a soggetti previamente identificati."
+  },
+  {
+   "id": "tf1-21",
+   "sec": "8",
+   "s": "Le leggi-provvedimento sono sempre vietate.",
+   "v": false,
+   "why": "Sono ammesse se rispettano eguaglianza e ragionevolezza (es. L. 17/1982 sulla Loggia P2)."
+  },
+  {
+   "id": "tf1-22",
+   "sec": "8-bis",
+   "s": "Viola l'art. 3 Cost. anche trattare in modo eguale situazioni diverse.",
+   "v": true,
+   "why": "Il divieto ha due facce: né trattamenti diseguali di situazioni omogenee, né eguali di situazioni diverse."
+  },
+  {
+   "id": "tf1-23",
+   "sec": "8-bis",
+   "s": "Il controllo della Corte costituzionale sull'eguaglianza è un sindacato di merito sulle scelte politiche.",
+   "v": false,
+   "why": "È un controllo di ragionevolezza, non di merito."
+  },
+  {
+   "id": "tf1-24",
+   "sec": "8-bis",
+   "s": "L'eguaglianza formale vale anche per gli stranieri, almeno per i diritti fondamentali.",
+   "v": true,
+   "why": "Corte cost. 53/2024 e 88/2023."
+  },
+  {
+   "id": "tf1-25",
+   "sec": "9",
+   "s": "Il giudice può decidere secondo equità quando lo ritiene più giusto.",
+   "v": false,
+   "why": "Solo nei casi previsti dalla legge: giudice di pace fino a 1.100 euro (art. 113, c. 2) e richiesta concorde delle parti (art. 114)."
+  },
+  {
+   "id": "tf1-26",
+   "sec": "9",
+   "s": "Anche il giudice di pace che decide secondo equità deve rispettare i principi informatori della materia.",
+   "v": true,
+   "why": "Corte cost. 206/2004; Cass. s.u. 21934/2008."
+  },
+  {
+   "id": "tf1-27",
+   "sec": "9",
+   "s": "La liquidazione equitativa del danno (art. 1226 c.c.) è un giudizio di equità.",
+   "v": false,
+   "why": "È equità integrativa: il giudice decide comunque secondo diritto."
+  },
+  {
+   "id": "tf1-28",
+   "sec": "9",
+   "s": "L'equità del giudice di pace è esclusa per le cause da contratti conclusi con moduli o formulari.",
+   "v": true,
+   "why": "Art. 113, c. 2, c.p.c.: per tutelare chi aderisce al contratto."
+  }
+ ],
+ "sequences": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "privato",
+  "title": "Diritto privato",
+  "subtitle": "Prof. Dellacasa · Prova intermedia gennaio 2027",
+  "version": "2026-11-18.1",
+  "tags": {
+    "costituzione-principi": "i principi e i diritti della Costituzione",
+    "fonti-ue": "il diritto dell'Unione europea",
+    "cedu": "la CEDU",
+    "cogenti": "le norme cogenti (inderogabili)",
+    "dispositive": "le norme dispositive o suppletive",
+    "equita": "l'equità",
+    "fattispecie": "gli esempi di fattispecie ed effetti giuridici",
+    "sanzione": "la sanzione e gli strumenti per l'osservanza",
+    "legge-procedimento": "la formazione e l'entrata in vigore della legge",
+    "atti-governo": "gli atti del Governo con forza di legge",
+    "regioni": "il riparto di competenze tra Stato e Regioni",
+    "corte-cost": "la Corte costituzionale",
+    "revisione": "la revisione della Costituzione",
+    "usi": "gli usi (consuetudine)",
+    "tempo": "l'efficacia della legge nel tempo",
+    "interpretazione": "l'interpretazione e l'integrazione della legge",
+    "analogia": "l'analogia",
+    "esempi-interpretazione": "gli esempi del prof sugli argomenti interpretativi",
+    "cassazione-precedente": "il giudicato, il precedente e la Cassazione",
+    "contratto": "il contratto",
+    "responsabilita": "la responsabilità e il risarcimento del danno"
+  },
+  "chapters": ["cap1.json", "cap2.json", "cap3.json", "cap4.json"]
+}

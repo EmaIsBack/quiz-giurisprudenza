@@ -1,0 +1,546 @@
+{
+  "id": "cap2",
+  "num": 2,
+  "title": "Il diritto privato e le sue fonti",
+  "source": "Manuale, Cap. II, §§ 10-18",
+  "sections": [
+    { "id": "10", "title": "Diritto pubblico e diritto privato" },
+    { "id": "11", "title": "Norme cogenti e norme derogabili" },
+    { "id": "12", "title": "Fonti delle norme giuridiche" },
+    { "id": "13", "title": "La Costituzione e le leggi costituzionali" },
+    { "id": "14", "title": "Leggi dello Stato e leggi regionali" },
+    { "id": "15", "title": "I regolamenti" },
+    { "id": "16", "title": "Le fonti dell'Unione europea" },
+    { "id": "17", "title": "La consuetudine" },
+    { "id": "18", "title": "Il codice civile" }
+  ],
+  "lessons": [
+    { "id": "c2-l1", "title": "Pubblico e privato", "secs": ["10"] },
+    { "id": "c2-l2", "title": "Cogenti e derogabili", "secs": ["11"] },
+    { "id": "c2-l3", "title": "Fonti e gerarchia", "secs": ["12"] },
+    { "id": "c2-l4", "title": "Costituzione e Corte cost.", "secs": ["13"] },
+    { "id": "c2-l5", "title": "Leggi, decreti, Regioni", "secs": ["14"] },
+    { "id": "c2-l6", "title": "Regolamenti", "secs": ["15"] },
+    { "id": "c2-l7", "title": "Fonti UE", "secs": ["16"] },
+    { "id": "c2-l8", "title": "La consuetudine", "secs": ["17"] },
+    { "id": "c2-l9", "title": "Il codice civile", "secs": ["18"] }
+  ],
+  "articles": [
+    {
+      "id": "cost-118-4", "ref": "Art. 118, c. 4, Cost.", "fonte": "Cost.", "sec": "10",
+      "tema": "Sussidiarietà orizzontale",
+      "desc": "Stato, Regioni, Città metropolitane, Province e Comuni favoriscono l'autonoma iniziativa dei cittadini, singoli e associati, per lo svolgimento di attività di interesse generale.",
+      "tags": ["costituzione-principi"]
+    },
+    {
+      "id": "cp-590-bis", "ref": "Art. 590-bis c.p.", "fonte": "c.p.", "sec": "10",
+      "tema": "Lesioni personali stradali",
+      "desc": "Investire un pedone fa scattare insieme la sanzione penale (lesioni stradali), quella amministrativa (sospensione della patente) e quella civile del risarcimento (art. 2043 c.c.).",
+      "tags": [],
+      "links": [{ "to": "cc-2043", "why": "Lo stesso investimento è reato e fatto illecito civile: doppio regime pubblico e privato." }]
+    },
+    {
+      "id": "cp-589-bis", "ref": "Art. 589-bis c.p.", "fonte": "c.p.", "sec": "10",
+      "tema": "Omicidio stradale",
+      "desc": "Esempio di fatto disciplinato sia dal diritto pubblico (sanzione penale) sia dal diritto privato (risarcimento).",
+      "tags": []
+    },
+    {
+      "id": "cc-873", "ref": "Art. 873 c.c.", "fonte": "c.c.", "sec": "10",
+      "tema": "Distanze nelle costruzioni",
+      "desc": "Le costruzioni su fondi vicini, se non unite o aderenti, devono rispettare una distanza minima: la costruzione illegittima viola insieme le norme urbanistiche e il diritto privato del vicino.",
+      "tags": [],
+      "links": [{ "to": "cc-872", "why": "L'art. 872 dà i rimedi civili per la violazione delle norme edilizie, incluse le distanze." }]
+    },
+    {
+      "id": "cc-872", "ref": "Art. 872 c.c.", "fonte": "c.c.", "sec": "10",
+      "tema": "Violazione delle norme di edilizia",
+      "desc": "Rimedi civilistici per chi è danneggiato dalla violazione delle norme edilizie: lo stesso fatto rileva sia per il diritto pubblico sia per quello privato.",
+      "tags": []
+    },
+    {
+      "id": "cc-1815", "ref": "Art. 1815 c.c.", "fonte": "c.c.", "sec": "11",
+      "tema": "Interessi nel mutuo (salvo diversa volontà delle parti)",
+      "desc": "Salvo diversa volontà delle parti, il mutuatario deve corrispondere gli interessi al mutuante: norma dispositiva, le parti possono pattuire un mutuo gratuito.",
+      "tags": ["dispositive", "contratto"]
+    },
+    {
+      "id": "cc-2108", "ref": "Art. 2108 c.c.", "fonte": "c.c.", "sec": "11",
+      "tema": "Lavoro straordinario (maggiorazione della retribuzione)",
+      "desc": "Il lavoro straordinario va compensato con un aumento di retribuzione: norma cogente. La rinuncia anticipata non è valida, ma solo il lavoratore può decidere di farla valere.",
+      "tags": ["cogenti"]
+    },
+    {
+      "id": "cc-1193", "ref": "Art. 1193 c.c.", "fonte": "c.c.", "sec": "11",
+      "tema": "Imputazione del pagamento",
+      "desc": "Chi ha più debiti verso lo stesso creditore può dichiarare quale intende soddisfare (c. 1); se non lo fa, la legge stabilisce a quale debito si imputa il pagamento (c. 2): norma suppletiva.",
+      "tags": ["dispositive"]
+    },
+    {
+      "id": "cc-147", "ref": "Art. 147 c.c.", "fonte": "c.c.", "sec": "11",
+      "tema": "Doveri dei coniugi verso i figli",
+      "desc": "Il matrimonio «impone» ai coniugi l'obbligo di mantenere, istruire, educare e assistere moralmente i figli: la formulazione rivela il carattere cogente.",
+      "tags": ["cogenti"]
+    },
+    { "id": "cc-1229", "sec": "11" },
+    { "id": "cc-1350", "sec": "11" },
+    { "id": "cc-2744", "sec": "11" },
+    { "id": "cc-1294", "sec": "11" },
+    { "id": "cc-1510", "sec": "11" },
+    {
+      "id": "dp-1", "ref": "Art. 1 disp. prel. c.c.", "fonte": "disp. prel.", "sec": "12",
+      "tema": "Indicazione delle fonti del diritto",
+      "desc": "Elenca le fonti in ordine gerarchico: 1) leggi; 2) regolamenti; 3) norme corporative (soppresse con la caduta del fascismo); 4) usi. Ha rango di legge ordinaria e non comprende Costituzione, Regioni e UE.",
+      "tags": ["usi"]
+    },
+    {
+      "id": "cost-24", "ref": "Art. 24 Cost.", "fonte": "Cost.", "sec": "12",
+      "tema": "Diritto di agire in giudizio e diritto di difesa",
+      "desc": "Tutti possono agire in giudizio per la tutela dei propri diritti e interessi legittimi; la difesa è diritto inviolabile. I commi 1 e 2 sono tra i principi supremi.",
+      "tags": ["costituzione-principi"]
+    },
+    {
+      "id": "cost-113", "ref": "Art. 113 Cost.", "fonte": "Cost.", "sec": "12",
+      "tema": "Tutela giurisdizionale contro gli atti della pubblica amministrazione",
+      "desc": "Contro gli atti della PA è sempre ammessa la tutela giurisdizionale dei diritti e degli interessi legittimi: richiamato tra i principi supremi.",
+      "tags": ["costituzione-principi"]
+    },
+    {
+      "id": "cost-139", "ref": "Art. 139 Cost.", "fonte": "Cost.", "sec": "13",
+      "tema": "La forma repubblicana non può essere oggetto di revisione",
+      "desc": "Unico limite espresso alla revisione costituzionale. I principi supremi sono un limite implicito, secondo una diffusa concezione.",
+      "tags": ["revisione"],
+      "links": [{ "to": "cost-138", "why": "L'art. 138 disciplina la revisione, l'art. 139 ne pone l'unico limite espresso." }]
+    },
+    {
+      "id": "cost-138", "ref": "Art. 138 Cost.", "fonte": "Cost.", "sec": "13",
+      "tema": "Revisione costituzionale e leggi costituzionali",
+      "desc": "Le leggi di revisione e le altre leggi costituzionali richiedono un procedimento aggravato: per questo la Costituzione è rigida (a differenza dello Statuto albertino).",
+      "tags": ["revisione"]
+    },
+    {
+      "id": "cost-134", "ref": "Art. 134 Cost.", "fonte": "Cost.", "sec": "13",
+      "tema": "Competenze della Corte costituzionale (giudice delle leggi)",
+      "desc": "La Corte costituzionale giudica sulle controversie relative alla legittimità costituzionale delle leggi e degli atti aventi forza di legge dello Stato e delle Regioni. Non giudica i regolamenti.",
+      "tags": ["corte-cost"],
+      "links": [{ "to": "cost-136", "why": "L'art. 136 stabilisce gli effetti della sentenza di illegittimità." }]
+    },
+    {
+      "id": "cost-136", "ref": "Art. 136 Cost.", "fonte": "Cost.", "sec": "13",
+      "tema": "Effetti della dichiarazione di illegittimità costituzionale",
+      "desc": "La norma dichiarata illegittima cessa di avere efficacia dal giorno successivo alla pubblicazione della decisione. Opera ex tunc, con il limite dei rapporti esauriti.",
+      "tags": ["corte-cost", "tempo"]
+    },
+    {
+      "id": "cost-127", "ref": "Art. 127 Cost.", "fonte": "Cost.", "sec": "13",
+      "tema": "Giudizio in via principale tra Stato e Regioni",
+      "desc": "Il Governo può impugnare le leggi regionali che eccedono la competenza della Regione; la Regione può impugnare le leggi dello Stato o di altre Regioni che ledono la sua sfera di competenza.",
+      "tags": ["corte-cost", "regioni"]
+    },
+    {
+      "id": "dp-15", "ref": "Art. 15 disp. prel. c.c.", "fonte": "disp. prel.", "sec": "14",
+      "tema": "Abrogazione delle leggi",
+      "desc": "Le leggi sono abrogate solo da leggi posteriori: per dichiarazione espressa, per incompatibilità tra le nuove disposizioni e le precedenti, o perché la nuova legge regola l'intera materia (lex posterior derogat priori).",
+      "tags": ["tempo"]
+    },
+    {
+      "id": "cost-76", "ref": "Art. 76 Cost.", "fonte": "Cost.", "sec": "14",
+      "tema": "Delega legislativa (decreto legislativo)",
+      "desc": "L'esercizio della funzione legislativa può essere delegato al Governo solo con determinazione di principi e criteri direttivi, per tempo limitato e per oggetti definiti. Se il Governo li viola: eccesso di delega.",
+      "tags": ["atti-governo"],
+      "links": [{ "to": "cost-77", "why": "Decreto legislativo (delega preventiva) e decreto-legge (urgenza e conversione) sono i due atti con forza di legge del Governo." }]
+    },
+    {
+      "id": "cost-77", "ref": "Art. 77 Cost.", "fonte": "Cost.", "sec": "14",
+      "tema": "Decreto-legge (necessità e urgenza)",
+      "desc": "In casi straordinari di necessità e d'urgenza il Governo adotta provvedimenti provvisori con forza di legge, che perdono efficacia sin dall'inizio se non convertiti in legge entro sessanta giorni.",
+      "tags": ["atti-governo"]
+    },
+    {
+      "id": "cost-75", "ref": "Art. 75 Cost.", "fonte": "Cost.", "sec": "14",
+      "tema": "Referendum abrogativo",
+      "desc": "Referendum popolare per abrogare in tutto o in parte una legge o un atto avente forza di legge, su richiesta di 500.000 elettori o cinque Consigli regionali. Esclusi: leggi tributarie e di bilancio, amnistia e indulto, autorizzazione a ratificare trattati. Quorum: maggioranza degli aventi diritto.",
+      "tags": ["tempo"]
+    },
+    {
+      "id": "cost-117-2", "ref": "Art. 117, c. 2, Cost.", "fonte": "Cost.", "sec": "14",
+      "tema": "Potestà legislativa esclusiva dello Stato",
+      "desc": "Elenca le materie riservate allo Stato, tra cui «ordinamento civile» (il diritto privato), tutela della concorrenza e del risparmio, cittadinanza, stato civile e anagrafe.",
+      "tags": ["regioni"]
+    },
+    {
+      "id": "cost-117-3", "ref": "Art. 117, c. 3, Cost.", "fonte": "Cost.", "sec": "14",
+      "tema": "Legislazione concorrente",
+      "desc": "Nelle materie elencate la potestà legislativa spetta alle Regioni, salvo la determinazione dei principi fondamentali, riservata alla legislazione dello Stato.",
+      "tags": ["regioni"]
+    },
+    {
+      "id": "cost-117-4", "ref": "Art. 117, c. 4, Cost.", "fonte": "Cost.", "sec": "14",
+      "tema": "Potestà legislativa residuale delle Regioni",
+      "desc": "Spetta alle Regioni la potestà legislativa in ogni materia non espressamente riservata alla legislazione dello Stato.",
+      "tags": ["regioni"]
+    },
+    {
+      "id": "dp-3", "ref": "Art. 3 disp. prel. c.c.", "fonte": "disp. prel.", "sec": "15",
+      "tema": "I regolamenti",
+      "desc": "Disciplina il potere regolamentare del Governo e delle altre autorità: i regolamenti sono fonti secondarie, normative per contenuto ma amministrative per provenienza.",
+      "tags": []
+    },
+    {
+      "id": "dp-4-1", "ref": "Art. 4, c. 1, disp. prel. c.c.", "fonte": "disp. prel.", "sec": "15",
+      "tema": "Limiti dei regolamenti",
+      "desc": "I regolamenti non possono contenere norme contrarie alle disposizioni delle leggi: il giudice ordinario li disapplica, il giudice amministrativo li annulla.",
+      "tags": []
+    },
+    {
+      "id": "tue-6", "ref": "Art. 6 TUE", "fonte": "TUE", "sec": "16",
+      "tema": "Valore giuridico della Carta dei diritti fondamentali dell'UE",
+      "desc": "Attribuisce alla Carta dei diritti fondamentali (Nizza 2000, vincolante con Lisbona) lo stesso valore giuridico dei Trattati: fonte primaria.",
+      "tags": ["fonti-ue"]
+    },
+    {
+      "id": "tfue-288-2", "ref": "Art. 288, par. 2, TFUE", "fonte": "TFUE", "sec": "16",
+      "tema": "Regolamenti dell'Unione europea",
+      "desc": "Il regolamento ha portata generale, è obbligatorio in tutti i suoi elementi e direttamente applicabile in ciascuno Stato membro, senza recepimento (es. GDPR, Reg. UE 2016/679).",
+      "tags": ["fonti-ue"],
+      "links": [{ "to": "tfue-288-3", "why": "Regolamento (direttamente applicabile) e direttiva (da recepire) sono le due fonti derivate principali." }]
+    },
+    {
+      "id": "tfue-288-3", "ref": "Art. 288, par. 3, TFUE", "fonte": "TFUE", "sec": "16",
+      "tema": "Direttive dell'Unione europea",
+      "desc": "La direttiva vincola lo Stato membro quanto al risultato da raggiungere, lasciando libera la scelta della forma e dei mezzi: serve una legge di recepimento. Se self executing e scaduto il termine, è invocabile solo contro lo Stato.",
+      "tags": ["fonti-ue"]
+    },
+    {
+      "id": "tfue-288-4", "ref": "Art. 288, par. 4, TFUE", "fonte": "TFUE", "sec": "16",
+      "tema": "Decisioni dell'Unione europea",
+      "desc": "La decisione è obbligatoria in tutti i suoi elementi; se designa i destinatari, è obbligatoria solo nei loro confronti (frequente in materia di concorrenza).",
+      "tags": ["fonti-ue"]
+    },
+    {
+      "id": "tfue-267", "ref": "Art. 267 TFUE", "fonte": "TFUE", "sec": "16",
+      "tema": "Rinvio pregiudiziale alla Corte di giustizia UE",
+      "desc": "La Corte di giustizia (Lussemburgo) è competente sull'interpretazione dei Trattati e sulla validità e interpretazione degli atti dell'Unione; il giudice nazionale può sospendere il giudizio e chiederle di pronunciarsi. Le sentenze interpretative vincolano tutti i giudici.",
+      "tags": ["fonti-ue"]
+    },
+    { "id": "cost-11", "sec": "16" },
+    { "id": "cost-117-1", "sec": "16" },
+    {
+      "id": "dp-8", "ref": "Art. 8 disp. prel. c.c.", "fonte": "disp. prel.", "sec": "17",
+      "tema": "Usi nelle materie regolate dalla legge (secundum legem)",
+      "desc": "Nelle materie regolate dalle leggi e dai regolamenti gli usi hanno efficacia solo in quanto sono da essi richiamati. A contrario, i più ammettono la consuetudine praeter legem.",
+      "tags": ["usi"],
+      "links": [{ "to": "dp-12-2", "why": "L'art. 12, c. 2, per colmare le lacune cita analogia e principi generali ma non la consuetudine: per questo la praeter legem va usata con cautela." }]
+    },
+    {
+      "id": "dp-9", "ref": "Art. 9 disp. prel. c.c.", "fonte": "disp. prel.", "sec": "17",
+      "tema": "Raccolte ufficiali degli usi",
+      "desc": "Gli usi pubblicati nelle raccolte ufficiali (es. delle Camere di commercio) si presumono esistenti fino a prova contraria: presunzione semplice, non fonte normativa.",
+      "tags": ["usi"]
+    },
+    {
+      "id": "cc-1187-2", "ref": "Art. 1187, c. 2, c.c.", "fonte": "c.c.", "sec": "17",
+      "tema": "Computo del termine (salvo uso contrario)",
+      "desc": "Esempio di norma dispositiva in cui la legge richiama gli usi come regole derogatorie («salvo uso contrario»).",
+      "tags": ["usi", "dispositive"]
+    },
+    {
+      "id": "cc-1340", "ref": "Art. 1340 c.c.", "fonte": "c.c.", "sec": "17",
+      "tema": "Clausole d'uso",
+      "desc": "Le clausole d'uso si intendono inserite nel contratto se non risulta che non sono state volute dalle parti: sono usi negoziali, non usi normativi.",
+      "tags": ["usi", "contratto"]
+    },
+    {
+      "id": "cc-1368", "ref": "Art. 1368 c.c.", "fonte": "c.c.", "sec": "17",
+      "tema": "Pratiche generali interpretative",
+      "desc": "Le clausole ambigue s'interpretano secondo ciò che si pratica generalmente nel luogo in cui il contratto è stato concluso: usi interpretativi.",
+      "tags": ["usi", "contratto"]
+    },
+    { "id": "cc-1374", "sec": "17" },
+    {
+      "id": "cc-1153", "ref": "Art. 1153 c.c.", "fonte": "c.c.", "sec": "18",
+      "tema": "Possesso vale titolo (acquisto di mobili da un non proprietario)",
+      "desc": "Chi acquista in buona fede un bene mobile da chi non ne è proprietario ne diventa proprietario, se ha un titolo idoneo e ottiene il possesso: il codice privilegia la sicurezza della circolazione.",
+      "tags": []
+    },
+    {
+      "id": "cc-143", "ref": "Art. 143 c.c.", "fonte": "c.c.", "sec": "18",
+      "tema": "Diritti e doveri reciproci dei coniugi",
+      "desc": "Esempio di novella per sostituzione: testo riscritto dalla riforma del diritto di famiglia del 1975 mantenendo la numerazione.",
+      "tags": []
+    },
+    {
+      "id": "cc-2447-bis", "ref": "Art. 2447-bis c.c.", "fonte": "c.c.", "sec": "18",
+      "tema": "Patrimoni destinati a uno specifico affare",
+      "desc": "Esempio di novella per aggiunta di articoli «bis»: introdotti dalla riforma delle società di capitali del 2003.",
+      "tags": []
+    }
+  ],
+  "concepts": [
+    { "id": "k-ulpiano", "sec": "10", "term": "Definizione di Ulpiano", "def": "Publicum ius est quod ad statum rei romanae spectat, privatum quod ad singulorum utilitatem" },
+    { "id": "k-dir-pubblico", "sec": "10", "term": "Diritto pubblico", "def": "Disciplina organizzazione e azione di Stato ed enti pubblici e l'esercizio dei pubblici poteri: posizione di soggezione" },
+    { "id": "k-dir-privato", "sec": "10", "term": "Diritto privato", "def": "Disciplina le relazioni tra singoli ed enti su un piano di autonomia e parità" },
+    { "id": "k-potere-imperio", "sec": "10", "term": "Potere d'imperio (autoritativo)", "def": "Potere di un ente pubblico di imporre unilateralmente le proprie decisioni ai cittadini" },
+    { "id": "k-dir-comune", "sec": "10", "term": "Diritto comune", "def": "Disciplina generale che si applica in assenza di una disciplina speciale" },
+    { "id": "k-parte", "sec": "10", "term": "Parte", "def": "Individuo o insieme di individui che formano un centro di interessi" },
+    { "id": "k-derogare", "sec": "11", "term": "Derogare", "def": "Adottare con un atto una regola che contrasta con una regola di carattere generale" },
+    { "id": "k-fonti-produzione", "sec": "12", "term": "Fonti di produzione", "def": "Atti o fatti idonei a generare norme giuridiche (legge, decreti, regolamenti, consuetudine)" },
+    { "id": "k-fonti-cognizione", "sec": "12", "term": "Fonti di cognizione", "def": "Documenti ufficiali da cui si conosce il testo degli atti normativi (Gazzetta Ufficiale)" },
+    { "id": "k-gerarchia", "sec": "12", "term": "Gerarchia delle fonti", "def": "Regola sulla produzione giuridica che stabilisce quale norma prevale in caso di contrasto tra fonti diverse" },
+    { "id": "k-preleggi", "sec": "12", "term": "Preleggi", "def": "Disposizioni preliminari al codice civile (1942), con valore di legge ordinaria" },
+    { "id": "k-principi-supremi", "sec": "12", "term": "Principi supremi", "def": "Principi fondamentali della Costituzione, sottratti anche alla revisione costituzionale" },
+    { "id": "k-cost-rigida", "sec": "13", "term": "Costituzione rigida", "def": "Costituzione modificabile solo con procedimento aggravato, non con legge ordinaria" },
+    { "id": "k-cost-flessibile", "sec": "13", "term": "Costituzione flessibile", "def": "Costituzione modificabile con legge ordinaria (es. Statuto albertino del 1848)" },
+    { "id": "k-controllo-incid", "sec": "13", "term": "Controllo incidentale", "def": "Questione di legittimità sollevata da un giudice nel corso di un processo" },
+    { "id": "k-via-principale", "sec": "13", "term": "Giudizio in via principale", "def": "Ricorso del Governo o di una Regione contro leggi che invadono la propria competenza (art. 127 Cost.)" },
+    { "id": "k-rapporti-esauriti", "sec": "13", "term": "Rapporti esauriti", "def": "Rapporti definiti con sentenza definitiva, non toccati dalla dichiarazione di incostituzionalità" },
+    { "id": "k-riserva-legge", "sec": "14", "term": "Riserva di legge", "def": "Previsione costituzionale per cui una materia può essere regolata solo con legge, escludendo i regolamenti" },
+    { "id": "k-eccesso-delega", "sec": "14", "term": "Eccesso di delega", "def": "Vizio del decreto legislativo che esce dai limiti della legge delega (art. 76 Cost.)" },
+    { "id": "k-competenza", "sec": "14", "term": "Criterio di competenza", "def": "Criterio che risolve i rapporti tra fonti in base all'ambito di materia assegnato a ciascuna (Stato e Regioni)" },
+    { "id": "k-regolamento", "sec": "15", "term": "Regolamento (interno)", "def": "Fonte secondaria, generale e astratta, emanata da un'autorità amministrativa" },
+    { "id": "k-autorita-indip", "sec": "15", "term": "Autorità indipendenti", "def": "Autorità amministrative autonome dal Governo: AGCM, Consob, Garante privacy" },
+    { "id": "k-disapplicazione", "sec": "15", "term": "Disapplicazione", "def": "Il giudice non applica la norma illegittima nel singolo processo, ma essa resta in vigore" },
+    { "id": "k-annullamento", "sec": "15", "term": "Annullamento del regolamento", "def": "Eliminazione dell'atto con effetto erga omnes, pronunciata dal giudice amministrativo" },
+    { "id": "k-fonti-originarie", "sec": "16", "term": "Fonti originarie (UE)", "def": "Trattati (TUE, TFUE) e Carta dei diritti fondamentali" },
+    { "id": "k-fonti-derivate", "sec": "16", "term": "Fonti derivate (UE)", "def": "Regolamenti, direttive e decisioni adottati dalle istituzioni dell'Unione" },
+    { "id": "k-self-executing", "sec": "16", "term": "Self executing", "def": "Norma di direttiva incondizionata e dettagliata, invocabile contro lo Stato dopo la scadenza del termine" },
+    { "id": "k-eff-verticale", "sec": "16", "term": "Efficacia verticale", "def": "Possibilità di far valere una norma europea contro lo Stato, non contro altri privati" },
+    { "id": "k-interp-conforme-ue", "sec": "16", "term": "Interpretazione conforme", "def": "Interpretazione del diritto interno coerente con gli obiettivi e i valori del diritto dell'Unione" },
+    { "id": "k-deleg-europea", "sec": "16", "term": "Legge di delegazione europea", "def": "Legge annuale con cui il Parlamento delega al Governo l'attuazione delle direttive (L. 234/2012)" },
+    { "id": "k-legge-europea", "sec": "16", "term": "Legge europea", "def": "Legge annuale che adegua direttamente l'ordinamento agli obblighi europei (L. 234/2012)" },
+    { "id": "k-usus", "sec": "17", "term": "Usus (elemento materiale)", "def": "Ripetizione generale, costante e protratta di un comportamento in un dato ambiente" },
+    { "id": "k-opinio", "sec": "17", "term": "Opinio iuris ac necessitatis", "def": "Convinzione che il comportamento ripetuto sia giuridicamente doveroso: distingue la consuetudine dalla prassi sociale" },
+    { "id": "k-secundum", "sec": "17", "term": "Consuetudine secundum legem", "def": "Uso richiamato dalla legge (art. 8 disp. prel.): ammessa" },
+    { "id": "k-praeter", "sec": "17", "term": "Consuetudine praeter legem", "def": "Uso che regola materie non disciplinate da fonti scritte: ammessa dai più, con cautela" },
+    { "id": "k-contra", "sec": "17", "term": "Consuetudine contra legem", "def": "Uso contrario alla legge: inammissibile" },
+    { "id": "k-iura-novit", "sec": "17", "term": "Iura novit curia", "def": "Il giudice conosce le norme dell'ordinamento, che le parti non devono provare" },
+    { "id": "k-usi-negoziali", "sec": "17", "term": "Usi negoziali", "def": "Prassi che integrano il contenuto del contratto (artt. 1340 e 1374 c.c.)" },
+    { "id": "k-usi-interpret", "sec": "17", "term": "Usi interpretativi", "def": "Prassi che servono a interpretare il contratto (art. 1368 c.c.)" },
+    { "id": "k-codice", "sec": "18", "term": "Codice (moderno)", "def": "Legge nuova, organica e sistematica che disciplina un intero settore e abroga il diritto precedente nella materia" },
+    { "id": "k-compilatio", "sec": "18", "term": "Compilatio", "def": "Raccolta di leggi precedenti (es. Codex di Giustiniano)" },
+    { "id": "k-particolarismo", "sec": "18", "term": "Particolarismo giuridico", "def": "Pluralità disordinata di fonti, giurisdizioni e statuti personali tipica del Medioevo" },
+    { "id": "k-commercializz", "sec": "18", "term": "Commercializzazione del diritto privato", "def": "Estensione a tutti i rapporti privati di regole nate per il commercio, con l'unificazione dei codici nel 1942" },
+    { "id": "k-novella", "sec": "18", "term": "Novella", "def": "Legge che modifica il codice sostituendo il testo di articoli o aggiungendone di nuovi" },
+    { "id": "k-decodificazione", "sec": "18", "term": "Decodificazione", "def": "Perdita di centralità del codice a favore di leggi speciali, testi unici e codici di settore" },
+    { "id": "k-testo-unico", "sec": "18", "term": "Testo unico", "def": "Atto che riordina le leggi stratificate in una materia (es. TUF d.lgs. 58/1998, TUB d.lgs. 385/1993)" },
+    { "id": "k-codice-consumo", "sec": "18", "term": "Codice del consumo", "def": "Codice di settore: d.lgs. 6 settembre 2005, n. 206" },
+    { "id": "k-lex-mercatoria", "sec": "18", "term": "Lex mercatoria", "def": "Regole create dagli operatori economici, soprattutto tramite contratti analitici" },
+    { "id": "k-istituto", "sec": "18", "term": "Istituto", "def": "Insieme di norme che regolano una materia omogenea (es. il contratto, la proprietà)" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx-pubpriv", "sec": "10", "title": "Diritto pubblico o diritto privato?",
+      "cols": ["Diritto pubblico", "Diritto privato"],
+      "facts": [
+        ["Posizione di soggezione e subordinazione", 0],
+        ["Posizione di autonomia e parità", 1],
+        ["Istituto emblematico: l'espropriazione", 0],
+        ["Istituto emblematico: il contratto", 1],
+        ["Attuazione affidata agli organi pubblici", 0],
+        ["Attuazione lasciata all'iniziativa dei privati", 1],
+        ["Il comune che compra un immobile", 1],
+        ["Diritto costituzionale, amministrativo, penale, tributario, processuale", 0]
+      ]
+    },
+    {
+      "id": "cx-cogenti2", "sec": "11", "title": "Cogente, dispositiva o suppletiva?",
+      "cols": ["Cogente", "Dispositiva", "Suppletiva"],
+      "facts": [
+        ["Art. 147 c.c.: il matrimonio «impone» doveri verso i figli", 0],
+        ["Art. 2108 c.c.: maggiorazione per lo straordinario", 0],
+        ["Art. 1815 c.c.: interessi «salvo diversa volontà delle parti»", 1],
+        ["Art. 1193, c. 2, c.c.: imputazione del pagamento se il debitore tace", 2],
+        ["La volontà delle parti è irrilevante: si applica comunque", 0],
+        ["La volontà delle parti può escluderne l'applicazione", 1],
+        ["Si applica solo se le parti non hanno regolato quell'aspetto", 2]
+      ]
+    },
+    {
+      "id": "cx-produzione", "sec": "12", "title": "Fonte di produzione o di cognizione?",
+      "cols": ["Fonte di produzione", "Fonte di cognizione"],
+      "facts": [
+        ["Legge del Parlamento", 0],
+        ["Gazzetta Ufficiale della Repubblica", 1],
+        ["Consuetudine", 0],
+        ["Gazzetta Ufficiale dell'Unione europea", 1],
+        ["Decreto legislativo", 0],
+        ["Esiste solo per le fonti che consistono in atti", 1]
+      ]
+    },
+    {
+      "id": "cx-rigida", "sec": "13", "title": "Costituzione rigida (1948) o flessibile (Statuto albertino)?",
+      "cols": ["Rigida (1948)", "Flessibile (1848)"],
+      "facts": [
+        ["Si modifica solo con il procedimento dell'art. 138", 0],
+        ["Si modifica con legge ordinaria", 1],
+        ["La legge ordinaria contrastante è illegittima", 0],
+        ["La legge ordinaria contrastante prevale come legge posteriore", 1],
+        ["Garantita dalla Corte costituzionale", 0],
+        ["Nessun giudice delle leggi", 1]
+      ]
+    },
+    {
+      "id": "cx-controllo", "sec": "13", "title": "Controllo incidentale o in via principale?",
+      "cols": ["Incidentale", "In via principale"],
+      "facts": [
+        ["Lo attiva un giudice nel corso di una controversia", 0],
+        ["Lo attiva il Governo o una Regione", 1],
+        ["Leggi che invadono la competenza altrui", 1],
+        ["Qualsiasi legge da applicare nel giudizio", 0],
+        ["Art. 127 Cost.", 1]
+      ]
+    },
+    {
+      "id": "cx-atti-forza", "sec": "14", "title": "Legge ordinaria, decreto legislativo o decreto-legge?",
+      "cols": ["Legge ordinaria", "Decreto legislativo", "Decreto-legge"],
+      "facts": [
+        ["Adottata dal Parlamento", 0],
+        ["Adottato dal Governo su delega del Parlamento", 1],
+        ["Presupposto: casi straordinari di necessità e urgenza", 2],
+        ["Controllo del Parlamento preventivo (legge delega)", 1],
+        ["Controllo del Parlamento successivo (conversione entro 60 giorni)", 2],
+        ["Vizio tipico: eccesso di delega", 1],
+        ["Se non convertito perde efficacia ex tunc", 2],
+        ["Artt. 70 ss. Cost.", 0],
+        ["Art. 76 Cost.", 1],
+        ["Art. 77 Cost.", 2]
+      ]
+    },
+    {
+      "id": "cx-competenze", "sec": "14", "title": "Che tipo di competenza legislativa?",
+      "cols": ["Esclusiva statale", "Concorrente", "Residuale regionale"],
+      "facts": [
+        ["Art. 117, c. 2, Cost.", 0],
+        ["Art. 117, c. 3, Cost.", 1],
+        ["Art. 117, c. 4, Cost.", 2],
+        ["Ordinamento civile (diritto privato)", 0],
+        ["Lo Stato fissa i principi fondamentali, le Regioni il resto", 1],
+        ["Ogni materia non riservata allo Stato", 2],
+        ["Tutela della concorrenza e del risparmio", 0]
+      ]
+    },
+    {
+      "id": "cx-disapplic", "sec": "15", "title": "Disapplicazione o annullamento del regolamento?",
+      "cols": ["Disapplicazione", "Annullamento"],
+      "facts": [
+        ["Giudice ordinario (civile)", 0],
+        ["Giudice amministrativo (TAR, Consiglio di Stato)", 1],
+        ["Effetto solo nel singolo processo", 0],
+        ["Effetto erga omnes", 1],
+        ["Il regolamento resta in vigore", 0],
+        ["Il regolamento perde efficacia", 1]
+      ]
+    },
+    {
+      "id": "cx-fonti-ue", "sec": "16", "title": "Regolamento, direttiva o decisione UE?",
+      "cols": ["Regolamento", "Direttiva", "Decisione"],
+      "facts": [
+        ["Art. 288, par. 2, TFUE", 0],
+        ["Art. 288, par. 3, TFUE", 1],
+        ["Art. 288, par. 4, TFUE", 2],
+        ["Direttamente applicabile, senza recepimento", 0],
+        ["Vincola sull'obiettivo, non sui mezzi", 1],
+        ["Vincola solo i destinatari designati", 2],
+        ["Il GDPR (Reg. UE 2016/679)", 0],
+        ["Se self executing, invocabile solo contro lo Stato", 1],
+        ["Atto frequente della Commissione in materia di concorrenza", 2],
+        ["Richiede una legge di recepimento", 1]
+      ]
+    },
+    {
+      "id": "cx-consuetudine", "sec": "17", "title": "Consuetudine secundum, praeter o contra legem?",
+      "cols": ["Secundum legem", "Praeter legem", "Contra legem"],
+      "facts": [
+        ["La legge vi rinvia («secondo gli usi», «salvo uso contrario»)", 0],
+        ["Regola una materia non disciplinata da fonti scritte", 1],
+        ["Contrasta con la legge", 2],
+        ["Ammessa (art. 8, c. 1, disp. prel.)", 0],
+        ["Ammessa dai più, con cautela", 1],
+        ["Esclusa (Cass. 17881/2015)", 2]
+      ]
+    },
+    {
+      "id": "cx-usi", "sec": "17", "title": "Uso normativo, negoziale o interpretativo?",
+      "cols": ["Normativo", "Negoziale", "Interpretativo"],
+      "facts": [
+        ["È fonte del diritto (norma giuridica)", 0],
+        ["Clausola d'uso che integra il contratto", 1],
+        ["Criterio di interpretazione del contratto", 2],
+        ["Artt. 1, 8, 9 disp. prel. c.c.", 0],
+        ["Artt. 1340 e 1374 c.c.", 1],
+        ["Art. 1368 c.c.", 2],
+        ["Richiede usus e opinio iuris", 0],
+        ["Prassi contrattuale, senza opinio iuris", 1]
+      ]
+    },
+    {
+      "id": "cx-codice", "sec": "18", "title": "Codice-raccolta o codice moderno?",
+      "cols": ["Raccolta (compilatio)", "Codice moderno"],
+      "facts": [
+        ["Riunisce leggi precedenti", 0],
+        ["Legge del tutto nuova", 1],
+        ["Codex di Giustiniano", 0],
+        ["Code civil del 1804", 1],
+        ["Il diritto precedente resta", 0],
+        ["Abroga tutto il diritto precedente nella materia", 1]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf2-1", "sec": "10", "s": "Il diritto pubblico è quello che riguarda gli enti pubblici.", "v": false, "why": "Lo Stato che compra un immobile o risarcisce un danno agisce nel diritto privato: conta l'esercizio di un potere autoritativo." },
+    { "id": "tf2-2", "sec": "10", "s": "Il confine tra diritto pubblico e privato è storicamente variabile.", "v": true, "why": "Es.: il diritto sindacale, pubblicistico in epoca corporativa, oggi privatistico." },
+    { "id": "tf2-3", "sec": "11", "s": "La violazione di una norma privatistica cogente è perseguita d'ufficio da un organo pubblico.", "v": false, "why": "Serve l'iniziativa del singolo (es. art. 2108 c.c.: solo il lavoratore decide se far valere l'invalidità)." },
+    { "id": "tf2-4", "sec": "11", "s": "Norme imperative e norme penali sono la stessa cosa.", "v": false, "why": "Le norme imperative di diritto privato hanno come sanzione la nullità dell'atto contrario." },
+    { "id": "tf2-5", "sec": "12", "s": "La Gazzetta Ufficiale crea norme.", "v": false, "why": "È una fonte di cognizione: serve a conoscere il testo, non a produrlo." },
+    { "id": "tf2-6", "sec": "12", "s": "L'art. 1 disp. prel. descrive ancora la gerarchia completa delle fonti.", "v": false, "why": "Mancano Costituzione, leggi regionali e diritto UE; le norme corporative sono soppresse." },
+    { "id": "tf2-7", "sec": "12", "s": "La consuetudine è l'unica fonte-fatto.", "v": true, "why": "Per questo non ha una fonte di cognizione ufficiale e pone problemi di prova." },
+    { "id": "tf2-8", "sec": "13", "s": "Il cittadino può ricorrere direttamente alla Corte costituzionale contro una legge.", "v": false, "why": "Accede solo tramite il giudice (controllo incidentale) o, in via principale, Governo e Regioni." },
+    { "id": "tf2-9", "sec": "13", "s": "L'unico limite alla revisione costituzionale è la forma repubblicana.", "v": false, "why": "È l'unico limite espresso (art. 139); per una diffusa concezione anche i principi supremi non sono revisionabili." },
+    { "id": "tf2-10", "sec": "13", "s": "I trattati internazionali hanno rango costituzionale.", "v": false, "why": "Solo le consuetudini internazionali (art. 10). I trattati valgono come legge ordinaria rafforzata dall'art. 117, c. 1." },
+    { "id": "tf2-11", "sec": "13", "s": "Le consuetudini internazionali non possono contrastare con i principi supremi.", "v": true, "why": "Corte cost. 238/2014." },
+    { "id": "tf2-12", "sec": "14", "s": "La legge regionale è sempre gerarchicamente inferiore alla legge statale.", "v": false, "why": "Tra Stato e Regioni vale il criterio di competenza; la gerarchia torna solo nelle materie concorrenti." },
+    { "id": "tf2-13", "sec": "14", "s": "Il decreto-legge non convertito perde efficacia ex tunc.", "v": true, "why": "Art. 77 Cost.: non è un'abrogazione, l'atto viene meno fin dall'inizio." },
+    { "id": "tf2-14", "sec": "14", "s": "Le Regioni possono dettare liberamente norme di diritto civile.", "v": false, "why": "L'«ordinamento civile» è materia di competenza esclusiva dello Stato (art. 117, c. 2)." },
+    { "id": "tf2-15", "sec": "14", "s": "Il referendum abrogativo non è ammesso per le leggi tributarie e di bilancio.", "v": true, "why": "Art. 75, c. 2: esclusi anche amnistia e indulto e autorizzazione a ratificare trattati." },
+    { "id": "tf2-16", "sec": "15", "s": "Il giudice civile annulla il regolamento illegittimo.", "v": false, "why": "Lo disapplica nel singolo processo; l'annullamento spetta al giudice amministrativo." },
+    { "id": "tf2-17", "sec": "15", "s": "Si può sollevare questione di legittimità costituzionale contro un regolamento.", "v": false, "why": "La Corte giudica solo leggi e atti aventi forza di legge (Corte cost. 254/2016)." },
+    { "id": "tf2-18", "sec": "16", "s": "La legge interna posteriore prevale sul regolamento UE per il criterio cronologico.", "v": false, "why": "Il giudice disapplica la legge interna, anche posteriore: la norma europea prevale." },
+    { "id": "tf2-19", "sec": "16", "s": "Un privato può invocare una direttiva non attuata contro un altro privato.", "v": false, "why": "La direttiva self executing ha solo efficacia verticale: contro lo Stato." },
+    { "id": "tf2-20", "sec": "16", "s": "Le sentenze interpretative della Corte di giustizia vincolano tutti i giudici degli Stati membri.", "v": true, "why": "Non solo il giudice del rinvio (Corte cost. 100/2024)." },
+    { "id": "tf2-21", "sec": "16", "s": "Il cittadino danneggiato dal mancato recepimento di una direttiva può chiedere il risarcimento allo Stato.", "v": true, "why": "Se la direttiva gli attribuiva specifici diritti (Cass. 5690/2024)." },
+    { "id": "tf2-22", "sec": "17", "s": "Le raccolte degli usi delle Camere di commercio hanno valore normativo.", "v": false, "why": "Creano solo una presunzione semplice dell'esistenza degli usi (art. 9 disp. prel.)." },
+    { "id": "tf2-23", "sec": "17", "s": "Scambiarsi gli auguri a Natale è una consuetudine giuridica.", "v": false, "why": "È una pratica sociale: manca l'opinio iuris ac necessitatis." },
+    { "id": "tf2-24", "sec": "17", "s": "Se l'esistenza di una consuetudine è controversa, deve provarla la parte che vuole applicarla.", "v": true, "why": "Iura novit curia vale, ma se controversa l'onere passa alla parte (Cass. 11127/2022)." },
+    { "id": "tf2-25", "sec": "18", "s": "Il codice civile del 1942 ha rango superiore alle altre leggi.", "v": false, "why": "È legge ordinaria (r.d. 262/1942): modificabile e sindacabile dalla Corte costituzionale." },
+    { "id": "tf2-26", "sec": "18", "s": "In Italia esistono ancora un codice civile e un codice di commercio separati.", "v": false, "why": "Il codice di commercio è stato assorbito nel codice civile del 1942." },
+    { "id": "tf2-27", "sec": "18", "s": "Il codice civile è diviso in sei libri.", "v": true, "why": "Persone e famiglia, successioni, proprietà, obbligazioni, lavoro, tutela dei diritti." },
+    { "id": "tf2-28", "sec": "18", "s": "L'ideologia fascista ha lasciato tracce profonde nel codice del 1942.", "v": false, "why": "Fu elaborato da giuristi di formazione liberal-borghese; Ascarelli ne sottolinea la continuità con la tradizione." }
+  ],
+  "sequences": [
+    {
+      "id": "seq2-preleggi", "sec": "12", "title": "Art. 1 disp. prel.: l'ordine originario delle fonti",
+      "prompt": "Metti in ordine, dalla fonte più alta alla più bassa",
+      "steps": ["Leggi", "Regolamenti", "Norme corporative", "Usi"]
+    },
+    {
+      "id": "seq2-gerarchia", "sec": "12", "title": "La gerarchia delle fonti oggi",
+      "prompt": "Metti in ordine, dal vertice alla base",
+      "steps": ["Principi supremi della Costituzione", "Costituzione e leggi costituzionali", "Diritto dell'Unione europea", "Leggi ordinarie e atti con forza di legge", "Regolamenti", "Usi"]
+    },
+    {
+      "id": "seq2-cost", "sec": "12", "title": "La nascita della Costituzione",
+      "prompt": "Metti in ordine cronologico",
+      "steps": ["Referendum istituzionale (2 giugno 1946)", "Approvazione (22 dicembre 1947)", "Promulgazione (27 dicembre 1947)", "Entrata in vigore (1° gennaio 1948)"]
+    },
+    {
+      "id": "seq2-codici", "sec": "18", "title": "La storia dei codici",
+      "prompt": "Metti in ordine cronologico",
+      "steps": ["Code civil napoleonico (1804)", "Primo codice civile italiano (1865)", "Nuovo codice di commercio (1882)", "Codice civile unificato (1942)"]
+    },
+    {
+      "id": "seq2-libri", "sec": "18", "title": "I libri del codice civile",
+      "prompt": "Metti in ordine i sei libri",
+      "steps": ["Delle persone e della famiglia", "Delle successioni", "Della proprietà", "Delle obbligazioni", "Del lavoro", "Della tutela dei diritti"]
+    }
+  ]
+}

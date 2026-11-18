@@ -1,0 +1,10 @@
+{
+  "courses": [
+    {
+      "id": "privato",
+      "title": "Diritto privato",
+      "emoji": "⚖️",
+      "path": "data/privato/course.json"
+    }
+  ]
+}

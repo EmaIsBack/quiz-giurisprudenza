@@ -1,0 +1,821 @@
+{
+ "id": "cap3",
+ "num": 3,
+ "title": "L'efficacia temporale delle leggi",
+ "source": "Manuale, Cap. III, §§ 19-22",
+ "sections": [
+  {
+   "id": "19",
+   "title": "Entrata in vigore della legge"
+  },
+  {
+   "id": "20",
+   "title": "Abrogazione della legge"
+  },
+  {
+   "id": "21",
+   "title": "Irretroattività della legge"
+  },
+  {
+   "id": "22",
+   "title": "Successione di leggi"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "c3-l1",
+   "title": "Entrata in vigore",
+   "secs": [
+    "19"
+   ]
+  },
+  {
+   "id": "c3-l2",
+   "title": "Abrogazione e deroga",
+   "secs": [
+    "20"
+   ]
+  },
+  {
+   "id": "c3-l3",
+   "title": "Irretroattività",
+   "secs": [
+    "21"
+   ]
+  },
+  {
+   "id": "c3-l4",
+   "title": "Successione di leggi",
+   "secs": [
+    "22"
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "cost-70",
+   "sec": "19"
+  },
+  {
+   "id": "cost-73-1",
+   "ref": "Art. 73, c. 1, Cost.",
+   "fonte": "Cost.",
+   "sec": "19",
+   "tema": "Promulgazione delle leggi",
+   "desc": "Le leggi sono promulgate dal Presidente della Repubblica: atto formale necessario perché la legge approvata dalle Camere acquisti valore vincolante.",
+   "tags": [
+    "legge-procedimento"
+   ],
+   "links": [
+    {
+     "to": "cost-87-5",
+     "why": "Per i decreti con valore di legge e i regolamenti il Presidente non promulga ma emana."
+    }
+   ]
+  },
+  {
+   "id": "cost-73-3",
+   "ref": "Art. 73, c. 3, Cost.",
+   "fonte": "Cost.",
+   "sec": "19",
+   "tema": "Pubblicazione e vacatio legis",
+   "desc": "Le leggi sono pubblicate subito dopo la promulgazione ed entrano in vigore il quindicesimo giorno successivo alla pubblicazione, salvo che stabiliscano un termine diverso.",
+   "tags": [
+    "legge-procedimento"
+   ],
+   "links": [
+    {
+     "to": "dp-10-1",
+     "why": "Anche l'art. 10 disp. prel. fissa la vacatio legis di regola in quindici giorni."
+    }
+   ]
+  },
+  {
+   "id": "cost-87-5",
+   "ref": "Art. 87, c. 5, Cost.",
+   "fonte": "Cost.",
+   "sec": "19",
+   "tema": "Il Presidente promulga le leggi ed emana decreti e regolamenti",
+   "desc": "Il Presidente della Repubblica promulga le leggi ed emana i decreti aventi valore di legge e i regolamenti.",
+   "tags": [
+    "legge-procedimento"
+   ]
+  },
+  {
+   "id": "dp-10-1",
+   "ref": "Art. 10, c. 1, disp. prel. c.c.",
+   "fonte": "disp. prel.",
+   "sec": "19",
+   "tema": "Inizio dell'obbligatorietà delle leggi (vacatio legis)",
+   "desc": "Le leggi e i regolamenti divengono obbligatori nel quindicesimo giorno successivo alla pubblicazione, salvo che sia altrimenti disposto.",
+   "tags": [
+    "legge-procedimento"
+   ]
+  },
+  {
+   "id": "cp-5",
+   "ref": "Art. 5 c.p.",
+   "fonte": "c.p.",
+   "sec": "19",
+   "tema": "Ignoranza della legge penale",
+   "desc": "Nessuno può invocare a propria scusa l'ignoranza della legge penale. Dopo Corte cost. 364/1988 scusa però l'ignoranza inevitabile; nel diritto privato il principio resta assoluto.",
+   "tags": []
+  },
+  {
+   "id": "dp-15",
+   "sec": "20"
+  },
+  {
+   "id": "cc-1372",
+   "ref": "Art. 1372 c.c.",
+   "fonte": "c.c.",
+   "sec": "20",
+   "tema": "Efficacia del contratto (forza di legge tra le parti)",
+   "desc": "Il contratto ha forza di legge tra le parti e non può essere sciolto che per mutuo consenso o per cause ammesse dalla legge: regola generale derogata dall'art. 52 cod. cons.",
+   "tags": [
+    "contratto"
+   ],
+   "links": [
+    {
+     "to": "codcons-52",
+     "why": "L'art. 52 cod. cons. deroga all'art. 1372 c.c. per i contratti a distanza e fuori dei locali commerciali."
+    }
+   ]
+  },
+  {
+   "id": "codcons-52",
+   "ref": "Art. 52 cod. cons.",
+   "fonte": "cod. cons.",
+   "sec": "20",
+   "tema": "Recesso del consumatore (contratti a distanza o fuori dei locali commerciali)",
+   "desc": "Il consumatore può recedere entro quattordici giorni: norma speciale che deroga all'art. 1372 c.c., il quale resta applicabile a tutti gli altri contratti (lex specialis derogat generali).",
+   "tags": [
+    "contratto"
+   ]
+  },
+  {
+   "id": "cost-75",
+   "sec": "20"
+  },
+  {
+   "id": "cost-136",
+   "sec": "20"
+  },
+  {
+   "id": "dp-11",
+   "ref": "Art. 11 disp. prel. c.c.",
+   "fonte": "disp. prel.",
+   "sec": "21",
+   "tema": "Irretroattività della legge",
+   "desc": "La legge non dispone che per l'avvenire: essa non ha effetto retroattivo. È legge ordinaria, quindi una legge civile retroattiva può derogarvi entro ragionevolezza, eguaglianza e tutela dell'affidamento.",
+   "tags": [
+    "tempo"
+   ],
+   "links": [
+    {
+     "to": "cost-25-2",
+     "why": "Solo per la norma penale incriminatrice il divieto di retroattività ha rango costituzionale."
+    }
+   ]
+  },
+  {
+   "id": "cp-2",
+   "ref": "Art. 2 c.p.",
+   "fonte": "c.p.",
+   "sec": "21",
+   "tema": "Successione di leggi penali (nessuno punito per un fatto non reato all'epoca)",
+   "desc": "Nessuno può essere punito per un fatto che, secondo la legge del tempo in cui fu commesso, non costituiva reato.",
+   "tags": [
+    "tempo"
+   ],
+   "links": [
+    {
+     "to": "cost-25-2",
+     "why": "L'art. 2 c.p. e l'art. 25, c. 2, Cost. esprimono lo stesso divieto di retroattività penale; la Costituzione gli dà rango costituzionale."
+    }
+   ]
+  },
+  {
+   "id": "cost-25-2",
+   "ref": "Art. 25, c. 2, Cost.",
+   "fonte": "Cost.",
+   "sec": "21",
+   "tema": "Legalità e irretroattività della legge penale",
+   "desc": "Nessuno può essere punito se non in forza di una legge entrata in vigore prima del fatto commesso: divieto di retroattività con rango costituzionale. Fonda anche il divieto di analogia in malam partem.",
+   "tags": [
+    "tempo",
+    "costituzione-principi"
+   ]
+  },
+  {
+   "id": "l689-1",
+   "ref": "Art. 1 L. 689/1981",
+   "fonte": "L. 689/1981",
+   "sec": "21",
+   "tema": "Principio di legalità delle sanzioni amministrative",
+   "desc": "Nessuno può essere assoggettato a sanzioni amministrative se non in forza di una legge entrata in vigore prima della commissione della violazione.",
+   "tags": [
+    "tempo"
+   ],
+   "links": [
+    {
+     "to": "cost-25-2",
+     "why": "Il principio di legalità delle sanzioni amministrative è analogo a quello penale dell'art. 25, c. 2, Cost."
+    }
+   ]
+  },
+  {
+   "id": "l151-228",
+   "ref": "Art. 228 L. 151/1975",
+   "fonte": "L. 151/1975",
+   "sec": "22",
+   "tema": "Disposizione transitoria della riforma del diritto di famiglia",
+   "desc": "Estese la comunione legale anche alle coppie già sposate, ma consentì per un periodo transitorio a ciascun coniuge di impedirla con una dichiarazione unilaterale.",
+   "tags": [
+    "tempo"
+   ]
+  }
+ ],
+ "concepts": [
+  {
+   "id": "k-promulgazione",
+   "sec": "19",
+   "term": "Promulgazione",
+   "def": "Atto formale con cui il Presidente della Repubblica rende vincolante la legge approvata dalle Camere"
+  },
+  {
+   "id": "k-emanazione",
+   "sec": "19",
+   "term": "Emanazione",
+   "def": "Atto del Presidente della Repubblica per i decreti aventi valore di legge e i regolamenti"
+  },
+  {
+   "id": "k-vacatio",
+   "sec": "19",
+   "term": "Vacatio legis",
+   "def": "Periodo tra la pubblicazione e l'entrata in vigore della legge, di regola quindici giorni"
+  },
+  {
+   "id": "k-ignorantia",
+   "sec": "19",
+   "term": "Ignorantia legis non excusat",
+   "def": "L'ignoranza della legge non giustifica la sua inosservanza"
+  },
+  {
+   "id": "k-ignoranza-inevit",
+   "sec": "19",
+   "term": "Ignoranza inevitabile",
+   "def": "Errore sulla legge penale che non poteva essere evitato: esclude la punibilità (Corte cost. 364/1988)"
+  },
+  {
+   "id": "k-abrogazione",
+   "sec": "20",
+   "term": "Abrogazione",
+   "def": "Perdita di efficacia, per il futuro, di una norma per effetto di una norma posteriore di pari grado"
+  },
+  {
+   "id": "k-abrog-espressa",
+   "sec": "20",
+   "term": "Abrogazione espressa",
+   "def": "Abrogazione dichiarata esplicitamente dalla legge posteriore"
+  },
+  {
+   "id": "k-abrog-tacita",
+   "sec": "20",
+   "term": "Abrogazione tacita",
+   "def": "Abrogazione derivante dall'incompatibilità tra norme o dalla nuova disciplina dell'intera materia"
+  },
+  {
+   "id": "k-abrog-implicita",
+   "sec": "20",
+   "term": "Abrogazione implicita",
+   "def": "Abrogazione tacita per nuova regolamentazione dell'intera materia, anche senza vera incompatibilità"
+  },
+  {
+   "id": "k-deroga",
+   "sec": "20",
+   "term": "Deroga",
+   "def": "Disciplina diversa posta per casi specifici, che lascia in vigore la norma generale per tutti gli altri casi"
+  },
+  {
+   "id": "k-lex-specialis",
+   "sec": "20",
+   "term": "Lex specialis posterior derogat generali",
+   "def": "La norma speciale posteriore prevale su quella generale anteriore, che resta in vigore"
+  },
+  {
+   "id": "k-lex-posterior",
+   "sec": "20",
+   "term": "Lex posterior generalis non derogat priori speciali",
+   "def": "Una legge generale posteriore, di regola, non abroga una legge speciale anteriore"
+  },
+  {
+   "id": "k-crit-cronologico",
+   "sec": "20",
+   "term": "Criterio cronologico",
+   "def": "Tra norme di pari grado, la posteriore abroga l'anteriore"
+  },
+  {
+   "id": "k-crit-gerarchico",
+   "sec": "20",
+   "term": "Criterio gerarchico",
+   "def": "La norma di grado superiore prevale su quella inferiore"
+  },
+  {
+   "id": "k-crit-specialita",
+   "sec": "20",
+   "term": "Criterio di specialità",
+   "def": "La norma speciale prevale su quella generale"
+  },
+  {
+   "id": "k-ex-nunc",
+   "sec": "20",
+   "term": "Ex nunc",
+   "def": "Con effetto da ora, solo per il futuro"
+  },
+  {
+   "id": "k-ex-tunc",
+   "sec": "20",
+   "term": "Ex tunc",
+   "def": "Con effetto da allora, anche per il passato"
+  },
+  {
+   "id": "k-giudicato",
+   "sec": "20",
+   "term": "Giudicato",
+   "def": "Sentenza contro cui non sono più esperibili i mezzi ordinari di impugnazione"
+  },
+  {
+   "id": "k-ripristinatoria",
+   "sec": "20",
+   "term": "Norma ripristinatoria",
+   "def": "Norma che fa rivivere espressamente una disposizione abrogata"
+  },
+  {
+   "id": "k-retroattivita",
+   "sec": "21",
+   "term": "Retroattività",
+   "def": "Attribuzione di conseguenze giuridiche a fatti verificatisi prima dell'entrata in vigore della norma"
+  },
+  {
+   "id": "k-affidamento",
+   "sec": "21",
+   "term": "Affidamento",
+   "def": "Ragionevole fiducia dei consociati nella stabilità delle regole"
+  },
+  {
+   "id": "k-legge-interpret",
+   "sec": "21",
+   "term": "Legge interpretativa",
+   "def": "Legge che chiarisce il significato di norme precedenti e si applica anche ai fatti anteriori"
+  },
+  {
+   "id": "k-ex-post-facto",
+   "sec": "21",
+   "term": "Ex post facto",
+   "def": "In base a regole introdotte dopo il fatto"
+  },
+  {
+   "id": "k-transitorie",
+   "sec": "22",
+   "term": "Disposizioni transitorie",
+   "def": "Norme dettate dal legislatore per regolare il passaggio dalla legge vecchia a quella nuova"
+  },
+  {
+   "id": "k-dir-transitorio",
+   "sec": "22",
+   "term": "Diritto transitorio",
+   "def": "Criteri elaborati dall'interprete per decidere quale legge si applica in mancanza di disposizioni transitorie"
+  },
+  {
+   "id": "k-diritti-quesiti",
+   "sec": "22",
+   "term": "Diritti quesiti",
+   "def": "Diritti già entrati nel patrimonio di un soggetto prima della legge nuova"
+  },
+  {
+   "id": "k-aspettativa",
+   "sec": "22",
+   "term": "Aspettativa",
+   "def": "Posizione di chi attende l'acquisto di un diritto la cui fattispecie non è ancora completa"
+  },
+  {
+   "id": "k-fatto-compiuto",
+   "sec": "22",
+   "term": "Teoria del fatto compiuto",
+   "def": "La legge nuova non si applica ai fatti già perfezionati sotto la legge precedente né ai rapporti esauriti"
+  },
+  {
+   "id": "k-rapporti-pendenti",
+   "sec": "22",
+   "term": "Rapporti pendenti",
+   "def": "Rapporti nati sotto la legge vecchia i cui effetti non si sono ancora esauriti"
+  },
+  {
+   "id": "k-tempus-regit",
+   "sec": "22",
+   "term": "Tempus regit actum",
+   "def": "Ogni atto è regolato dalla legge in vigore al momento in cui è compiuto"
+  },
+  {
+   "id": "k-ultrattivita",
+   "sec": "22",
+   "term": "Ultrattività",
+   "def": "Applicazione della legge anteriore ad atti o rapporti svoltisi sotto la legge nuova"
+  }
+ ],
+ "contrasts": [
+  {
+   "id": "cx-ignoranza",
+   "sec": "19",
+   "title": "Ignoranza della legge: diritto privato o penale?",
+   "cols": [
+    "Diritto privato",
+    "Diritto penale"
+   ],
+   "facts": [
+    [
+     "Ignorantia legis non excusat, senza eccezioni",
+     0
+    ],
+    [
+     "Scusa l'ignoranza inevitabile (Corte cost. 364/1988)",
+     1
+    ],
+    [
+     "Prevalgono certezza dei rapporti e tutela dei terzi",
+     0
+    ],
+    [
+     "In gioco libertà personale e colpevolezza (art. 27 Cost.)",
+     1
+    ],
+    [
+     "Cass. 15813/2024",
+     0
+    ],
+    [
+     "Art. 5 c.p.",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-abrogazione-tipi",
+   "sec": "20",
+   "title": "Che tipo di abrogazione?",
+   "cols": [
+    "Espressa",
+    "Tacita per incompatibilità",
+    "Tacita per nuova disciplina della materia"
+   ],
+   "facts": [
+    [
+     "La legge posteriore la dichiara esplicitamente",
+     0
+    ],
+    [
+     "Impossibile applicare insieme norma vecchia e nuova",
+     1
+    ],
+    [
+     "La nuova legge regola l'intera materia",
+     2
+    ],
+    [
+     "La legge anteriore dice «bianco», la posteriore «nero»",
+     1
+    ],
+    [
+     "Detta anche abrogazione implicita",
+     2
+    ],
+    [
+     "Un articolo elenca le disposizioni che cessano di avere efficacia",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "cx-abrog-deroga",
+   "sec": "20",
+   "title": "Abrogazione o deroga?",
+   "cols": [
+    "Abrogazione",
+    "Deroga"
+   ],
+   "facts": [
+    [
+     "La norma anteriore perde efficacia",
+     0
+    ],
+    [
+     "La norma anteriore resta in vigore per gli altri casi",
+     1
+    ],
+    [
+     "Lex posterior derogat priori",
+     0
+    ],
+    [
+     "Lex specialis posterior derogat generali",
+     1
+    ],
+    [
+     "Art. 52 cod. cons. rispetto all'art. 1372 c.c.",
+     1
+    ],
+    [
+     "La nuova norma sostituisce la vecchia",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "cx-abrog-incost",
+   "sec": "20",
+   "title": "Abrogazione o dichiarazione di incostituzionalità?",
+   "cols": [
+    "Abrogazione",
+    "Illegittimità costituzionale"
+   ],
+   "facts": [
+    [
+     "Efficacia ex nunc",
+     0
+    ],
+    [
+     "Efficacia ex tunc",
+     1
+    ],
+    [
+     "La pronuncia la Corte costituzionale",
+     1
+    ],
+    [
+     "La dispone il legislatore o il corpo elettorale (referendum)",
+     0
+    ],
+    [
+     "Presupposto: un vizio originario, il contrasto con la Costituzione",
+     1
+    ],
+    [
+     "Presupposto: una scelta politica di cambiare disciplina",
+     0
+    ],
+    [
+     "I fatti anteriori restano regolati dalla vecchia norma",
+     0
+    ],
+    [
+     "Limite: i rapporti esauriti (giudicato, prescrizione, decadenza)",
+     1
+    ],
+    [
+     "Art. 136, c. 1, Cost.",
+     1
+    ],
+    [
+     "Art. 15 disp. prel. c.c.",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "cx-retro",
+   "sec": "21",
+   "title": "Divieto di retroattività: dove e con che rango?",
+   "cols": [
+    "Norma penale incriminatrice",
+    "Sanzioni amministrative",
+    "Diritto privato"
+   ],
+   "facts": [
+    [
+     "Art. 25, c. 2, Cost. e art. 2 c.p.",
+     0
+    ],
+    [
+     "Art. 1, c. 1, L. 689/1981",
+     1
+    ],
+    [
+     "Art. 11, c. 1, disp. prel. c.c.",
+     2
+    ],
+    [
+     "Una legge retroattiva è sempre incostituzionale",
+     0
+    ],
+    [
+     "Legge retroattiva ammessa entro ragionevolezza, eguaglianza e affidamento",
+     2
+    ],
+    [
+     "Divieto di rango costituzionale",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "cx-transitorio",
+   "sec": "22",
+   "title": "Diritti quesiti o fatto compiuto?",
+   "cols": [
+    "Teoria dei diritti quesiti",
+    "Teoria del fatto compiuto"
+   ],
+   "facts": [
+    [
+     "Guarda al soggetto: il diritto già entrato nel suo patrimonio",
+     0
+    ],
+    [
+     "Guarda al fatto: se si è perfezionato sotto la legge vecchia",
+     1
+    ],
+    [
+     "Punto debole: distinguere diritto quesito e aspettativa",
+     0
+    ],
+    [
+     "Punto debole: lascia irrisolti i rapporti pendenti",
+     1
+    ],
+    [
+     "Esempio: la pensione",
+     0
+    ],
+    [
+     "Esempio: prescrizione già maturata; leasing (Cass. s.u. 2061/2021)",
+     1
+    ]
+   ]
+  }
+ ],
+ "truefalse": [
+  {
+   "id": "tf3-1",
+   "sec": "19",
+   "s": "La legge entra in vigore con la promulgazione.",
+   "v": false,
+   "why": "Entra in vigore al termine della vacatio legis, dopo la pubblicazione in Gazzetta Ufficiale."
+  },
+  {
+   "id": "tf3-2",
+   "sec": "19",
+   "s": "La vacatio legis è sempre di quindici giorni.",
+   "v": false,
+   "why": "È la regola, ma la legge può fissare un termine diverso, anche più breve."
+  },
+  {
+   "id": "tf3-3",
+   "sec": "19",
+   "s": "Nel diritto privato scusa l'ignoranza inevitabile della legge.",
+   "v": false,
+   "why": "Nel diritto privato il principio è assoluto (Cass. 15813/2024); l'eccezione vale solo nel penale."
+  },
+  {
+   "id": "tf3-4",
+   "sec": "19",
+   "s": "Per i decreti aventi valore di legge il Presidente della Repubblica non promulga ma emana.",
+   "v": true,
+   "why": "Art. 87, c. 5, Cost."
+  },
+  {
+   "id": "tf3-5",
+   "sec": "20",
+   "s": "Un regolamento può abrogare una legge.",
+   "v": false,
+   "why": "L'abrogazione richiede una fonte di pari grado posteriore (art. 15 disp. prel.)."
+  },
+  {
+   "id": "tf3-6",
+   "sec": "20",
+   "s": "La deroga è un'abrogazione parziale.",
+   "v": false,
+   "why": "Nella deroga la norma generale resta intatta e continua a regolare tutti gli altri casi."
+  },
+  {
+   "id": "tf3-7",
+   "sec": "20",
+   "s": "La dichiarazione di incostituzionalità vale solo per il futuro.",
+   "v": false,
+   "why": "Opera ex tunc: non si applica più neppure ai fatti anteriori nei giudizi in corso."
+  },
+  {
+   "id": "tf3-8",
+   "sec": "20",
+   "s": "La dichiarazione di incostituzionalità travolge anche le sentenze passate in giudicato.",
+   "v": false,
+   "why": "Restano salvi i rapporti esauriti: giudicato, prescrizione, decadenza."
+  },
+  {
+   "id": "tf3-9",
+   "sec": "20",
+   "s": "Abrogando la norma abrogante rivive automaticamente la norma originaria.",
+   "v": false,
+   "why": "Rivive solo se lo dispone espressamente una norma ripristinatoria."
+  },
+  {
+   "id": "tf3-10",
+   "sec": "20",
+   "s": "Il referendum abrogativo può riguardare qualsiasi legge.",
+   "v": false,
+   "why": "Esclusi tributi e bilancio, amnistia e indulto, ratifica di trattati (art. 75, c. 2)."
+  },
+  {
+   "id": "tf3-11",
+   "sec": "20",
+   "s": "Il referendum abrogativo può essere richiesto da cinquecentomila elettori o cinque Consigli regionali.",
+   "v": true,
+   "why": "Art. 75 Cost.; serve il quorum della maggioranza degli aventi diritto."
+  },
+  {
+   "id": "tf3-12",
+   "sec": "20",
+   "s": "L'abrogazione tacita può aversi anche senza vera incompatibilità.",
+   "v": true,
+   "why": "Quando la nuova legge regola l'intera materia (abrogazione implicita)."
+  },
+  {
+   "id": "tf3-13",
+   "sec": "21",
+   "s": "L'irretroattività è un principio costituzionale valido per ogni legge.",
+   "v": false,
+   "why": "Ha rango costituzionale solo per la norma penale incriminatrice (art. 25, c. 2, Cost.)."
+  },
+  {
+   "id": "tf3-14",
+   "sec": "21",
+   "s": "Nel diritto privato una legge retroattiva è sempre vietata.",
+   "v": false,
+   "why": "È ammessa, entro ragionevolezza, eguaglianza e tutela dell'affidamento."
+  },
+  {
+   "id": "tf3-15",
+   "sec": "21",
+   "s": "La legge retroattiva travolge i giudicati.",
+   "v": false,
+   "why": "Restano salvi gli effetti delle sentenze passate in giudicato, salvo diversa disposizione."
+  },
+  {
+   "id": "tf3-16",
+   "sec": "21",
+   "s": "Le leggi di interpretazione autentica sono considerate naturalmente retroattive.",
+   "v": true,
+   "why": "Chiariscono il significato di norme precedenti, quindi si applicano ai fatti anteriori."
+  },
+  {
+   "id": "tf3-17",
+   "sec": "21",
+   "s": "Una legge civile retroattiva prevale sull'art. 11 disp. prel. perché è di pari grado.",
+   "v": true,
+   "why": "L'art. 11 è legge ordinaria: la legge retroattiva prevale come posteriore e speciale."
+  },
+  {
+   "id": "tf3-18",
+   "sec": "22",
+   "s": "Disposizioni transitorie e diritto transitorio sono la stessa cosa.",
+   "v": false,
+   "why": "Le prime le detta il legislatore; il secondo è elaborato dall'interprete quando mancano."
+  },
+  {
+   "id": "tf3-19",
+   "sec": "22",
+   "s": "Le teorie dei diritti quesiti e del fatto compiuto danno regole certe.",
+   "v": false,
+   "why": "Offrono criteri indicativi: decisiva resta la volontà del legislatore."
+  },
+  {
+   "id": "tf3-20",
+   "sec": "22",
+   "s": "L'ultrattività prolunga l'applicazione della legge vecchia.",
+   "v": true,
+   "why": "È la deroga a tempus regit actum; la retroattività invece anticipa la nuova."
+  },
+  {
+   "id": "tf3-21",
+   "sec": "22",
+   "s": "Con la riforma del 1975 la comunione legale divenne il regime patrimoniale legale dei coniugi.",
+   "v": true,
+   "why": "Prima era la separazione dei beni; l'art. 228 L. 151/1975 dettò la disciplina transitoria."
+  }
+ ],
+ "sequences": [
+  {
+   "id": "seq3-vigore",
+   "sec": "19",
+   "title": "Come una legge entra in vigore",
+   "prompt": "Metti in ordine le fasi",
+   "steps": [
+    "Approvazione delle due Camere",
+    "Promulgazione del Presidente della Repubblica",
+    "Pubblicazione in Gazzetta Ufficiale",
+    "Decorso della vacatio legis",
+    "Entrata in vigore"
+   ]
+  }
+ ]
+}

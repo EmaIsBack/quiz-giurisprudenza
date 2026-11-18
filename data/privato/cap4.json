@@ -1,0 +1,1251 @@
+{
+ "id": "cap4",
+ "num": 4,
+ "title": "Applicazione e interpretazione della legge",
+ "source": "Manuale, Cap. IV, §§ 23-26",
+ "sections": [
+  {
+   "id": "23",
+   "title": "L'applicazione della legge"
+  },
+  {
+   "id": "24",
+   "title": "L'interpretazione. Il precedente"
+  },
+  {
+   "id": "24-p",
+   "title": "Il precedente e le interpretazioni"
+  },
+  {
+   "id": "25",
+   "title": "Regole e strumenti dell'interpretazione"
+  },
+  {
+   "id": "26",
+   "title": "L'analogia"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "c4-l1",
+   "title": "Applicare e interpretare",
+   "secs": [
+    "23",
+    "24"
+   ]
+  },
+  {
+   "id": "c4-l2",
+   "title": "Precedente e Cassazione",
+   "secs": [
+    "24-p"
+   ]
+  },
+  {
+   "id": "c4-l3",
+   "title": "Strumenti dell'interpretazione",
+   "secs": [
+    "25"
+   ]
+  },
+  {
+   "id": "c4-l4",
+   "title": "L'analogia",
+   "secs": [
+    "26"
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "cc-2043",
+   "sec": "24",
+   "links": [
+    {
+     "to": "cc-2947",
+     "why": "Per il risarcimento si combinano l'art. 2043 (illecito), l'art. 2947 (prescrizione quinquennale) e l'art. 2935 (decorrenza): interpretazione sistematica."
+    }
+   ]
+  },
+  {
+   "id": "cc-2947",
+   "ref": "Art. 2947 c.c.",
+   "fonte": "c.c.",
+   "sec": "24",
+   "tema": "Prescrizione del diritto al risarcimento del danno (5 anni)",
+   "desc": "Il diritto al risarcimento del danno da fatto illecito si prescrive in cinque anni: va combinato con gli artt. 2043 e 2935 c.c.",
+   "tags": [
+    "responsabilita"
+   ],
+   "links": [
+    {
+     "to": "cc-2935",
+     "why": "La prescrizione decorre da quando il diritto può essere fatto valere (per la giurisprudenza, da quando il danno è percepibile)."
+    }
+   ]
+  },
+  {
+   "id": "cc-2935",
+   "ref": "Art. 2935 c.c.",
+   "fonte": "c.c.",
+   "sec": "24",
+   "tema": "Decorrenza della prescrizione",
+   "desc": "La prescrizione comincia a decorrere dal giorno in cui il diritto può essere fatto valere; per il danno, secondo la giurisprudenza, da quando si manifesta ed è percepibile da chi lo subisce.",
+   "tags": [
+    "responsabilita"
+   ]
+  },
+  {
+   "id": "cc-1669",
+   "ref": "Art. 1669 c.c.",
+   "fonte": "c.c.",
+   "sec": "24",
+   "tema": "Rovina e gravi difetti di edifici (vaghezza)",
+   "desc": "Responsabilità dell'appaltatore per rovina e gravi difetti di immobili destinati a lunga durata. Esempio di vaghezza: le Sezioni unite (7756/2017) lo applicano anche alle ristrutturazioni.",
+   "tags": [
+    "esempi-interpretazione"
+   ]
+  },
+  {
+   "id": "cpc-113-2",
+   "sec": "24"
+  },
+  {
+   "id": "cc-1341-2",
+   "ref": "Art. 1341, c. 2, c.c.",
+   "fonte": "c.c.",
+   "sec": "24",
+   "tema": "Clausole vessatorie nelle condizioni generali di contratto",
+   "desc": "Le clausole vessatorie elencate non hanno effetto se non specificamente approvate per iscritto. Elenco tassativo: non estensibile per analogia, ma le singole ipotesi ammettono interpretazione estensiva.",
+   "tags": [
+    "esempi-interpretazione",
+    "contratto"
+   ],
+   "links": [
+    {
+     "to": "cc-1342",
+     "why": "L'art. 1342 (moduli e formulari) richiama l'elenco dell'art. 1341, c. 2."
+    }
+   ]
+  },
+  {
+   "id": "cc-1342",
+   "ref": "Art. 1342 c.c.",
+   "fonte": "c.c.",
+   "sec": "24",
+   "tema": "Contratto concluso mediante moduli o formulari",
+   "desc": "Nei contratti conclusi con moduli o formulari le clausole aggiunte prevalgono su quelle del modulo; si applica l'art. 1341, c. 2, sulle clausole vessatorie.",
+   "tags": [
+    "contratto"
+   ]
+  },
+  {
+   "id": "cc-2035",
+   "ref": "Art. 2035 c.c.",
+   "fonte": "c.c.",
+   "sec": "24",
+   "tema": "Prestazione contraria al buon costume (irripetibilità)",
+   "desc": "Chi ha eseguito una prestazione per uno scopo che costituisce offesa al buon costume non può ripetere quanto ha pagato: esempio di interpretazione restrittiva.",
+   "tags": [
+    "esempi-interpretazione"
+   ]
+  },
+  {
+   "id": "cc-2909",
+   "ref": "Art. 2909 c.c.",
+   "fonte": "c.c.",
+   "sec": "24-p",
+   "tema": "Cosa giudicata",
+   "desc": "L'accertamento contenuto nella sentenza passata in giudicato fa stato a ogni effetto fra le parti, i loro eredi o aventi causa: l'interpretazione giudiziale vincola formalmente solo le parti.",
+   "tags": [
+    "cassazione-precedente"
+   ]
+  },
+  {
+   "id": "cost-101-2",
+   "ref": "Art. 101, c. 2, Cost.",
+   "fonte": "Cost.",
+   "sec": "24-p",
+   "tema": "I giudici sono soggetti soltanto alla legge",
+   "desc": "Per questo in Italia (civil law) il precedente non è formalmente vincolante: ogni giudice può discostarsene, anche dalla Cassazione, motivando.",
+   "tags": [
+    "cassazione-precedente"
+   ]
+  },
+  {
+   "id": "og-65",
+   "ref": "Art. 65 ord. giud.",
+   "fonte": "ord. giud.",
+   "sec": "24-p",
+   "tema": "Funzione nomofilattica della Cassazione",
+   "desc": "La Corte di cassazione assicura l'esatta osservanza e l'uniforme interpretazione della legge e l'unità del diritto oggettivo nazionale.",
+   "tags": [
+    "cassazione-precedente"
+   ]
+  },
+  {
+   "id": "cpc-360-bis",
+   "ref": "Art. 360-bis, c. 1, n. 1, c.p.c.",
+   "fonte": "c.p.c.",
+   "sec": "24-p",
+   "tema": "Inammissibilità del ricorso conforme alla giurisprudenza della Cassazione",
+   "desc": "Il ricorso è inammissibile se il provvedimento impugnato ha deciso le questioni di diritto in modo conforme alla giurisprudenza della Corte e i motivi non offrono elementi per confermare o mutare l'orientamento.",
+   "tags": [
+    "cassazione-precedente"
+   ]
+  },
+  {
+   "id": "cpc-374-3",
+   "ref": "Art. 374, c. 3, c.p.c.",
+   "fonte": "c.p.c.",
+   "sec": "24-p",
+   "tema": "Vincolo delle sezioni semplici al principio delle sezioni unite",
+   "desc": "La sezione semplice che non condivide il principio di diritto enunciato dalle sezioni unite deve rimettere a queste la decisione con ordinanza motivata. I giudici di merito restano liberi.",
+   "tags": [
+    "cassazione-precedente"
+   ]
+  },
+  {
+   "id": "cpc-363",
+   "ref": "Art. 363 c.p.c.",
+   "fonte": "c.p.c.",
+   "sec": "24-p",
+   "tema": "Principio di diritto nell'interesse della legge",
+   "desc": "Quando il ricorso non può essere deciso nel merito, il Procuratore generale può chiedere (o la Corte d'ufficio stabilire, se la questione è importante) l'enunciazione del principio di diritto, senza effetti sul caso concreto.",
+   "tags": [
+    "cassazione-precedente"
+   ]
+  },
+  {
+   "id": "dp-12-1",
+   "ref": "Art. 12, c. 1, disp. prel. c.c.",
+   "fonte": "disp. prel.",
+   "sec": "25",
+   "tema": "Interpretazione della legge (significato delle parole e intenzione del legislatore)",
+   "desc": "Nell'applicare la legge non si può attribuirle altro senso che quello fatto palese dal significato proprio delle parole secondo la connessione di esse, e dalla intenzione del legislatore.",
+   "tags": [
+    "interpretazione"
+   ],
+   "links": [
+    {
+     "to": "dp-12-2",
+     "why": "Il comma 1 regola l'interpretazione, il comma 2 l'integrazione delle lacune (analogia)."
+    }
+   ]
+  },
+  {
+   "id": "cc-1330",
+   "ref": "Art. 1330 c.c.",
+   "fonte": "c.c.",
+   "sec": "25",
+   "tema": "Morte o incapacità dell'imprenditore (proposta che non perde efficacia)",
+   "desc": "La proposta o l'accettazione dell'imprenditore nell'esercizio dell'impresa non perde efficacia per la sua morte o sopravvenuta incapacità, salvo piccolo imprenditore. Esempio di argomento a contrario: per i non imprenditori invece la perde.",
+   "tags": [
+    "esempi-interpretazione",
+    "contratto"
+   ]
+  },
+  {
+   "id": "codcons-33",
+   "ref": "Art. 33 cod. cons.",
+   "fonte": "cod. cons.",
+   "sec": "25",
+   "tema": "Clausole vessatorie nel contratto tra professionista e consumatore",
+   "desc": "Sono vessatorie le clausole che, malgrado la buona fede, determinano a carico del consumatore un significativo squilibrio di diritti e obblighi: esempio del prof per l'argomento a simili.",
+   "tags": [
+    "esempi-interpretazione",
+    "contratto"
+   ]
+  },
+  {
+   "id": "cc-1394",
+   "ref": "Art. 1394 c.c.",
+   "fonte": "c.c.",
+   "sec": "25",
+   "tema": "Conflitto d'interessi del rappresentante",
+   "desc": "Il contratto concluso dal rappresentante in conflitto d'interessi col rappresentato è annullabile su domanda di questo, se il conflitto era conosciuto o riconoscibile dal terzo. Con l'art. 1395: esempio di argomento a fortiori.",
+   "tags": [
+    "esempi-interpretazione",
+    "contratto"
+   ],
+   "links": [
+    {
+     "to": "cc-1395",
+     "why": "Il prof usa la coppia artt. 1394 e 1395 come esempio di argomento a fortiori."
+    }
+   ]
+  },
+  {
+   "id": "cc-1395",
+   "ref": "Art. 1395 c.c.",
+   "fonte": "c.c.",
+   "sec": "25",
+   "tema": "Contratto con se stesso",
+   "desc": "È annullabile il contratto che il rappresentante conclude con se stesso, salvo autorizzazione del rappresentato o contenuto determinato in modo da escludere il conflitto d'interessi.",
+   "tags": [
+    "esempi-interpretazione",
+    "contratto"
+   ]
+  },
+  {
+   "id": "cc-1218",
+   "ref": "Art. 1218 c.c.",
+   "fonte": "c.c.",
+   "sec": "25",
+   "tema": "Responsabilità del debitore (inadempimento)",
+   "desc": "Il debitore che non esegue esattamente la prestazione è tenuto al risarcimento, se non prova che l'inadempimento è dovuto a impossibilità a lui non imputabile. Esempio del prof per l'argomento ad absurdum.",
+   "tags": [
+    "esempi-interpretazione",
+    "responsabilita"
+   ]
+  },
+  {
+   "id": "dp-12-2",
+   "ref": "Art. 12, c. 2, disp. prel. c.c.",
+   "fonte": "disp. prel.",
+   "sec": "26",
+   "tema": "Analogia legis e analogia iuris",
+   "desc": "Se una controversia non può essere decisa con una precisa disposizione, si ha riguardo alle disposizioni che regolano casi simili o materie analoghe; se il caso rimane dubbio, si decide secondo i principi generali dell'ordinamento giuridico dello Stato.",
+   "tags": [
+    "interpretazione",
+    "analogia"
+   ],
+   "links": [
+    {
+     "to": "dp-14",
+     "why": "L'art. 14 vieta l'analogia per le leggi penali ed eccezionali."
+    }
+   ]
+  },
+  {
+   "id": "dp-14",
+   "ref": "Art. 14 disp. prel. c.c.",
+   "fonte": "disp. prel.",
+   "sec": "26",
+   "tema": "Divieto di analogia per leggi penali ed eccezionali",
+   "desc": "Le leggi penali e quelle che fanno eccezione a regole generali o ad altre leggi non si applicano oltre i casi e i tempi in esse considerati. Resta ammessa l'interpretazione estensiva.",
+   "tags": [
+    "interpretazione",
+    "analogia"
+   ]
+  },
+  {
+   "id": "cc-2119",
+   "ref": "Art. 2119 c.c.",
+   "fonte": "c.c.",
+   "sec": "26",
+   "tema": "Recesso per giusta causa (lavoro subordinato)",
+   "desc": "Ciascuna parte può recedere senza preavviso se si verifica una causa che non consente la prosecuzione, anche provvisoria, del rapporto. La giurisprudenza lo applica per analogia al contratto di agenzia (stessa ratio: rapporto stabile e fiduciario).",
+   "tags": [
+    "analogia"
+   ]
+  },
+  {
+   "id": "cc-409-2",
+   "ref": "Art. 409, c. 2, c.c.",
+   "fonte": "c.c.",
+   "sec": "26",
+   "tema": "Atti della vita quotidiana del beneficiario di amministrazione di sostegno",
+   "desc": "Il beneficiario può sempre compiere gli atti necessari a soddisfare le esigenze della vita quotidiana: regola applicata per analogia agli atti della vita quotidiana del minore.",
+   "tags": [
+    "analogia"
+   ]
+  },
+  {
+   "id": "cc-1343",
+   "ref": "Art. 1343 c.c.",
+   "fonte": "c.c.",
+   "sec": "26",
+   "tema": "Causa illecita (contrarietà a norme imperative, ordine pubblico, buon costume)",
+   "desc": "La causa è illecita quando è contraria a norme imperative, all'ordine pubblico o al buon costume: il contratto contrario ai principi fondamentali è nullo anche senza un divieto specifico (collegamento con l'analogia iuris).",
+   "tags": [
+    "contratto"
+   ]
+  },
+  {
+   "id": "cc-1385",
+   "ref": "Art. 1385 c.c.",
+   "fonte": "c.c.",
+   "sec": "26",
+   "tema": "Caparra confirmatoria",
+   "desc": "Somma consegnata alla conclusione del contratto a garanzia dell'adempimento. L'art. 1384 sulla riduzione della penale non vi si applica per analogia.",
+   "tags": [
+    "contratto",
+    "analogia"
+   ],
+   "links": [
+    {
+     "to": "cc-1384",
+     "why": "La riduzione equitativa della penale (art. 1384) non si estende per analogia alla caparra."
+    }
+   ]
+  },
+  {
+   "id": "cc-1384",
+   "sec": "26"
+  },
+  {
+   "id": "cost-25-2",
+   "sec": "26"
+  }
+ ],
+ "concepts": [
+  {
+   "id": "k-applicazione",
+   "sec": "23",
+   "term": "Applicazione della legge",
+   "def": "Concreta realizzazione, nella vita della collettività, di quanto ordinato dalle regole dell'ordinamento"
+  },
+  {
+   "id": "k-osservanza",
+   "sec": "23",
+   "term": "Osservanza spontanea",
+   "def": "Comportamento dei consociati conforme alle regole, senza intervento del giudice: il modo più diffuso di attuazione"
+  },
+  {
+   "id": "k-dir-sostanziale",
+   "sec": "23",
+   "term": "Diritto sostanziale",
+   "def": "Insieme delle norme che attribuiscono diritti e obblighi"
+  },
+  {
+   "id": "k-dir-processuale",
+   "sec": "23",
+   "term": "Diritto processuale",
+   "def": "Insieme delle norme che disciplinano il processo e i provvedimenti del giudice"
+  },
+  {
+   "id": "k-interpretazione",
+   "sec": "24",
+   "term": "Interpretazione",
+   "def": "Attività critica con cui si attribuisce (non si accerta) un significato a un atto normativo"
+  },
+  {
+   "id": "k-vaghezza",
+   "sec": "24",
+   "term": "Vaghezza",
+   "def": "Indeterminatezza del significato di un enunciato (es. art. 1669 c.c.)"
+  },
+  {
+   "id": "k-ambiguita",
+   "sec": "24",
+   "term": "Ambiguità",
+   "def": "Possibilità che una disposizione abbia significati diversi (es. art. 113, c. 2, c.p.c.)"
+  },
+  {
+   "id": "k-int-sistematica",
+   "sec": "24",
+   "term": "Interpretazione sistematica",
+   "def": "Interpretazione condotta combinando più norme alla luce dell'intero sistema dell'ordinamento"
+  },
+  {
+   "id": "k-int-costituz",
+   "sec": "24",
+   "term": "Interpretazione costituzionalmente orientata",
+   "def": "Scelta, tra più significati possibili, di quello conforme alla Costituzione"
+  },
+  {
+   "id": "k-in-claris",
+   "sec": "24",
+   "term": "In claris non fit interpretatio",
+   "def": "Canone per cui le disposizioni chiare non richiederebbero interpretazione: per il prof falso e fuorviante"
+  },
+  {
+   "id": "k-int-estensiva",
+   "sec": "24",
+   "term": "Interpretazione estensiva",
+   "def": "Interpretazione che dilata l'ambito di applicazione di una disposizione"
+  },
+  {
+   "id": "k-int-restrittiva",
+   "sec": "24",
+   "term": "Interpretazione restrittiva",
+   "def": "Interpretazione che circoscrive l'ambito di applicazione di una disposizione"
+  },
+  {
+   "id": "k-buon-costume",
+   "sec": "24",
+   "term": "Buon costume",
+   "def": "Insieme dei principi etici condivisi da una società"
+  },
+  {
+   "id": "k-precedente",
+   "sec": "24-p",
+   "term": "Precedente",
+   "def": "Sentenza la cui interpretazione e motivazione sono assunte a modello per casi simili"
+  },
+  {
+   "id": "k-giurisprudenza",
+   "sec": "24-p",
+   "term": "Giurisprudenza (in senso tecnico)",
+   "def": "Orientamento applicativo costante o tendenzialmente stabile dei giudici"
+  },
+  {
+   "id": "k-distinguishing",
+   "sec": "24-p",
+   "term": "Distinguishing",
+   "def": "Tecnica con cui il giudice di common law si discosta dal precedente evidenziando le differenze tra i casi"
+  },
+  {
+   "id": "k-overruling",
+   "sec": "24-p",
+   "term": "Overruling",
+   "def": "Superamento di un precedente ritenuto errato"
+  },
+  {
+   "id": "k-nomofilattica",
+   "sec": "24-p",
+   "term": "Funzione nomofilattica",
+   "def": "Compito della Cassazione di assicurare l'interpretazione uniforme della legge (art. 65 ord. giud.)"
+  },
+  {
+   "id": "k-diritto-vivente",
+   "sec": "24-p",
+   "term": "Diritto vivente",
+   "def": "Il diritto come applicato e interpretato dalla giurisprudenza (ius quo utimur)"
+  },
+  {
+   "id": "k-dottrina",
+   "sec": "24-p",
+   "term": "Interpretazione dottrinale",
+   "def": "Interpretazione degli studiosi: nessuna autorità formale, solo prestigio e persuasività"
+  },
+  {
+   "id": "k-autentica",
+   "sec": "24-p",
+   "term": "Interpretazione autentica",
+   "def": "Interpretazione data dal legislatore con un atto normativo: vincolante e retroattiva, salvo il giudicato"
+  },
+  {
+   "id": "k-novativa",
+   "sec": "24-p",
+   "term": "Norma novativa",
+   "def": "Norma che introduce una disciplina nuova, con efficacia solo ex nunc"
+  },
+  {
+   "id": "k-ratio",
+   "sec": "25",
+   "term": "Ratio legis",
+   "def": "Funzione e scopo obiettivo che la norma persegue"
+  },
+  {
+   "id": "k-teleologico",
+   "sec": "25",
+   "term": "Criterio teleologico",
+   "def": "Interpretazione fondata sulla finalità obiettiva della norma"
+  },
+  {
+   "id": "k-lavori-prep",
+   "sec": "25",
+   "term": "Lavori preparatori",
+   "def": "Discussioni, relazioni e pareri che accompagnano una legge: solo indicazioni di massima"
+  },
+  {
+   "id": "k-a-contrario",
+   "sec": "25",
+   "term": "Argomentum a contrario",
+   "def": "Esclude dalla norma ciò che non vi è espressamente compreso (ubi lex voluit, dixit)"
+  },
+  {
+   "id": "k-a-simili",
+   "sec": "25",
+   "term": "Argomentum a simili",
+   "def": "Estende la norma a fenomeni simili (lex minus dixit quam voluit)"
+  },
+  {
+   "id": "k-a-fortiori",
+   "sec": "25",
+   "term": "Argomentum a fortiori",
+   "def": "Estende la norma a ciò che merita a maggior ragione lo stesso trattamento"
+  },
+  {
+   "id": "k-ad-absurdum",
+   "sec": "25",
+   "term": "Argomentum ad absurdum",
+   "def": "Esclude l'interpretazione che porta a un risultato assurdo"
+  },
+  {
+   "id": "k-crit-storico",
+   "sec": "25",
+   "term": "Criterio storico",
+   "def": "Interpretazione alla luce dell'origine e dell'evoluzione di un istituto"
+  },
+  {
+   "id": "k-crit-sistematico",
+   "sec": "25",
+   "term": "Criterio sistematico",
+   "def": "La disposizione va letta nel quadro complessivo dell'ordinamento (Celso: incivile est, nisi tota lege perspecta)"
+  },
+  {
+   "id": "k-crit-sociologico",
+   "sec": "25",
+   "term": "Criterio sociologico",
+   "def": "Interpretazione alla luce degli aspetti economico-sociali dei rapporti regolati"
+  },
+  {
+   "id": "k-crit-equitativo",
+   "sec": "25",
+   "term": "Criterio equitativo",
+   "def": "Interpretazione che evita esiti contrari al senso di giustizia diffuso nella comunità"
+  },
+  {
+   "id": "k-rubrica",
+   "sec": "25",
+   "term": "Rubrica",
+   "def": "Titoletto anteposto a un articolo: nei casi dubbi è utile all'interprete (rubrica legis non est lex va corretto)"
+  },
+  {
+   "id": "k-lacuna",
+   "sec": "26",
+   "term": "Lacuna",
+   "def": "Caso che nessuna norma ha espressamente previsto e regolato"
+  },
+  {
+   "id": "k-denegata",
+   "sec": "26",
+   "term": "Denegata giustizia",
+   "def": "Rifiuto del giudice di decidere: vietato (divieto di non liquet)"
+  },
+  {
+   "id": "k-analogia-legis",
+   "sec": "26",
+   "term": "Analogia legis",
+   "def": "Applicazione a un caso non regolato della norma dettata per un caso simile, per identità di ratio"
+  },
+  {
+   "id": "k-eadem-ratio",
+   "sec": "26",
+   "term": "Eadem ratio",
+   "def": "Identità della ragione che giustifica la disciplina: fondamento dell'analogia"
+  },
+  {
+   "id": "k-analogia-iuris",
+   "sec": "26",
+   "term": "Analogia iuris",
+   "def": "Decisione del caso dubbio secondo i principi generali dell'ordinamento"
+  },
+  {
+   "id": "k-ordine-pubblico",
+   "sec": "26",
+   "term": "Ordine pubblico",
+   "def": "Insieme dei principi fondamentali dell'ordinamento, la cui violazione rende nullo il contratto (art. 1343 c.c.)"
+  },
+  {
+   "id": "k-norme-eccezionali",
+   "sec": "26",
+   "term": "Norme eccezionali",
+   "def": "Norme che derogano a regole generali o ad altre leggi: vietata l'analogia, ammessa l'interpretazione estensiva"
+  },
+  {
+   "id": "k-malam-partem",
+   "sec": "26",
+   "term": "In malam partem",
+   "def": "A sfavore del reo: solo in questo caso l'analogia penale è vietata"
+  },
+  {
+   "id": "k-giusta-causa",
+   "sec": "26",
+   "term": "Giusta causa",
+   "def": "Fatto che non consente la prosecuzione, anche provvisoria, del rapporto (art. 2119 c.c.)"
+  },
+  {
+   "id": "k-caparra",
+   "sec": "26",
+   "term": "Caparra confirmatoria",
+   "def": "Somma consegnata alla conclusione del contratto a garanzia dell'adempimento (art. 1385 c.c.)"
+  }
+ ],
+ "contrasts": [
+  {
+   "id": "cx-applicazione",
+   "sec": "23",
+   "title": "Applicazione spontanea o giudiziale?",
+   "cols": [
+    "Spontanea",
+    "Giudiziale"
+   ],
+   "facts": [
+    [
+     "La compiono i consociati",
+     0
+    ],
+    [
+     "La compie il giudice",
+     1
+    ],
+    [
+     "Normalmente, senza conflitto",
+     0
+    ],
+    [
+     "Quando il diritto è leso e serve l'autorità giurisdizionale",
+     1
+    ],
+    [
+     "Pagare un debito, rispettare la proprietà altrui",
+     0
+    ],
+    [
+     "Sentenza, ordinanza, decreto",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-vaghezza",
+   "sec": "24",
+   "title": "Vaghezza, ambiguità o clausola generale?",
+   "cols": [
+    "Vaghezza",
+    "Ambiguità",
+    "Clausola generale"
+   ],
+   "facts": [
+    [
+     "Significato indeterminato",
+     0
+    ],
+    [
+     "Più significati possibili",
+     1
+    ],
+    [
+     "Rinvio al giudice per la regola del caso concreto",
+     2
+    ],
+    [
+     "Art. 1669 c.c.",
+     0
+    ],
+    [
+     "Art. 113, c. 2, c.p.c.",
+     1
+    ],
+    [
+     "Buona fede (art. 1375), danno ingiusto (art. 2043)",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "cx-letterale",
+   "sec": "24",
+   "title": "Interpretazione letterale, estensiva o restrittiva?",
+   "cols": [
+    "Letterale",
+    "Estensiva",
+    "Restrittiva"
+   ],
+   "facts": [
+    [
+     "Attribuisce al testo il senso più immediato",
+     0
+    ],
+    [
+     "Dilata l'ambito di applicazione",
+     1
+    ],
+    [
+     "Circoscrive l'ambito di applicazione",
+     2
+    ],
+    [
+     "Art. 12, c. 1, prima parte, disp. prel.",
+     0
+    ],
+    [
+     "Singole ipotesi dell'art. 1341, c. 2, c.c.",
+     1
+    ],
+    [
+     "Art. 2035 c.c.",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "cx-soggetti",
+   "sec": "24-p",
+   "title": "Interpretazione giudiziale, dottrinale o autentica?",
+   "cols": [
+    "Giudiziale",
+    "Dottrinale",
+    "Autentica"
+   ],
+   "facts": [
+    [
+     "La svolgono i giudici dello Stato",
+     0
+    ],
+    [
+     "La svolgono gli studiosi del diritto",
+     1
+    ],
+    [
+     "La svolge il legislatore",
+     2
+    ],
+    [
+     "Vincola solo le parti (art. 2909 c.c.)",
+     0
+    ],
+    [
+     "Nessuna autorità formale: solo prestigio e persuasività",
+     1
+    ],
+    [
+     "Retroattiva, salvo il giudicato",
+     2
+    ],
+    [
+     "Non è vera interpretazione: è un atto normativo",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "cx-common",
+   "sec": "24-p",
+   "title": "Common law o civil law?",
+   "cols": [
+    "Common law",
+    "Civil law (Italia)"
+   ],
+   "facts": [
+    [
+     "Il precedente è vincolante",
+     0
+    ],
+    [
+     "Il precedente è persuasivo, ma di fatto molto autorevole",
+     1
+    ],
+    [
+     "Le Corti concorrono a creare il diritto oggettivo",
+     0
+    ],
+    [
+     "Il giudice è soggetto soltanto alla legge (art. 101, c. 2, Cost.)",
+     1
+    ],
+    [
+     "Ci si discosta con distinguishing o overruling",
+     0
+    ],
+    [
+     "Ci si discosta liberamente, motivando, anche contro la Cassazione",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-cassazione",
+   "sec": "24-p",
+   "title": "Quale norma rafforza il precedente della Cassazione?",
+   "cols": [
+    "Art. 360-bis c.p.c.",
+    "Art. 374, c. 3, c.p.c.",
+    "Art. 363 c.p.c."
+   ],
+   "facts": [
+    [
+     "Ricorso inammissibile se conforme alla giurisprudenza e senza argomenti nuovi",
+     0
+    ],
+    [
+     "La sezione semplice che dissente rimette alle sezioni unite",
+     1
+    ],
+    [
+     "Principio di diritto nell'interesse della legge",
+     2
+    ],
+    [
+     "Pronuncia senza effetti sul caso concreto",
+     2
+    ],
+    [
+     "Una sorta di vincolatività delle sezioni unite",
+     1
+    ],
+    [
+     "Può chiederlo il Procuratore generale",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "cx-interpretativa",
+   "sec": "24-p",
+   "title": "Norma interpretativa o novativa?",
+   "cols": [
+    "Interpretativa",
+    "Novativa"
+   ],
+   "facts": [
+    [
+     "Chiarisce il significato di una norma preesistente",
+     0
+    ],
+    [
+     "Introduce una disciplina nuova",
+     1
+    ],
+    [
+     "Retroattiva (salvo il giudicato)",
+     0
+    ],
+    [
+     "Efficacia ex nunc",
+     1
+    ],
+    [
+     "Formula «si interpreta nel senso che»",
+     0
+    ],
+    [
+     "Attribuisce un significato non estraibile dal testo precedente",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-argomenti",
+   "sec": "25",
+   "title": "Quale argomento interpretativo?",
+   "cols": [
+    "A contrario",
+    "A simili",
+    "A fortiori",
+    "Ad absurdum"
+   ],
+   "facts": [
+    [
+     "Ubi lex voluit, dixit; ubi noluit, tacuit",
+     0
+    ],
+    [
+     "Lex minus dixit quam voluit",
+     1
+    ],
+    [
+     "Estende la norma a ciò che merita a maggior ragione lo stesso trattamento",
+     2
+    ],
+    [
+     "Esclude l'interpretazione che porta a un esito assurdo",
+     3
+    ],
+    [
+     "Esempio del prof: art. 1330 c.c.",
+     0
+    ],
+    [
+     "Esempio del prof: art. 33 cod. cons.",
+     1
+    ],
+    [
+     "Esempio del prof: artt. 1394 e 1395 c.c.",
+     2
+    ],
+    [
+     "Esempio del prof: art. 1218 c.c.",
+     3
+    ],
+    [
+     "È il ragionamento alla base dell'analogia",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-criteri",
+   "sec": "25",
+   "title": "Quale criterio interpretativo?",
+   "cols": [
+    "Storico",
+    "Sistematico",
+    "Sociologico",
+    "Equitativo"
+   ],
+   "facts": [
+    [
+     "Studia perché un istituto è nato e come è cambiato",
+     0
+    ],
+    [
+     "Celso: incivile est, nisi tota lege perspecta",
+     1
+    ],
+    [
+     "Considera gli aspetti economico-sociali dei rapporti regolati",
+     2
+    ],
+    [
+     "Evita esiti contrari al senso di giustizia diffuso",
+     3
+    ],
+    [
+     "Colloca la norma nel quadro complessivo dell'ordinamento",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "cx-analogia",
+   "sec": "26",
+   "title": "Analogia legis o analogia iuris?",
+   "cols": [
+    "Analogia legis",
+    "Analogia iuris"
+   ],
+   "facts": [
+    [
+     "La regola si ricava da una specifica disposizione per un caso simile",
+     0
+    ],
+    [
+     "La regola si ricava dai principi generali dell'ordinamento",
+     1
+    ],
+    [
+     "Fondamento: identità di ratio",
+     0
+    ],
+    [
+     "Fondamento: sintesi dell'insieme delle fonti, in primo luogo la Costituzione",
+     1
+    ],
+    [
+     "Si usa per prima",
+     0
+    ],
+    [
+     "Si usa se il caso resta ancora dubbio",
+     1
+    ],
+    [
+     "Art. 2119 c.c. applicato al contratto di agenzia",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "cx-estensiva-analogia",
+   "sec": "26",
+   "title": "Interpretazione estensiva o applicazione analogica?",
+   "cols": [
+    "Interpretazione estensiva",
+    "Applicazione analogica"
+   ],
+   "facts": [
+    [
+     "Adegua la lettera alla volontà legislativa",
+     0
+    ],
+    [
+     "Colma una lacuna",
+     1
+    ],
+    [
+     "Il caso è già compreso nella norma, correttamente intesa",
+     0
+    ],
+    [
+     "Il caso non è regolato: si usa la norma di un caso simile",
+     1
+    ],
+    [
+     "Consentita anche per norme penali ed eccezionali",
+     0
+    ],
+    [
+     "Vietata per norme penali ed eccezionali (art. 14 disp. prel.)",
+     1
+    ]
+   ]
+  }
+ ],
+ "truefalse": [
+  {
+   "id": "tf4-1",
+   "sec": "23",
+   "s": "Applicare la legge è compito esclusivo del giudice.",
+   "v": false,
+   "why": "Il modo più diffuso è l'osservanza spontanea dei consociati."
+  },
+  {
+   "id": "tf4-2",
+   "sec": "23",
+   "s": "Si può applicare una norma senza interpretarla.",
+   "v": false,
+   "why": "Applicare presuppone interpretare: bisogna prima attribuire un significato al testo."
+  },
+  {
+   "id": "tf4-3",
+   "sec": "24",
+   "s": "In claris non fit interpretatio significa che le norme chiare non vanno interpretate.",
+   "v": false,
+   "why": "Per il prof la formula è fuorviante: anche le norme chiare vanno interpretate, con un basso livello di scelta."
+  },
+  {
+   "id": "tf4-4",
+   "sec": "24-p",
+   "s": "In Italia il precedente della Cassazione è vincolante come nel common law.",
+   "v": false,
+   "why": "Il giudice è soggetto solo alla legge (art. 101, c. 2, Cost.); il precedente ha forza persuasiva."
+  },
+  {
+   "id": "tf4-5",
+   "sec": "24-p",
+   "s": "I giudici di merito sono obbligati a seguire il principio delle sezioni unite.",
+   "v": false,
+   "why": "Sono liberi; solo la sezione semplice che dissente deve rimettere alle sezioni unite (art. 374, c. 3)."
+  },
+  {
+   "id": "tf4-6",
+   "sec": "24",
+   "s": "Il significato del testo è il risultato, non il presupposto, dell'interpretazione.",
+   "v": true,
+   "why": "Per questo anche «estensiva» e «restrittiva» sono espressioni imprecise."
+  },
+  {
+   "id": "tf4-7",
+   "sec": "24",
+   "s": "Una norma può essere dichiarata incostituzionale solo se non è possibile interpretarla in modo conforme alla Costituzione.",
+   "v": true,
+   "why": "Corte cost. 205/2022 e 139/2022."
+  },
+  {
+   "id": "tf4-8",
+   "sec": "24-p",
+   "s": "L'interpretazione autentica è una forma di interpretazione come le altre.",
+   "v": false,
+   "why": "È un atto normativo del legislatore, vincolante e retroattivo."
+  },
+  {
+   "id": "tf4-9",
+   "sec": "24-p",
+   "s": "Una legge che si dichiara interpretativa ma modifica la norma precedente è in realtà una legge retroattiva.",
+   "v": true,
+   "why": "Ed è soggetta al controllo di ragionevolezza (Corte cost. 4/2024)."
+  },
+  {
+   "id": "tf4-10",
+   "sec": "24-p",
+   "s": "La pronuncia ex art. 363 c.p.c. decide il caso concreto.",
+   "v": false,
+   "why": "Non ha effetti sul caso: vale come indicazione per i giudici futuri."
+  },
+  {
+   "id": "tf4-11",
+   "sec": "25",
+   "s": "L'intenzione del legislatore è la volontà psicologica dei parlamentari.",
+   "v": false,
+   "why": "È lo scopo obiettivo della norma (ratio legis): il legislatore è un organo collegiale."
+  },
+  {
+   "id": "tf4-12",
+   "sec": "25",
+   "s": "L'art. 12 disp. prel. impone un ordine rigido: prima la lettera e, solo se oscura, la ratio.",
+   "v": false,
+   "why": "Lettera e intenzione del legislatore vanno considerate insieme."
+  },
+  {
+   "id": "tf4-13",
+   "sec": "25",
+   "s": "La rubrica non ha alcun valore interpretativo.",
+   "v": false,
+   "why": "Nei casi dubbi va valorizzata (Cass. 2989/2022): rubrica legis non est lex va corretto."
+  },
+  {
+   "id": "tf4-14",
+   "sec": "25",
+   "s": "I lavori preparatori vincolano l'interprete.",
+   "v": false,
+   "why": "Offrono solo indicazioni di massima (Corte cost. 7/2024)."
+  },
+  {
+   "id": "tf4-15",
+   "sec": "25",
+   "s": "Argomento a simili e argomento a contrario portano a esiti opposti.",
+   "v": true,
+   "why": "Il primo estende la norma, il secondo la limita: la scelta dipende dalla ratio."
+  },
+  {
+   "id": "tf4-16",
+   "sec": "26",
+   "s": "Analogia legis e analogia iuris si possono usare in qualsiasi ordine.",
+   "v": false,
+   "why": "Prima l'analogia legis; se il caso resta dubbio, i principi generali (art. 12, c. 2)."
+  },
+  {
+   "id": "tf4-17",
+   "sec": "26",
+   "s": "Le norme eccezionali non possono essere interpretate estensivamente.",
+   "v": false,
+   "why": "È vietata l'analogia, non l'interpretazione estensiva."
+  },
+  {
+   "id": "tf4-18",
+   "sec": "26",
+   "s": "L'analogia è vietata per tutte le norme penali, anche quelle favorevoli al reo.",
+   "v": false,
+   "why": "Il divieto riguarda solo l'analogia in malam partem."
+  },
+  {
+   "id": "tf4-19",
+   "sec": "26",
+   "s": "Per l'analogia basta una somiglianza qualsiasi tra i casi.",
+   "v": false,
+   "why": "Serve l'identità di ratio (eadem ratio)."
+  },
+  {
+   "id": "tf4-20",
+   "sec": "26",
+   "s": "Il giudice può rifiutarsi di decidere se nessuna norma regola il caso.",
+   "v": false,
+   "why": "Sarebbe denegata giustizia: deve ricorrere all'analogia e ai principi generali."
+  },
+  {
+   "id": "tf4-21",
+   "sec": "26",
+   "s": "L'art. 1384 c.c. sulla riduzione della penale si applica per analogia alla caparra confirmatoria.",
+   "v": false,
+   "why": "Esempio del prof: l'analogia è esclusa."
+  },
+  {
+   "id": "tf4-22",
+   "sec": "26",
+   "s": "L'analogia è applicazione e non interpretazione.",
+   "v": true,
+   "why": "Non attribuisce un significato a una norma, ma crea una regola non scritta per un caso non regolato."
+  }
+ ],
+ "sequences": [
+  {
+   "id": "seq4-lacune",
+   "sec": "26",
+   "title": "Cosa fa il giudice davanti a un caso",
+   "prompt": "Metti in ordine i passaggi",
+   "steps": [
+    "Applica la norma che regola direttamente il caso",
+    "Interpretazione estensiva di una norma",
+    "Analogia legis (casi simili o materie analoghe)",
+    "Analogia iuris (principi generali dell'ordinamento)"
+   ]
+  },
+  {
+   "id": "seq4-analogia",
+   "sec": "26",
+   "title": "Gli elementi dell'analogia",
+   "prompt": "Metti in ordine il ragionamento",
+   "steps": [
+    "C'è una lacuna: un caso non regolato",
+    "Esiste una regola per un caso diverso",
+    "I due casi sono simili",
+    "La stessa ratio giustifica la regola anche per il caso non regolato"
+   ]
+  }
+ ]
+}
