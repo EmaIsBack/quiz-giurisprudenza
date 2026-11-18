@@ -1,0 +1,289 @@
+{
+  "id": "cap7c",
+  "num": 7,
+  "label": "7.3",
+  "title": "Cittadinanza, famiglia, assenza, stato civile",
+  "source": "Manuale, Cap. VII, §§ 57-60",
+  "sections": [
+    { "id": "57", "title": "La cittadinanza" },
+    { "id": "58", "title": "La posizione della persona nella famiglia" },
+    { "id": "59", "title": "Scomparsa, assenza e morte presunta" },
+    { "id": "60", "title": "Gli atti dello stato civile" }
+  ],
+  "lessons": [
+    { "id": "c7c-l1", "title": "La cittadinanza", "secs": ["57"] },
+    { "id": "c7c-l2", "title": "Parentela e affinità", "secs": ["58"] },
+    { "id": "c7c-l3", "title": "Scomparsa, assenza, morte presunta", "secs": ["59"] },
+    { "id": "c7c-l4", "title": "Stato civile", "secs": ["60"] }
+  ],
+  "articles": [
+    {
+      "id": "l91-1", "ref": "Art. 1 L. 91/1992", "fonte": "L. 91/1992", "sec": "57",
+      "tema": "Cittadinanza per nascita: iure sanguinis e iure soli",
+      "desc": "È cittadino per nascita il figlio di padre o madre cittadini (iure sanguinis, lett. a) e chi nasce in Italia da genitori ignoti o apolidi o che non gli trasmettono la loro cittadinanza (iure soli, lett. b).",
+      "es": "Un bambino nato a Roma da genitori apolidi è cittadino italiano iure soli.",
+      "tags": ["persone", "cittadinanza"],
+      "links": [{ "to": "l91-3-bis", "why": "La riforma del 2025 limita lo iure sanguinis per i nati all'estero con altra cittadinanza." }]
+    },
+    {
+      "id": "l91-3-bis", "ref": "Art. 3-bis L. 91/1992", "fonte": "L. 91/1992", "sec": "57",
+      "tema": "Limite allo iure sanguinis per i nati all'estero (riforma 2025)",
+      "desc": "Introdotto dal D.L. 36/2025 (riforma Tajani): chi è nato all'estero ed ha un'altra cittadinanza si considera non aver mai acquistato quella italiana, salvo specifiche condizioni (es. domanda entro il 27 marzo 2025, genitore o nonno con sola cittadinanza italiana, genitore residente in Italia per due anni prima della nascita).",
+      "es": "Un ragazzo nato in Argentina, con cittadinanza argentina e un bisnonno italiano, non è più automaticamente cittadino italiano.",
+      "tags": ["persone", "cittadinanza"]
+    },
+    {
+      "id": "l91-5", "ref": "Art. 5 L. 91/1992", "fonte": "L. 91/1992", "sec": "57",
+      "tema": "Cittadinanza del coniuge o partner di cittadino (iuris communicatio)",
+      "desc": "Il coniuge o partner dell'unione civile straniero di un cittadino può acquistare la cittadinanza dopo due anni di residenza legale in Italia dal matrimonio, o tre anni se risiede all'estero, purché il vincolo non sia sciolto né vi sia separazione. Serve la conoscenza dell'italiano e il giuramento.",
+      "tags": ["persone", "cittadinanza"]
+    },
+    {
+      "id": "l91-9", "ref": "Art. 9 L. 91/1992", "fonte": "L. 91/1992", "sec": "57",
+      "tema": "Naturalizzazione",
+      "desc": "La cittadinanza può essere concessa con decreto del Presidente della Repubblica, discrezionalmente, ad esempio al cittadino UE residente legalmente da 4 anni, all'apolide da 5, allo straniero da 10. Ha effetto dal giuramento.",
+      "es": "Uno straniero che vive regolarmente in Italia da dieci anni può chiedere la cittadinanza, ma lo Stato decide discrezionalmente.",
+      "tags": ["persone", "cittadinanza"]
+    },
+    {
+      "id": "l91-11", "ref": "Art. 11 L. 91/1992", "fonte": "L. 91/1992", "sec": "57",
+      "tema": "Doppia cittadinanza",
+      "desc": "Il cittadino che possiede, acquista o riacquista una cittadinanza straniera conserva quella italiana: la doppia cittadinanza è ammessa.",
+      "tags": ["persone", "cittadinanza"]
+    },
+    { "id": "cost-22", "sec": "57" },
+    { "id": "tfue-20", "sec": "57" },
+    {
+      "id": "cc-74", "ref": "Art. 74 c.c.", "fonte": "c.c.", "sec": "58",
+      "tema": "Parentela",
+      "desc": "La parentela è il vincolo tra persone che discendono da uno stesso stipite, siano nate nel matrimonio, fuori o adottate da minori; non c'è parentela con l'adottato maggiorenne.",
+      "tags": ["persone", "famiglia"],
+      "links": [{ "to": "cc-76", "why": "I gradi si calcolano con l'art. 76." }]
+    },
+    {
+      "id": "cc-75", "ref": "Art. 75 c.c.", "fonte": "c.c.", "sec": "58",
+      "tema": "Linee della parentela (retta e collaterale)",
+      "desc": "Sono parenti in linea retta le persone che discendono l'una dall'altra (padre e figlio, nonno e nipote); in linea collaterale quelle che hanno uno stipite comune ma non discendono l'una dall'altra (fratelli, zio e nipote).",
+      "tags": ["persone", "famiglia"]
+    },
+    {
+      "id": "cc-76", "ref": "Art. 76 c.c.", "fonte": "c.c.", "sec": "58",
+      "tema": "Computo dei gradi di parentela",
+      "desc": "I gradi si contano calcolando le persone e togliendo lo stipite.",
+      "es": "Due cugini: cugino, padre, nonno, zio, cugino = 5 persone, meno lo stipite = quarto grado.",
+      "tags": ["persone", "famiglia"]
+    },
+    {
+      "id": "cc-77", "ref": "Art. 77 c.c.", "fonte": "c.c.", "sec": "58",
+      "tema": "Limite della parentela (sesto grado)",
+      "desc": "La legge non riconosce il vincolo di parentela oltre il sesto grado, salvo che per alcuni effetti specificamente determinati.",
+      "tags": ["persone", "famiglia"]
+    },
+    {
+      "id": "cc-78", "ref": "Art. 78 c.c.", "fonte": "c.c.", "sec": "58",
+      "tema": "Affinità",
+      "desc": "L'affinità è il vincolo tra un coniuge e i parenti dell'altro; il grado è quello di parentela tra l'affine e il coniuge. Non cessa con la morte del coniuge, ma cessa se il matrimonio è dichiarato nullo.",
+      "es": "Suocera e nuora sono affini di primo grado; il marito e la sorella della moglie di secondo.",
+      "tags": ["persone", "famiglia"]
+    },
+    {
+      "id": "cc-48", "ref": "Art. 48 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Scomparsa",
+      "desc": "Quando una persona si è allontanata dall'ultimo domicilio o residenza e non se ne hanno notizie oltre il tempo giustificabile, il tribunale può nominare un curatore e dare provvedimenti conservativi del patrimonio.",
+      "tags": ["persone", "assenza"]
+    },
+    {
+      "id": "cc-49", "ref": "Art. 49 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Dichiarazione di assenza (oltre 2 anni)",
+      "desc": "Trascorsi due anni dall'ultima notizia, il tribunale può dichiarare l'assenza.",
+      "tags": ["persone", "assenza"],
+      "links": [{ "to": "cc-50", "why": "Effetti: apertura dei testamenti e immissione nel possesso temporaneo (art. 50)." }]
+    },
+    {
+      "id": "cc-50", "ref": "Art. 50 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Immissione nel possesso temporaneo dei beni dell'assente",
+      "desc": "Dichiarata l'assenza, il tribunale ordina l'apertura dei testamenti e immette nel possesso temporaneo dei beni chi sarebbe erede se l'assente fosse morto il giorno dell'ultima notizia.",
+      "tags": ["persone", "assenza"]
+    },
+    {
+      "id": "cc-54", "ref": "Art. 54 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Divieto di disporre dei beni dell'assente",
+      "desc": "Gli immessi nel possesso temporaneo non possono alienare, ipotecare o dare in pegno i beni dell'assente, se non per necessità o utilità evidente riconosciuta dal tribunale; ne hanno l'amministrazione e il godimento (frutti e rendite).",
+      "es": "Gli eredi dell'assente possono affittare la sua casa e tenere i canoni, ma non venderla liberamente.",
+      "tags": ["persone", "assenza"]
+    },
+    {
+      "id": "cc-56", "ref": "Art. 56 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Ritorno dell'assente",
+      "desc": "Se l'assente ritorna o ne è provata l'esistenza, cessano gli effetti della dichiarazione e ha diritto alla restituzione dei beni, fermi gli atti di gestione e quelli autorizzati.",
+      "tags": ["persone", "assenza"]
+    },
+    {
+      "id": "cc-58", "ref": "Art. 58 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Dichiarazione di morte presunta (10 anni)",
+      "desc": "Trascorsi dieci anni dall'ultima notizia, il tribunale può dichiarare la morte presunta (bastano due anni per chi è scomparso in un infortunio, art. 60).",
+      "tags": ["persone", "assenza"],
+      "links": [{ "to": "cc-65", "why": "Con la morte presunta il coniuge può risposarsi (art. 65)." }]
+    },
+    {
+      "id": "cc-63", "ref": "Art. 63 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Effetti della morte presunta sui beni",
+      "desc": "Con la dichiarazione di morte presunta gli eredi conseguono la piena titolarità e disponibilità dei beni, con l'obbligo dell'inventario.",
+      "tags": ["persone", "assenza"]
+    },
+    {
+      "id": "cc-65", "ref": "Art. 65 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Nuovo matrimonio del coniuge del presunto morto",
+      "desc": "Divenuta eseguibile la sentenza di morte presunta, il coniuge può contrarre nuovo matrimonio.",
+      "tags": ["persone", "assenza"]
+    },
+    {
+      "id": "cc-68", "ref": "Art. 68 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Ritorno del presunto morto: nullità del nuovo matrimonio",
+      "desc": "Se la persona di cui è stata dichiarata la morte presunta ritorna, il nuovo matrimonio del coniuge è nullo, salvi gli effetti del matrimonio putativo. La persona recupera i beni, fermi gli atti compiuti.",
+      "es": "Il marito creduto morto torna dopo 12 anni: il nuovo matrimonio della moglie è nullo, ma lei in buona fede è tutelata come coniuge putativo.",
+      "tags": ["persone", "assenza"]
+    },
+    {
+      "id": "cc-191", "ref": "Art. 191 c.c.", "fonte": "c.c.", "sec": "59",
+      "tema": "Cause di scioglimento della comunione legale",
+      "desc": "La comunione legale si scioglie, tra l'altro, per dichiarazione di assenza o di morte presunta di uno dei coniugi.",
+      "tags": ["persone", "assenza", "famiglia"]
+    },
+    {
+      "id": "cc-451", "ref": "Art. 451 c.c.", "fonte": "c.c.", "sec": "60",
+      "tema": "Efficacia probatoria degli atti dello stato civile",
+      "desc": "Gli atti fanno prova, fino a querela di falso, di ciò che l'ufficiale attesta avvenuto in sua presenza o da lui compiuto (c. 1); le dichiarazioni dei comparenti si presumono vere fino a prova contraria (c. 2).",
+      "es": "Che il matrimonio sia stato celebrato davanti all'ufficiale: si contesta solo con querela di falso. L'indirizzo dichiarato dagli sposi: basta la prova contraria.",
+      "tags": ["persone", "stato-civile"]
+    },
+    {
+      "id": "cc-450", "ref": "Art. 450 c.c.", "fonte": "c.c.", "sec": "60",
+      "tema": "Pubblicità dei registri dello stato civile",
+      "desc": "I registri dello stato civile sono pubblici: chiunque può chiederne estratti e certificati. Svolgono una funzione di pubblicità-notizia.",
+      "tags": ["persone", "stato-civile"]
+    }
+  ],
+  "concepts": [
+    { "id": "k7-iure-sang", "sec": "57", "term": "Iure sanguinis", "def": "Acquisto della cittadinanza per nascita da almeno un genitore cittadino" },
+    { "id": "k7-iure-soli", "sec": "57", "term": "Iure soli", "def": "Acquisto della cittadinanza per nascita in Italia, solo da genitori ignoti, apolidi o che non la trasmettono" },
+    { "id": "k7-iuris-comm", "sec": "57", "term": "Iuris communicatio", "def": "Acquisto della cittadinanza da parte del coniuge o partner straniero di un cittadino" },
+    { "id": "k7-naturalizz", "sec": "57", "term": "Naturalizzazione", "def": "Concessione discrezionale della cittadinanza con decreto del Presidente della Repubblica, dopo anni di residenza legale" },
+    { "id": "k7-giuramento", "sec": "57", "term": "Giuramento", "def": "Momento da cui ha effetto la cittadinanza per matrimonio o naturalizzazione" },
+    { "id": "k7-status-fam", "sec": "58", "term": "Status familiae", "def": "Insieme di diritti e doveri derivanti dall'appartenenza a una famiglia" },
+    { "id": "k7-stipite", "sec": "58", "term": "Stipite", "def": "Persona comune da cui discendono i parenti; non si conta nel calcolo dei gradi" },
+    { "id": "k7-linea-retta", "sec": "58", "term": "Parentela in linea retta", "def": "Vincolo tra persone che discendono l'una dall'altra (padre e figlio, nonno e nipote)" },
+    { "id": "k7-linea-coll", "sec": "58", "term": "Parentela in linea collaterale", "def": "Vincolo tra persone con stipite comune che non discendono l'una dall'altra (fratelli, cugini)" },
+    { "id": "k7-affinita", "sec": "58", "term": "Affinità", "def": "Vincolo tra un coniuge e i parenti dell'altro coniuge" },
+    { "id": "k7-adfines", "sec": "58", "term": "Adfines inter se non sunt adfines", "def": "Gli affini di un coniuge non sono affini dell'altro (i mariti di due sorelle non sono affini)" },
+    { "id": "k7-coniugio", "sec": "58", "term": "Coniugio", "def": "Relazione tra coniugi, che non sono né parenti né affini" },
+    { "id": "k7-scomparsa", "sec": "59", "term": "Scomparsa", "def": "Mancanza di notizie oltre il tempo giustificabile: misure conservative del patrimonio" },
+    { "id": "k7-assenza", "sec": "59", "term": "Assenza", "def": "Mancanza di notizie da oltre due anni: possesso temporaneo dei beni agli eredi, senza scioglimento del matrimonio" },
+    { "id": "k7-morte-presunta", "sec": "59", "term": "Morte presunta", "def": "Mancanza di notizie da dieci anni: produce gli effetti della morte, il coniuge può risposarsi" },
+    { "id": "k7-poss-temp", "sec": "59", "term": "Possesso temporaneo", "def": "Amministrazione e godimento dei beni dell'assente da parte degli eredi, senza poterne disporre" },
+    { "id": "k7-putativo", "sec": "59", "term": "Matrimonio putativo", "def": "Matrimonio nullo di cui si conservano alcuni effetti a favore del coniuge in buona fede" },
+    { "id": "k7-stato-civile", "sec": "60", "term": "Atti dello stato civile", "def": "Atti pubblici dei comuni su cittadinanza, nascita, matrimonio, unione civile e morte" },
+    { "id": "k7-querela", "sec": "60", "term": "Querela di falso", "def": "Procedura necessaria per contestare ciò che il pubblico ufficiale attesta in un atto pubblico" },
+    { "id": "k7-rettificazione", "sec": "60", "term": "Rettificazione", "def": "Correzione di un atto dello stato civile, possibile solo con decreto motivato del tribunale" },
+    { "id": "k7-pubbl-notizia", "sec": "60", "term": "Pubblicità-notizia", "def": "Funzione dei registri dello stato civile di rendere conoscibili le vicende della persona (es. interdizione annotata)" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx7-cittadinanza", "sec": "57", "title": "Come si acquista la cittadinanza in questo caso?",
+      "cols": ["Iure sanguinis", "Iure soli", "Iuris communicatio", "Naturalizzazione"],
+      "facts": [
+        ["Almeno un genitore cittadino", 0],
+        ["Nato in Italia da genitori ignoti o apolidi", 1],
+        ["Coniuge di cittadino, dopo 2 anni di residenza legale in Italia", 2],
+        ["Decreto discrezionale del Presidente della Repubblica", 3],
+        ["Straniero residente legalmente da 10 anni", 3],
+        ["Limitato dall'art. 3-bis per i nati all'estero con altra cittadinanza", 0],
+        ["Partner dell'unione civile di cittadino", 2]
+      ]
+    },
+    {
+      "id": "cx7-parentela", "sec": "58", "title": "Parentela, affinità o coniugio?",
+      "cols": ["Parentela", "Affinità", "Coniugio"],
+      "facts": [
+        ["Fratello e sorella", 0],
+        ["Suocera e nuora", 1],
+        ["Marito e moglie", 2],
+        ["Il marito e la sorella della moglie", 1],
+        ["Due cugini", 0],
+        ["Zio e nipote", 0],
+        ["Non ha gradi", 2]
+      ]
+    },
+    {
+      "id": "cx7-grado", "sec": "58", "title": "Di che grado sono parenti?",
+      "cols": ["1° grado", "2° grado", "3° grado", "4° grado"],
+      "facts": [
+        ["Padre e figlio", 0],
+        ["Nonno e nipote", 1],
+        ["Fratelli", 1],
+        ["Zio e nipote", 2],
+        ["Cugini (figli di fratelli)", 3]
+      ]
+    },
+    {
+      "id": "cx7-assenza", "sec": "59", "title": "Scomparsa, assenza o morte presunta?",
+      "cols": ["Scomparsa", "Assenza", "Morte presunta"],
+      "facts": [
+        ["Mancanza di notizie oltre il tempo giustificabile", 0],
+        ["Mancanza di notizie da oltre 2 anni", 1],
+        ["Mancanza di notizie da 10 anni (2 per infortunio)", 2],
+        ["Curatore per la conservazione del patrimonio", 0],
+        ["Possesso temporaneo: amministrazione e godimento, non disposizione", 1],
+        ["Piena titolarità e disponibilità dei beni agli eredi", 2],
+        ["Il coniuge può risposarsi", 2],
+        ["Il matrimonio resta, ma si scioglie la comunione legale", 1]
+      ]
+    },
+    {
+      "id": "cx7-stato-civile", "sec": "60", "title": "Come si contesta questo contenuto dell'atto di stato civile?",
+      "cols": ["Querela di falso", "Prova contraria"],
+      "facts": [
+        ["Ciò che l'ufficiale attesta avvenuto in sua presenza", 0],
+        ["Ciò che i comparenti dichiarano", 1],
+        ["Art. 451, c. 1, c.c.", 0],
+        ["Art. 451, c. 2, c.c.", 1]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf7c-1", "sec": "57", "s": "In Italia vale lo ius soli come regola generale.", "v": false, "why": "Lo iure soli opera solo per figli di genitori ignoti, apolidi o che non trasmettono la cittadinanza." },
+    { "id": "tf7c-2", "sec": "57", "s": "Il figlio di un italiano è sempre cittadino, ovunque nasca.", "v": false, "why": "Dal 2025 l'art. 3-bis limita lo iure sanguinis per i nati all'estero con altra cittadinanza." },
+    { "id": "tf7c-3", "sec": "57", "s": "La naturalizzazione è un provvedimento discrezionale.", "v": true, "why": "«Può essere concessa» con decreto del Presidente della Repubblica." },
+    { "id": "tf7c-4", "sec": "57", "s": "Il cittadino italiano perde la cittadinanza se ne acquista un'altra.", "v": false, "why": "La doppia cittadinanza è ammessa (art. 11 L. 91/1992)." },
+    { "id": "tf7c-5", "sec": "58", "s": "I coniugi sono parenti di primo grado.", "v": false, "why": "Tra coniugi non c'è parentela né affinità: c'è coniugio." },
+    { "id": "tf7c-6", "sec": "58", "s": "I mariti di due sorelle sono affini tra loro.", "v": false, "why": "Adfines inter se non sunt adfines." },
+    { "id": "tf7c-7", "sec": "58", "s": "Nel calcolo dei gradi si conta anche lo stipite.", "v": false, "why": "Si contano le persone e si toglie lo stipite (art. 76)." },
+    { "id": "tf7c-8", "sec": "58", "s": "L'affinità cessa con la morte del coniuge.", "v": false, "why": "Non cessa con la morte; cessa se il matrimonio è dichiarato nullo." },
+    { "id": "tf7c-9", "sec": "58", "s": "Due cugini figli di fratelli sono parenti di quarto grado.", "v": true, "why": "Cugino, padre, nonno, zio, cugino = 5 meno lo stipite." },
+    { "id": "tf7c-10", "sec": "58", "s": "L'adozione di un maggiorenne crea rapporti di parentela con i parenti dell'adottante.", "v": false, "why": "Solo l'adozione di minori crea parentela (art. 74; Corte cost. 79/2022)." },
+    { "id": "tf7c-11", "sec": "59", "s": "Con la dichiarazione di assenza il coniuge può risposarsi.", "v": false, "why": "L'assenza non scioglie il matrimonio; si può solo con la morte presunta." },
+    { "id": "tf7c-12", "sec": "59", "s": "Gli immessi nel possesso temporaneo possono vendere liberamente i beni dell'assente.", "v": false, "why": "Solo per necessità o utilità evidente autorizzata dal tribunale (art. 54)." },
+    { "id": "tf7c-13", "sec": "59", "s": "Se il presunto morto ritorna, gli atti di disposizione compiuti dagli eredi sono travolti.", "v": false, "why": "Restano fermi; la persona recupera i beni nello stato in cui si trovano." },
+    { "id": "tf7c-14", "sec": "59", "s": "Per chi scompare in un infortunio la morte presunta si dichiara dopo due anni.", "v": true, "why": "Art. 60, c. 1, n. 3, c.c." },
+    { "id": "tf7c-15", "sec": "60", "s": "Le dichiarazioni dei privati contenute nell'atto di stato civile fanno prova fino a querela di falso.", "v": false, "why": "Si presumono vere fino a prova contraria (art. 451, c. 2)." },
+    { "id": "tf7c-16", "sec": "60", "s": "L'ufficiale dello stato civile può correggere da sé un atto sbagliato.", "v": false, "why": "Serve un decreto motivato del tribunale." }
+  ],
+  "sequences": [
+    {
+      "id": "seq7-assenza", "sec": "59", "title": "Gli istituti della persona di cui si perdono le tracce",
+      "prompt": "Metti in ordine, dal più lieve al più incisivo",
+      "steps": ["Scomparsa: curatore e misure conservative", "Assenza (2 anni): possesso temporaneo dei beni", "Morte presunta (10 anni): effetti della morte"]
+    }
+  ],
+  "cases": [
+    { "id": "c7c-1", "sec": "57", "text": "Un bambino nasce a Milano da genitori ignoti.", "q": "È cittadino italiano?", "ok": "Sì, iure soli", "no": ["No: in Italia non c'è lo ius soli", "Solo a 18 anni, se lo chiede", "Solo se viene adottato"], "why": "Art. 1, c. 1, lett. b, L. 91/1992." },
+    { "id": "c7c-2", "sec": "57", "text": "Una donna brasiliana sposa un italiano e vive con lui a Torino da due anni.", "q": "Come può diventare cittadina?", "ok": "Per iuris communicatio, su istanza, con conoscenza dell'italiano e giuramento", "no": ["Automaticamente con le nozze", "Solo per naturalizzazione dopo 10 anni", "Non può"], "why": "Art. 5 L. 91/1992." },
+    { "id": "c7c-3", "sec": "58", "text": "Luca e Marta sono figli di due fratelli.", "q": "Che rapporto c'è tra loro?", "ok": "Parenti in linea collaterale di quarto grado", "no": ["Parenti di secondo grado", "Affini di quarto grado", "Nessun rapporto giuridico"], "why": "Cugini: 5 persone meno lo stipite (art. 76)." },
+    { "id": "c7c-4", "sec": "58", "text": "Anna è sposata con Paolo. Il fratello di Paolo è Giorgio.", "q": "Che rapporto c'è tra Anna e Giorgio?", "ok": "Affini di secondo grado", "no": ["Parenti di secondo grado", "Nessuno", "Affini di primo grado"], "why": "Art. 78: il grado è quello di parentela tra Giorgio e Paolo (fratelli, 2°)." },
+    { "id": "c7c-5", "sec": "58", "text": "Marco è sposato con Laura; Stefano è sposato con la sorella di Laura.", "q": "Marco e Stefano sono affini?", "ok": "No: adfines inter se non sunt adfines", "no": ["Sì, di secondo grado", "Sì, di primo grado", "Sono parenti"], "why": "Gli affini di un coniuge non sono affini dell'altro." },
+    { "id": "c7c-6", "sec": "59", "text": "Di Franco non si hanno notizie da tre anni. I parenti vogliono vendere la sua casa.", "q": "Possono farlo?", "ok": "No: con l'assenza hanno solo il possesso temporaneo, salvo autorizzazione per necessità", "no": ["Sì, sono eredi", "Sì, dopo due anni tutto è loro", "Sì, se il coniuge acconsente"], "why": "Art. 54 c.c." },
+    { "id": "c7c-7", "sec": "59", "text": "Dichiarata la morte presunta del marito, la moglie si risposa. Dopo anni il marito ritorna.", "q": "Che sorte ha il secondo matrimonio?", "ok": "È nullo, salvi gli effetti del matrimonio putativo", "no": ["Resta valido", "Si scioglie per divorzio automatico", "È annullabile solo dal primo marito"], "why": "Art. 68 c.c." },
+    { "id": "c7c-8", "sec": "59", "text": "Durante un'escursione in montagna Giulia scompare in una valanga e non viene più trovata.", "q": "Dopo quanto tempo si può dichiarare la morte presunta?", "ok": "Due anni: è scomparsa in un infortunio", "no": ["Dieci anni come sempre", "Subito", "Venti anni"], "why": "Art. 60, c. 1, n. 3, c.c." },
+    { "id": "c7c-9", "sec": "60", "text": "Nell'atto di nascita l'ufficiale ha scritto male il cognome del bambino.", "q": "Come si corregge?", "ok": "Con decreto motivato del tribunale (rettificazione)", "no": ["Lo corregge l'ufficiale da solo", "Con una semplice autocertificazione", "Non si può correggere"], "why": "Artt. 95 ss. D.P.R. 396/2000." }
+  ]
+}

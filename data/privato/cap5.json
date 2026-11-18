@@ -1,0 +1,152 @@
+{
+  "id": "cap5",
+  "num": 5,
+  "title": "La condizione dello straniero",
+  "source": "Manuale, Cap. V, § 32 (i §§ 27-31 non sono oggetto d'esame)",
+  "sections": [
+    { "id": "32", "title": "La condizione dello straniero" }
+  ],
+  "lessons": [
+    { "id": "c5-l1", "title": "Lo straniero", "secs": ["32"] }
+  ],
+  "articles": [
+    {
+      "id": "cost-10-2", "ref": "Art. 10, c. 2, Cost.", "fonte": "Cost.", "sec": "32",
+      "tema": "Condizione giuridica dello straniero regolata dalla legge",
+      "desc": "La condizione giuridica dello straniero è regolata dalla legge in conformità delle norme e dei trattati internazionali.",
+      "tags": ["straniero"],
+      "links": [{ "to": "dp-16", "why": "L'art. 16 disp. prel. (reciprocità) va letto alla luce degli artt. 2, 3 e 10 Cost." }]
+    },
+    {
+      "id": "cost-10-3", "ref": "Art. 10, c. 3, Cost.", "fonte": "Cost.", "sec": "32",
+      "tema": "Diritto d'asilo",
+      "desc": "Lo straniero al quale nel suo Paese è impedito l'effettivo esercizio delle libertà democratiche garantite dalla Costituzione italiana ha diritto d'asilo nel territorio della Repubblica.",
+      "es": "Un dissidente a cui nel suo Paese è vietato votare liberamente e manifestare il pensiero può chiedere asilo in Italia.",
+      "tags": ["straniero"],
+      "links": [{ "to": "cost-10-4", "why": "Asilo (c. 3) e divieto di estradizione per reati politici (c. 4): le due garanzie costituzionali dello straniero, da non confondere." }]
+    },
+    {
+      "id": "cost-10-4", "ref": "Art. 10, c. 4, Cost.", "fonte": "Cost.", "sec": "32",
+      "tema": "Divieto di estradizione dello straniero per reati politici",
+      "desc": "Non è ammessa l'estradizione dello straniero per reati politici.",
+      "tags": ["straniero"]
+    },
+    {
+      "id": "dp-16", "ref": "Art. 16 disp. prel. c.c.", "fonte": "disp. prel.", "sec": "32",
+      "tema": "Trattamento dello straniero: principio di reciprocità",
+      "desc": "Lo straniero è ammesso a godere dei diritti civili attribuiti al cittadino a condizione di reciprocità (vale anche per le persone giuridiche straniere, c. 2). Oggi è un limite residuale: non vale per i diritti fondamentali né per i cittadini UE.",
+      "es": "Un cittadino extracomunitario vuole acquistare un immobile in Italia: la reciprocità può contare; per il diritto alla salute, che è fondamentale, no.",
+      "tags": ["straniero"],
+      "links": [{ "to": "dlgs286-2", "why": "L'art. 2 del T.U. immigrazione riconosce i diritti fondamentali allo straniero comunque presente, senza reciprocità." }]
+    },
+    {
+      "id": "dlgs286-2", "ref": "Art. 2 D.Lgs. 286/1998", "fonte": "D.Lgs. 286/1998", "sec": "32",
+      "tema": "Diritti dello straniero nel Testo unico immigrazione",
+      "desc": "C. 1: allo straniero comunque presente (anche irregolare) spettano i diritti fondamentali della persona. C. 2: allo straniero regolarmente soggiornante i diritti civili del cittadino, salvo diversa disposizione. C. 3: ai lavoratori stranieri regolari parità di trattamento con gli italiani.",
+      "es": "Uno straniero senza permesso di soggiorno ha comunque diritto alle cure urgenti: è un diritto fondamentale (c. 1).",
+      "tags": ["straniero"]
+    },
+    {
+      "id": "tfue-20", "ref": "Art. 20 TFUE", "fonte": "TFUE", "sec": "32",
+      "tema": "Cittadinanza dell'Unione",
+      "desc": "È cittadino dell'Unione chiunque abbia la cittadinanza di uno Stato membro: la cittadinanza europea si aggiunge a quella nazionale e non la sostituisce. I cittadini UE godono dei diritti e sono soggetti ai doveri previsti nei trattati (par. 2).",
+      "es": "Una studentessa francese a Milano è cittadina dell'Unione: niente reciprocità, ha la parità di trattamento.",
+      "tags": ["straniero", "fonti-ue"],
+      "links": [
+        { "to": "tue-9", "why": "Anche l'art. 9 TUE disciplina la cittadinanza dell'Unione." },
+        { "to": "tfue-21-24", "why": "Gli artt. 21-24 TFUE elencano i diritti del cittadino europeo." }
+      ]
+    },
+    {
+      "id": "tue-9", "ref": "Art. 9 TUE", "fonte": "TUE", "sec": "32",
+      "tema": "Cittadinanza dell'Unione (complemento di quella nazionale)",
+      "desc": "Introdotta dal Trattato di Maastricht (1992): è cittadino dell'Unione chiunque abbia la cittadinanza di uno Stato membro; si aggiunge alla cittadinanza nazionale senza sostituirla.",
+      "tags": ["straniero", "fonti-ue"]
+    },
+    {
+      "id": "tfue-21-24", "ref": "Artt. 21-24 TFUE", "fonte": "TFUE", "sec": "32",
+      "tema": "Diritti del cittadino europeo",
+      "desc": "Libertà di circolazione e soggiorno negli Stati membri; voto ed eleggibilità alle comunali e alle europee nello Stato di residenza; tutela diplomatica di qualsiasi Stato membro nei Paesi terzi; petizione al Parlamento europeo, ricorso al Mediatore, diritto di rivolgersi alle istituzioni. Non sono specificati doveri.",
+      "es": "Un tedesco residente a Bologna può votare alle elezioni comunali di Bologna.",
+      "tags": ["straniero", "fonti-ue"]
+    },
+    { "id": "cost-2", "sec": "32" },
+    { "id": "cost-3-1", "sec": "32" }
+  ],
+  "concepts": [
+    { "id": "k5-cittadinanza", "sec": "32", "term": "Cittadinanza", "def": "Appartenenza della persona fisica a un dato Stato" },
+    { "id": "k5-straniero", "sec": "32", "term": "Straniero", "def": "Chi non ha la cittadinanza italiana" },
+    { "id": "k5-apolide", "sec": "32", "term": "Apolide", "def": "Persona priva di qualsiasi cittadinanza" },
+    { "id": "k5-comunitario", "sec": "32", "term": "Cittadino comunitario", "def": "Cittadino di un altro Stato membro dell'Unione europea" },
+    { "id": "k5-extracom", "sec": "32", "term": "Extracomunitario", "def": "Cittadino di uno Stato non membro dell'Unione europea" },
+    { "id": "k5-citt-ue", "sec": "32", "term": "Cittadinanza dell'Unione", "def": "Status di chi ha la cittadinanza di uno Stato membro, che si aggiunge a quella nazionale (artt. 9 TUE, 20 TFUE)" },
+    { "id": "k5-asilo", "sec": "32", "term": "Diritto d'asilo", "def": "Diritto dello straniero a cui nel suo Paese è impedito l'esercizio delle libertà democratiche (art. 10, c. 3, Cost.)" },
+    { "id": "k5-estradizione", "sec": "32", "term": "Estradizione", "def": "Consegna di una persona a un altro Stato perché vi sia processata o sconti una pena; vietata per i reati politici dello straniero" },
+    { "id": "k5-regolare", "sec": "32", "term": "Straniero regolarmente soggiornante", "def": "Straniero presente in Italia con un titolo di soggiorno valido" },
+    { "id": "k5-reciprocita", "sec": "32", "term": "Principio di reciprocità", "def": "Lo straniero gode in Italia dei diritti civili nella misura in cui l'italiano ne gode nel suo Paese (art. 16 disp. prel.)" },
+    { "id": "k5-tu-immigr", "sec": "32", "term": "Testo unico immigrazione", "def": "D.Lgs. 25 luglio 1998, n. 286: disciplina dell'immigrazione e condizione dello straniero" },
+    { "id": "k5-ord-pubbl-int", "sec": "32", "term": "Ordine pubblico internazionale", "def": "Principi fondamentali e diritti dell'uomo che impediscono l'applicazione della legge straniera (§ 30-bis, solo inquadramento)" },
+    { "id": "k5-lex-fori", "sec": "32", "term": "Lex fori", "def": "Legge del luogo in cui pende la controversia (§§ 27-31, solo inquadramento)" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx5-stranieri", "sec": "32", "title": "Quale tutela spetta a questo straniero?",
+      "cols": ["Comunque presente (anche irregolare)", "Regolarmente soggiornante", "Lavoratore regolare"],
+      "facts": [
+        ["Diritti fondamentali della persona umana", 0],
+        ["Diritti civili del cittadino, salvo diversa disposizione", 1],
+        ["Parità di trattamento e piena eguaglianza con i lavoratori italiani", 2],
+        ["Art. 2, c. 1, D.Lgs. 286/1998", 0],
+        ["Art. 2, c. 2, D.Lgs. 286/1998", 1],
+        ["Art. 2, c. 3, D.Lgs. 286/1998", 2]
+      ]
+    },
+    {
+      "id": "cx5-ue-extra", "sec": "32", "title": "Cittadino UE o extracomunitario?",
+      "cols": ["Cittadino UE", "Extracomunitario"],
+      "facts": [
+        ["Ha la cittadinanza dell'Unione, complemento di quella nazionale", 0],
+        ["È straniero in senso pieno", 1],
+        ["Fonte: i Trattati (artt. 20-24 TFUE)", 0],
+        ["Fonte: D.Lgs. 286/1998 e art. 10 Cost.", 1],
+        ["Per gli altri diritti civili: parità di trattamento", 0],
+        ["Per i diritti civili non fondamentali può valere la reciprocità", 1]
+      ]
+    },
+    {
+      "id": "cx5-garanzie", "sec": "32", "title": "Asilo o divieto di estradizione?",
+      "cols": ["Diritto d'asilo", "Divieto di estradizione"],
+      "facts": [
+        ["Art. 10, c. 3, Cost.", 0],
+        ["Art. 10, c. 4, Cost.", 1],
+        ["Allo straniero è impedito nel suo Paese l'esercizio delle libertà democratiche", 0],
+        ["Riguarda i reati politici", 1]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf5-1", "sec": "32", "s": "La reciprocità condiziona ancora tutti i diritti dello straniero, anche quelli fondamentali.", "v": false, "why": "I diritti inviolabili spettano a chiunque: la giurisprudenza legge l'art. 16 disp. prel. alla luce degli artt. 2, 3 e 10 Cost." },
+    { "id": "tf5-2", "sec": "32", "s": "La reciprocità si applica ai cittadini di altri Stati UE.", "v": false, "why": "I cittadini UE godono della parità di trattamento garantita dai trattati." },
+    { "id": "tf5-3", "sec": "32", "s": "La cittadinanza europea sostituisce quella nazionale.", "v": false, "why": "Si aggiunge a quella nazionale e si ha solo se si è cittadini di uno Stato membro." },
+    { "id": "tf5-4", "sec": "32", "s": "La cittadinanza europea impone doveri specifici ai cittadini.", "v": false, "why": "Non risultano specificati doveri che ne discendano." },
+    { "id": "tf5-5", "sec": "32", "s": "Anche lo straniero irregolare ha i diritti fondamentali della persona.", "v": true, "why": "Art. 2, c. 1, D.Lgs. 286/1998: allo straniero comunque presente." },
+    { "id": "tf5-6", "sec": "32", "s": "La cittadinanza dell'Unione è stata introdotta dal Trattato di Maastricht.", "v": true, "why": "Nel 1992; oggi artt. 9 TUE e 20 TFUE." },
+    { "id": "tf5-7", "sec": "32", "s": "Il diritto d'asilo e il divieto di estradizione per reati politici sono previsti dallo stesso comma dell'art. 10 Cost.", "v": false, "why": "Asilo: comma 3; divieto di estradizione: comma 4." },
+    { "id": "tf5-8", "sec": "32", "s": "Il principio di reciprocità vale anche per le persone giuridiche straniere.", "v": true, "why": "Art. 16, c. 2, disp. prel." },
+    { "id": "tf5-9", "sec": "32", "s": "L'apolide è chi ha due cittadinanze.", "v": false, "why": "È chi non ha alcuna cittadinanza." }
+  ],
+  "sequences": [
+    {
+      "id": "seq5-recipr", "sec": "32", "title": "Il percorso sulla reciprocità",
+      "prompt": "Metti in ordine l'evoluzione",
+      "steps": ["Art. 16 disp. prel. (1942): reciprocità generale", "Art. 2 D.Lgs. 286/1998: diritti fondamentali a chiunque", "Interpretazione costituzionalmente orientata (artt. 2, 3, 10 Cost.): niente reciprocità per i diritti inviolabili"]
+    }
+  ],
+  "cases": [
+    { "id": "c5-1", "sec": "32", "text": "Un cittadino tedesco vive a Bologna.", "q": "Può votare alle elezioni comunali di Bologna?", "ok": "Sì: è un diritto della cittadinanza europea", "no": ["No: solo i cittadini italiani votano", "Solo se c'è reciprocità con la Germania", "Solo dopo dieci anni di residenza"], "why": "Artt. 21-24 TFUE: voto ed eleggibilità alle comunali e alle europee nello Stato di residenza." },
+    { "id": "c5-2", "sec": "32", "text": "Uno straniero senza permesso di soggiorno ha bisogno di cure mediche urgenti.", "q": "Ha diritto alla tutela della salute?", "ok": "Sì: è un diritto fondamentale dello straniero comunque presente", "no": ["No: è irregolare", "Solo se il suo Paese garantisce lo stesso agli italiani", "Solo se è un lavoratore"], "why": "Art. 2, c. 1, D.Lgs. 286/1998 e artt. 2 e 32 Cost.: niente reciprocità per i diritti fondamentali." },
+    { "id": "c5-3", "sec": "32", "text": "Un cittadino extracomunitario regolarmente soggiornante vuole esercitare un diritto civile che non è fondamentale.", "q": "Come è trattato?", "ok": "Come il cittadino italiano, salvo diversa disposizione di convenzioni o T.U.", "no": ["Non ha alcun diritto civile", "Gli serve sempre la cittadinanza italiana", "Ha più diritti di un cittadino UE"], "why": "Art. 2, c. 2, D.Lgs. 286/1998." },
+    { "id": "c5-4", "sec": "32", "text": "Nel suo Paese a Karim è impedito di votare liberamente e manifestare il pensiero.", "q": "Che cosa gli garantisce la Costituzione italiana?", "ok": "Il diritto d'asilo (art. 10, c. 3, Cost.)", "no": ["Solo il divieto di estradizione", "La cittadinanza italiana automatica", "Nulla, finché non trova lavoro"], "why": "L'asilo spetta allo straniero a cui è impedito l'esercizio delle libertà democratiche." },
+    { "id": "c5-5", "sec": "32", "text": "Uno Stato estero chiede all'Italia di consegnare uno straniero accusato di un reato politico.", "q": "L'Italia può estradarlo?", "ok": "No: l'estradizione per reati politici è vietata (art. 10, c. 4)", "no": ["Sì, se c'è un trattato", "Sì, se lo decide il Governo", "Sì, se lo straniero è irregolare"], "why": "Garanzia costituzionale dello straniero." }
+  ]
+}

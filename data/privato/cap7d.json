@@ -1,0 +1,461 @@
+{
+  "id": "cap7d",
+  "num": 7,
+  "label": "7.4",
+  "title": "I diritti della personalità",
+  "source": "Manuale, Cap. VII, §§ 61-68 (studio individuale)",
+  "sections": [
+    { "id": "61", "title": "Nozione e caratteri" },
+    { "id": "62", "title": "Diritto alla vita" },
+    { "id": "63", "title": "Diritto alla salute" },
+    { "id": "64", "title": "Diritto al nome" },
+    { "id": "65", "title": "Diritto all'integrità morale" },
+    { "id": "66", "title": "Diritto all'immagine" },
+    { "id": "67", "title": "Riservatezza e protezione dei dati personali" },
+    { "id": "68", "title": "Diritto all'identità personale" }
+  ],
+  "lessons": [
+    { "id": "c7d-l1", "title": "Caratteri dei diritti della personalità", "secs": ["61"] },
+    { "id": "c7d-l2", "title": "Diritto alla vita e fine vita", "secs": ["62"] },
+    { "id": "c7d-l3", "title": "Diritto alla salute", "secs": ["63"] },
+    { "id": "c7d-l4", "title": "Il nome", "secs": ["64"] },
+    { "id": "c7d-l5", "title": "Onore e immagine", "secs": ["65", "66"] },
+    { "id": "c7d-l6", "title": "Privacy e identità personale", "secs": ["67", "68"] }
+  ],
+  "articles": [
+    { "id": "cost-2", "sec": "61" },
+    {
+      "id": "cost-21", "ref": "Art. 21 Cost.", "fonte": "Cost.", "sec": "65",
+      "tema": "Libertà di manifestazione del pensiero e di stampa",
+      "desc": "Tutti hanno diritto di manifestare liberamente il proprio pensiero con ogni mezzo di diffusione: fonda i diritti di cronaca e di critica, da bilanciare con l'integrità morale.",
+      "tags": ["personalita"],
+      "links": [{ "to": "cp-595", "why": "La cronaca prevale sull'onore (e non c'è diffamazione) solo con verità, utilità sociale e continenza." }]
+    },
+    {
+      "id": "cp-579", "ref": "Art. 579 c.p.", "fonte": "c.p.", "sec": "62",
+      "tema": "Omicidio del consenziente",
+      "desc": "Punisce chi cagiona la morte di un uomo con il suo consenso. Resta sempre reato, anche nei casi della sentenza Cappato: l'eutanasia attiva è vietata.",
+      "es": "Il medico che, su richiesta del malato terminale, gli pratica un'iniezione letale commette questo reato.",
+      "tags": ["personalita", "vita"],
+      "links": [{ "to": "cp-580", "why": "Differenza: nell'art. 579 l'atto finale lo compie il terzo, nell'art. 580 il suicida stesso." }]
+    },
+    {
+      "id": "cp-580", "ref": "Art. 580 c.p.", "fonte": "c.p.", "sec": "62",
+      "tema": "Istigazione o aiuto al suicidio",
+      "desc": "Punisce chi determina altri al suicidio, ne rafforza il proposito o ne agevola l'esecuzione. Corte cost. 242/2019 (caso Cappato): l'aiuto è lecito se la persona ha una patologia irreversibile, sofferenze intollerabili, è tenuta in vita da sostegni vitali ed è capace di decidere.",
+      "es": "Marco Cappato accompagnò dj Fabo in Svizzera: con i quattro presupposti l'aiuto non è punibile.",
+      "tags": ["personalita", "vita"]
+    },
+    {
+      "id": "l219-1", "ref": "Art. 1 L. 219/2017", "fonte": "L. 219/2017", "sec": "62",
+      "tema": "Consenso informato e diritto di rifiutare le cure",
+      "desc": "Nessun trattamento sanitario senza il consenso libero e informato dell'interessato, anche se salvavita (nutrizione e idratazione artificiali comprese). Il medico deve rispettare il rifiuto; il consenso è revocabile e va documentato. In urgenza il medico cura il paziente incapace.",
+      "es": "Un testimone di Geova capace può rifiutare la trasfusione anche se rischia la vita.",
+      "tags": ["personalita", "vita", "salute"],
+      "links": [{ "to": "l219-4", "why": "Con le DAT si esprime oggi la volontà per il caso di futura incapacità." }]
+    },
+    {
+      "id": "l219-2", "ref": "Art. 2 L. 219/2017", "fonte": "L. 219/2017", "sec": "62",
+      "tema": "Divieto di accanimento terapeutico e terapia del dolore",
+      "desc": "Con prognosi infausta a breve o morte imminente il medico deve astenersi da ostinazione irragionevole e trattamenti inutili e sproporzionati; con sofferenze refrattarie può ricorrere alla sedazione palliativa profonda continua.",
+      "tags": ["personalita", "vita"]
+    },
+    {
+      "id": "l219-3", "ref": "Art. 3 L. 219/2017", "fonte": "L. 219/2017", "sec": "63",
+      "tema": "Consenso ai trattamenti per minori e incapaci",
+      "desc": "Per il minore decidono i genitori o il tutore, sentito il minore; per l'interdetto il tutore; per il beneficiario di AdS l'amministratore se ha la rappresentanza sanitaria; l'inabilitato decide da sé. Se il rappresentante rifiuta cure appropriate, decide il giudice tutelare.",
+      "tags": ["personalita", "salute"]
+    },
+    {
+      "id": "l219-4", "ref": "Art. 4 L. 219/2017", "fonte": "L. 219/2017", "sec": "62",
+      "tema": "Disposizioni anticipate di trattamento (DAT)",
+      "desc": "Il maggiorenne capace può esprimere ora per allora la volontà su esami e trattamenti per il caso di futura incapacità e nominare un fiduciario. Forma: atto pubblico, scrittura autenticata o consegnata all'ufficio di stato civile. Vincolanti per il medico, salvo disattenderle d'accordo con il fiduciario se incongrue o superate da nuove terapie. Revocabili.",
+      "es": "Una persona sana scrive che, se finisse in stato vegetativo, rifiuta la nutrizione artificiale.",
+      "tags": ["personalita", "vita"],
+      "links": [{ "to": "l219-5", "why": "DAT (chiunque, atto unilaterale) e pianificazione condivisa (paziente già malato, accordo con il medico)." }]
+    },
+    {
+      "id": "l219-5", "ref": "Art. 5 L. 219/2017", "fonte": "L. 219/2017", "sec": "62",
+      "tema": "Pianificazione condivisa delle cure",
+      "desc": "Il paziente con patologia cronica e invalidante o a prognosi infausta concorda per iscritto con il medico un piano di cure, vincolante per l'équipe anche se diventa incapace; aggiornabile in ogni momento.",
+      "tags": ["personalita", "vita"]
+    },
+    {
+      "id": "l194-4", "ref": "Art. 4 L. 194/1978", "fonte": "L. 194/1978", "sec": "62",
+      "tema": "Interruzione volontaria della gravidanza entro 90 giorni",
+      "desc": "Nei primi novanta giorni l'interruzione è sostanzialmente rimessa alla donna che accusi circostanze per cui la gravidanza o la maternità comporterebbero un serio pericolo per la sua salute fisica o psichica.",
+      "tags": ["personalita", "vita"],
+      "links": [{ "to": "l194-6", "why": "Dopo i 90 giorni servono presupposti molto più stretti (art. 6)." }]
+    },
+    {
+      "id": "l194-6", "ref": "Art. 6 L. 194/1978", "fonte": "L. 194/1978", "sec": "62",
+      "tema": "Interruzione della gravidanza dopo i 90 giorni",
+      "desc": "Solo se la gravidanza o il parto comportano un grave pericolo per la vita della donna, o processi patologici accertati (anche anomalie del nascituro) che determinano un grave pericolo per la sua salute fisica o psichica.",
+      "tags": ["personalita", "vita"]
+    },
+    {
+      "id": "cost-32-1", "ref": "Art. 32, c. 1, Cost.", "fonte": "Cost.", "sec": "63",
+      "tema": "La salute come fondamentale diritto dell'individuo",
+      "desc": "La Repubblica tutela la salute come fondamentale diritto dell'individuo e interesse della collettività, e garantisce cure gratuite agli indigenti.",
+      "tags": ["personalita", "salute"],
+      "links": [{ "to": "cost-32-2", "why": "La riserva di legge sui trattamenti obbligatori è nel comma 2, non nel comma 1." }]
+    },
+    {
+      "id": "cost-32-2", "ref": "Art. 32, c. 2, Cost.", "fonte": "Cost.", "sec": "63",
+      "tema": "Trattamenti sanitari obbligatori solo per legge",
+      "desc": "Nessuno può essere obbligato a un determinato trattamento sanitario se non per disposizione di legge, che non può violare i limiti del rispetto della persona umana. Il TSO si giustifica con la tutela della salute collettiva.",
+      "es": "Le vaccinazioni obbligatorie per l'iscrizione a scuola (D.L. 73/2017) sono previste da una legge.",
+      "tags": ["personalita", "salute"]
+    },
+    {
+      "id": "cc-5", "ref": "Art. 5 c.c.", "fonte": "c.c.", "sec": "63",
+      "tema": "Atti di disposizione del proprio corpo",
+      "desc": "Sono vietati quando cagionano una diminuzione permanente dell'integrità fisica o sono contrari alla legge, all'ordine pubblico o al buon costume. Deroghe legali: trapianto da vivente di rene e parti di fegato (gratuito e autorizzato), rettificazione di sesso. Non si applica ai trattamenti terapeutici.",
+      "es": "Donare il sangue è lecito; vendere una cornea no. Donare un rene a un familiare è ammesso per legge speciale.",
+      "tags": ["personalita", "salute"]
+    },
+    {
+      "id": "l210-1992", "ref": "Art. 1 L. 210/1992", "fonte": "L. 210/1992", "sec": "63",
+      "tema": "Indennizzo per danni da vaccinazione",
+      "desc": "Lo Stato indennizza chi ha riportato menomazioni permanenti da vaccinazioni obbligatorie; per la Corte costituzionale anche da vaccinazioni solo raccomandate con campagne diffuse (es. anti Covid). È indennizzo, non risarcimento: non presuppone un illecito.",
+      "tags": ["personalita", "salute"]
+    },
+    {
+      "id": "l91-1999", "ref": "L. 91/1999", "fonte": "L. 91/1999", "sec": "63",
+      "tema": "Prelievo di organi dopo la morte",
+      "desc": "Disciplina il prelievo di organi e tessuti a scopo di trapianto (esclusi gonadi ed encefalo). Prevede il silenzio-assenso, non ancora operativo perché il sistema di richiesta ai cittadini non è stato attivato.",
+      "tags": ["personalita", "salute"]
+    },
+    {
+      "id": "cc-6", "ref": "Art. 6 c.c.", "fonte": "c.c.", "sec": "64",
+      "tema": "Diritto al nome",
+      "desc": "Ogni persona ha diritto al nome che le è per legge attribuito; il nome comprende il prenome e il cognome. Non sono ammessi cambiamenti, aggiunte o rettifiche se non nei casi e con le formalità di legge (decreto del Prefetto).",
+      "tags": ["personalita", "nome"],
+      "links": [{ "to": "cc-7", "why": "L'art. 7 tutela il nome contro contestazione, usurpazione e uso indebito." }]
+    },
+    {
+      "id": "cc-7", "ref": "Art. 7 c.c.", "fonte": "c.c.", "sec": "64",
+      "tema": "Tutela del diritto al nome",
+      "desc": "Chi si vede contestare il diritto al nome, o subisce l'uso indebito del suo nome da parte di altri con pregiudizio, può chiedere la cessazione del fatto, il risarcimento e la pubblicazione della sentenza.",
+      "es": "Un'azienda chiama un liquore con il cognome di una nota famiglia locale, creando confusione: la famiglia può chiedere che smetta.",
+      "tags": ["personalita", "nome"]
+    },
+    {
+      "id": "cc-8", "ref": "Art. 8 c.c.", "fonte": "c.c.", "sec": "64",
+      "tema": "Tutela del nome per ragioni familiari",
+      "desc": "L'azione a tutela del nome può essere promossa anche da chi, pur non portando quel nome, ha un interesse fondato su ragioni familiari degne di protezione.",
+      "tags": ["personalita", "nome"]
+    },
+    {
+      "id": "cc-9", "ref": "Art. 9 c.c.", "fonte": "c.c.", "sec": "64",
+      "tema": "Tutela dello pseudonimo",
+      "desc": "Lo pseudonimo usato da una persona in modo che abbia acquistato l'importanza del nome può essere tutelato come il nome.",
+      "es": "«Jovanotti» per Lorenzo Cherubini, «Checco Zalone» per Luca Medici.",
+      "tags": ["personalita", "nome"]
+    },
+    {
+      "id": "cc-262", "ref": "Art. 262 c.c.", "fonte": "c.c.", "sec": "64",
+      "tema": "Cognome del figlio nato fuori del matrimonio",
+      "desc": "Il figlio assume il cognome del genitore che per primo lo ha riconosciuto; se riconosciuto contemporaneamente, dopo Corte cost. 131/2022 i cognomi di entrambi nell'ordine concordato, salvo accordo per uno solo. Se il padre riconosce dopo, il figlio può aggiungere, anteporre o sostituire il cognome paterno.",
+      "tags": ["personalita", "nome"]
+    },
+    {
+      "id": "cc-143-bis", "ref": "Art. 143-bis c.c.", "fonte": "c.c.", "sec": "64",
+      "tema": "Cognome della moglie",
+      "desc": "La moglie aggiunge al proprio il cognome del marito e lo conserva durante la vedovanza fino a nuove nozze. Con il divorzio lo perde, salvo autorizzazione del giudice per un interesse suo o dei figli.",
+      "tags": ["personalita", "nome"]
+    },
+    {
+      "id": "cc-299", "ref": "Art. 299 c.c.", "fonte": "c.c.", "sec": "64",
+      "tema": "Cognome del maggiorenne adottato",
+      "desc": "L'adottato maggiorenne assume il cognome dell'adottante e lo antepone al proprio; se entrambi consentono può aggiungerlo anziché anteporlo (Corte cost. 135/2023), ma non può sostituire il proprio cognome d'origine (Corte cost. 53/2025).",
+      "tags": ["personalita", "nome"]
+    },
+    {
+      "id": "cp-595", "ref": "Art. 595 c.p.", "fonte": "c.p.", "sec": "65",
+      "tema": "Diffamazione",
+      "desc": "Punisce chi offende l'altrui reputazione comunicando con più persone. La verità del fatto non scrimina (exceptio veritatis), ma la cronaca giornalistica sì, se c'è verità, utilità sociale e continenza.",
+      "es": "Dare pubblicamente dello «strozzino» a chi presta davvero a usura resta illecito, se non è legittima cronaca.",
+      "tags": ["personalita", "onore"]
+    },
+    {
+      "id": "cc-10", "ref": "Art. 10 c.c.", "fonte": "c.c.", "sec": "66",
+      "tema": "Abuso dell'immagine altrui",
+      "desc": "Se l'immagine di una persona è esposta o pubblicata fuori dai casi consentiti dalla legge, o con pregiudizio al decoro o alla reputazione, il giudice può disporre che cessi l'abuso, salvo il risarcimento.",
+      "tags": ["personalita", "immagine"],
+      "links": [{ "to": "laut-97", "why": "L'art. 97 L. aut. indica quando la pubblicazione è consentita senza consenso." }]
+    },
+    {
+      "id": "laut-96", "ref": "Art. 96 L. aut.", "fonte": "L. aut.", "sec": "66",
+      "tema": "Consenso alla pubblicazione del ritratto",
+      "desc": "Il ritratto di una persona non può essere esposto, riprodotto o messo in commercio senza il suo consenso. Il consenso è un negozio unilaterale revocabile, valido solo per i fini e i tempi indicati.",
+      "es": "L'attrice che posa per le foto di scena di un film non consente la loro pubblicazione su una rivista per adulti.",
+      "tags": ["personalita", "immagine"]
+    },
+    {
+      "id": "laut-97", "ref": "Art. 97 L. aut.", "fonte": "L. aut.", "sec": "66",
+      "tema": "Quando il ritratto si può pubblicare senza consenso",
+      "desc": "Non serve il consenso se la pubblicazione è giustificata da notorietà o ufficio pubblico, necessità di giustizia o polizia, scopi scientifici, didattici o culturali, fatti di interesse pubblico o svolti in pubblico (c. 1); ma è sempre vietata se lede onore, reputazione o decoro (c. 2).",
+      "es": "La foto del Presidente della Repubblica a una cerimonia sì; la foto dello stesso calciatore per pubblicizzare un'auto no.",
+      "tags": ["personalita", "immagine"]
+    },
+    {
+      "id": "cp-615-bis", "ref": "Art. 615-bis c.p.", "fonte": "c.p.", "sec": "67",
+      "tema": "Interferenze illecite nella vita privata",
+      "desc": "Punisce chi, con strumenti di ripresa visiva o sonora, si procura indebitamente notizie o immagini della vita privata svolta nei luoghi di privata dimora: uno dei fondamenti del diritto alla riservatezza.",
+      "tags": ["personalita", "privacy"]
+    },
+    {
+      "id": "carta-ue-8", "ref": "Art. 8 Carta UE", "fonte": "Carta UE", "sec": "67",
+      "tema": "Diritto alla protezione dei dati personali",
+      "desc": "Ogni persona ha diritto alla protezione dei dati che la riguardano, trattati lealmente, per finalità determinate e in base al consenso o a un altro fondamento legittimo; diritto di accesso e di rettifica.",
+      "tags": ["personalita", "privacy"]
+    },
+    {
+      "id": "gdpr-4", "ref": "Art. 4 GDPR", "fonte": "GDPR", "sec": "67",
+      "tema": "Definizioni: dato personale, interessato, trattamento",
+      "desc": "Dato personale è qualsiasi informazione su una persona fisica identificata o identificabile; trattamento è qualsiasi operazione sui dati (raccolta, conservazione, comunicazione a soggetti determinati, diffusione a soggetti indeterminati, cancellazione...).",
+      "tags": ["personalita", "privacy"]
+    },
+    {
+      "id": "gdpr-5", "ref": "Art. 5 GDPR", "fonte": "GDPR", "sec": "67",
+      "tema": "Principi del trattamento dei dati",
+      "desc": "Liceità, correttezza e trasparenza; limitazione della finalità; minimizzazione; esattezza; limitazione della conservazione; integrità e riservatezza.",
+      "tags": ["personalita", "privacy"]
+    },
+    {
+      "id": "gdpr-7", "ref": "Art. 7 GDPR", "fonte": "GDPR", "sec": "67",
+      "tema": "Condizioni per il consenso al trattamento",
+      "desc": "Il consenso, preceduto dall'informativa, deve essere libero, inequivocabile e specifico per un trattamento individuato. Per i servizi online il minore può consentire dai 14 anni (art. 2-quinquies cod. privacy).",
+      "tags": ["personalita", "privacy"]
+    },
+    {
+      "id": "gdpr-9", "ref": "Art. 9 GDPR", "fonte": "GDPR", "sec": "67",
+      "tema": "Categorie particolari di dati (dati sensibili)",
+      "desc": "Dati su origine razziale o etnica, opinioni politiche, convinzioni religiose, appartenenza sindacale, dati genetici e biometrici, dati su salute, vita sessuale e orientamento sessuale: regime più rigoroso.",
+      "tags": ["personalita", "privacy"]
+    },
+    {
+      "id": "gdpr-15-17", "ref": "Artt. 15-17 GDPR", "fonte": "GDPR", "sec": "67",
+      "tema": "Diritti di accesso, rettifica e oblio",
+      "desc": "L'interessato può sapere se i suoi dati sono trattati e averne copia (art. 15), farli correggere o integrare (art. 16) e ottenerne la cancellazione quando non più necessari o se revoca il consenso (art. 17, diritto all'oblio).",
+      "es": "Chiedere a un sito di cancellare i propri dati dopo aver chiuso l'account.",
+      "tags": ["personalita", "privacy"]
+    },
+    {
+      "id": "gdpr-82", "ref": "Art. 82 GDPR", "fonte": "GDPR", "sec": "67",
+      "tema": "Risarcimento per trattamento illecito dei dati",
+      "desc": "Chi subisce un danno materiale o immateriale da un trattamento illecito ha diritto al risarcimento. La vittima può rivolgersi, in alternativa, al Garante o al giudice ordinario.",
+      "tags": ["personalita", "privacy"]
+    }
+  ],
+  "concepts": [
+    { "id": "k7-inviolabili", "sec": "61", "term": "Diritti inviolabili", "def": "Diritti che l'art. 2 Cost. «riconosce» come preesistenti allo Stato, tutelati verso lo Stato e verso i privati" },
+    { "id": "k7-elenco-aperto", "sec": "61", "term": "Art. 2 Cost. come clausola aperta", "def": "L'elenco dei diritti inviolabili comprende anche diritti atipici che la coscienza sociale ritiene essenziali (es. riservatezza)" },
+    { "id": "k7-necessarieta", "sec": "61", "term": "Necessarietà", "def": "I diritti della personalità spettano a tutti dalla nascita e si perdono solo con la morte" },
+    { "id": "k7-imprescrittib", "sec": "61", "term": "Imprescrittibilità", "def": "Il non uso prolungato non estingue i diritti della personalità" },
+    { "id": "k7-assolutezza", "sec": "61", "term": "Assolutezza", "def": "Impongono a tutti un dovere di astensione e sono tutelabili erga omnes" },
+    { "id": "k7-indisponibilita", "sec": "61", "term": "Indisponibilità", "def": "Non sono rinunziabili, ma se ne può consentire l'uso ad altri (es. testimonial pubblicitario)" },
+    { "id": "k7-monistica", "sec": "61", "term": "Teoria monistica", "def": "Esiste un unico diritto della personalità che tutela la persona nella sua unitarietà" },
+    { "id": "k7-pluralistica", "sec": "61", "term": "Teoria pluralistica", "def": "Esistono tanti diritti distinti, ciascuno a tutela di un singolo interesse della persona" },
+    { "id": "k7-eutanasia", "sec": "62", "term": "Eutanasia attiva", "def": "Provocare la morte del malato con un intervento diretto (es. iniezione letale): resta reato (art. 579 c.p.)" },
+    { "id": "k7-cappato", "sec": "62", "term": "Presupposti Cappato", "def": "Patologia irreversibile, sofferenze intollerabili, sostegni vitali, capacità di decidere: l'aiuto al suicidio è lecito" },
+    { "id": "k7-accanimento", "sec": "62", "term": "Accanimento terapeutico", "def": "Ostinazione irragionevole in cure inutili e sproporzionate con prognosi infausta: vietata (art. 2 L. 219/2017)" },
+    { "id": "k7-dat", "sec": "62", "term": "DAT", "def": "Disposizioni anticipate di trattamento: volontà espressa ora per allora per il caso di futura incapacità" },
+    { "id": "k7-fiduciario", "sec": "62", "term": "Fiduciario", "def": "Persona indicata nelle DAT per rappresentare il disponente con medici e strutture sanitarie" },
+    { "id": "k7-consenso-inf", "sec": "63", "term": "Consenso informato", "def": "Consenso alle cure preceduto da un'informazione chiara e completa su diagnosi, alternative, rischi; revocabile" },
+    { "id": "k7-tso", "sec": "63", "term": "TSO", "def": "Trattamento sanitario obbligatorio: ammesso solo per legge e a tutela della salute collettiva (art. 32, c. 2, Cost.)" },
+    { "id": "k7-indennizzo", "sec": "63", "term": "Indennizzo", "def": "Prestazione dello Stato che non presuppone un illecito (es. danni da vaccino), diversa dal risarcimento" },
+    { "id": "k7-nascita-indes", "sec": "63", "term": "Danno da nascita indesiderata", "def": "Danno dei genitori non informati di anomalie del feto: risarcibile; non esiste un diritto del figlio a non nascere" },
+    { "id": "k7-silenzio-assenso", "sec": "63", "term": "Silenzio-assenso sugli organi", "def": "Regola per cui la mancata dichiarazione vale come assenso alla donazione: prevista ma non ancora operativa" },
+    { "id": "k7-usurpazione", "sec": "64", "term": "Usurpazione del nome", "def": "Usare il nome altrui per identificare sé stessi; vietata se reca pregiudizio" },
+    { "id": "k7-util-abusiva", "sec": "64", "term": "Utilizzazione abusiva del nome", "def": "Usare il nome altrui per un personaggio di fantasia o un prodotto; vietata se reca pregiudizio" },
+    { "id": "k7-contestazione", "sec": "64", "term": "Contestazione del nome", "def": "Ostacolare l'uso del nome legalmente attribuito a un altro: illecita anche senza pregiudizio" },
+    { "id": "k7-pseudonimo", "sec": "64", "term": "Pseudonimo", "def": "Nome d'arte con cui una persona è conosciuta in certi ambienti: tutelato come il nome (art. 9 c.c.)" },
+    { "id": "k7-onore", "sec": "65", "term": "Onore", "def": "Valore sociale del soggetto dato dalle sue doti morali" },
+    { "id": "k7-decoro", "sec": "65", "term": "Decoro", "def": "Valore sociale dato dalle doti intellettuali, fisiche e dalle altre qualità della persona" },
+    { "id": "k7-reputazione", "sec": "65", "term": "Reputazione", "def": "Stima di cui la persona gode nel suo ambiente: opinione degli altri sul suo onore e decoro" },
+    { "id": "k7-exceptio", "sec": "65", "term": "Exceptio veritatis", "def": "Prova della verità del fatto offensivo: di regola non rende lecita l'offesa" },
+    { "id": "k7-decalogo", "sec": "65", "term": "Decalogo del giornalista", "def": "Requisiti della cronaca lecita: verità della notizia, utilità sociale, continenza espositiva (Cass. 5259/1984)" },
+    { "id": "k7-oblio", "sec": "65", "term": "Diritto all'oblio", "def": "Interesse a che notizie lecite a suo tempo non siano ridivulgate dopo molto tempo con dati identificativi" },
+    { "id": "k7-satira", "sec": "65", "term": "Satira", "def": "Forma corrosiva di critica che usa paradosso e metafora surreale per un giudizio ironico" },
+    { "id": "k7-ritratto", "sec": "66", "term": "Ritratto", "def": "Qualsiasi rappresentazione delle sembianze di una persona, anche il sosia o la maschera scenica" },
+    { "id": "k7-riservatezza", "sec": "67", "term": "Diritto alla riservatezza", "def": "Potere di vietare ingerenze nella propria vita privata prive di un interesse pubblico: diritto nato in giurisprudenza" },
+    { "id": "k7-dato-pers", "sec": "67", "term": "Dato personale", "def": "Qualsiasi informazione su una persona fisica identificata o identificabile (non sugli enti)" },
+    { "id": "k7-comunicazione", "sec": "67", "term": "Comunicazione dei dati", "def": "Messa a disposizione dei dati a soggetti determinati" },
+    { "id": "k7-diffusione", "sec": "67", "term": "Diffusione dei dati", "def": "Messa a disposizione dei dati a soggetti indeterminati" },
+    { "id": "k7-minimizzazione", "sec": "67", "term": "Minimizzazione dei dati", "def": "Principio per cui i dati devono essere adeguati, pertinenti e limitati al necessario" },
+    { "id": "k7-garante", "sec": "67", "term": "Garante privacy", "def": "Autorità per la protezione dei dati personali: controllo, regole, sanzioni; alternativo al giudice ordinario" },
+    { "id": "k7-identita", "sec": "68", "term": "Diritto all'identità personale", "def": "Diritto di essere rappresentati con i propri reali caratteri, senza travisamenti, anche migliorativi" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx7-caratteri", "sec": "61", "title": "Quale carattere dei diritti della personalità?",
+      "cols": ["Necessarietà", "Imprescrittibilità", "Assolutezza", "Indisponibilità"],
+      "facts": [
+        ["Spettano a tutti dalla nascita alla morte", 0],
+        ["Se per anni non reagisco all'uso abusivo della mia immagine, non perdo il diritto", 1],
+        ["Dovere di tutti di non ledere l'onore altrui", 2],
+        ["Non si possono rinunciare, ma se ne può consentire l'uso", 3],
+        ["Tutelabili erga omnes", 2]
+      ]
+    },
+    {
+      "id": "cx7-579-580", "sec": "62", "title": "Omicidio del consenziente o aiuto al suicidio?",
+      "cols": ["Omicidio del consenziente (art. 579 c.p.)", "Aiuto al suicidio (art. 580 c.p.)"],
+      "facts": [
+        ["L'atto finale lo compie il terzo", 0],
+        ["L'atto finale lo compie il suicida, aiutato dal terzo", 1],
+        ["Resta sempre illecito", 0],
+        ["Lecito con i quattro presupposti della sentenza Cappato", 1],
+        ["Eutanasia attiva con iniezione letale", 0]
+      ]
+    },
+    {
+      "id": "cx7-ivg", "sec": "62", "title": "Interruzione della gravidanza: entro o dopo i 90 giorni?",
+      "cols": ["Entro 90 giorni", "Dopo 90 giorni"],
+      "facts": [
+        ["Serio pericolo per la salute fisica o psichica, anche per condizioni economiche o sociali", 0],
+        ["Grave pericolo per la vita della donna", 1],
+        ["Processi patologici accertati con grave pericolo per la salute della donna", 1],
+        ["Sostanzialmente rimessa alla scelta della donna", 0],
+        ["Art. 4 L. 194/1978", 0],
+        ["Art. 6 L. 194/1978", 1]
+      ]
+    },
+    {
+      "id": "cx7-dat-pcc", "sec": "62", "title": "DAT o pianificazione condivisa delle cure?",
+      "cols": ["DAT", "Pianificazione condivisa"],
+      "facts": [
+        ["Qualunque maggiorenne capace, anche sano", 0],
+        ["Paziente già affetto da patologia cronica o a prognosi infausta", 1],
+        ["Atto unilaterale del disponente", 0],
+        ["Accordo scritto con il medico", 1],
+        ["Art. 4 L. 219/2017", 0],
+        ["Art. 5 L. 219/2017", 1],
+        ["Si può nominare un fiduciario", 0]
+      ]
+    },
+    {
+      "id": "cx7-consenso-sanit", "sec": "63", "title": "Chi presta il consenso alle cure?",
+      "cols": ["Il paziente stesso", "Il rappresentante legale", "Il medico (urgenza)"],
+      "facts": [
+        ["Inabilitato", 0],
+        ["Interdetto", 1],
+        ["Minore", 1],
+        ["Paziente capace ma incosciente in emergenza", 2],
+        ["Beneficiario di AdS con semplice assistenza sanitaria", 0],
+        ["Beneficiario di AdS con rappresentanza sanitaria esclusiva", 1]
+      ]
+    },
+    {
+      "id": "cx7-art5", "sec": "63", "title": "Atto sul proprio corpo: lecito o vietato?",
+      "cols": ["Lecito", "Vietato"],
+      "facts": [
+        ["Donare il sangue gratuitamente", 0],
+        ["Vendere una cornea", 1],
+        ["Donare un rene a un familiare, con autorizzazione del tribunale", 0],
+        ["Vendere il sangue", 1],
+        ["Farsi amputare una gamba per salvarsi la vita", 0],
+        ["Vendere i propri capelli già tagliati", 0],
+        ["Sterilizzazione volontaria con consenso informato", 0]
+      ]
+    },
+    {
+      "id": "cx7-nome", "sec": "64", "title": "Contestazione, usurpazione o utilizzazione abusiva del nome?",
+      "cols": ["Contestazione", "Usurpazione", "Utilizzazione abusiva"],
+      "facts": [
+        ["Impedire a un altro l'uso del nome che gli spetta", 0],
+        ["Usare il nome di una casata nobile per presentarsi negli affari", 1],
+        ["Chiamare un liquore con il cognome di una nota famiglia", 2],
+        ["Illecita anche senza pregiudizio", 0],
+        ["Dare a un personaggio di romanzo il nome di una persona reale con lo stesso lavoro", 2]
+      ]
+    },
+    {
+      "id": "cx7-onore", "sec": "65", "title": "Onore, decoro o reputazione?",
+      "cols": ["Onore", "Decoro", "Reputazione"],
+      "facts": [
+        ["Valore dato dalle doti morali", 0],
+        ["Valore dato dalle doti intellettuali e fisiche", 1],
+        ["Stima di cui si gode nel proprio ambiente", 2]
+      ]
+    },
+    {
+      "id": "cx7-imm-ris", "sec": "66", "title": "Diritto all'immagine o alla riservatezza?",
+      "cols": ["Immagine", "Riservatezza"],
+      "facts": [
+        ["Pubblicare la foto di una persona senza consenso", 0],
+        ["Il solo atto di fotografare di nascosto qualcuno in casa sua", 1],
+        ["Art. 10 c.c. e artt. 96-97 L. aut.", 0],
+        ["Art. 615-bis c.p. tra i suoi fondamenti", 1]
+      ]
+    },
+    {
+      "id": "cx7-identita", "sec": "68", "title": "Riservatezza, integrità morale o identità personale?",
+      "cols": ["Riservatezza", "Integrità morale", "Identità personale"],
+      "facts": [
+        ["Non far conoscere aspetti della vita privata", 0],
+        ["Non vedersi attribuire fatti che creano un giudizio di disvalore", 1],
+        ["Essere rappresentati secondo verità, anche senza offesa", 2],
+        ["Attribuire a qualcuno idee politiche che non ha", 2],
+        ["Lesa anche da un travisamento migliorativo", 2]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf7d-1", "sec": "61", "s": "L'art. 2 Cost. tutela solo i diritti elencati negli artt. 13 ss. Cost.", "v": false, "why": "È una clausola aperta: comprende anche diritti atipici come riservatezza e identità personale." },
+    { "id": "tf7d-2", "sec": "61", "s": "Il contratto con cui un testimonial concede la propria immagine è nullo perché i diritti della personalità sono indisponibili.", "v": false, "why": "Indisponibilità significa non rinunciabilità: si può consentire l'uso." },
+    { "id": "tf7d-3", "sec": "61", "s": "I diritti della personalità si prescrivono se non esercitati.", "v": false, "why": "Sono imprescrittibili." },
+    { "id": "tf7d-4", "sec": "61", "s": "Lo Statuto albertino dichiarava inviolabile la proprietà.", "v": true, "why": "Art. 29: esempio del carattere storicamente condizionato dei diritti inviolabili." },
+    { "id": "tf7d-5", "sec": "62", "s": "Dopo la sentenza Cappato l'eutanasia attiva è lecita.", "v": false, "why": "L'omicidio del consenziente (art. 579 c.p.) resta sempre reato." },
+    { "id": "tf7d-6", "sec": "62", "s": "Il medico può imporre un trattamento salvavita al paziente capace che lo rifiuta.", "v": false, "why": "Deve rispettarne la volontà (art. 1, c. 6, L. 219/2017)." },
+    { "id": "tf7d-7", "sec": "62", "s": "Nutrizione e idratazione artificiali sono trattamenti sanitari rifiutabili.", "v": true, "why": "Art. 1, c. 5, L. 219/2017." },
+    { "id": "tf7d-8", "sec": "62", "s": "Dopo i 90 giorni l'interruzione volontaria della gravidanza è libera.", "v": false, "why": "Serve un grave pericolo per la vita o la salute della donna (art. 6 L. 194/1978)." },
+    { "id": "tf7d-9", "sec": "62", "s": "Le DAT vincolano il medico in ogni caso, senza eccezioni.", "v": false, "why": "Può disattenderle d'accordo con il fiduciario se palesemente incongrue o superate da nuove terapie." },
+    { "id": "tf7d-10", "sec": "62", "s": "Il suicidio tentato è punito.", "v": false, "why": "Nessuna sanzione per il suicidio né per il tentato suicidio." },
+    { "id": "tf7d-11", "sec": "63", "s": "La riserva di legge sui trattamenti sanitari obbligatori è nell'art. 32, comma 1, Cost.", "v": false, "why": "È nel comma 2." },
+    { "id": "tf7d-12", "sec": "63", "s": "Il figlio nato malato ha diritto al risarcimento per il solo fatto di essere nato.", "v": false, "why": "Non esiste un diritto a non nascere se non sano (Cass. s.u. 25767/2015)." },
+    { "id": "tf7d-13", "sec": "63", "s": "La donazione di un rene da vivente è vietata dall'art. 5 c.c.", "v": false, "why": "È una deroga legale, purché gratuita e autorizzata dal tribunale." },
+    { "id": "tf7d-14", "sec": "63", "s": "Il silenzio-assenso sulla donazione degli organi è già operativo.", "v": false, "why": "Non è stato attivato il sistema di richiesta ai cittadini." },
+    { "id": "tf7d-15", "sec": "63", "s": "Il medico risponde per violazione del consenso informato anche se l'intervento è perfettamente riuscito.", "v": true, "why": "È lesa l'autodeterminazione del paziente (Cass. 509/2023)." },
+    { "id": "tf7d-16", "sec": "63", "s": "Per la rettificazione anagrafica di sesso serve sempre l'intervento chirurgico.", "v": false, "why": "Possono bastare terapie ormonali e sostegni psicologici (Corte cost. 180 e 185/2017)." },
+    { "id": "tf7d-17", "sec": "64", "s": "Oggi il figlio assume automaticamente il cognome del padre.", "v": false, "why": "Dopo Corte cost. 131/2022 assume di regola i cognomi di entrambi i genitori nell'ordine concordato." },
+    { "id": "tf7d-18", "sec": "64", "s": "Il cognome comune dell'unione civile cambia il cognome anagrafico.", "v": false, "why": "Non modifica il cognome anagrafico (Corte cost. 212/2018)." },
+    { "id": "tf7d-19", "sec": "64", "s": "Con il divorzio la moglie perde il cognome del marito, salvo autorizzazione del giudice.", "v": true, "why": "Art. 5 L. 898/1970." },
+    { "id": "tf7d-20", "sec": "65", "s": "Se un fatto è vero lo si può sempre divulgare.", "v": false, "why": "L'exceptio veritatis non scrimina: servono anche utilità sociale e continenza (cronaca)." },
+    { "id": "tf7d-21", "sec": "65", "s": "Il risarcimento per lesione dell'onore comprende anche il danno non patrimoniale.", "v": true, "why": "Artt. 2043 ss. c.c." },
+    { "id": "tf7d-22", "sec": "66", "s": "Il consenso alla pubblicazione dell'immagine dato in un contratto pagato è irrevocabile.", "v": false, "why": "È sempre revocabile, salvo il risarcimento all'altra parte (Cass. 1748/2016)." },
+    { "id": "tf7d-23", "sec": "66", "s": "Il personaggio famoso non ha diritto all'immagine.", "v": false, "why": "La notorietà non autorizza lo sfruttamento commerciale né la pubblicazione estranea alle ragioni della notorietà." },
+    { "id": "tf7d-24", "sec": "66", "s": "Per pubblicare la foto del figlio minore sui social serve il consenso di entrambi i genitori.", "v": true, "why": "È atto di straordinaria amministrazione (Garante privacy 2024)." },
+    { "id": "tf7d-25", "sec": "67", "s": "Il GDPR si applica anche ai dati delle società.", "v": false, "why": "Tutela solo le persone fisiche (ma i dati del rappresentante persona fisica sono dati personali)." },
+    { "id": "tf7d-26", "sec": "67", "s": "L'agendina telefonica personale è soggetta al GDPR.", "v": false, "why": "Sono esclusi i trattamenti a carattere esclusivamente personale o domestico." },
+    { "id": "tf7d-27", "sec": "67", "s": "Chi subisce un trattamento illecito può rivolgersi sia al Garante sia al giudice per la stessa questione.", "v": false, "why": "Le due vie sono alternative (art. 140-bis cod. privacy)." },
+    { "id": "tf7d-28", "sec": "68", "s": "Il diritto all'identità personale è leso solo da rappresentazioni offensive.", "v": false, "why": "Anche da travisamenti migliorativi: il criterio è la verità." }
+  ],
+  "sequences": [
+    {
+      "id": "seq7-cappato", "sec": "62", "title": "I quattro presupposti della sentenza Cappato",
+      "prompt": "Metti in ordine come li elenca la Corte",
+      "steps": ["Patologia irreversibile", "Sofferenze fisiche o psicologiche intollerabili", "Tenuta in vita da trattamenti di sostegno vitale", "Capace di decisioni libere e consapevoli"]
+    }
+  ],
+  "cases": [
+    { "id": "c7d-1", "sec": "61", "text": "Un aspirante cantante si impegna con la casa discografica ad assumere per sempre una personalità «adatta al pubblico», rinunciando ai propri valori e idee.", "q": "Il patto è valido?", "ok": "No: è incompatibile con i valori fondamentali della persona", "no": ["Sì, i diritti della personalità sono disponibili", "Sì, se è pagato bene", "È valido ma revocabile"], "why": "Sono invalidi gli atti dispositivi incompatibili con i valori fondamentali della persona." },
+    { "id": "c7d-2", "sec": "62", "text": "Un malato tetraplegico, lucido, con sofferenze intollerabili e tenuto in vita da macchinari, chiede a un amico di accompagnarlo in una clinica dove si somministrerà da solo un farmaco letale.", "q": "L'amico commette reato?", "ok": "No: ricorrono i presupposti della sentenza Cappato", "no": ["Sì, sempre: aiuto al suicidio", "Sì: è omicidio del consenziente", "Solo se riceve denaro"], "why": "Corte cost. 242/2019." },
+    { "id": "c7d-3", "sec": "62", "text": "Stesso malato: questa volta è il medico a iniettargli il farmaco letale, su sua richiesta.", "q": "È lecito?", "ok": "No: è omicidio del consenziente (eutanasia attiva)", "no": ["Sì, per la sentenza Cappato", "Sì, se c'è il consenso scritto", "Sì, se lo fa un medico"], "why": "L'art. 579 c.p. resta sempre in vigore." },
+    { "id": "c7d-4", "sec": "62", "text": "Una persona sana vuole decidere fin da ora cosa fare se un giorno finisse in coma irreversibile.", "q": "Quale strumento usa?", "ok": "Le DAT, nominando eventualmente un fiduciario", "no": ["La pianificazione condivisa delle cure", "Il testamento olografo", "L'amministrazione di sostegno"], "why": "Art. 4 L. 219/2017: per chiunque, anche sano." },
+    { "id": "c7d-5", "sec": "63", "text": "Il medico opera perfettamente un paziente, ma non lo aveva informato dei rischi.", "q": "Risponde?", "ok": "Sì: ha leso il diritto all'autodeterminazione", "no": ["No: l'intervento è riuscito", "Solo se ci sono complicazioni", "No: il consenso è implicito nel ricovero"], "why": "Violazione autonoma del consenso informato." },
+    { "id": "c7d-6", "sec": "63", "text": "I genitori di un neonato rifiutano una cura che il medico ritiene necessaria.", "q": "Chi decide?", "ok": "Il giudice tutelare", "no": ["Il medico da solo", "I genitori, senza limiti", "Il direttore dell'ospedale"], "why": "Art. 3, c. 5, L. 219/2017." },
+    { "id": "c7d-7", "sec": "63", "text": "Luca vuole vendere un suo rene a uno sconosciuto per 50.000 euro.", "q": "È possibile?", "ok": "No: viola l'art. 5 c.c.; il trapianto da vivente è ammesso solo gratuito e autorizzato", "no": ["Sì, il corpo è suo", "Sì, con un contratto scritto", "Sì, se il tribunale approva il prezzo"], "why": "Diminuzione permanente dell'integrità fisica; la deroga è solo gratuita." },
+    { "id": "c7d-8", "sec": "63", "text": "Dopo una vaccinazione raccomandata con una grande campagna pubblica, Anna subisce un danno permanente.", "q": "Ha diritto a qualcosa dallo Stato?", "ok": "Sì, all'indennizzo, anche se il vaccino era solo raccomandato", "no": ["No: non era obbligatorio", "Solo se prova un errore del medico", "Solo al risarcimento in sede penale"], "why": "Corte cost. 268/2017 e 181/2023." },
+    { "id": "c7d-9", "sec": "64", "text": "Due genitori sposati non si accordano sull'ordine dei cognomi del figlio.", "q": "Che cosa succede?", "ok": "Decide il giudice", "no": ["Prevale il cognome del padre", "Prevale il cognome della madre", "Decide l'ufficiale di stato civile"], "why": "Dopo Corte cost. 131/2022: cognomi di entrambi nell'ordine concordato, in mancanza decide il giudice." },
+    { "id": "c7d-10", "sec": "64", "text": "Uno scrittore chiama il protagonista corrotto del suo romanzo con il nome e cognome di un vero commercialista della stessa città.", "q": "Che illecito è?", "ok": "Utilizzazione abusiva del nome, se crea pregiudizio", "no": ["Usurpazione", "Contestazione", "Nessuno: è un romanzo"], "why": "Art. 7 c.c.: nome altrui per identificare un personaggio." },
+    { "id": "c7d-11", "sec": "65", "text": "Un giornale pubblica la notizia, vera e di interesse pubblico, che il sindaco è indagato per corruzione, con toni misurati.", "q": "Il sindaco può ottenere il risarcimento?", "ok": "No: ricorrono verità, utilità sociale e continenza", "no": ["Sì: è una notizia lesiva", "Sì, finché non c'è condanna", "Sì, se non ha dato il consenso"], "why": "Il diritto di cronaca prevale sull'integrità morale." },
+    { "id": "c7d-12", "sec": "65", "text": "Un giornale ripubblica oggi, con nome e foto, la storia di un uomo che 30 anni fa commise un omicidio, ha scontato la pena e si è rifatto una vita.", "q": "Quale diritto può far valere l'uomo?", "ok": "Il diritto all'oblio", "no": ["Il diritto al nome", "Nessuno: la notizia era vera", "Il diritto d'autore"], "why": "Cass. s.u. 19681/2019: rievocazione storica sì, dati identificativi di regola no." },
+    { "id": "c7d-13", "sec": "66", "text": "Una pubblicità di birra usa la foto di un famoso calciatore senza il suo permesso.", "q": "È lecito?", "ok": "No: la notorietà non autorizza lo sfruttamento commerciale", "no": ["Sì: è un personaggio pubblico", "Sì, se la foto è stata scattata in pubblico", "Sì, se si cita la fonte"], "why": "Cass. 9289/2024." },
+    { "id": "c7d-14", "sec": "66", "text": "Un'attrice aveva concesso a pagamento l'uso della sua immagine per una campagna, ma ora vuole ritirarlo.", "q": "Può farlo?", "ok": "Sì, il consenso è revocabile, ma deve risarcire l'altra parte", "no": ["No: c'è un contratto", "Sì, senza alcuna conseguenza", "Solo alla scadenza del contratto"], "why": "Il consenso dispone dell'esercizio, non del diritto (Cass. 1748/2016)." },
+    { "id": "c7d-15", "sec": "67", "text": "Un'app chiede il consenso al trattamento dei dati a una ragazza di 15 anni per iscriversi a un social.", "q": "Può darlo da sola?", "ok": "Sì: per i servizi online basta aver compiuto 14 anni", "no": ["No: serve la maggiore età", "Solo con la firma dei genitori", "No: i minori non possono iscriversi"], "why": "Art. 2-quinquies cod. privacy; art. 8 GDPR." },
+    { "id": "c7d-16", "sec": "68", "text": "Un giornale attribuisce a un noto ambientalista l'appoggio entusiasta a un partito che lui non ha mai sostenuto, in termini lusinghieri.", "q": "Quale diritto è leso?", "ok": "L'identità personale, anche se il ritratto è positivo", "no": ["Nessuno: non è offensivo", "L'onore", "La riservatezza"], "why": "La tutela vale anche contro il travisamento migliorativo." }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "id": "cap7e",
+  "num": 7,
+  "label": "7.5",
+  "title": "Gli enti",
+  "source": "Manuale, Cap. VII, §§ 69-79",
+  "sections": [
+    { "id": "69", "title": "Soggettività e personalità giuridica" },
+    { "id": "70", "title": "Classificazione degli enti" },
+    { "id": "71", "title": "Il fenomeno associativo" },
+    { "id": "72", "title": "Associazione e società" },
+    { "id": "73", "title": "L'associazione riconosciuta" },
+    { "id": "74", "title": "L'associazione non riconosciuta" },
+    { "id": "75", "title": "La fondazione" },
+    { "id": "76", "title": "Il comitato" },
+    { "id": "77", "title": "Le altre istituzioni di carattere privato" },
+    { "id": "78", "title": "Il terzo settore" },
+    { "id": "79", "title": "I diritti della personalità degli enti" }
+  ],
+  "lessons": [
+    { "id": "c7e-l1", "title": "Soggettività e classificazioni", "secs": ["69", "70"] },
+    { "id": "c7e-l2", "title": "Associazioni: storia e scopo", "secs": ["71", "72"] },
+    { "id": "c7e-l3", "title": "Associazione riconosciuta", "secs": ["73"] },
+    { "id": "c7e-l4", "title": "Associazione non riconosciuta", "secs": ["74"] },
+    { "id": "c7e-l5", "title": "La fondazione", "secs": ["75"] },
+    { "id": "c7e-l6", "title": "Comitato e altre istituzioni", "secs": ["76", "77"] },
+    { "id": "c7e-l7", "title": "Terzo settore", "secs": ["78", "79"] }
+  ],
+  "articles": [
+    {
+      "id": "cost-28", "ref": "Art. 28 Cost.", "fonte": "Cost.", "sec": "69",
+      "tema": "Responsabilità dello Stato per gli atti di funzionari e dipendenti",
+      "desc": "Funzionari e dipendenti pubblici sono responsabili degli atti compiuti in violazione di diritti; la responsabilità civile si estende allo Stato e agli enti pubblici: l'ente è direttamente responsabile.",
+      "es": "Un'auto dei carabinieri investe un pedone sulle strisce: risponde lo Stato.",
+      "tags": ["enti"]
+    },
+    {
+      "id": "cc-2267", "ref": "Art. 2267 c.c.", "fonte": "c.c.", "sec": "69",
+      "tema": "Responsabilità dei soci della società semplice",
+      "desc": "Per le obbligazioni della società semplice rispondono personalmente e solidalmente i soci che hanno agito in nome della società e, salvo patto contrario, gli altri soci: esempio di autonomia patrimoniale imperfetta.",
+      "tags": ["enti"],
+      "links": [{ "to": "cc-2304", "why": "Confronto: nella s.n.c. il creditore deve prima escutere il patrimonio sociale (art. 2304)." }]
+    },
+    {
+      "id": "cc-2304", "ref": "Art. 2304 c.c.", "fonte": "c.c.", "sec": "69",
+      "tema": "Beneficio di preventiva escussione nella s.n.c.",
+      "desc": "I creditori della società in nome collettivo non possono pretendere il pagamento dai singoli soci se non dopo l'escussione del patrimonio sociale.",
+      "tags": ["enti"]
+    },
+    {
+      "id": "cc-11", "ref": "Art. 11 c.c.", "fonte": "c.c.", "sec": "70",
+      "tema": "Persone giuridiche pubbliche",
+      "desc": "Le province, i comuni e gli enti pubblici riconosciuti come persone giuridiche godono dei diritti secondo le leggi e gli usi: lo Stato, gli enti territoriali e molti altri enti (INPS, Banca d'Italia, università statali...).",
+      "tags": ["enti"]
+    },
+    {
+      "id": "cost-18", "ref": "Art. 18 Cost.", "fonte": "Cost.", "sec": "71",
+      "tema": "Libertà di associazione",
+      "desc": "I cittadini hanno diritto di associarsi liberamente, senza autorizzazione, per fini non vietati ai singoli dalla legge penale; sono proibite le associazioni segrete e quelle che perseguono scopi politici con organizzazioni di carattere militare.",
+      "tags": ["enti", "costituzione-principi"],
+      "links": [{ "to": "cost-2", "why": "L'art. 2 Cost. tutela i diritti inviolabili anche nelle formazioni sociali, comprese le associazioni non riconosciute." }]
+    },
+    {
+      "id": "cost-39", "ref": "Art. 39 Cost.", "fonte": "Cost.", "sec": "71",
+      "tema": "Libertà sindacale e registrazione dei sindacati",
+      "desc": "L'organizzazione sindacale è libera; i sindacati registrati, con ordinamento interno democratico, possono stipulare contratti collettivi efficaci per tutta la categoria. I sindacati hanno rinunciato alla registrazione per sottrarsi ai controlli.",
+      "tags": ["enti"]
+    },
+    {
+      "id": "cost-49", "ref": "Art. 49 Cost.", "fonte": "Cost.", "sec": "71",
+      "tema": "Partiti politici",
+      "desc": "Tutti i cittadini hanno diritto di associarsi liberamente in partiti per concorrere con metodo democratico a determinare la politica nazionale. I partiti sono di regola associazioni non riconosciute.",
+      "tags": ["enti"]
+    },
+    {
+      "id": "cc-2247", "ref": "Art. 2247 c.c.", "fonte": "c.c.", "sec": "72",
+      "tema": "Contratto di società (scopo di lucro)",
+      "desc": "Con il contratto di società due o più persone conferiscono beni o servizi per l'esercizio in comune di un'attività economica allo scopo di dividerne gli utili: è il lucro soggettivo, escluso nelle associazioni.",
+      "tags": ["enti"]
+    },
+    {
+      "id": "cc-14", "ref": "Art. 14 c.c.", "fonte": "c.c.", "sec": "73",
+      "tema": "Atto costitutivo di associazioni e fondazioni (atto pubblico)",
+      "desc": "Le associazioni e le fondazioni devono essere costituite con atto pubblico (c. 1); la fondazione può essere disposta anche con testamento (c. 2).",
+      "tags": ["enti", "associazioni"],
+      "links": [{ "to": "cc-16", "why": "L'art. 16 indica il contenuto necessario dell'atto costitutivo e dello statuto." }]
+    },
+    {
+      "id": "cc-16", "ref": "Art. 16 c.c.", "fonte": "c.c.", "sec": "73",
+      "tema": "Contenuto dell'atto costitutivo e dello statuto",
+      "desc": "Devono indicare denominazione, scopo, patrimonio, sede, norme su ordinamento e amministrazione; per le associazioni diritti, obblighi e condizioni di ammissione degli associati; per le fondazioni criteri e modalità di erogazione delle rendite.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "dpr361-1", "ref": "Art. 1 D.P.R. 361/2000", "fonte": "D.P.R. 361/2000", "sec": "73",
+      "tema": "Riconoscimento e acquisto della personalità giuridica",
+      "desc": "La personalità si acquista con l'iscrizione nel registro delle persone giuridiche presso la prefettura, dopo un controllo di sola legittimità: condizioni di legge, scopo possibile e lecito, patrimonio adeguato. Nessun controllo di merito o opportunità.",
+      "es": "Il prefetto non può negare il riconoscimento perché l'associazione per la tutela dei fumetti gli sembra inutile.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-20", "ref": "Art. 20 c.c.", "fonte": "c.c.", "sec": "73",
+      "tema": "Convocazione dell'assemblea delle associazioni",
+      "desc": "L'assemblea deve essere convocata dagli amministratori almeno una volta l'anno per l'approvazione del bilancio.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-21", "ref": "Art. 21 c.c.", "fonte": "c.c.", "sec": "73",
+      "tema": "Deliberazioni dell'assemblea (quorum e maggioranze)",
+      "desc": "Di regola a maggioranza, con almeno metà degli associati in prima convocazione e qualunque numero in seconda; per modificare atto costitutivo e statuto servono la presenza di tre quarti e il voto della maggioranza dei presenti; per lo scioglimento il voto favorevole di tre quarti degli associati.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-23", "ref": "Art. 23 c.c.", "fonte": "c.c.", "sec": "73",
+      "tema": "Annullamento delle deliberazioni dell'assemblea",
+      "desc": "Le deliberazioni contrarie alla legge, all'atto costitutivo o allo statuto possono essere annullate.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-24", "ref": "Art. 24 c.c.", "fonte": "c.c.", "sec": "73",
+      "tema": "Recesso ed esclusione degli associati",
+      "desc": "L'associato può sempre recedere, con effetto a fine anno se comunicato almeno tre mesi prima (c. 2); può essere escluso solo per gravi motivi con delibera motivata, impugnabile davanti al giudice entro sei mesi (c. 3). Chi esce non può riavere i contributi né una quota del patrimonio (c. 4).",
+      "es": "Un socio che non paga le quote da anni può essere escluso per gravi motivi; può ricorrere al giudice entro sei mesi.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-27", "ref": "Art. 27 c.c.", "fonte": "c.c.", "sec": "73",
+      "tema": "Estinzione della persona giuridica",
+      "desc": "La persona giuridica si estingue per le cause previste nell'atto costitutivo, quando lo scopo è raggiunto o impossibile e, per le associazioni, quando vengono a mancare tutti gli associati.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-31", "ref": "Art. 31 c.c.", "fonte": "c.c.", "sec": "73",
+      "tema": "Devoluzione dei beni dopo la liquidazione",
+      "desc": "I beni residui sono devoluti secondo l'atto costitutivo o lo statuto; in mancanza, l'autorità governativa li attribuisce ad altri enti con fini analoghi.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-1332", "ref": "Art. 1332 c.c.", "fonte": "c.c.", "sec": "73",
+      "tema": "Adesione di altre parti al contratto (contratto aperto)",
+      "desc": "Se ad un contratto possono aderire altre parti, l'adesione si fa con le modalità previste dagli organi costituiti: fonda la struttura aperta dell'associazione, senza diritto dell'aspirante di entrare.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-36", "ref": "Art. 36 c.c.", "fonte": "c.c.", "sec": "74",
+      "tema": "Ordinamento delle associazioni non riconosciute",
+      "desc": "L'ordinamento interno e l'amministrazione sono regolati dagli accordi degli associati (c. 1); l'associazione sta in giudizio nella persona di chi ne ha la presidenza o la direzione (c. 2). L'autonomia incontra il limite dell'art. 2 Cost.",
+      "tags": ["enti", "associazioni"],
+      "links": [{ "to": "cc-38", "why": "Per i debiti risponde il fondo comune e chi ha agito (art. 38)." }]
+    },
+    {
+      "id": "cc-37", "ref": "Art. 37 c.c.", "fonte": "c.c.", "sec": "74",
+      "tema": "Fondo comune dell'associazione non riconosciuta",
+      "desc": "I contributi e i beni acquistati costituiscono il fondo comune; finché l'associazione dura, i singoli associati non possono chiederne la divisione né pretenderne la quota in caso di recesso.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-38", "ref": "Art. 38 c.c.", "fonte": "c.c.", "sec": "74",
+      "tema": "Obbligazioni dell'associazione non riconosciuta",
+      "desc": "Per le obbligazioni assunte dall'associazione i terzi possono far valere i loro diritti sul fondo comune; ne rispondono anche personalmente e solidalmente le persone che hanno agito in nome e per conto dell'associazione, anche se non associate. Il creditore può rivolgersi subito a loro.",
+      "es": "Il presidente di un circolo firma il contratto della luce e il circolo non paga: il fornitore può chiedere i soldi direttamente al presidente.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "l157-6-bis", "ref": "Art. 6-bis L. 157/1999", "fonte": "L. 157/1999", "sec": "74",
+      "tema": "Esonero da responsabilità per gli amministratori dei partiti",
+      "desc": "Per i partiti che partecipano alle elezioni, chi ricopre cariche amministrative non risponde solidalmente dei debiti dell'associazione, salvo dolo o colpa grave: deroga all'art. 38 c.c.",
+      "tags": ["enti", "associazioni"]
+    },
+    {
+      "id": "cc-15", "ref": "Art. 15 c.c.", "fonte": "c.c.", "sec": "75",
+      "tema": "Revoca dell'atto di fondazione",
+      "desc": "L'atto di fondazione può essere revocato dal fondatore fino a quando non sia intervenuto il riconoscimento o non sia iniziata l'attività; la facoltà di revoca non si trasmette agli eredi.",
+      "tags": ["enti", "fondazioni"]
+    },
+    {
+      "id": "cc-25", "ref": "Art. 25 c.c.", "fonte": "c.c.", "sec": "75",
+      "tema": "Controllo dell'autorità sull'amministrazione delle fondazioni",
+      "desc": "L'autorità governativa controlla l'amministrazione: annulla le deliberazioni contrarie a norme imperative, atto di fondazione, ordine pubblico o buon costume; può sciogliere l'organo e nominare un commissario; autorizza le azioni di responsabilità.",
+      "tags": ["enti", "fondazioni"]
+    },
+    {
+      "id": "cc-28", "ref": "Art. 28 c.c.", "fonte": "c.c.", "sec": "75",
+      "tema": "Trasformazione della fondazione",
+      "desc": "Se lo scopo è esaurito, impossibile o di scarsa utilità, o il patrimonio è insufficiente, l'autorità governativa, anziché estinguere la fondazione, ne trasforma lo scopo allontanandosi il meno possibile dalla volontà del fondatore (c. 1). Il c. 3 ammette le fondazioni di famiglia.",
+      "es": "L'asilo di un paese spopolato non ha più bambini: l'autorità destina la fondazione a un altro scopo educativo vicino.",
+      "tags": ["enti", "fondazioni"]
+    },
+    {
+      "id": "cc-2740", "ref": "Art. 2740 c.c.", "fonte": "c.c.", "sec": "75",
+      "tema": "Responsabilità patrimoniale del debitore",
+      "desc": "Il debitore risponde dell'adempimento delle obbligazioni con tutti i suoi beni presenti e futuri (c. 1); le limitazioni della responsabilità sono ammesse solo nei casi stabiliti dalla legge (c. 2). Per questo non sono ammesse fondazioni non riconosciute.",
+      "tags": ["enti", "fondazioni"]
+    },
+    {
+      "id": "cc-39", "ref": "Art. 39 c.c.", "fonte": "c.c.", "sec": "76",
+      "tema": "Comitati",
+      "desc": "I comitati di soccorso o di beneficenza e quelli promotori di opere pubbliche, monumenti, esposizioni, mostre, festeggiamenti sono regolati dalle disposizioni seguenti: lo scopo deve essere di pubblico interesse o altruistico.",
+      "tags": ["enti", "comitati"]
+    },
+    {
+      "id": "cc-40", "ref": "Art. 40 c.c.", "fonte": "c.c.", "sec": "76",
+      "tema": "Responsabilità degli organizzatori del comitato",
+      "desc": "Gli organizzatori e chi assume la gestione dei fondi raccolti sono responsabili personalmente e solidalmente della conservazione dei fondi e della loro destinazione allo scopo annunciato.",
+      "tags": ["enti", "comitati"]
+    },
+    {
+      "id": "cc-41", "ref": "Art. 41 c.c.", "fonte": "c.c.", "sec": "76",
+      "tema": "Responsabilità dei componenti del comitato non riconosciuto",
+      "desc": "Se il comitato non ha ottenuto la personalità, i suoi componenti rispondono personalmente e solidalmente delle obbligazioni assunte (anche da illecito). I sottoscrittori sono tenuti solo a versare le oblazioni promesse.",
+      "es": "Il comitato per la festa del paese non paga la banda: rispondono tutti i promotori e organizzatori, non chi ha fatto un'offerta.",
+      "tags": ["enti", "comitati"]
+    },
+    {
+      "id": "cc-42", "ref": "Art. 42 c.c.", "fonte": "c.c.", "sec": "76",
+      "tema": "Diversa destinazione dei fondi del comitato",
+      "desc": "Se i fondi sono insufficienti, lo scopo non è attuabile o è stato raggiunto e ci sono avanzi, l'autorità governativa stabilisce la devoluzione, salvo diversa previsione del programma.",
+      "tags": ["enti", "comitati"]
+    },
+    {
+      "id": "l222-1985", "ref": "L. 222/1985", "fonte": "L. 222/1985", "sec": "77",
+      "tema": "Enti ecclesiastici civilmente riconosciuti",
+      "desc": "Attribuisce la personalità giuridica agli effetti civili agli enti della Chiesa cattolica (CEI, diocesi, parrocchie, istituti religiosi...), riconosciuti con decreto del Ministro dell'interno e iscritti nel registro delle persone giuridiche.",
+      "tags": ["enti"]
+    },
+    {
+      "id": "cts-4", "ref": "Art. 4 D.Lgs. 117/2017", "fonte": "Cod. Terzo settore", "sec": "78",
+      "tema": "Definizione di ente del Terzo settore (ETS)",
+      "desc": "È ETS l'ente privato, diverso dalle società, senza scopo di lucro, che persegue finalità civiche, solidaristiche e di utilità sociale svolgendo attività di interesse generale, iscritto al RUNTS. Non possono esserlo partiti, sindacati, associazioni di categoria, fondazioni bancarie, amministrazioni pubbliche.",
+      "tags": ["enti", "terzo-settore"],
+      "links": [{ "to": "cost-118-4", "why": "Il CTS attua la sussidiarietà orizzontale (art. 118, c. 4, Cost.)." }]
+    },
+    {
+      "id": "cts-8", "ref": "Art. 8 D.Lgs. 117/2017", "fonte": "Cod. Terzo settore", "sec": "78",
+      "tema": "Divieto di distribuzione degli utili negli ETS",
+      "desc": "È vietata la distribuzione, anche indiretta, di utili, avanzi di gestione, fondi e riserve a fondatori, associati, lavoratori e amministratori, anche in caso di recesso; all'estinzione il patrimonio va devoluto ad altro ETS (art. 9).",
+      "tags": ["enti", "terzo-settore"]
+    },
+    {
+      "id": "cts-22", "ref": "Art. 22 D.Lgs. 117/2017", "fonte": "Cod. Terzo settore", "sec": "78",
+      "tema": "Personalità giuridica degli ETS tramite il RUNTS",
+      "desc": "Le associazioni e fondazioni ETS acquistano la personalità con l'iscrizione nel RUNTS, previo controllo di legittimità del notaio, con un patrimonio minimo di 15.000 euro (associazioni) o 30.000 euro (fondazioni).",
+      "tags": ["enti", "terzo-settore"]
+    },
+    {
+      "id": "cts-32", "ref": "Artt. 32-36 D.Lgs. 117/2017", "fonte": "Cod. Terzo settore", "sec": "78",
+      "tema": "Organizzazioni di volontariato (ODV) e di promozione sociale (APS)",
+      "desc": "Le ODV svolgono attività di interesse generale prevalentemente a favore di terzi, con il volontariato degli associati; le APS a favore degli associati, dei loro familiari o di terzi. Entrambe solo in forma di associazione.",
+      "es": "Un gruppo di volontari che porta pasti ai senzatetto è una ODV; un circolo culturale che organizza corsi per i soci è una APS.",
+      "tags": ["enti", "terzo-settore"]
+    },
+    {
+      "id": "dlgs112-2017", "ref": "D.Lgs. 112/2017", "fonte": "D.Lgs. 112/2017", "sec": "78",
+      "tema": "Impresa sociale",
+      "desc": "Ente che esercita in via stabile e principale un'attività d'impresa di interesse generale, senza scopo di lucro, anche nelle forme societarie del libro V. Le cooperative sociali sono imprese sociali di diritto.",
+      "tags": ["enti", "terzo-settore"]
+    },
+    { "id": "cost-118-4", "sec": "78" }
+  ],
+  "concepts": [
+    { "id": "k7-ente", "sec": "69", "term": "Ente (soggettività giuridica)", "def": "Organizzazione a cui l'ordinamento attribuisce la capacità di essere titolare di situazioni giuridiche" },
+    { "id": "k7-auton-imperfetta", "sec": "69", "term": "Autonomia patrimoniale imperfetta", "def": "Le vicende dell'ente possono incidere anche sul patrimonio di alcuni componenti (es. società di persone)" },
+    { "id": "k7-organi", "sec": "69", "term": "Organi dell'ente", "def": "Persone fisiche attraverso cui l'ente agisce: sono parte dell'ente (immedesimazione organica), non rappresentanti esterni" },
+    { "id": "k7-gestione", "sec": "69", "term": "Potere di gestione", "def": "Potere interno di decidere un'operazione (es. se acquistare un macchinario)" },
+    { "id": "k7-rappr-ente", "sec": "69", "term": "Potere di rappresentanza dell'ente", "def": "Potere esterno di stipulare in nome dell'ente l'operazione decisa" },
+    { "id": "k7-ente-pubblico", "sec": "70", "term": "Nozione funzionale di ente pubblico", "def": "Lo stesso soggetto può essere pubblico a certi fini e privato ad altri (es. ANAS s.p.a.)" },
+    { "id": "k7-indici", "sec": "70", "term": "Indici della natura pubblica", "def": "Istituzione per legge, poteri d'imperio, controlli pubblici, finanziamenti pubblici, interesse perseguito" },
+    { "id": "k7-assoc-istit", "sec": "70", "term": "Struttura associativa e istituzionale", "def": "Negli enti associativi governano gli associati; in quelli istituzionali (fondazioni) il fondatore non interferisce" },
+    { "id": "k7-manomorta", "sec": "71", "term": "Manomorta", "def": "Beni di enti (soprattutto ecclesiastici) che, non morendo mai, restavano immobilizzati fuori dal mercato" },
+    { "id": "k7-corpi-interm", "sec": "71", "term": "Corpi intermedi", "def": "Aggregazioni tra cittadino e Stato (partiti, sindacati, chiese), guardate con sfavore dalla tradizione liberale" },
+    { "id": "k7-formaz-sociali", "sec": "71", "term": "Formazioni sociali", "def": "Tutte le organizzazioni collettive in cui si svolge la personalità (art. 2 Cost.), comprese le associazioni non riconosciute" },
+    { "id": "k7-lucro-sogg", "sec": "72", "term": "Lucro soggettivo", "def": "Distribuzione degli utili ai partecipanti: esclusa negli enti non profit" },
+    { "id": "k7-lucro-ogg", "sec": "72", "term": "Lucro oggettivo", "def": "Produzione di utili con l'attività: ammessa anche negli enti non profit" },
+    { "id": "k7-scopo-mutual", "sec": "72", "term": "Scopo mutualistico", "def": "Procurare ai soci vantaggi economici diversi dagli utili: tipico delle cooperative" },
+    { "id": "k7-societa-benefit", "sec": "72", "term": "Società benefit", "def": "Società lucrativa che persegue anche finalità di beneficio comune: non è un ente non profit" },
+    { "id": "k7-riconoscimento", "sec": "73", "term": "Riconoscimento", "def": "Iscrizione nel registro delle persone giuridiche dopo un controllo di legittimità della prefettura: dà la personalità" },
+    { "id": "k7-struttura-aperta", "sec": "73", "term": "Struttura aperta", "def": "L'associazione è aperta all'adesione di nuovi associati, ma nessuno ha diritto di entrarvi" },
+    { "id": "k7-gravi-motivi", "sec": "73", "term": "Gravi motivi di esclusione", "def": "Inadempimenti rilevanti dell'accordo associativo che giustificano l'esclusione con delibera motivata" },
+    { "id": "k7-fondo-comune", "sec": "74", "term": "Fondo comune", "def": "Patrimonio dell'associazione non riconosciuta: non divisibile finché dura, nessuna quota a chi recede" },
+    { "id": "k7-agito", "sec": "74", "term": "Chi ha agito in nome dell'associazione", "def": "Risponde personalmente e solidalmente delle obbligazioni negoziali dell'associazione non riconosciuta (art. 38)" },
+    { "id": "k7-fondazione", "sec": "75", "term": "Fondazione", "def": "Organizzazione stabile che usa un patrimonio per uno scopo non economico; esiste solo come ente riconosciuto" },
+    { "id": "k7-atto-fondazione", "sec": "75", "term": "Atto di fondazione", "def": "Atto unilaterale (atto pubblico o testamento) che crea la fondazione; revocabile nei limiti dell'art. 15" },
+    { "id": "k7-atto-dotazione", "sec": "75", "term": "Atto di dotazione", "def": "Spoglio gratuito, definitivo e irrevocabile di beni a favore della fondazione, con vincolo di destinazione" },
+    { "id": "k7-fond-erogazione", "sec": "75", "term": "Fondazione di erogazione", "def": "Fondazione che gestisce il patrimonio e ne devolve le rendite agli scopi statutari" },
+    { "id": "k7-fond-famiglia", "sec": "75", "term": "Fondazione di famiglia", "def": "Fondazione a vantaggio di famiglie determinate: ammessa solo con finalità socialmente rilevanti (es. istruzione)" },
+    { "id": "k7-trasformazione", "sec": "75", "term": "Trasformazione della fondazione", "def": "In caso di crisi dello scopo l'autorità ne fissa uno nuovo, vicino alla volontà del fondatore (art. 28)" },
+    { "id": "k7-comitato", "sec": "76", "term": "Comitato", "def": "Più persone che raccolgono fondi dal pubblico per uno scopo altruistico: origine associativa, patrimonio vincolato come una fondazione" },
+    { "id": "k7-promotori", "sec": "76", "term": "Promotori e organizzatori", "def": "Componenti del comitato che raccolgono e gestiscono i fondi; nel comitato non riconosciuto rispondono di tutti i debiti" },
+    { "id": "k7-oblazioni", "sec": "76", "term": "Oblazioni", "def": "Offerte dei sottoscrittori al comitato, versate a fondo perduto; i sottoscrittori non sono componenti" },
+    { "id": "k7-fond-partecip", "sec": "77", "term": "Fondazione di partecipazione", "def": "Fondazione con un'assemblea di partecipanti che nominano parte degli amministratori: modello misto" },
+    { "id": "k7-ets", "sec": "78", "term": "ETS", "def": "Ente del Terzo settore: privato, non lucrativo, con attività di interesse generale, iscritto al RUNTS" },
+    { "id": "k7-runts", "sec": "78", "term": "RUNTS", "def": "Registro unico nazionale del Terzo settore: l'iscrizione è costitutiva della qualifica di ETS" },
+    { "id": "k7-odv", "sec": "78", "term": "ODV", "def": "Organizzazione di volontariato: attività prevalentemente a favore di terzi estranei, con il volontariato degli associati" },
+    { "id": "k7-aps", "sec": "78", "term": "APS", "def": "Associazione di promozione sociale: attività a favore degli associati, dei familiari o di terzi" },
+    { "id": "k7-impresa-sociale", "sec": "78", "term": "Impresa sociale", "def": "Impresa stabile di interesse generale senza lucro, anche in forma societaria (D.Lgs. 112/2017)" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx7-autonomia", "sec": "69", "title": "Autonomia patrimoniale perfetta o imperfetta?",
+      "cols": ["Perfetta", "Imperfetta"],
+      "facts": [
+        ["S.p.a. e s.r.l.", 0],
+        ["Società semplice e s.n.c.", 1],
+        ["Associazione riconosciuta", 0],
+        ["Associazione non riconosciuta", 1],
+        ["Fondazione", 0],
+        ["Comitato non riconosciuto", 1],
+        ["I componenti rischiano solo ciò che hanno apportato", 0],
+        ["I creditori dell'ente possono aggredire il patrimonio di alcuni componenti", 1]
+      ]
+    },
+    {
+      "id": "cx7-enti-tab", "sec": "70", "title": "Con o senza personalità? Profit o non profit?",
+      "cols": ["Profit con personalità", "Profit senza personalità", "Non profit con personalità", "Non profit senza personalità"],
+      "facts": [
+        ["S.p.a.", 0],
+        ["S.n.c.", 1],
+        ["Fondazione", 2],
+        ["Associazione non riconosciuta", 3],
+        ["S.r.l.", 0],
+        ["Associazione riconosciuta", 2],
+        ["Comitato non riconosciuto", 3],
+        ["Società semplice", 1]
+      ]
+    },
+    {
+      "id": "cx7-codice-cost", "sec": "71", "title": "Codice del 1942 o Costituzione del 1948?",
+      "cols": ["Codice 1942", "Costituzione 1948"],
+      "facts": [
+        ["Contenere e controllare il fenomeno associativo", 0],
+        ["Tutelare e promuovere le associazioni", 1],
+        ["Riconoscimento discrezionale e limiti agli acquisti", 0],
+        ["Libertà di associarsi senza autorizzazione (art. 18)", 1],
+        ["Associazione non riconosciuta come modello residuale", 0]
+      ]
+    },
+    {
+      "id": "cx7-recesso-escl", "sec": "73", "title": "Recesso o esclusione dell'associato?",
+      "cols": ["Recesso", "Esclusione"],
+      "facts": [
+        ["Iniziativa dell'associato", 0],
+        ["Iniziativa dell'associazione", 1],
+        ["Nessun presupposto, salvo vincolo a tempo determinato", 0],
+        ["Servono gravi motivi", 1],
+        ["Comunicazione almeno tre mesi prima, effetto a fine anno", 0],
+        ["Ricorso al giudice entro sei mesi", 1]
+      ]
+    },
+    {
+      "id": "cx7-ric-nonric", "sec": "74", "title": "Associazione riconosciuta o non riconosciuta?",
+      "cols": ["Riconosciuta", "Non riconosciuta"],
+      "facts": [
+        ["Contratto per atto pubblico più iscrizione nel registro", 0],
+        ["Contratto a forma libera, anche orale", 1],
+        ["Ha personalità giuridica", 0],
+        ["Ha soggettività ma non personalità", 1],
+        ["Per i debiti risponde solo il patrimonio dell'ente", 0],
+        ["Per i debiti rispondono il fondo comune e chi ha agito", 1],
+        ["Ordinamento interno negli artt. 18 ss., in parte inderogabili", 0],
+        ["Ordinamento rimesso agli accordi degli associati", 1],
+        ["Forma tipica di partiti e sindacati", 1]
+      ]
+    },
+    {
+      "id": "cx7-assoc-fond", "sec": "75", "title": "Associazione riconosciuta o fondazione?",
+      "cols": ["Associazione riconosciuta", "Fondazione"],
+      "facts": [
+        ["Elemento centrale: le persone", 0],
+        ["Elemento centrale: il patrimonio", 1],
+        ["Nasce da un contratto", 0],
+        ["Nasce da un atto unilaterale, anche per testamento", 1],
+        ["L'assemblea è organo necessario", 0],
+        ["Di regola non ha assemblea", 1],
+        ["Lo scopo è modificabile dall'assemblea", 0],
+        ["In caso di crisi dello scopo, trasformazione da parte dell'autorità", 1],
+        ["Senza riconoscimento può operare come ente non riconosciuto", 0]
+      ]
+    },
+    {
+      "id": "cx7-fond-dot", "sec": "75", "title": "Atto di fondazione o atto di dotazione?",
+      "cols": ["Atto di fondazione", "Atto di dotazione"],
+      "facts": [
+        ["Manifesta la volontà di creare l'ente e ne fissa lo scopo", 0],
+        ["Trasferisce i beni alla fondazione", 1],
+        ["Revocabile fino al riconoscimento o all'inizio dell'attività", 0],
+        ["Spoglio gratuito, definitivo e irrevocabile", 1],
+        ["Può provenire anche da terzi", 1]
+      ]
+    },
+    {
+      "id": "cx7-chi-risponde", "sec": "76", "title": "Chi risponde dei debiti dell'ente non riconosciuto?",
+      "cols": ["Associazione non riconosciuta", "Comitato non riconosciuto"],
+      "facts": [
+        ["Chi ha agito in nome e per conto dell'ente", 0],
+        ["Tutti i componenti, promotori e organizzatori", 1],
+        ["Art. 38 c.c.", 0],
+        ["Art. 41 c.c.", 1],
+        ["Anche per gli illeciti, tutti i componenti", 1]
+      ]
+    },
+    {
+      "id": "cx7-odv-aps", "sec": "78", "title": "ODV o APS?",
+      "cols": ["ODV", "APS"],
+      "facts": [
+        ["Attività prevalentemente a favore di terzi estranei", 0],
+        ["Attività a favore anche degli associati e dei loro familiari", 1],
+        ["Si avvale principalmente del volontariato degli associati", 0],
+        ["Artt. 35-36 CTS", 1],
+        ["Artt. 32 ss. CTS", 0]
+      ]
+    },
+    {
+      "id": "cx7-pers-enti", "sec": "79", "title": "Diritto della personalità: anche degli enti?",
+      "cols": ["Solo persone fisiche", "Anche enti"],
+      "facts": [
+        ["Diritto alla vita", 0],
+        ["Diritto alla salute", 0],
+        ["Diritto al nome", 1],
+        ["Diritto all'immagine (logo, stemma)", 1],
+        ["Diritto all'identità personale", 1],
+        ["Diritto all'integrità morale", 1]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf7e-1", "sec": "69", "s": "Gli enti sono incapaci d'agire perché agiscono tramite altri, come il minore.", "v": false, "why": "Gli organi sono parte dell'ente: l'ente agisce esso stesso." },
+    { "id": "tf7e-2", "sec": "69", "s": "«Ente giuridico» e «persona giuridica» sono sinonimi.", "v": false, "why": "Solo gli enti con autonomia patrimoniale perfetta sono persone giuridiche." },
+    { "id": "tf7e-3", "sec": "69", "s": "L'autonomia patrimoniale perfetta opera in due direzioni.", "v": true, "why": "I creditori dell'ente non toccano i componenti e i creditori dei componenti non toccano l'ente." },
+    { "id": "tf7e-4", "sec": "70", "s": "Registrato significa sempre dotato di personalità giuridica.", "v": false, "why": "La s.n.c. regolare è iscritta nel registro delle imprese ma non ha personalità." },
+    { "id": "tf7e-5", "sec": "70", "s": "Un ente pubblico può agire solo con atti autoritativi.", "v": false, "why": "Può usare anche strumenti privatistici come il contratto." },
+    { "id": "tf7e-6", "sec": "70", "s": "Una s.p.a. può essere considerata ente pubblico a certi fini.", "v": true, "why": "Nozione funzionale e cangiante (es. ANAS s.p.a., Cass. s.u. 976/2023)." },
+    { "id": "tf7e-7", "sec": "71", "s": "Partiti e sindacati sono di regola associazioni riconosciute.", "v": false, "why": "Sono di regola non riconosciute, per evitare controlli." },
+    { "id": "tf7e-8", "sec": "71", "s": "La disciplina costituzionale dei sindacati è nell'art. 49 Cost.", "v": false, "why": "È l'art. 39; l'art. 49 riguarda i partiti." },
+    { "id": "tf7e-9", "sec": "71", "s": "Per associarsi serve un'autorizzazione.", "v": false, "why": "L'art. 18 Cost. garantisce la libertà di associarsi senza autorizzazione." },
+    { "id": "tf7e-10", "sec": "72", "s": "Un'associazione non può svolgere attività d'impresa né produrre utili.", "v": false, "why": "Può farlo, anche in via principale; è escluso solo il lucro soggettivo." },
+    { "id": "tf7e-11", "sec": "72", "s": "Le società benefit sono enti non profit.", "v": false, "why": "Perseguono lo scopo lucrativo, a cui affiancano il beneficio comune." },
+    { "id": "tf7e-12", "sec": "73", "s": "Il prefetto può negare il riconoscimento se lo scopo non gli sembra utile.", "v": false, "why": "Il controllo è di sola legittimità (D.P.R. 361/2000)." },
+    { "id": "tf7e-13", "sec": "73", "s": "L'associato può recedere solo per giusta causa.", "v": false, "why": "Può recedere sempre; la giusta causa serve solo se si è vincolato a tempo determinato." },
+    { "id": "tf7e-14", "sec": "73", "s": "Chi esce dall'associazione può riavere i contributi versati.", "v": false, "why": "Art. 24, c. 4, c.c.: niente quota del patrimonio né restituzione dei contributi." },
+    { "id": "tf7e-15", "sec": "73", "s": "Chi ha i requisiti statutari ha diritto di essere ammesso nell'associazione.", "v": false, "why": "L'accoglimento è sempre rimesso alla valutazione degli organi." },
+    { "id": "tf7e-16", "sec": "73", "s": "Prima dell'iscrizione nel registro l'associazione già esiste come non riconosciuta.", "v": true, "why": "E ne segue la disciplina." },
+    { "id": "tf7e-17", "sec": "74", "s": "Gli associati di un'associazione non riconosciuta rispondono dei debiti dell'ente.", "v": false, "why": "Risponde chi ha agito in nome e per conto dell'associazione, non l'associato in quanto tale." },
+    { "id": "tf7e-18", "sec": "74", "s": "Il creditore deve prima aggredire il fondo comune e solo dopo chi ha agito.", "v": false, "why": "Può rivolgersi subito a chi ha agito: garanzia ex lege simile alla fideiussione." },
+    { "id": "tf7e-19", "sec": "74", "s": "L'associazione non riconosciuta non può stare in giudizio.", "v": false, "why": "Sta in giudizio tramite chi ne ha la presidenza o la direzione (art. 36, c. 2)." },
+    { "id": "tf7e-20", "sec": "74", "s": "Può rispondere ex art. 38 anche chi non è associato.", "v": true, "why": "La responsabilità segue l'aver agito, non l'essere associato." },
+    { "id": "tf7e-21", "sec": "75", "s": "L'atto di fondazione è un contratto.", "v": false, "why": "È un atto unilaterale." },
+    { "id": "tf7e-22", "sec": "75", "s": "Il fondatore può revocare l'atto di fondazione in ogni momento.", "v": false, "why": "Solo fino al riconoscimento o all'inizio dell'attività (art. 15)." },
+    { "id": "tf7e-23", "sec": "75", "s": "Secondo l'opinione tradizionale non esistono fondazioni non riconosciute.", "v": true, "why": "Non si possono creare patrimoni separati fuori dai casi di legge (art. 2740, c. 2)." },
+    { "id": "tf7e-24", "sec": "75", "s": "Se lo scopo della fondazione si esaurisce, di regola la fondazione si estingue.", "v": false, "why": "La regola è la trasformazione dello scopo (art. 28, c. 1)." },
+    { "id": "tf7e-25", "sec": "76", "s": "I sottoscrittori di un comitato rispondono dei suoi debiti.", "v": false, "why": "Devono solo versare le oblazioni promesse." },
+    { "id": "tf7e-26", "sec": "76", "s": "Il comitato deve sempre avere durata limitata.", "v": false, "why": "Lo scopo può essere anche durevole (es. feste patronali periodiche)." },
+    { "id": "tf7e-27", "sec": "76", "s": "I promotori possono decidere da soli di destinare i fondi a un altro scopo.", "v": false, "why": "Solo l'autorità governativa (art. 42), salvo previsione del programma." },
+    { "id": "tf7e-28", "sec": "77", "s": "Gli enti non profit sono un numero chiuso: associazioni, fondazioni, comitati.", "v": false, "why": "La legge ammette le «altre istituzioni di carattere privato» (enti atipici o misti)." },
+    { "id": "tf7e-29", "sec": "78", "s": "Ogni ente senza scopo di lucro è un ETS.", "v": false, "why": "Partiti, sindacati, fondazioni bancarie non possono esserlo, e serve l'iscrizione al RUNTS." },
+    { "id": "tf7e-30", "sec": "78", "s": "Gli ETS non possono svolgere attività d'impresa.", "v": false, "why": "Possono, anche in via principale, purché non distribuiscano utili." },
+    { "id": "tf7e-31", "sec": "78", "s": "Le cooperative sociali sono imprese sociali di diritto.", "v": true, "why": "Art. 1, c. 4, D.Lgs. 112/2017." },
+    { "id": "tf7e-32", "sec": "79", "s": "Il danno all'immagine dell'ente è risarcibile per il solo fatto della lesione.", "v": false, "why": "Va allegato e provato, anche con presunzioni (Cass. 19551/2023)." },
+    { "id": "tf7e-33", "sec": "79", "s": "Gli enti senza personalità giuridica non hanno diritti della personalità.", "v": false, "why": "Conta la compatibilità con la natura non corporea dell'ente, non la personalità." }
+  ],
+  "sequences": [
+    {
+      "id": "seq7-riconosc", "sec": "73", "title": "Come nasce un'associazione riconosciuta",
+      "prompt": "Metti in ordine le fasi",
+      "steps": ["Atto costitutivo per atto pubblico", "Domanda di riconoscimento alla prefettura", "Controllo di legittimità e del patrimonio", "Iscrizione nel registro: personalità giuridica"]
+    },
+    {
+      "id": "seq7-comitato", "sec": "76", "title": "Le fasi di un comitato",
+      "prompt": "Metti in ordine",
+      "steps": ["Accordo tra i promotori", "Annuncio del programma al pubblico", "Raccolta delle oblazioni", "Gestione dei fondi per lo scopo"]
+    }
+  ],
+  "cases": [
+    { "id": "c7e-1", "sec": "69", "text": "Il socio di una s.p.a. ha un debito personale con la banca e non lo paga.", "q": "La banca può aggredire il patrimonio della s.p.a.?", "ok": "No: autonomia patrimoniale perfetta", "no": ["Sì, per la sua quota di beni", "Sì, se il socio è amministratore", "Sì, dopo aver escusso il socio"], "why": "I creditori dei componenti non toccano il patrimonio dell'ente." },
+    { "id": "c7e-2", "sec": "69", "text": "Il consiglio di amministrazione di una s.p.a. decide di comprare un macchinario; il contratto lo firma l'amministratore delegato.", "q": "Che poteri sono stati esercitati?", "ok": "Gestione (decidere) e poi rappresentanza (firmare)", "no": ["Solo rappresentanza", "Solo gestione", "Un mandato senza rappresentanza"], "why": "I due poteri possono spettare a organi diversi (artt. 2380-bis e 2384 c.c.)." },
+    { "id": "c7e-3", "sec": "72", "text": "Un'associazione musicale organizza concerti a pagamento e ottiene un utile, che reinveste in nuovi strumenti.", "q": "Resta un'associazione?", "ok": "Sì: c'è lucro oggettivo ma non soggettivo", "no": ["No: diventa una società", "No: le associazioni non possono incassare", "Sì, ma solo se l'utile è sotto 10.000 euro"], "why": "Conta che gli utili non siano distribuiti agli associati." },
+    { "id": "c7e-4", "sec": "72", "text": "Un ente chiamato «associazione» distribuisce ogni anno gli utili ai propri membri.", "q": "Come va qualificato?", "ok": "Come una società", "no": ["Come un'associazione non riconosciuta", "Come una fondazione", "Come un comitato"], "why": "Il lucro soggettivo è proprio della società (art. 2247)." },
+    { "id": "c7e-5", "sec": "73", "text": "Un associato vuole lasciare l'associazione riconosciuta e chiede indietro le quote versate negli anni.", "q": "Che cosa gli spetta?", "ok": "Può recedere, ma non riavere quote né contributi", "no": ["Può recedere e riavere tutto", "Non può recedere senza giusta causa", "Ha diritto a una quota del patrimonio"], "why": "Art. 24, cc. 2 e 4, c.c." },
+    { "id": "c7e-6", "sec": "73", "text": "Un'associazione esclude un socio con una delibera senza motivazione.", "q": "Che cosa può fare il socio?", "ok": "Ricorrere al giudice entro sei mesi dalla notifica", "no": ["Nulla: l'associazione è libera", "Ricorrere al prefetto", "Chiedere i danni ma non il reintegro"], "why": "Art. 24, c. 3: il giudice annulla per vizi di procedura o mancanza di gravi motivi." },
+    { "id": "c7e-7", "sec": "74", "text": "Mario ha preso la tessera di un circolo culturale per partecipare a una serata. Il circolo non paga i fornitori.", "q": "I fornitori possono chiedere i soldi a Mario?", "ok": "No: l'associato in quanto tale non risponde", "no": ["Sì, tutti gli associati rispondono in solido", "Sì, pro quota", "Sì, se il fondo comune è vuoto"], "why": "Risponde il fondo comune e chi ha agito in nome dell'associazione (art. 38)." },
+    { "id": "c7e-8", "sec": "74", "text": "Il presidente di un'associazione non riconosciuta firma il contratto di affitto della sede; l'associazione non paga.", "q": "A chi può rivolgersi il proprietario?", "ok": "Al fondo comune e direttamente al presidente, anche subito", "no": ["Solo al fondo comune", "Al presidente solo dopo aver escusso il fondo", "A tutti gli associati"], "why": "Art. 38: responsabilità personale e solidale di chi ha agito, senza preventiva escussione." },
+    { "id": "c7e-9", "sec": "74", "text": "Lo statuto di un'associazione non riconosciuta prevede che il presidente possa escludere chiunque, senza motivare e senza possibilità di ricorso.", "q": "La clausola è valida?", "ok": "No: è nulla per contrasto con l'art. 2 Cost.; si applica l'art. 24 c.c.", "no": ["Sì: l'ordinamento è rimesso agli accordi degli associati", "Sì, se approvata all'unanimità", "È valida ma annullabile"], "why": "Cass. 22986/2019." },
+    { "id": "c7e-10", "sec": "75", "text": "Tizio dispone nel testamento che 10 milioni vadano a una fondazione da costituire per borse di studio.", "q": "È possibile?", "ok": "Sì: la fondazione può essere disposta per testamento", "no": ["No: serve sempre un atto pubblico", "No: le fondazioni si creano solo in vita", "Sì, ma solo come fondazione non riconosciuta"], "why": "Art. 14, c. 2, c.c." },
+    { "id": "c7e-11", "sec": "75", "text": "Un imprenditore vuole creare una «fondazione» a cui conferire i suoi beni, con rendite solo per sé e la sua famiglia, per metterli al riparo dai creditori.", "q": "È ammissibile?", "ok": "No: serve uno scopo socialmente rilevante o altruistico", "no": ["Sì: le fondazioni di famiglia sono sempre ammesse", "Sì, se è riconosciuta", "Sì, purché il patrimonio sia adeguato"], "why": "Altrimenti si eluderebbe l'art. 2740 c.c." },
+    { "id": "c7e-12", "sec": "75", "text": "Il fondatore, dopo il riconoscimento, vuole cambiare lo scopo della sua fondazione.", "q": "Può farlo?", "ok": "No: lo scopo non è modificabile né dal fondatore né dagli amministratori", "no": ["Sì, è il fondatore", "Sì, con delibera dell'assemblea", "Sì, con atto notarile"], "why": "Artt. 28 e 32 c.c. (salva diversa prassi statutaria)." },
+    { "id": "c7e-13", "sec": "76", "text": "Un comitato non riconosciuto per la festa patronale non paga il noleggio del palco.", "q": "Chi risponde?", "ok": "Il comitato e, personalmente, tutti i promotori e organizzatori", "no": ["Solo chi ha firmato il contratto", "Anche chi ha fatto un'offerta", "Solo il patrimonio del comitato"], "why": "Art. 41 c.c." },
+    { "id": "c7e-14", "sec": "76", "text": "Un'azienda annuncia in TV un contributo a un comitato per la ricerca, ma poi non lo versa.", "q": "Che cosa le si può chiedere?", "ok": "Solo di versare l'oblazione promessa", "no": ["Di rispondere di tutti i debiti del comitato", "Nulla: era una promessa", "Il doppio della somma"], "why": "I sottoscrittori non sono componenti del comitato." },
+    { "id": "c7e-15", "sec": "78", "text": "Un sindacato vuole iscriversi al RUNTS per avere i benefici fiscali del Terzo settore.", "q": "Può farlo?", "ok": "No: i sindacati non possono essere ETS", "no": ["Sì, è senza scopo di lucro", "Sì, se ha almeno 15.000 euro", "Sì, se è riconosciuto"], "why": "Art. 4, c. 2, CTS." },
+    { "id": "c7e-16", "sec": "79", "text": "Un giornale diffonde un fotomontaggio che associa il logo di un'associazione a una truffa.", "q": "L'associazione può ottenere il risarcimento senza provare nulla?", "ok": "No: deve allegare e provare il danno, anche con presunzioni", "no": ["Sì: il danno è in re ipsa", "No: gli enti non hanno diritto all'immagine", "Sì, se è riconosciuta"], "why": "Cass. 19551/2023." }
+  ]
+}

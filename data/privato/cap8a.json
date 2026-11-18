@@ -1,0 +1,445 @@
+{
+  "id": "cap8a",
+  "num": 8,
+  "label": "8.1",
+  "title": "I beni: nozione e classificazioni",
+  "source": "Manuale, Cap. VIII, §§ 80-89",
+  "sections": [
+    { "id": "80", "title": "Il bene" },
+    { "id": "81", "title": "Beni materiali e immateriali" },
+    { "id": "82", "title": "Beni mobili e immobili" },
+    { "id": "83", "title": "I beni registrati" },
+    { "id": "84", "title": "I prodotti finanziari" },
+    { "id": "85", "title": "Generici e specifici, fungibili e infungibili" },
+    { "id": "86", "title": "Beni consumabili e inconsumabili" },
+    { "id": "87", "title": "Beni divisibili e indivisibili" },
+    { "id": "88", "title": "Beni presenti e futuri" },
+    { "id": "89", "title": "I frutti" }
+  ],
+  "lessons": [
+    { "id": "c8a-l1", "title": "Cosa, bene, beni immateriali", "secs": ["80", "81"] },
+    { "id": "c8a-l2", "title": "Mobili, immobili, registrati", "secs": ["82", "83"] },
+    { "id": "c8a-l3", "title": "Prodotti finanziari", "secs": ["84"] },
+    { "id": "c8a-l4", "title": "Generici, fungibili, consumabili", "secs": ["85", "86"] },
+    { "id": "c8a-l5", "title": "Divisibili, futuri, frutti", "secs": ["87", "88", "89"] }
+  ],
+  "articles": [
+    {
+      "id": "cc-810", "ref": "Art. 810 c.c.", "fonte": "c.c.", "sec": "80",
+      "tema": "Nozione di bene",
+      "desc": "Sono beni le cose che possono formare oggetto di diritti: cose suscettibili di appropriazione e utilità. In senso ampio, però, il codice usa spesso «bene» per indicare il diritto patrimoniale (es. art. 2740).",
+      "es": "Le stelle e la luce del sole sono cose ma non beni; l'aria in bombole lo diventa.",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-2740", "why": "Nell'art. 2740 «beni» significa tutti i diritti patrimoniali del debitore, anche i crediti." }]
+    },
+    { "id": "cc-2740", "sec": "80" },
+    {
+      "id": "cc-814", "ref": "Art. 814 c.c.", "fonte": "c.c.", "sec": "81",
+      "tema": "Energie come beni mobili",
+      "desc": "Si considerano beni mobili le energie naturali che hanno valore economico (es. l'energia elettrica).",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-1260", "ref": "Art. 1260 c.c.", "fonte": "c.c.", "sec": "81",
+      "tema": "Cedibilità dei crediti",
+      "desc": "Il creditore può trasferire a titolo oneroso o gratuito il suo credito, anche senza il consenso del debitore: il credito è un bene immateriale negoziabile.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-2577", "ref": "Art. 2577 c.c.", "fonte": "c.c.", "sec": "81",
+      "tema": "Diritti dell'autore sull'opera (anche morali)",
+      "desc": "L'autore ha il diritto esclusivo di pubblicare e utilizzare economicamente l'opera e, anche dopo averla ceduta, può rivendicarne la paternità e opporsi a deformazioni o modifiche che pregiudichino onore o reputazione (c. 2).",
+      "es": "Il pittore vende il quadro, ma può impedire al compratore di tagliarlo a metà.",
+      "tags": ["beni"],
+      "links": [{ "to": "laut-20", "why": "L'art. 20 L. aut. tutela allo stesso modo il diritto morale d'autore." }]
+    },
+    {
+      "id": "laut-20", "ref": "Art. 20 L. aut.", "fonte": "L. aut.", "sec": "81",
+      "tema": "Diritto morale d'autore",
+      "desc": "Indipendentemente dai diritti economici, e anche dopo la loro cessione, l'autore conserva il diritto di rivendicare la paternità dell'opera e di opporsi a deformazioni, mutilazioni o modifiche pregiudizievoli.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "laut-102-bis", "ref": "Art. 102-bis L. aut.", "fonte": "L. aut.", "sec": "81",
+      "tema": "Diritto del costitutore di una banca dati",
+      "desc": "Chi ha fatto investimenti rilevanti per costituire una banca dati può opporsi all'estrazione o al reimpiego della totalità o di una parte sostanziale del contenuto.",
+      "es": "Un editore che ha raccolto tutte le sentenze della Cassazione dal 1986 può impedire che un concorrente le copi in blocco.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-812", "ref": "Art. 812 c.c.", "fonte": "c.c.", "sec": "82",
+      "tema": "Distinzione dei beni: mobili e immobili",
+      "desc": "Sono immobili il suolo, le sorgenti e i corsi d'acqua, gli alberi, gli edifici e ciò che è incorporato al suolo, anche a scopo transitorio (c. 1); mulini, bagni ed edifici galleggianti saldamente ancorati per destinazione permanente (c. 2). Tutti gli altri beni sono mobili (c. 3).",
+      "es": "Una casa galleggiante ancorata stabilmente alla riva è un immobile; una barca a motore è un mobile.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-827", "ref": "Art. 827 c.c.", "fonte": "c.c.", "sec": "82",
+      "tema": "Immobili vacanti spettano allo Stato",
+      "desc": "I beni immobili che non sono in proprietà di alcuno spettano al patrimonio dello Stato: non esistono immobili senza proprietario, perché serve sempre qualcuno tenuto alla manutenzione.",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-923", "why": "I mobili invece possono essere res nullius e si acquistano per occupazione (art. 923)." }]
+    },
+    { "id": "cc-923", "sec": "82" },
+    { "id": "cc-1350", "sec": "82" },
+    { "id": "cc-1153", "sec": "82" },
+    { "id": "cc-1158", "sec": "82" },
+    {
+      "id": "cc-1156", "ref": "Art. 1156 c.c.", "fonte": "c.c.", "sec": "83",
+      "tema": "Esclusione dei mobili registrati dal «possesso vale titolo»",
+      "desc": "La regola dell'art. 1153 non si applica alle universalità di mobili e ai beni mobili iscritti in pubblici registri (auto, navi, aerei).",
+      "es": "Chi compra in buona fede un'auto rubata non ne diventa proprietario solo perché la riceve.",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-1153", "why": "È l'eccezione alla regola del possesso vale titolo." }]
+    },
+    {
+      "id": "cc-2673", "ref": "Art. 2673 c.c.", "fonte": "c.c.", "sec": "83",
+      "tema": "Pubblicità dei registri immobiliari",
+      "desc": "I registri immobiliari sono pubblici: chiunque può consultarli e ottenerne copie. Lo stesso vale per gli altri pubblici registri dei beni registrati (PRA, registri navali, RAN).",
+      "tags": ["beni"]
+    },
+    {
+      "id": "tuf-1-u", "ref": "Art. 1, c. 1, lett. u, T.U.F.", "fonte": "T.U.F.", "sec": "84",
+      "tema": "Prodotti finanziari",
+      "desc": "Sono prodotti finanziari tutte le forme di investimento di natura finanziaria, esclusi i depositi bancari e postali non rappresentati da strumenti finanziari. Gli strumenti finanziari (azioni, obbligazioni, titoli di Stato, derivati) ne sono una specie.",
+      "tags": ["beni", "finanza"]
+    },
+    {
+      "id": "tuf-94", "ref": "Artt. 94 e 94-bis T.U.F.", "fonte": "T.U.F.", "sec": "84",
+      "tema": "Prospetto informativo e responsabilità da prospetto",
+      "desc": "Chi offre al pubblico prodotti finanziari deve pubblicare un prospetto approvato dalla Consob con tutte le informazioni rilevanti e una nota di sintesi; emittente e offerente rispondono dei danni all'investitore, salvo provare di aver adottato ogni diligenza (onere invertito).",
+      "tags": ["beni", "finanza"]
+    },
+    {
+      "id": "tuf-18", "ref": "Art. 18 T.U.F.", "fonte": "T.U.F.", "sec": "84",
+      "tema": "Riserva dei servizi di investimento",
+      "desc": "L'esercizio professionale verso il pubblico dei servizi di investimento (negoziazione, gestione di portafogli, consulenza...) è riservato a banche, SIM e imprese di investimento UE.",
+      "tags": ["beni", "finanza"]
+    },
+    {
+      "id": "cc-1376", "ref": "Art. 1376 c.c.", "fonte": "c.c.", "sec": "85",
+      "tema": "Contratto con effetti reali (principio consensualistico)",
+      "desc": "Nei contratti che trasferiscono la proprietà di una cosa determinata, la proprietà si trasmette per effetto del consenso legittimamente manifestato, senza bisogno di consegna o pagamento.",
+      "es": "Compri un quadro preciso in galleria: ne diventi proprietario appena vi accordate, anche se lo ritiri la settimana dopo.",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-1378", "why": "Per le cose generiche la proprietà passa solo con l'individuazione (art. 1378)." }]
+    },
+    {
+      "id": "cc-1378", "ref": "Art. 1378 c.c.", "fonte": "c.c.", "sec": "85",
+      "tema": "Trasferimento di cose determinate solo nel genere",
+      "desc": "Nei contratti che hanno per oggetto il trasferimento di cose determinate solo nel genere, la proprietà si trasmette con l'individuazione fatta d'accordo tra le parti o nei modi da esse stabiliti.",
+      "es": "Compri «un tulipano giallo»: diventa tuo solo quando il fioraio lo prende dal vaso.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-1465", "ref": "Art. 1465 c.c.", "fonte": "c.c.", "sec": "85",
+      "tema": "Perimento della cosa nei contratti traslativi",
+      "desc": "Se la cosa determinata perisce per causa non imputabile all'alienante dopo il trasferimento, l'acquirente deve comunque pagare il prezzo: il rischio passa con la proprietà.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-1243", "ref": "Art. 1243 c.c.", "fonte": "c.c.", "sec": "85",
+      "tema": "Compensazione legale (debiti di cose fungibili)",
+      "desc": "La compensazione legale si verifica solo tra due debiti che hanno per oggetto somme di denaro o una quantità di cose fungibili dello stesso genere, ugualmente liquidi ed esigibili.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-1813", "ref": "Art. 1813 c.c.", "fonte": "c.c.", "sec": "85",
+      "tema": "Mutuo (prestito di cose fungibili)",
+      "desc": "Il mutuo è il contratto con cui una parte consegna all'altra una quantità di denaro o di altre cose fungibili, e l'altra si obbliga a restituire altrettante cose della stessa specie e qualità (tantundem eiusdem generis).",
+      "es": "Ti presto 500 euro: mi restituirai 500 euro, non le stesse banconote.",
+      "tags": ["beni", "contratto"],
+      "links": [{ "to": "cc-1803", "why": "Nel comodato invece si restituisce la stessa cosa." }]
+    },
+    {
+      "id": "cc-1803", "ref": "Art. 1803 c.c.", "fonte": "c.c.", "sec": "85",
+      "tema": "Comodato (prestito d'uso gratuito)",
+      "desc": "Il comodato è il contratto con cui una parte consegna gratuitamente all'altra una cosa mobile o immobile perché se ne serva per un tempo o un uso determinato, con l'obbligo di restituire la stessa cosa ricevuta.",
+      "es": "Presto un libro a un amico: deve restituirmi proprio quel libro.",
+      "tags": ["beni", "contratto"]
+    },
+    {
+      "id": "cc-995", "ref": "Art. 995 c.c.", "fonte": "c.c.", "sec": "86",
+      "tema": "Quasi-usufrutto (cose consumabili)",
+      "desc": "Se l'usufrutto comprende cose consumabili, l'usufruttuario può servirsene, con l'obbligo di pagarne il valore al termine dell'usufrutto.",
+      "es": "Usufrutto su una cantina di vino: l'usufruttuario può berlo e alla fine ne restituisce il valore.",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-996", "why": "Per le cose deteriorabili si restituisce la cosa nello stato in cui si trova (art. 996)." }]
+    },
+    {
+      "id": "cc-996", "ref": "Art. 996 c.c.", "fonte": "c.c.", "sec": "86",
+      "tema": "Usufrutto di cose deteriorabili",
+      "desc": "Se l'usufrutto comprende cose che si deteriorano con l'uso, l'usufruttuario può servirsene e alla fine le restituisce nello stato in cui si trovano: restano beni inconsumabili.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-720", "ref": "Art. 720 c.c.", "fonte": "c.c.", "sec": "87",
+      "tema": "Immobili non divisibili nella divisione",
+      "desc": "Se un immobile non è comodamente divisibile, è preferibilmente attribuito per intero a chi ne fa richiesta, con addebito dell'eccedenza; altrimenti si vende all'incanto. Si applica anche alla comunione ordinaria (art. 1116).",
+      "tags": ["beni"]
+    },
+    { "id": "cc-1111", "sec": "87" },
+    {
+      "id": "cc-1348", "ref": "Art. 1348 c.c.", "fonte": "c.c.", "sec": "88",
+      "tema": "Cose future come oggetto del contratto",
+      "desc": "La prestazione di cose future può essere dedotta in contratto, salvi i particolari divieti di legge (es. donazione di beni futuri).",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-771", "why": "La donazione di beni futuri è vietata (art. 771)." }]
+    },
+    {
+      "id": "cc-771", "ref": "Art. 771 c.c.", "fonte": "c.c.", "sec": "88",
+      "tema": "Divieto di donazione di beni futuri",
+      "desc": "La donazione non può comprendere che i beni presenti del donante; se comprende beni futuri è nulla rispetto a questi.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-1472", "ref": "Art. 1472 c.c.", "fonte": "c.c.", "sec": "88",
+      "tema": "Vendita di cose future",
+      "desc": "Nella vendita di una cosa futura la proprietà si acquista quando la cosa viene ad esistenza (c. 1); se non viene ad esistenza la vendita è nulla, salvo che le parti abbiano voluto un contratto aleatorio (c. 2: emptio rei speratae ed emptio spei).",
+      "es": "Compri il raccolto del prossimo anno: se il raccolto non c'è, non paghi; se compri «quel che uscirà dalla rete», paghi comunque.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-820", "ref": "Art. 820 c.c.", "fonte": "c.c.", "sec": "89",
+      "tema": "Frutti naturali e civili",
+      "desc": "Sono frutti naturali quelli che provengono direttamente dalla cosa (raccolti, legna, parti degli animali, prodotti di cave); finché non separati fanno parte della cosa, ma se ne può disporre come cosa mobile futura. Sono frutti civili quelli che si ritraggono come corrispettivo del godimento altrui (canoni, interessi, rendite).",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-821", "why": "L'art. 821 dice come e quando i frutti si acquistano." }]
+    },
+    {
+      "id": "cc-821", "ref": "Art. 821 c.c.", "fonte": "c.c.", "sec": "89",
+      "tema": "Acquisto dei frutti",
+      "desc": "I frutti naturali appartengono al proprietario della cosa con la separazione, salvo che ne abbia disposto, con rimborso delle spese entro il loro valore (cc. 1-2); i frutti civili si acquistano giorno per giorno, in ragione della durata del diritto (c. 3).",
+      "es": "Vendi a metà mese l'appartamento affittato: il canone di quel mese si divide tra te e l'acquirente in proporzione ai giorni.",
+      "tags": ["beni"]
+    }
+  ],
+  "concepts": [
+    { "id": "k8-cosa", "sec": "80", "term": "Cosa", "def": "Parte di materia percepibile con i sensi (res), solida, liquida o gassosa" },
+    { "id": "k8-bene-stretto", "sec": "80", "term": "Bene in senso stretto", "def": "Cosa suscettibile di appropriazione e fonte di utilità, che può formare oggetto di diritti (art. 810)" },
+    { "id": "k8-bene-ampio", "sec": "80", "term": "Bene in senso ampio", "def": "Diritto avente ad oggetto un'utilità patrimoniale, anche senza cosa (es. un credito)" },
+    { "id": "k8-res-communes", "sec": "80", "term": "Res communes omnium", "def": "Cose di cui tutti godono senza escludere gli altri (luce del sole, venti, mare): non sono beni" },
+    { "id": "k8-materiali", "sec": "81", "term": "Beni materiali", "def": "Beni corporei o percepibili con i sensi, comprese le energie con valore economico" },
+    { "id": "k8-immateriali", "sec": "81", "term": "Beni immateriali", "def": "Utilità patrimoniali senza consistenza fisica: crediti, quote, strumenti finanziari, opere dell'ingegno, marchi, know-how" },
+    { "id": "k8-corpus", "sec": "81", "term": "Corpus mechanicum", "def": "Supporto materiale dell'opera (tela, scultura), distinto dal diritto d'autore sulla creazione" },
+    { "id": "k8-dematerial", "sec": "81", "term": "Dematerializzazione", "def": "Emissione e circolazione degli strumenti finanziari tramite sole scritturazioni contabili" },
+    { "id": "k8-know-how", "sec": "81", "term": "Know-how", "def": "Patrimonio di conoscenze e capacità tecniche che dà un vantaggio competitivo: bene anche senza brevetto" },
+    { "id": "k8-immobili", "sec": "82", "term": "Beni immobili", "def": "Suolo e ciò che vi è incorporato, anche a scopo transitorio, più gli edifici galleggianti ancorati" },
+    { "id": "k8-incorporazione", "sec": "82", "term": "Incorporazione al suolo", "def": "Criterio degli immobili: il bene non si separa dal suolo senza dissoluzione o alterazione del tutto" },
+    { "id": "k8-res-nullius", "sec": "82", "term": "Res nullius", "def": "Cosa mobile senza proprietario, acquistabile per occupazione (es. un pesce in mare)" },
+    { "id": "k8-registrati", "sec": "83", "term": "Beni mobili registrati", "def": "Autoveicoli, navi e aeromobili, le cui vicende si iscrivono in pubblici registri (PRA, registri navali, RAN)" },
+    { "id": "k8-prodotti-fin", "sec": "84", "term": "Prodotti finanziari", "def": "Ogni forma di investimento di natura finanziaria, esclusi i depositi non rappresentati da strumenti finanziari" },
+    { "id": "k8-strumenti-fin", "sec": "84", "term": "Strumenti finanziari", "def": "Specie dei prodotti finanziari negoziabili sul mercato dei capitali: azioni, obbligazioni, titoli di Stato, derivati" },
+    { "id": "k8-prospetto", "sec": "84", "term": "Prospetto informativo", "def": "Documento approvato dalla Consob con le informazioni rilevanti per chi investe in un'offerta al pubblico" },
+    { "id": "k8-specifici", "sec": "85", "term": "Beni specifici", "def": "Beni individuati puntualmente («quel» tulipano): la proprietà passa con il consenso (art. 1376)" },
+    { "id": "k8-generici", "sec": "85", "term": "Beni generici", "def": "Beni identificati solo dal genere («un» tulipano): la proprietà passa con l'individuazione (art. 1378)" },
+    { "id": "k8-fungibili", "sec": "85", "term": "Beni fungibili", "def": "Beni equivalenti e sostituibili, che si pesano, contano, misurano (denaro, farina, prodotti in serie)" },
+    { "id": "k8-infungibili", "sec": "85", "term": "Beni infungibili", "def": "Beni con identità propria, per cui uno non vale l'altro (la Gioconda, la penna del nonno, gli immobili)" },
+    { "id": "k8-genus", "sec": "85", "term": "Genus numquam perit", "def": "Il genere non perisce mai: chi deve un bene generico non si libera se perisce la quantità che aveva" },
+    { "id": "k8-consumabili", "sec": "86", "term": "Beni consumabili", "def": "Beni che danno utilità una sola volta, distruggendosi o uscendo dal patrimonio (cibo, carburante, denaro)" },
+    { "id": "k8-inconsumabili", "sec": "86", "term": "Beni inconsumabili", "def": "Beni che consentono più utilizzazioni, anche se si deteriorano (fondo, edificio, auto)" },
+    { "id": "k8-deteriorabili", "sec": "86", "term": "Beni deteriorabili", "def": "Beni inconsumabili che si logorano con l'uso (vestito, automobile)" },
+    { "id": "k8-quasi-usufr", "sec": "86", "term": "Quasi-usufrutto", "def": "Usufrutto su cose consumabili: l'usufruttuario le usa e alla fine ne restituisce il valore (art. 995)" },
+    { "id": "k8-tantundem", "sec": "86", "term": "Tantundem eiusdem generis", "def": "La stessa quantità di cose dello stesso genere: è ciò che si restituisce nel mutuo" },
+    { "id": "k8-divisibili", "sec": "87", "term": "Beni divisibili", "def": "Beni riducibili in parti omogenee senza alterarne la destinazione economica (terreno, quota sociale)" },
+    { "id": "k8-futuri", "sec": "88", "term": "Beni futuri", "def": "Beni non ancora esistenti: possono essere oggetto solo di rapporti obbligatori, salvo divieti" },
+    { "id": "k8-rei-speratae", "sec": "88", "term": "Emptio rei speratae", "def": "Vendita della cosa futura sperata: se non viene ad esistenza, niente prezzo (contratto commutativo)" },
+    { "id": "k8-spei", "sec": "88", "term": "Emptio spei", "def": "Vendita della speranza: il prezzo è dovuto comunque (contratto aleatorio, es. il getto della rete)" },
+    { "id": "k8-frutti-nat", "sec": "89", "term": "Frutti naturali", "def": "Beni prodotti periodicamente dalla cosa senza intaccarla (raccolto, legna, parti degli animali)" },
+    { "id": "k8-frutti-civ", "sec": "89", "term": "Frutti civili", "def": "Corrispettivo periodico del godimento altrui della cosa (canoni, interessi, dividendi)" },
+    { "id": "k8-pendenti", "sec": "89", "term": "Frutti pendenti", "def": "Frutti non ancora separati: fanno parte della cosa, ma se ne dispone come cosa mobile futura" },
+    { "id": "k8-deductis", "sec": "89", "term": "Fructus non intelleguntur nisi deductis impensis", "def": "Chi ha i frutti rimborsa le spese sostenute da altri, ma solo entro il valore dei frutti" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx8-cosa-bene", "sec": "80", "title": "Cosa, bene in senso stretto o bene in senso ampio?",
+      "cols": ["Solo cosa", "Bene in senso stretto", "Bene in senso ampio (diritto)"],
+      "facts": [
+        ["Le stelle", 0],
+        ["Un'automobile", 1],
+        ["Il saldo attivo del conto corrente", 2],
+        ["La luce del sole", 0],
+        ["Un fondo agricolo", 1],
+        ["Una quota di s.r.l.", 2]
+      ]
+    },
+    {
+      "id": "cx8-mat-immat", "sec": "81", "title": "Bene materiale o immateriale?",
+      "cols": ["Materiale", "Immateriale"],
+      "facts": [
+        ["Energia elettrica", 0],
+        ["Un credito", 1],
+        ["Marchio", 1],
+        ["Know-how", 1],
+        ["Azioni dematerializzate", 1],
+        ["La tela del quadro", 0],
+        ["Licenza per il servizio taxi", 1]
+      ]
+    },
+    {
+      "id": "cx8-corpus", "sec": "81", "title": "Diritto sul supporto o diritto d'autore?",
+      "cols": ["Diritto reale sul corpus mechanicum", "Diritto d'autore"],
+      "facts": [
+        ["Spetta al proprietario della tela e circola con essa", 0],
+        ["Spetta sempre all'autore", 1],
+        ["Il collezionista che compra il quadro", 0],
+        ["Opporsi alla mutilazione dell'opera venduta", 1],
+        ["Rivendicare la paternità dell'opera", 1]
+      ]
+    },
+    {
+      "id": "cx8-mob-imm", "sec": "82", "title": "Mobile o immobile?",
+      "cols": ["Mobile", "Immobile"],
+      "facts": [
+        ["Un albero piantato", 1],
+        ["Un'automobile", 0],
+        ["Casa galleggiante saldamente ancorata per sempre", 1],
+        ["Energia elettrica", 0],
+        ["Ripetitore telefonico installato sul tetto", 1],
+        ["Un pesce in mare", 0],
+        ["Edificio prefabbricato unito al suolo a scopo transitorio", 1]
+      ]
+    },
+    {
+      "id": "cx8-regime", "sec": "82", "title": "Regola per gli immobili o per i mobili?",
+      "cols": ["Immobili", "Mobili non registrati"],
+      "facts": [
+        ["Forma scritta per i trasferimenti (art. 1350)", 0],
+        ["Possesso vale titolo (art. 1153)", 1],
+        ["Senza proprietario spettano allo Stato (art. 827)", 0],
+        ["Possono essere res nullius", 1],
+        ["Acquisto per possesso solo con l'usucapione", 0]
+      ]
+    },
+    {
+      "id": "cx8-prod-strum", "sec": "84", "title": "Prodotto finanziario o strumento finanziario?",
+      "cols": ["Prodotto finanziario (genus)", "Strumento finanziario (species)"],
+      "facts": [
+        ["Ogni forma di investimento di natura finanziaria", 0],
+        ["Azioni, obbligazioni, titoli di Stato, derivati", 1],
+        ["Tratto comune: negoziabilità sul mercato dei capitali", 1],
+        ["Richiede il prospetto per l'offerta al pubblico", 0],
+        ["Oggetto dei servizi di investimento riservati (art. 18 T.U.F.)", 1]
+      ]
+    },
+    {
+      "id": "cx8-gen-spec", "sec": "85", "title": "Bene generico o specifico?",
+      "cols": ["Generico", "Specifico"],
+      "facts": [
+        ["«Un» codice civile Giuffrè 2025", 0],
+        ["«Il mio» codice civile Giuffrè 2025", 1],
+        ["Dieci quintali di grano", 0],
+        ["Il grano del mio granaio", 1],
+        ["La proprietà passa con il consenso (art. 1376)", 1],
+        ["La proprietà passa con l'individuazione (art. 1378)", 0],
+        ["Se perisce, il venditore deve procurarne un altro (genus numquam perit)", 0]
+      ]
+    },
+    {
+      "id": "cx8-fung", "sec": "85", "title": "Fungibile o infungibile?",
+      "cols": ["Fungibile", "Infungibile"],
+      "facts": [
+        ["Denaro", 0],
+        ["La Gioconda", 1],
+        ["Farina di un certo tipo", 0],
+        ["La penna del nonno", 1],
+        ["Un'auto usata", 1],
+        ["Smartphone nuovi prodotti in serie", 0],
+        ["Si presta con il mutuo", 0],
+        ["Si presta con il comodato", 1]
+      ]
+    },
+    {
+      "id": "cx8-consum", "sec": "86", "title": "Consumabile o inconsumabile?",
+      "cols": ["Consumabile", "Inconsumabile"],
+      "facts": [
+        ["Carburante", 0],
+        ["Un'automobile (deteriorabile)", 1],
+        ["Denaro", 0],
+        ["Un edificio", 1],
+        ["Una bottiglia di vino", 0],
+        ["Un vestito", 1],
+        ["Quasi-usufrutto: si restituisce il valore", 0]
+      ]
+    },
+    {
+      "id": "cx8-mutuo-comod", "sec": "86", "title": "Mutuo o comodato?",
+      "cols": ["Mutuo", "Comodato"],
+      "facts": [
+        ["Si restituisce il tantundem eiusdem generis", 0],
+        ["Si restituisce la stessa cosa ricevuta", 1],
+        ["Art. 1813 c.c.", 0],
+        ["Art. 1803 c.c.", 1],
+        ["Prestito di denaro", 0],
+        ["Prestito di un libro a un amico", 1],
+        ["Denaro prestato solo per farlo vedere (ad pompam)", 1]
+      ]
+    },
+    {
+      "id": "cx8-speratae", "sec": "88", "title": "Emptio rei speratae o emptio spei?",
+      "cols": ["Emptio rei speratae", "Emptio spei"],
+      "facts": [
+        ["Oggetto: la cosa futura sperata", 0],
+        ["Oggetto: la speranza (alea)", 1],
+        ["Contratto commutativo", 0],
+        ["Contratto aleatorio", 1],
+        ["Se la cosa non viene ad esistenza, niente prezzo", 0],
+        ["Si compra quel che uscirà dal getto della rete", 1]
+      ]
+    },
+    {
+      "id": "cx8-frutti", "sec": "89", "title": "Frutto naturale, civile o nessuno dei due?",
+      "cols": ["Naturale", "Civile", "Non è un frutto"],
+      "facts": [
+        ["Il raccolto di grano", 0],
+        ["Il canone di locazione", 1],
+        ["Gli interessi di un mutuo", 1],
+        ["La legna del taglio periodico di un pioppeto", 0],
+        ["Il premio sorteggiato tra i possessori di obbligazioni", 2],
+        ["Il taglio di un bosco che ne distrugge la destinazione", 2],
+        ["I dividendi azionari", 1]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf8-1", "sec": "80", "s": "Ogni cosa è un bene.", "v": false, "why": "È bene solo la cosa suscettibile di appropriazione e utilità (art. 810)." },
+    { "id": "tf8-2", "sec": "80", "s": "I beni sono solo cose materiali.", "v": false, "why": "In senso giuridico sono beni anche crediti e quote." },
+    { "id": "tf8-3", "sec": "80", "s": "Sulla stessa cosa possono concorrere più diritti.", "v": true, "why": "Es. nuda proprietà, usufrutto e ipoteca sullo stesso fondo." },
+    { "id": "tf8-4", "sec": "81", "s": "Vendendo il quadro il pittore perde ogni diritto sull'opera.", "v": false, "why": "Conserva il diritto morale d'autore (art. 2577, c. 2; art. 20 L. aut.)." },
+    { "id": "tf8-5", "sec": "81", "s": "Le energie non sono beni perché non sono corporee.", "v": false, "why": "Sono beni mobili se hanno valore economico (art. 814)." },
+    { "id": "tf8-6", "sec": "81", "s": "Un'idea può essere un bene anche senza brevetto.", "v": true, "why": "È il caso del know-how." },
+    { "id": "tf8-7", "sec": "82", "s": "Il possesso vale titolo vale anche per gli immobili.", "v": false, "why": "Per gli immobili c'è solo l'usucapione." },
+    { "id": "tf8-8", "sec": "82", "s": "Una casa galleggiante ancorata in modo permanente è un bene mobile.", "v": false, "why": "È immobile per determinazione di legge (art. 812, c. 2)." },
+    { "id": "tf8-9", "sec": "82", "s": "Esistono immobili senza proprietario.", "v": false, "why": "Gli immobili vacanti spettano allo Stato (art. 827)." },
+    { "id": "tf8-10", "sec": "83", "s": "«Beni registrati» significa solo beni immobili.", "v": false, "why": "Auto, navi e aerei sono mobili registrati." },
+    { "id": "tf8-11", "sec": "84", "s": "Prodotto finanziario e strumento finanziario sono sinonimi.", "v": false, "why": "Ogni strumento finanziario è un prodotto finanziario, non viceversa." },
+    { "id": "tf8-12", "sec": "84", "s": "Il semplice deposito bancario è un prodotto finanziario.", "v": false, "why": "Sono esclusi i depositi non rappresentati da strumenti finanziari." },
+    { "id": "tf8-13", "sec": "84", "s": "Nella responsabilità da prospetto deve essere l'emittente a provare di aver usato ogni diligenza.", "v": true, "why": "Onere della prova invertito (art. 94, c. 5, T.U.F.)." },
+    { "id": "tf8-14", "sec": "85", "s": "Fungibile e generico sono sinonimi.", "v": false, "why": "Un bene fungibile può essere specifico («quel» tulipano giallo)." },
+    { "id": "tf8-15", "sec": "85", "s": "Nella vendita di cose generiche la proprietà passa con il consenso.", "v": false, "why": "Passa con l'individuazione (art. 1378)." },
+    { "id": "tf8-16", "sec": "85", "s": "I beni infungibili sono sempre specifici.", "v": true, "why": "La combinazione generico-infungibile è impossibile." },
+    { "id": "tf8-17", "sec": "85", "s": "La fungibilità dipende solo dalla natura del bene.", "v": false, "why": "Può dipendere anche dalla volontà delle parti (es. il libro di una persona cara)." },
+    { "id": "tf8-18", "sec": "86", "s": "L'automobile è un bene consumabile perché si deteriora.", "v": false, "why": "È deteriorabile ma inconsumabile." },
+    { "id": "tf8-19", "sec": "86", "s": "Nel mutuo si restituisce la stessa cosa ricevuta.", "v": false, "why": "Si restituisce il tantundem; la stessa cosa si restituisce nel comodato." },
+    { "id": "tf8-20", "sec": "87", "s": "Se il bene è indivisibile la comunione non si può sciogliere.", "v": false, "why": "Cambia solo il modo: attribuzione dell'intero con conguaglio o vendita all'incanto." },
+    { "id": "tf8-21", "sec": "88", "s": "La vendita di cosa futura trasferisce subito la proprietà.", "v": false, "why": "La proprietà passa quando la cosa viene ad esistenza (art. 1472)." },
+    { "id": "tf8-22", "sec": "88", "s": "I beni futuri non possono mai essere oggetto di contratti.", "v": false, "why": "Possono esserlo (art. 1348), salvo divieti come la donazione (art. 771)." },
+    { "id": "tf8-23", "sec": "89", "s": "I frutti civili si acquistano alla scadenza del pagamento.", "v": false, "why": "Maturano giorno per giorno (art. 821, c. 3)." },
+    { "id": "tf8-24", "sec": "89", "s": "I frutti pendenti si possono vendere prima della raccolta.", "v": true, "why": "Se ne dispone come cosa mobile futura (art. 820, c. 2)." }
+  ],
+  "sequences": [],
+  "cases": [
+    { "id": "c8a-1", "sec": "80", "text": "Un'azienda imbottiglia aria compressa per i sub e la vende.", "q": "L'aria nelle bombole è un bene?", "ok": "Sì: con un godimento separato la res communis diventa bene", "no": ["No: l'aria è di tutti", "No: è un gas, non una cosa", "Solo se brevettata"], "why": "Le res communes omnium diventano beni se se ne assicura un godimento separato." },
+    { "id": "c8a-2", "sec": "81", "text": "Un collezionista compra un quadro e vuole tagliarlo in due per venderne le metà.", "q": "Il pittore può opporsi?", "ok": "Sì: conserva il diritto morale d'autore all'integrità dell'opera", "no": ["No: il quadro ormai è del collezionista", "Solo se non è stato pagato", "Solo se il quadro vale più di 100.000 euro"], "why": "Art. 2577, c. 2, c.c.; art. 20 L. aut." },
+    { "id": "c8a-3", "sec": "82", "text": "Compri in buona fede un'auto usata da chi non ne era proprietario e la ricevi.", "q": "Ne diventi proprietario per il possesso vale titolo?", "ok": "No: l'art. 1153 non si applica ai mobili registrati", "no": ["Sì, come per ogni mobile", "Sì, se hai pagato", "Sì, dopo un anno"], "why": "Art. 1156 c.c." },
+    { "id": "c8a-4", "sec": "82", "text": "Un vecchio rudere non appartiene più a nessuno: l'ultimo proprietario è morto senza eredi e nessuno lo reclama.", "q": "Di chi è?", "ok": "Dello Stato (art. 827)", "no": ["Di chi lo occupa per primo", "Del Comune solo se lo chiede", "Di nessuno: è res nullius"], "why": "Non esistono immobili senza proprietario." },
+    { "id": "c8a-5", "sec": "85", "text": "Compri in negozio «un» tulipano giallo e paghi, ma il fioraio non l'ha ancora scelto dal vaso.", "q": "Sei già proprietario di un tulipano?", "ok": "No: per i beni generici serve l'individuazione", "no": ["Sì, hai pagato", "Sì, per il principio consensualistico", "Sì, di tutti i tulipani del vaso pro quota"], "why": "Art. 1378 c.c.: finché non c'è individuazione hai solo un credito." },
+    { "id": "c8a-6", "sec": "85", "text": "Hai comprato il grano del mio granaio; prima della consegna un incendio lo distrugge senza colpa mia.", "q": "Devi pagare il prezzo?", "ok": "Sì: la proprietà e il rischio erano già passati a te", "no": ["No: non l'hai ricevuto", "No: devo procurarti altro grano", "Solo metà"], "why": "Bene specifico: artt. 1376 e 1465 c.c." },
+    { "id": "c8a-7", "sec": "85", "text": "Ti ho venduto dieci quintali di grano generici; il grano che avevo in magazzino brucia.", "q": "Sono liberato dall'obbligazione?", "ok": "No: devo procurarti altro grano (genus numquam perit)", "no": ["Sì: è perito senza colpa", "Sì, se ti restituisco il prezzo", "Sì, ma devo un risarcimento"], "why": "Bene generico: il genere non perisce mai." },
+    { "id": "c8a-8", "sec": "86", "text": "Lascio a mia sorella l'usufrutto della mia cantina di vini pregiati.", "q": "Che cosa dovrà restituire alla fine?", "ok": "Il valore del vino consumato (quasi-usufrutto)", "no": ["Le stesse bottiglie", "Nulla", "Il doppio del valore"], "why": "Art. 995 c.c.: cose consumabili." },
+    { "id": "c8a-9", "sec": "86", "text": "Presto all'amico 2.000 euro in contanti solo perché li mostri in un portafoglio rigonfio, poi me li ridia.", "q": "Che contratto è?", "ok": "Comodato ad pompam: devono tornare le stesse banconote", "no": ["Mutuo", "Donazione", "Deposito irregolare"], "why": "Il comodato di consumabili è ammesso per mostra o ostentazione." },
+    { "id": "c8a-10", "sec": "88", "text": "Un pescatore vende a un ristoratore, per 100 euro, «tutto quello che uscirà dalla prossima rete». La rete esce vuota.", "q": "Il ristoratore deve pagare?", "ok": "Sì: è un'emptio spei, contratto aleatorio", "no": ["No: la cosa non è venuta ad esistenza", "Solo metà", "No: il contratto è nullo"], "why": "Le parti hanno voluto affidarsi alla sorte." },
+    { "id": "c8a-11", "sec": "88", "text": "Un nonno dona al nipote «la casa che costruirò l'anno prossimo».", "q": "La donazione è valida?", "ok": "No: è vietata la donazione di beni futuri (art. 771)", "no": ["Sì, ha effetto quando la casa sarà costruita", "Sì, se fatta per atto pubblico", "È annullabile"], "why": "Tutela il donante da liberalità impulsive." },
+    { "id": "c8a-12", "sec": "89", "text": "Vendi il 15 maggio un appartamento affittato; il canone di maggio si paga il 31.", "q": "A chi spetta il canone di maggio?", "ok": "Metà a te e metà all'acquirente, in proporzione ai giorni", "no": ["Tutto a te", "Tutto all'acquirente", "All'inquilino"], "why": "I frutti civili si acquistano giorno per giorno (art. 821, c. 3)." }
+  ]
+}

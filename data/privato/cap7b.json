@@ -1,0 +1,384 @@
+{
+  "id": "cap7b",
+  "num": 7,
+  "label": "7.2",
+  "title": "Misure di protezione, legittimazione, sede",
+  "source": "Manuale, Cap. VII, §§ 49-56",
+  "sections": [
+    { "id": "49", "title": "L'interdizione legale" },
+    { "id": "50", "title": "L'inabilitazione" },
+    { "id": "51", "title": "L'emancipazione" },
+    { "id": "52", "title": "L'amministrazione di sostegno" },
+    { "id": "53", "title": "L'incapacità naturale" },
+    { "id": "54", "title": "Incapacità legale e naturale" },
+    { "id": "55", "title": "La legittimazione" },
+    { "id": "56", "title": "La sede della persona" }
+  ],
+  "lessons": [
+    { "id": "c7b-l1", "title": "Interdizione legale e inabilitazione", "secs": ["49", "50"] },
+    { "id": "c7b-l2", "title": "Emancipazione e AdS", "secs": ["51", "52"] },
+    { "id": "c7b-l3", "title": "Incapacità naturale", "secs": ["53", "54"] },
+    { "id": "c7b-l4", "title": "Legittimazione e apparenza", "secs": ["55"] },
+    { "id": "c7b-l5", "title": "Domicilio, residenza, dimora", "secs": ["56"] }
+  ],
+  "articles": [
+    {
+      "id": "cp-32", "ref": "Art. 32 c.p.", "fonte": "c.p.", "sec": "49",
+      "tema": "Interdizione legale (pena accessoria)",
+      "desc": "Il condannato all'ergastolo o alla reclusione non inferiore a cinque anni per un reato non colposo è, durante la pena, in stato di interdizione legale: per i rapporti patrimoniali è come l'interdetto giudiziale e ha un tutore. Funzione sanzionatoria, effetti automatici.",
+      "es": "Condannato a 8 anni per rapina: durante la pena non può vendere i suoi beni, ma può sposarsi e fare testamento.",
+      "tags": ["persone", "protezione"],
+      "links": [{ "to": "cc-1441", "why": "Gli atti dell'interdetto legale sono annullabili su istanza di chiunque vi abbia interesse (art. 1441, c. 2): annullabilità assoluta." }]
+    },
+    { "id": "cc-1441", "sec": "49" },
+    {
+      "id": "cc-415", "ref": "Art. 415 c.c.", "fonte": "c.c.", "sec": "50",
+      "tema": "Persone che possono essere inabilitate",
+      "desc": "Presupposti alternativi: infermità di mente non così grave da far luogo all'interdizione; prodigalità o abuso abituale di alcol o stupefacenti con gravi pregiudizi economici per sé o la famiglia; sordità o cecità dalla nascita senza educazione sufficiente.",
+      "es": "Chi sperpera il patrimonio in lusso e ostentazione, trascurando la famiglia, può essere inabilitato per prodigalità.",
+      "tags": ["persone", "protezione"],
+      "links": [{ "to": "cc-394", "why": "L'inabilitato compie da solo l'ordinaria amministrazione e con il curatore la straordinaria (art. 394)." }]
+    },
+    {
+      "id": "cc-394", "ref": "Art. 394 c.c.", "fonte": "c.c.", "sec": "50",
+      "tema": "Capacità dell'emancipato (e dell'inabilitato): assistenza del curatore",
+      "desc": "L'emancipato (e, per rinvio dell'art. 424, l'inabilitato) compie da solo gli atti di ordinaria amministrazione; per la straordinaria serve il consenso del curatore e, per gli atti più rischiosi, l'autorizzazione del giudice tutelare. Anche per stare in giudizio serve il curatore.",
+      "es": "Per vendere la casa dell'inabilitato servono il suo consenso, quello del curatore e l'autorizzazione.",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-425", "ref": "Art. 425 c.c.", "fonte": "c.c.", "sec": "50",
+      "tema": "Esercizio dell'impresa commerciale da parte dell'inabilitato",
+      "desc": "L'inabilitato può essere autorizzato solo a continuare l'esercizio di un'impresa commerciale, senza che ciò ampli la sua capacità d'agire.",
+      "tags": ["persone", "protezione"],
+      "links": [{ "to": "cc-397", "why": "Diversamente l'emancipato autorizzato all'impresa commerciale acquista la piena capacità (art. 397)." }]
+    },
+    {
+      "id": "cc-390", "ref": "Art. 390 c.c.", "fonte": "c.c.", "sec": "51",
+      "tema": "Emancipazione di diritto con il matrimonio",
+      "desc": "Il minore è di diritto emancipato con il matrimonio (possibile dai sedici anni con autorizzazione del tribunale): l'emancipazione è automatica, non serve un provvedimento.",
+      "es": "Una diciassettenne autorizzata a sposarsi diventa emancipata con le nozze.",
+      "tags": ["persone", "protezione"],
+      "links": [{ "to": "cc-84-2", "why": "L'ammissione al matrimonio dai 16 anni è il presupposto dell'emancipazione." }]
+    },
+    {
+      "id": "cc-392", "ref": "Art. 392 c.c.", "fonte": "c.c.", "sec": "51",
+      "tema": "Curatore dell'emancipato",
+      "desc": "Il curatore dell'emancipato sposato con persona maggiorenne è il coniuge; se entrambi sono minori, il giudice tutelare può nominare un unico curatore. L'emancipazione non viene meno con lo scioglimento del matrimonio o con l'annullamento per causa diversa dall'età.",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-397", "ref": "Art. 397 c.c.", "fonte": "c.c.", "sec": "51",
+      "tema": "Emancipato autorizzato all'esercizio di impresa commerciale",
+      "desc": "L'emancipato autorizzato a esercitare un'impresa commerciale può compiere da solo anche gli atti che eccedono l'ordinaria amministrazione: acquista la piena capacità d'agire.",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-404", "ref": "Art. 404 c.c.", "fonte": "c.c.", "sec": "52",
+      "tema": "Amministrazione di sostegno: presupposti",
+      "desc": "Chi, per infermità o menomazione fisica o psichica, è nell'impossibilità anche parziale o temporanea di provvedere ai propri interessi può essere assistito da un amministratore di sostegno nominato dal giudice tutelare con decreto (L. 6/2004).",
+      "es": "Un anziano con memoria affievolita, ma senza demenza, che fatica a gestire la pensione.",
+      "tags": ["persone", "protezione", "ads"],
+      "links": [{ "to": "cc-409", "why": "Il beneficiario conserva la capacità per tutti gli atti non indicati nel decreto (art. 409)." }]
+    },
+    {
+      "id": "cc-405", "ref": "Art. 405 c.c.", "fonte": "c.c.", "sec": "52",
+      "tema": "Decreto di nomina dell'amministratore di sostegno",
+      "desc": "Il decreto ha effetto dal deposito; indica durata (anche a tempo determinato), oggetto dell'incarico, atti che l'amministratore compie in nome del beneficiario e atti in cui lo assiste. Può essere emesso nell'ultimo anno della minore età.",
+      "tags": ["persone", "protezione", "ads"]
+    },
+    {
+      "id": "cc-406", "ref": "Art. 406 c.c.", "fonte": "c.c.", "sec": "52",
+      "tema": "Chi può chiedere l'amministrazione di sostegno",
+      "desc": "Il beneficiario stesso (anche se minore, interdetto o inabilitato), il coniuge, il partner dell'unione civile, il convivente stabile, i parenti entro il quarto grado, gli affini entro il secondo, il tutore o curatore, il pubblico ministero e i responsabili dei servizi sanitari e sociali.",
+      "tags": ["persone", "protezione", "ads"]
+    },
+    {
+      "id": "cc-407", "ref": "Art. 407 c.c.", "fonte": "c.c.", "sec": "52",
+      "tema": "Procedimento: audizione del beneficiario",
+      "desc": "Il giudice tutelare sente personalmente il beneficiario, recandosi se occorre dove si trova, e tiene conto dei suoi bisogni e delle sue richieste. Il decreto è modificabile in ogni momento, anche d'ufficio.",
+      "tags": ["persone", "protezione", "ads"]
+    },
+    {
+      "id": "cc-408", "ref": "Art. 408 c.c.", "fonte": "c.c.", "sec": "52",
+      "tema": "Scelta dell'amministratore di sostegno",
+      "desc": "Il giudice nomina la persona designata dallo stesso interessato (con atto pubblico o scrittura privata autenticata) in previsione della futura incapacità; altrimenti preferibilmente coniuge, partner, convivente, genitori, figli, fratelli, parenti.",
+      "es": "Prima di ammalarsi, Maria designa con atto notarile la figlia come futura amministratrice e dà direttive sulle cure.",
+      "tags": ["persone", "protezione", "ads"]
+    },
+    {
+      "id": "cc-409", "ref": "Art. 409 c.c.", "fonte": "c.c.", "sec": "52",
+      "tema": "Effetti dell'amministrazione di sostegno",
+      "desc": "Il beneficiario conserva la capacità d'agire per tutti gli atti che non richiedono la rappresentanza esclusiva o l'assistenza dell'amministratore (c. 1) e può sempre compiere gli atti necessari alle esigenze della vita quotidiana (c. 2).",
+      "tags": ["persone", "protezione", "ads"]
+    },
+    {
+      "id": "cc-410", "ref": "Art. 410 c.c.", "fonte": "c.c.", "sec": "52",
+      "tema": "Doveri dell'amministratore di sostegno",
+      "desc": "L'amministratore deve tener conto dei bisogni e delle aspirazioni del beneficiario e informarlo tempestivamente degli atti da compiere; in caso di dissenso decide il giudice tutelare.",
+      "tags": ["persone", "protezione", "ads"]
+    },
+    {
+      "id": "cc-411-4", "ref": "Art. 411, c. 4, c.c.", "fonte": "c.c.", "sec": "52",
+      "tema": "Estensione al beneficiario di limiti previsti per l'interdetto",
+      "desc": "Il giudice può disporre che determinati effetti previsti per l'interdetto o l'inabilitato si estendano al beneficiario (es. perdita della capacità di donare, testare o sposarsi).",
+      "tags": ["persone", "protezione", "ads"]
+    },
+    {
+      "id": "cc-412", "ref": "Art. 412 c.c.", "fonte": "c.c.", "sec": "52",
+      "tema": "Atti compiuti in violazione delle regole dell'AdS",
+      "desc": "Sono annullabili gli atti compiuti dall'amministratore in violazione di legge o oltre i poteri (c. 1) e quelli compiuti personalmente dal beneficiario violando il decreto (c. 2).",
+      "tags": ["persone", "protezione", "ads"]
+    },
+    {
+      "id": "cc-428", "ref": "Art. 428 c.c.", "fonte": "c.c.", "sec": "53",
+      "tema": "Atti compiuti da persona incapace di intendere o di volere",
+      "desc": "Gli atti unilaterali dell'incapace naturale sono annullabili se ne deriva un grave pregiudizio (c. 1); i contratti se c'è la malafede dell'altro contraente (c. 2). L'azione si prescrive in cinque anni dal compimento dell'atto (c. 3).",
+      "es": "Un uomo completamente ubriaco vende la casa a chi si accorge del suo stato: può chiedere l'annullamento entro 5 anni.",
+      "tags": ["persone", "incapacita-naturale"],
+      "links": [{ "to": "cc-1442", "why": "Termini diversi: incapacità naturale 5 anni dall'atto (art. 428), incapacità legale 5 anni dalla cessazione (art. 1442)." }]
+    },
+    {
+      "id": "cc-120", "ref": "Art. 120 c.c.", "fonte": "c.c.", "sec": "53",
+      "tema": "Matrimonio dell'incapace di intendere o di volere",
+      "desc": "Il matrimonio può essere impugnato da chi provi di essere stato incapace di intendere o di volere al momento della celebrazione: basta la prova dell'incapacità.",
+      "tags": ["persone", "incapacita-naturale"]
+    },
+    {
+      "id": "cc-775", "ref": "Art. 775 c.c.", "fonte": "c.c.", "sec": "53",
+      "tema": "Donazione fatta dall'incapace di intendere o di volere",
+      "desc": "La donazione fatta da persona che, pur non interdetta, era incapace di intendere o di volere al momento dell'atto può essere annullata: basta la prova dell'incapacità.",
+      "tags": ["persone", "incapacita-naturale"]
+    },
+    { "id": "cc-591-2", "sec": "53" },
+    {
+      "id": "cc-1388", "ref": "Art. 1388 c.c.", "fonte": "c.c.", "sec": "55",
+      "tema": "Contratto concluso dal rappresentante",
+      "desc": "Il contratto concluso dal rappresentante in nome e nell'interesse del rappresentato, nei limiti delle facoltà conferite, produce effetto direttamente nei confronti del rappresentato: legittimazione senza titolarità.",
+      "tags": ["persone", "legittimazione"]
+    },
+    {
+      "id": "cc-2900", "ref": "Art. 2900 c.c.", "fonte": "c.c.", "sec": "55",
+      "tema": "Azione surrogatoria",
+      "desc": "Il creditore, per assicurare la soddisfazione delle sue ragioni, può esercitare i diritti patrimoniali che il debitore trascura di esercitare: esempio di legittimazione separata dalla titolarità.",
+      "es": "Il debitore non riscuote un suo credito verso terzi: il creditore lo fa al posto suo.",
+      "tags": ["persone", "legittimazione"]
+    },
+    {
+      "id": "cc-1189", "ref": "Art. 1189 c.c.", "fonte": "c.c.", "sec": "55",
+      "tema": "Pagamento al creditore apparente",
+      "desc": "Il debitore che esegue il pagamento a chi appare legittimato a riceverlo in base a circostanze univoche è liberato se prova di essere stato in buona fede.",
+      "es": "Paghi allo sportello postale l'impiegato che sembra addetto agli incassi: il pagamento è valido anche se non era autorizzato.",
+      "tags": ["persone", "legittimazione"],
+      "links": [{ "to": "cc-534", "why": "Altro caso di tutela dell'apparenza: acquisto dall'erede apparente (art. 534)." }]
+    },
+    {
+      "id": "cc-534", "ref": "Art. 534 c.c.", "fonte": "c.c.", "sec": "55",
+      "tema": "Acquisto dall'erede apparente",
+      "desc": "Sono salvi i diritti acquistati, a titolo oneroso, dai terzi che hanno contrattato in buona fede con l'erede apparente (c. 2): chi compra un bene ereditario ignorando senza colpa che il venditore non era erede ne diventa proprietario.",
+      "tags": ["persone", "legittimazione"]
+    },
+    {
+      "id": "cc-1705", "ref": "Art. 1705 c.c.", "fonte": "c.c.", "sec": "55",
+      "tema": "Mandato senza rappresentanza: diritti del mandante",
+      "desc": "Il mandante può esercitare i diritti di credito sorti a favore del mandatario dall'esecuzione del mandato (c. 2).",
+      "tags": ["persone", "legittimazione"]
+    },
+    {
+      "id": "cc-43", "ref": "Art. 43 c.c.", "fonte": "c.c.", "sec": "56",
+      "tema": "Domicilio e residenza",
+      "desc": "Il domicilio è il luogo in cui la persona ha stabilito la sede principale dei suoi affari e interessi (c. 1); la residenza è il luogo in cui ha la dimora abituale (c. 2).",
+      "es": "Un avvocato vive a Monza (residenza) ma ha lo studio principale a Milano (domicilio).",
+      "tags": ["persone", "sede"],
+      "links": [
+        { "to": "cc-45", "why": "Il domicilio legale di minori e interdetti (art. 45)." },
+        { "to": "cc-47", "why": "Il domicilio speciale va eletto per iscritto (art. 47)." }
+      ]
+    },
+    {
+      "id": "cc-45", "ref": "Art. 45 c.c.", "fonte": "c.c.", "sec": "56",
+      "tema": "Domicilio legale (minori e interdetti)",
+      "desc": "Il minore ha il domicilio nel luogo di residenza della famiglia o in quello del tutore; l'interdetto ha il domicilio del tutore.",
+      "tags": ["persone", "sede"]
+    },
+    {
+      "id": "cc-47", "ref": "Art. 47 c.c.", "fonte": "c.c.", "sec": "56",
+      "tema": "Elezione di domicilio speciale",
+      "desc": "Si può eleggere domicilio speciale per determinati atti o affari; l'elezione deve farsi espressamente per iscritto.",
+      "es": "Per una causa elego domicilio presso lo studio del mio avvocato.",
+      "tags": ["persone", "sede"]
+    },
+    {
+      "id": "cc-1182", "ref": "Art. 1182 c.c.", "fonte": "c.c.", "sec": "56",
+      "tema": "Luogo dell'adempimento",
+      "desc": "In mancanza di diversa determinazione, l'obbligazione di pagare una somma di denaro si adempie al domicilio del creditore (c. 3), le altre obbligazioni al domicilio del debitore (c. 4).",
+      "es": "Se nulla è previsto, chi deve dei soldi li porta al domicilio del creditore.",
+      "tags": ["persone", "sede", "dispositive"]
+    },
+    { "id": "cc-456", "sec": "56" }
+  ],
+  "concepts": [
+    { "id": "k7-interd-legale", "sec": "49", "term": "Interdizione legale", "def": "Pena accessoria automatica per chi è condannato all'ergastolo o a 5 o più anni per reato non colposo: limita solo i rapporti patrimoniali" },
+    { "id": "k7-annull-assoluta", "sec": "49", "term": "Annullabilità assoluta", "def": "Annullabilità che può far valere chiunque vi abbia interesse: tipica degli atti dell'interdetto legale" },
+    { "id": "k7-inabilitazione", "sec": "50", "term": "Inabilitazione", "def": "Sentenza che limita la capacità per la sola straordinaria amministrazione, su presupposti alternativi" },
+    { "id": "k7-prodigalita", "sec": "50", "term": "Prodigalità", "def": "Abituale eccesso nello spendere o regalare per motivi futili o contro la solidarietà familiare, anche senza patologia" },
+    { "id": "k7-curatore", "sec": "50", "term": "Curatore", "def": "Chi assiste l'inabilitato o l'emancipato integrando la sua volontà, senza sostituirsi a lui" },
+    { "id": "k7-assistenza", "sec": "50", "term": "Assistenza", "def": "Tecnica di protezione in cui l'incapace compie l'atto insieme al curatore" },
+    { "id": "k7-rappresentanza-legale", "sec": "50", "term": "Rappresentanza legale", "def": "Tecnica in cui il rappresentante (genitori, tutore) compie l'atto in vece dell'incapace" },
+    { "id": "k7-emancipazione", "sec": "51", "term": "Emancipazione", "def": "Condizione del minore ultrasedicenne sposato: come l'inabilitato, cessa con la maggiore età" },
+    { "id": "k7-ads", "sec": "52", "term": "Amministrazione di sostegno", "def": "Misura flessibile aperta con decreto del giudice tutelare: gli effetti li fissa il decreto caso per caso (L. 6/2004)" },
+    { "id": "k7-flessibilita", "sec": "52", "term": "Flessibilità dell'AdS", "def": "Gli effetti non sono predeterminati: il decreto indica gli atti di rappresentanza e di assistenza, modificabile in ogni momento" },
+    { "id": "k7-minore-limitaz", "sec": "52", "term": "Minore limitazione possibile", "def": "Principio per cui l'AdS deve limitare il meno possibile la capacità del beneficiario (Corte cost. 114/2019, 167/2023)" },
+    { "id": "k7-designazione", "sec": "52", "term": "Designazione anticipata", "def": "Scelta, con atto pubblico o scrittura autenticata, del proprio futuro amministratore di sostegno, anche con direttive sanitarie" },
+    { "id": "k7-menomazione", "sec": "52", "term": "Menomazione psichica", "def": "Disagio che non è una vera malattia (es. memoria affievolita): basta per l'AdS ma non per l'interdizione" },
+    { "id": "k7-incap-naturale", "sec": "53", "term": "Incapacità naturale", "def": "Incapacità di intendere o di volere di fatto, al momento dell'atto, di un soggetto legalmente capace" },
+    { "id": "k7-malafede", "sec": "53", "term": "Malafede della controparte", "def": "La controparte sapeva o avrebbe dovuto accorgersi, con l'ordinaria diligenza, di contrarre con un incapace" },
+    { "id": "k7-incap-legale", "sec": "54", "term": "Incapacità legale", "def": "Incapacità che dipende solo dalla situazione giuridica (minore età, interdizione...), non dalla lucidità in concreto" },
+    { "id": "k7-legittimazione", "sec": "55", "term": "Legittimazione", "def": "Idoneità a esercitare o disporre di un determinato diritto: di regola coincide con la titolarità, ma non sempre" },
+    { "id": "k7-apparenza", "sec": "55", "term": "Apparenza", "def": "Tutela del terzo che, per errore scusabile, confida in una situazione di fatto univoca che non corrisponde al vero" },
+    { "id": "k7-domicilio", "sec": "56", "term": "Domicilio", "def": "Sede principale degli affari e interessi della persona, anche senza presenza fisica (art. 43, c. 1)" },
+    { "id": "k7-residenza", "sec": "56", "term": "Residenza", "def": "Luogo di dimora abituale e volontaria: permanenza abituale più intenzione di rimanervi" },
+    { "id": "k7-dimora", "sec": "56", "term": "Dimora", "def": "Luogo in cui la persona attualmente abita, per un periodo non brevissimo" },
+    { "id": "k7-dom-speciale", "sec": "56", "term": "Domicilio speciale", "def": "Domicilio eletto per determinati atti o affari, per iscritto e con dichiarazione espressa" },
+    { "id": "k7-anagrafe", "sec": "56", "term": "Risultanze anagrafiche", "def": "Iscrizioni all'anagrafe: presunzione semplice della residenza, superabile con qualsiasi prova" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx7-interd-tipi", "sec": "49", "title": "Interdizione giudiziale o legale?",
+      "cols": ["Giudiziale", "Legale"],
+      "facts": [
+        ["Sentenza civile del tribunale (art. 414 c.c.)", 0],
+        ["Condanna penale, automaticamente (art. 32 c.p.)", 1],
+        ["Presupposto: abituale infermità di mente", 0],
+        ["Presupposto: ergastolo o reclusione di almeno 5 anni per reato non colposo", 1],
+        ["Funzione di protezione", 0],
+        ["Funzione sanzionatoria", 1],
+        ["Atti annullabili solo su istanza di tutore, interdetto, eredi", 0],
+        ["Atti annullabili su istanza di chiunque vi abbia interesse", 1],
+        ["Matrimonio e testamento preclusi", 0],
+        ["Matrimonio e testamento consentiti", 1]
+      ]
+    },
+    {
+      "id": "cx7-rappr-assist", "sec": "50", "title": "Rappresentanza o assistenza?",
+      "cols": ["Rappresentanza (tutore, genitori)", "Assistenza (curatore)"],
+      "facts": [
+        ["L'atto lo compie il rappresentante, in vece dell'incapace", 0],
+        ["L'atto lo compie l'incapace insieme al curatore", 1],
+        ["Si sostituisce alla volontà dell'incapace", 0],
+        ["Integra la volontà dell'incapace", 1],
+        ["Minore, interdetto", 0],
+        ["Inabilitato, emancipato", 1]
+      ]
+    },
+    {
+      "id": "cx7-inab-eman", "sec": "51", "title": "Inabilitato o emancipato?",
+      "cols": ["Inabilitato", "Emancipato"],
+      "facts": [
+        ["Nasce da una sentenza del tribunale", 0],
+        ["Nasce dal matrimonio del minore ultrasedicenne", 1],
+        ["Il curatore è nominato dal giudice", 0],
+        ["Il curatore è il coniuge maggiorenne", 1],
+        ["Può solo continuare un'impresa commerciale (art. 425)", 0],
+        ["Se autorizzato all'impresa commerciale, ha piena capacità (art. 397)", 1],
+        ["Cessa con la revoca", 0],
+        ["Cessa con la maggiore età", 1]
+      ]
+    },
+    {
+      "id": "cx7-misure", "sec": "52", "title": "Interdizione, inabilitazione o amministrazione di sostegno?",
+      "cols": ["Interdizione", "Inabilitazione", "Amministrazione di sostegno"],
+      "facts": [
+        ["Decreto del giudice tutelare", 2],
+        ["Presupposti congiunti: abituale infermità di mente, incapacità, necessità di protezione", 0],
+        ["Presupposti alternativi, tra cui la prodigalità", 1],
+        ["Effetti fissati caso per caso dal decreto", 2],
+        ["Il tutore rappresenta", 0],
+        ["Il curatore assiste", 1],
+        ["Effetti dal deposito del decreto", 2],
+        ["Resta capace per l'ordinaria amministrazione", 1],
+        ["Basta anche una menomazione fisica o temporanea", 2],
+        ["Capacità residua solo per la vita quotidiana", 0]
+      ]
+    },
+    {
+      "id": "cx7-incap-nat", "sec": "53", "title": "Che cosa bisogna provare per annullare l'atto dell'incapace naturale?",
+      "cols": ["Solo l'incapacità", "Incapacità + grave pregiudizio", "Incapacità + malafede della controparte"],
+      "facts": [
+        ["Matrimonio", 0],
+        ["Testamento", 0],
+        ["Donazione", 0],
+        ["Rinuncia a un credito", 1],
+        ["Dimissioni del lavoratore", 1],
+        ["Compravendita", 2],
+        ["Mutuo", 2]
+      ]
+    },
+    {
+      "id": "cx7-legale-nat", "sec": "54", "title": "Incapacità legale o naturale?",
+      "cols": ["Legale", "Naturale"],
+      "facts": [
+        ["Rileva la situazione giuridica (minore età, interdizione)", 0],
+        ["Rileva lo stato concreto al momento dell'atto", 1],
+        ["La prova della concreta incapacità è irrilevante", 0],
+        ["Bisogna provare l'incapacità", 1],
+        ["Azione entro 5 anni dalla cessazione dell'incapacità (art. 1442)", 0],
+        ["Azione entro 5 anni dal compimento dell'atto (art. 428)", 1],
+        ["La buona fede della controparte è irrilevante", 0]
+      ]
+    },
+    {
+      "id": "cx7-sede", "sec": "56", "title": "Domicilio, residenza o dimora?",
+      "cols": ["Domicilio", "Residenza", "Dimora"],
+      "facts": [
+        ["Sede principale degli affari e interessi", 0],
+        ["Dimora abituale e volontaria", 1],
+        ["Luogo in cui si abita attualmente", 2],
+        ["Non richiede la presenza fisica", 0],
+        ["Richiede permanenza abituale e intenzione di rimanervi", 1],
+        ["Lì si apre la successione (art. 456)", 0],
+        ["L'anagrafe ne fornisce una presunzione semplice", 1]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf7b-1", "sec": "49", "s": "L'interdetto legale non può sposarsi né fare testamento.", "v": false, "why": "L'interdizione legale riguarda solo i rapporti patrimoniali." },
+    { "id": "tf7b-2", "sec": "49", "s": "L'interdizione legale richiede un accertamento dell'incapacità.", "v": false, "why": "È conseguenza automatica della condanna penale." },
+    { "id": "tf7b-3", "sec": "49", "s": "L'interdizione legale è l'unico caso di annullabilità assoluta tra le incapacità.", "v": true, "why": "Ha funzione sanzionatoria, a tutela di un interesse generale." },
+    { "id": "tf7b-4", "sec": "50", "s": "Il curatore compie gli atti in nome dell'inabilitato.", "v": false, "why": "Lo assiste: l'atto lo compie l'inabilitato insieme al curatore." },
+    { "id": "tf7b-5", "sec": "50", "s": "È prodigo chi dona consapevolmente parte dei beni a persone care.", "v": false, "why": "Servono motivi futili o contrari alla solidarietà familiare (Cass. 786/2017)." },
+    { "id": "tf7b-6", "sec": "50", "s": "I presupposti dell'inabilitazione sono alternativi, quelli dell'interdizione congiunti.", "v": true, "why": "Ne basta uno solo per l'inabilitazione." },
+    { "id": "tf7b-7", "sec": "51", "s": "L'emancipato ha sempre piena capacità d'agire.", "v": false, "why": "Solo se autorizzato all'esercizio di un'impresa commerciale (art. 397)." },
+    { "id": "tf7b-8", "sec": "51", "s": "L'emancipazione cessa con il divorzio.", "v": false, "why": "Sopravvive allo scioglimento del matrimonio; cessa con la maggiore età." },
+    { "id": "tf7b-9", "sec": "52", "s": "Il beneficiario dell'amministrazione di sostegno è un incapace legale assoluto.", "v": false, "why": "Conserva la capacità per tutti gli atti non indicati nel decreto (art. 409)." },
+    { "id": "tf7b-10", "sec": "52", "s": "L'amministrazione di sostegno si applica solo alle malattie mentali permanenti.", "v": false, "why": "Basta anche una menomazione fisica o un'infermità temporanea o parziale." },
+    { "id": "tf7b-11", "sec": "52", "s": "L'amministrazione di sostegno si apre con sentenza del tribunale.", "v": false, "why": "Con decreto del giudice tutelare." },
+    { "id": "tf7b-12", "sec": "52", "s": "Il decreto di AdS può togliere al beneficiario la capacità per gli atti della vita quotidiana.", "v": false, "why": "Per quelli il beneficiario resta sempre capace (art. 409, c. 2)." },
+    { "id": "tf7b-13", "sec": "52", "s": "Il giudice può estendere al beneficiario il divieto di fare testamento.", "v": true, "why": "Art. 411, c. 4 (Cass. 8456/2024)." },
+    { "id": "tf7b-14", "sec": "53", "s": "Per annullare il contratto dell'incapace naturale serve il grave pregiudizio.", "v": false, "why": "Serve la malafede della controparte; il pregiudizio è solo un indizio." },
+    { "id": "tf7b-15", "sec": "53", "s": "L'azione dell'incapace naturale si prescrive in cinque anni dalla cessazione dell'incapacità.", "v": false, "why": "Cinque anni dal compimento dell'atto (art. 428, c. 3)." },
+    { "id": "tf7b-16", "sec": "53", "s": "La controparte dell'incapace naturale può chiedere l'annullamento.", "v": false, "why": "Solo l'incapace (Cass. 3456/2015)." },
+    { "id": "tf7b-17", "sec": "54", "s": "Il contratto di un minore molto maturo e lucido è valido.", "v": false, "why": "Nell'incapacità legale conta solo la situazione giuridica: è annullabile." },
+    { "id": "tf7b-18", "sec": "55", "s": "Chi ha capacità d'agire è sempre legittimato a disporre di qualunque bene.", "v": false, "why": "Un capace che vende un bene altrui non è legittimato." },
+    { "id": "tf7b-19", "sec": "55", "s": "Nel nostro ordinamento l'apparenza protegge sempre il terzo in buona fede.", "v": false, "why": "Non c'è un principio generale: la tutela opera nei singoli istituti." },
+    { "id": "tf7b-20", "sec": "56", "s": "La residenza anagrafica è una prova insuperabile della residenza.", "v": false, "why": "È una presunzione semplice, superabile con qualsiasi mezzo." },
+    { "id": "tf7b-21", "sec": "56", "s": "Il domicilio generale è unico, quelli speciali possono essere più d'uno.", "v": true, "why": "Il domicilio speciale si elegge per iscritto per singoli atti o affari." }
+  ],
+  "sequences": [],
+  "cases": [
+    { "id": "c7b-1", "sec": "49", "text": "Mario, condannato a 10 anni per truffa, vende un suo appartamento durante la pena. Un vicino interessato all'immobile vuole impugnare la vendita.", "q": "Può farlo?", "ok": "Sì: l'annullabilità degli atti dell'interdetto legale è assoluta", "no": ["No: può farlo solo il tutore", "No: l'atto è valido", "Sì, perché l'atto è nullo"], "why": "Art. 1441, c. 2, c.c.: chiunque vi abbia interesse." },
+    { "id": "c7b-2", "sec": "50", "text": "Giorgio, inabilitato, vende da solo il suo appartamento.", "q": "Che sorte ha la vendita?", "ok": "È annullabile: serviva l'assistenza del curatore (e l'autorizzazione)", "no": ["È valida: è maggiorenne", "È nulla", "È valida se il prezzo è giusto"], "why": "Atto di straordinaria amministrazione (art. 394 c.c.)." },
+    { "id": "c7b-3", "sec": "50", "text": "Giorgio, inabilitato, rinnova da solo l'abbonamento della luce.", "q": "Può farlo?", "ok": "Sì: è ordinaria amministrazione", "no": ["No: serve sempre il curatore", "Solo con l'autorizzazione del giudice", "No: lo fa il tutore"], "why": "L'inabilitato compie da solo l'ordinaria amministrazione." },
+    { "id": "c7b-4", "sec": "51", "text": "Sofia, 17 anni, sposata con un maggiorenne, vuole comprare un'auto a rate.", "q": "Chi la assiste?", "ok": "Il marito, che è il suo curatore", "no": ["I genitori, che la rappresentano", "Nessuno: è emancipata e pienamente capace", "Un tutore nominato dal tribunale"], "why": "Art. 392: il coniuge maggiorenne è curatore dell'emancipato." },
+    { "id": "c7b-5", "sec": "52", "text": "Un anziano lucido ma molto smemorato fatica a pagare le bollette.", "q": "Quale misura è più adatta?", "ok": "L'amministrazione di sostegno", "no": ["L'interdizione", "L'inabilitazione per prodigalità", "Nessuna: non è malato"], "why": "Basta una menomazione psichica e serve la minore limitazione possibile." },
+    { "id": "c7b-6", "sec": "52", "text": "Il decreto di AdS di Luisa prevede l'assistenza solo per la vendita di immobili. Luisa compra da sola un televisore.", "q": "L'acquisto è valido?", "ok": "Sì: per gli atti non indicati nel decreto conserva la capacità", "no": ["No: è un'incapace", "È annullabile", "Solo se l'amministratore approva dopo"], "why": "Art. 409, c. 1, c.c." },
+    { "id": "c7b-7", "sec": "52", "text": "Un uomo capace di gestire i suoi affari è però schiavo del gioco d'azzardo.", "q": "Può avere un amministratore di sostegno?", "ok": "Sì: rileva anche un'infermità che incide solo su alcuni profili", "no": ["No: è capace", "No: serve l'interdizione", "Solo se ha debiti superiori a 50.000 euro"], "why": "Flessibilità dell'AdS." },
+    { "id": "c7b-8", "sec": "53", "text": "Paolo, completamente ubriaco, vende la casa a prezzo di mercato a un acquirente che si accorge benissimo del suo stato.", "q": "Può ottenere l'annullamento?", "ok": "Sì: basta l'incapacità e la malafede, il pregiudizio non serve", "no": ["No: il prezzo era giusto", "No: era legalmente capace", "Sì, ma solo se c'è un grave pregiudizio"], "why": "Art. 428, c. 2: per i contratti serve la malafede della controparte." },
+    { "id": "c7b-9", "sec": "53", "text": "Una donna in grave stato di demenza, non interdetta, fa testamento.", "q": "Che cosa devono provare gli eredi legittimi per annullarlo?", "ok": "Solo l'incapacità al momento del testamento", "no": ["L'incapacità e la malafede del beneficiario", "L'incapacità e un grave pregiudizio", "Nulla: il testamento è nullo"], "why": "Art. 591, c. 2, n. 3, c.c." },
+    { "id": "c7b-10", "sec": "53", "text": "Sotto shock dopo un incidente, Luca rinuncia per iscritto a un credito importante.", "q": "Cosa deve provare per annullare la rinuncia?", "ok": "L'incapacità e il grave pregiudizio", "no": ["Solo l'incapacità", "L'incapacità e la malafede del debitore", "Nulla: è nulla di diritto"], "why": "Atto unilaterale: art. 428, c. 1, c.c." },
+    { "id": "c7b-11", "sec": "55", "text": "Paghi la bolletta allo sportello a un impiegato che sembra addetto agli incassi, ma non era autorizzato.", "q": "Sei liberato dal debito?", "ok": "Sì: pagamento al creditore apparente in buona fede (art. 1189)", "no": ["No: devi pagare di nuovo", "Solo se l'impiegato restituisce i soldi", "Sì, ma solo per metà"], "why": "Circostanze univoche + buona fede del debitore." },
+    { "id": "c7b-12", "sec": "55", "text": "Il debitore di Anna non riscuote un credito che ha verso un terzo, e così non può pagarla.", "q": "Che cosa può fare Anna?", "ok": "Esercitare lei quel diritto con l'azione surrogatoria (art. 2900)", "no": ["Nulla: non è titolare del credito", "Chiedere l'interdizione del debitore", "Pignorare la casa del terzo senza processo"], "why": "Legittimazione senza titolarità." },
+    { "id": "c7b-13", "sec": "56", "text": "Marco vive a Monza ma ha il suo studio professionale principale a Milano.", "q": "Dove ha il domicilio?", "ok": "A Milano, sede principale dei suoi affari", "no": ["A Monza, dove vive", "In entrambe le città", "Dove è iscritto all'anagrafe, sempre"], "why": "Art. 43, c. 1, c.c." },
+    { "id": "c7b-14", "sec": "56", "text": "Un contratto non dice dove pagare il prezzo in denaro.", "q": "Dove si paga?", "ok": "Al domicilio del creditore (art. 1182, c. 3)", "no": ["Al domicilio del debitore", "Dove decide il debitore", "In tribunale"], "why": "Norma suppletiva sul luogo dell'adempimento." }
+  ]
+}

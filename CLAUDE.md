@@ -26,8 +26,8 @@ Quando arrivano nuovi file: leggerli tutti, creare il/i file capitolo, aggiunger
 L'app raggruppa i capitoli per fascicolo, come i fascicoli cartacei dell'utente:
 
 1. **Il diritto e le fonti** (Capp. 1-4): fatto, nell'app (`cap1`-`cap4`).
-2. **I soggetti** (§ 32 + Cap. 7): studiato, file definitivi 5 e 7 ancora da caricare.
-3. **Situazioni, beni, fatti e atti** (Capp. 6, 8, 9): completo, 3 file definitivi da caricare.
+2. **I soggetti** (§ 32 + Cap. 7): fatto, nell'app (`cap5` solo § 32, `cap7a`-`cap7e`: il Cap. 7 è diviso in 5 parti con `label` 7.1-7.5).
+3. **Situazioni, beni, fatti e atti** (Capp. 6, 8, 9): fatto, nell'app (`cap6`, `cap8a`-`cap8b`, `cap9`).
 4. **Diritti reali, possesso, trascrizione**: da fare, tutto spiegato (slide 10, 11, 12 + appunti):
    - introduzione ai diritti reali, § 131 (pp. 237-239)
    - proprietà, diritti reali di godimento, comunione, condominio, §§ 132-173 (pp. 239-308): studio individuale, niente slide né appunti
@@ -37,4 +37,4 @@ L'app raggruppa i capitoli per fascicolo, come i fascicoli cartacei dell'utente:
 6. **Responsabilità extracontrattuale** (Cap. 55): su Panopto o sul manuale.
 7. **Tutela dei diritti, prove, prescrizione e decadenza** (Capp. 10-12): non ancora spiegato.
 
-Nota: i file capitolo dell'utente sono numerati come i capitoli del manuale (es. "Privato_Cap._7"). Per i capitoli fuori ordine (§ 32, Cap. 55, Cap. 81) usare comunque `num` = numero del capitolo del manuale e ID file tipo `cap7.json`, `cap55.json`.
+Nota: i file capitolo dell'utente sono numerati come i capitoli del manuale (es. "Privato_Cap._7"). Per i capitoli fuori ordine (§ 32, Cap. 55, Cap. 81) usare comunque `num` = numero del capitolo del manuale e ID file tipo `cap7.json`, `cap55.json`. Un capitolo lungo si può dividere in più file con lo stesso `num` e un `label` diverso (es. `cap7a.json` con `"label": "7.1"`); l'`id` del file deve essere unico.

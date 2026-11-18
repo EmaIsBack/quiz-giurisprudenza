@@ -1,0 +1,384 @@
+{
+  "id": "cap8b",
+  "num": 8,
+  "label": "8.2",
+  "title": "Pertinenze, universalità, azienda, patrimonio, beni pubblici",
+  "source": "Manuale, Cap. VIII, §§ 90-95",
+  "sections": [
+    { "id": "90", "title": "Combinazione di beni" },
+    { "id": "91", "title": "Le pertinenze" },
+    { "id": "92", "title": "Le universalità di beni mobili" },
+    { "id": "93", "title": "L'azienda" },
+    { "id": "94", "title": "Il patrimonio" },
+    { "id": "95", "title": "Beni pubblici, comuni, collettivi, ecclesiastici" }
+  ],
+  "lessons": [
+    { "id": "c8b-l1", "title": "Beni composti e pertinenze", "secs": ["90", "91"] },
+    { "id": "c8b-l2", "title": "Universalità e azienda", "secs": ["92", "93"] },
+    { "id": "c8b-l3", "title": "Il patrimonio", "secs": ["94"] },
+    { "id": "c8b-l4", "title": "Beni pubblici e comuni", "secs": ["95"] }
+  ],
+  "articles": [
+    {
+      "id": "cc-939", "ref": "Art. 939 c.c.", "fonte": "c.c.", "sec": "90",
+      "tema": "Unione e commistione di cose mobili",
+      "desc": "Se più cose mobili di proprietari diversi sono unite in modo da formare un tutto, ciascun proprietario può chiederne la separazione se possibile senza notevole deterioramento; altrimenti la proprietà diventa comune in proporzione al valore.",
+      "es": "Le gomme di Paolo montate sull'auto di Luca: se si smontano senza danni, Paolo può riaverle.",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-934", "why": "Se il tutto è un immobile opera invece l'accessione." }]
+    },
+    {
+      "id": "cc-934", "ref": "Artt. 934-935 c.c.", "fonte": "c.c.", "sec": "90",
+      "tema": "Accessione (opere sopra o sotto il suolo)",
+      "desc": "Qualunque piantagione, costruzione od opera esistente sopra o sotto il suolo appartiene al proprietario di questo, salvo indennizzo o risarcimento al proprietario dei materiali: principio dell'accessione.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-817", "ref": "Art. 817 c.c.", "fonte": "c.c.", "sec": "91",
+      "tema": "Pertinenze",
+      "desc": "Sono pertinenze le cose destinate in modo durevole a servizio o ornamento di un'altra cosa (c. 1). La destinazione può essere fatta dal proprietario della cosa principale o da chi ha un diritto reale su di essa (c. 2), non dal conduttore.",
+      "es": "Il box auto e la cantina di un appartamento; l'autoradio di un'auto.",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-818", "why": "L'art. 818 dice che gli atti sulla cosa principale comprendono le pertinenze." }]
+    },
+    {
+      "id": "cc-818", "ref": "Art. 818 c.c.", "fonte": "c.c.", "sec": "91",
+      "tema": "Regime delle pertinenze",
+      "desc": "Gli atti e i rapporti che hanno per oggetto la cosa principale comprendono anche le pertinenze, salvo diversa disposizione (c. 1); le pertinenze possono formare oggetto di separati atti (c. 2); la cessazione della qualità di pertinenza non è opponibile ai terzi che hanno prima acquistato diritti sulla cosa principale (c. 3).",
+      "es": "Vendi la casa senza parlare del box: il box va all'acquirente, salvo diverso accordo.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-819", "ref": "Art. 819 c.c.", "fonte": "c.c.", "sec": "91",
+      "tema": "Diritti dei terzi sulle pertinenze",
+      "desc": "La destinazione pertinenziale non pregiudica i diritti dei terzi sulla cosa; se la cosa principale è un immobile o un mobile registrato, quei diritti non sono opponibili al terzo acquirente in buona fede se non risultano da scrittura con data certa anteriore.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-816", "ref": "Art. 816 c.c.", "fonte": "c.c.", "sec": "92",
+      "tema": "Universalità di mobili",
+      "desc": "È universalità di mobili la pluralità di cose che appartengono alla stessa persona e hanno una destinazione unitaria; le singole cose possono formare oggetto di separati atti e rapporti.",
+      "es": "I libri di una biblioteca, i quadri di una pinacoteca, le pecore di un gregge.",
+      "tags": ["beni"],
+      "links": [{ "to": "cc-1156", "why": "Per le universalità non vale il possesso vale titolo (art. 1156)." }]
+    },
+    { "id": "cc-1156", "sec": "92" },
+    {
+      "id": "cc-1160", "ref": "Art. 1160 c.c.", "fonte": "c.c.", "sec": "92",
+      "tema": "Usucapione delle universalità di mobili",
+      "desc": "L'usucapione di un'universalità di mobili si compie in vent'anni; per chi l'acquista in buona fede da un non proprietario, con titolo idoneo, bastano dieci anni (c. 2).",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-1170", "ref": "Art. 1170 c.c.", "fonte": "c.c.", "sec": "92",
+      "tema": "Azione di manutenzione",
+      "desc": "Chi è molestato nel possesso di un immobile, di un diritto reale su un immobile o di un'universalità di mobili può chiedere la manutenzione del possesso: non spetta per i singoli beni mobili.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-994", "ref": "Art. 994 c.c.", "fonte": "c.c.", "sec": "92",
+      "tema": "Usufrutto di una mandria o di un gregge",
+      "desc": "Se l'usufrutto ha per oggetto una mandria o un gregge, l'usufruttuario deve surrogare gli animali periti con i nati: i nati servono prima a reintegrare il numero originario.",
+      "tags": ["beni"]
+    },
+    {
+      "id": "cc-2555", "ref": "Art. 2555 c.c.", "fonte": "c.c.", "sec": "93",
+      "tema": "Nozione di azienda",
+      "desc": "L'azienda è il complesso dei beni organizzati dall'imprenditore per l'esercizio dell'impresa. Per le Sezioni unite (5087/2014) è un bene unitario, che si può possedere e usucapire.",
+      "es": "Un ristorante: locali, cucina, arredi, marchio, licenze, organizzati per l'attività.",
+      "tags": ["beni", "azienda"],
+      "links": [{ "to": "cc-2082", "why": "L'imprenditore è il soggetto, l'azienda l'oggetto di cui si serve." }]
+    },
+    {
+      "id": "cc-2082", "ref": "Art. 2082 c.c.", "fonte": "c.c.", "sec": "93",
+      "tema": "Nozione di imprenditore",
+      "desc": "È imprenditore chi esercita professionalmente un'attività economica organizzata al fine della produzione o dello scambio di beni o di servizi.",
+      "tags": ["beni", "azienda"]
+    },
+    {
+      "id": "cc-2561-2562", "ref": "Artt. 2561-2562 c.c.", "fonte": "c.c.", "sec": "93",
+      "tema": "Usufrutto e affitto dell'azienda",
+      "desc": "L'azienda può essere data in usufrutto o in affitto: l'usufruttuario o l'affittuario la gestiscono senza modificarne la destinazione e ne conservano l'efficienza. È titolare dell'azienda anche chi non è proprietario dei beni.",
+      "tags": ["beni", "azienda"]
+    },
+    {
+      "id": "l392-34", "ref": "Art. 34 L. 392/1978", "fonte": "L. 392/1978", "sec": "93",
+      "tema": "Indennità per la perdita dell'avviamento",
+      "desc": "Se cessa la locazione dell'immobile in cui si svolge un'attività a contatto con il pubblico, per causa non imputabile al conduttore (non sua inadempienza, disdetta o recesso), il conduttore ha diritto a un'indennità per la perdita dell'avviamento.",
+      "es": "Il proprietario non rinnova l'affitto al bar sotto casa: il barista riceve un'indennità.",
+      "tags": ["beni", "azienda"]
+    },
+    { "id": "cc-2740", "sec": "94" },
+    {
+      "id": "cc-170", "ref": "Art. 170 c.c.", "fonte": "c.c.", "sec": "94",
+      "tema": "Esecuzione sui beni del fondo patrimoniale",
+      "desc": "L'esecuzione sui beni del fondo patrimoniale non può avere luogo per debiti che il creditore conosceva essere stati contratti per scopi estranei ai bisogni della famiglia: patrimonio separato.",
+      "es": "Il creditore di un debito di gioco del marito, se lo sapeva, non può aggredire la casa nel fondo patrimoniale.",
+      "tags": ["beni", "patrimonio"]
+    },
+    {
+      "id": "cc-490", "ref": "Art. 490 c.c.", "fonte": "c.c.", "sec": "94",
+      "tema": "Effetti del beneficio d'inventario",
+      "desc": "Con l'accettazione con beneficio d'inventario il patrimonio del defunto resta distinto da quello dell'erede: i creditori del defunto e i legatari hanno preferenza sul patrimonio ereditario.",
+      "tags": ["beni", "patrimonio"]
+    },
+    {
+      "id": "cc-2645-ter", "ref": "Art. 2645-ter c.c.", "fonte": "c.c.", "sec": "94",
+      "tema": "Atti di destinazione per interessi meritevoli di tutela",
+      "desc": "Beni immobili o mobili registrati possono essere destinati, con atto pubblico trascritto, a realizzare interessi meritevoli di tutela (es. di persone con disabilità): sono sottratti all'esecuzione per debiti estranei allo scopo.",
+      "tags": ["beni", "patrimonio"]
+    },
+    {
+      "id": "cc-2447-bis", "sec": "94"
+    },
+    {
+      "id": "cc-822", "ref": "Art. 822 c.c.", "fonte": "c.c.", "sec": "95",
+      "tema": "Demanio pubblico",
+      "desc": "Appartengono necessariamente allo Stato il demanio marittimo (lido, spiaggia, porti), idrico (fiumi, laghi) e militare (c. 1); sono demaniali se appartengono allo Stato strade, autostrade, aerodromi, acquedotti, beni culturali (c. 2: demanio accidentale).",
+      "tags": ["beni", "beni-pubblici"],
+      "links": [{ "to": "cc-823", "why": "L'art. 823 fissa il regime: incommerciabilità." }]
+    },
+    {
+      "id": "cc-823", "ref": "Art. 823 c.c.", "fonte": "c.c.", "sec": "95",
+      "tema": "Condizione giuridica del demanio pubblico",
+      "desc": "I beni demaniali sono inalienabili e non possono formare oggetto di diritti a favore di terzi se non nei modi stabiliti dalle leggi; la PA ne cura la tutela anche in via amministrativa (autotutela).",
+      "es": "Nessuno può comprare un tratto di spiaggia demaniale.",
+      "tags": ["beni", "beni-pubblici"]
+    },
+    {
+      "id": "cc-824", "ref": "Art. 824 c.c.", "fonte": "c.c.", "sec": "95",
+      "tema": "Beni demaniali di province e comuni",
+      "desc": "I beni del demanio accidentale, se appartengono a province o comuni, sono soggetti al regime demaniale; lo stesso vale per cimiteri e mercati comunali.",
+      "tags": ["beni", "beni-pubblici"]
+    },
+    {
+      "id": "cc-826", "ref": "Art. 826 c.c.", "fonte": "c.c.", "sec": "95",
+      "tema": "Patrimonio dello Stato, delle province e dei comuni",
+      "desc": "Fanno parte del patrimonio indisponibile foreste, miniere, cave, cose d'interesse storico e artistico trovate nel sottosuolo, caserme e armamenti, edifici sede di uffici pubblici con i loro arredi; gli altri beni pubblici formano il patrimonio disponibile.",
+      "tags": ["beni", "beni-pubblici"],
+      "links": [{ "to": "cc-828", "why": "I beni indisponibili non possono essere sottratti alla loro destinazione (art. 828)." }]
+    },
+    {
+      "id": "cc-828", "ref": "Art. 828 c.c.", "fonte": "c.c.", "sec": "95",
+      "tema": "Vincolo di destinazione del patrimonio indisponibile",
+      "desc": "I beni del patrimonio indisponibile non possono essere sottratti alla loro destinazione se non nei modi stabiliti dalle leggi: possono circolare, ma restano vincolati all'uso pubblico.",
+      "tags": ["beni", "beni-pubblici"]
+    },
+    {
+      "id": "cc-1145", "ref": "Art. 1145 c.c.", "fonte": "c.c.", "sec": "95",
+      "tema": "Possesso di cose fuori commercio",
+      "desc": "Il possesso delle cose di cui non si può acquistare la proprietà (es. beni demaniali) è senza effetto: non si possono usucapire.",
+      "tags": ["beni", "beni-pubblici"]
+    },
+    {
+      "id": "dlgs85-2010", "ref": "D.Lgs. 85/2010", "fonte": "D.Lgs. 85/2010", "sec": "95",
+      "tema": "Federalismo demaniale",
+      "desc": "Trasferisce gratuitamente molti beni statali di interesse locale a comuni, province, città metropolitane e regioni, che di regola entrano nel loro patrimonio disponibile; restano demaniali il demanio marittimo, idrico, aeroportuale e di regola le miniere.",
+      "tags": ["beni", "beni-pubblici"]
+    },
+    {
+      "id": "l168-2017", "ref": "L. 168/2017", "fonte": "L. 168/2017", "sec": "95",
+      "tema": "Domini collettivi (beni collettivi)",
+      "desc": "Tipizza i beni collettivi (terre di proprietà collettiva degli abitanti, terre con usi civici, corpi idrici): inalienabili, indivisibili, inusucapibili, a perpetua destinazione agro-silvo-pastorale, amministrati da enti esponenziali.",
+      "tags": ["beni", "beni-pubblici"]
+    },
+    {
+      "id": "cc-831", "ref": "Art. 831 c.c.", "fonte": "c.c.", "sec": "95",
+      "tema": "Beni degli enti ecclesiastici ed edifici di culto",
+      "desc": "I beni degli enti ecclesiastici seguono il codice civile, salvo leggi speciali; gli edifici destinati al culto cattolico, anche se di privati, non possono essere sottratti alla loro destinazione finché non siano sconsacrati (c. 2).",
+      "es": "Una chiesa di proprietà privata si può vendere, ma il compratore non può trasformarla in discoteca finché non è sconsacrata.",
+      "tags": ["beni", "beni-pubblici"]
+    }
+  ],
+  "concepts": [
+    { "id": "k8-semplice", "sec": "90", "term": "Bene semplice", "def": "Bene i cui elementi sono compenetrati e inseparabili senza alterare il tutto (animale, pianta, casa)" },
+    { "id": "k8-composto", "sec": "90", "term": "Bene composto", "def": "Connessione di più cose separabili, ciascuna con autonoma rilevanza (automobile)" },
+    { "id": "k8-accessione", "sec": "90", "term": "Accessione", "def": "Ciò che è unito a un immobile diventa del proprietario dell'immobile, salvo indennizzo (artt. 934 ss.)" },
+    { "id": "k8-pertinenza", "sec": "91", "term": "Pertinenza", "def": "Cosa destinata in modo durevole a servizio o ornamento di un'altra, senza esserne parte integrante" },
+    { "id": "k8-elem-ogg", "sec": "91", "term": "Elemento oggettivo della pertinenza", "def": "Rapporto durevole di servizio o ornamento che accresce l'utilità o il pregio della cosa principale" },
+    { "id": "k8-elem-sogg", "sec": "91", "term": "Elemento soggettivo della pertinenza", "def": "Volontà, anche tacita, del proprietario o titolare di diritto reale di destinare la cosa all'altra" },
+    { "id": "k8-parte-integr", "sec": "91", "term": "Parte integrante", "def": "Elemento indispensabile all'esistenza del tutto (il motore dell'auto), diverso dalla pertinenza" },
+    { "id": "k8-universalita", "sec": "92", "term": "Universalità di mobili", "def": "Pluralità di cose mobili dello stesso proprietario con destinazione unitaria (biblioteca, gregge)" },
+    { "id": "k8-univ-facti", "sec": "92", "term": "Universitas facti", "def": "Più beni mobili unitariamente considerati per volontà del titolare" },
+    { "id": "k8-univ-iuris", "sec": "92", "term": "Universitas iuris", "def": "Beni e rapporti ridotti a unità dalla legge (eredità, fondo patrimoniale)" },
+    { "id": "k8-azienda", "sec": "93", "term": "Azienda", "def": "Complesso dei beni organizzati dall'imprenditore per l'esercizio dell'impresa: bene unitario" },
+    { "id": "k8-impresa", "sec": "93", "term": "Impresa", "def": "Attività economica organizzata, svolta professionalmente, per produrre o scambiare beni o servizi" },
+    { "id": "k8-avviamento", "sec": "93", "term": "Avviamento", "def": "Capacità di profitto dell'azienda: qualità immateriale che può mancare (azienda appena costituita)" },
+    { "id": "k8-patrimonio", "sec": "94", "term": "Patrimonio", "def": "Complesso dei rapporti attivi e passivi valutabili economicamente di un soggetto: può essere anche solo passivo" },
+    { "id": "k8-unicita", "sec": "94", "term": "Unicità del patrimonio", "def": "Ogni soggetto ha un solo patrimonio con cui risponde di tutti i debiti (art. 2740, c. 1)" },
+    { "id": "k8-separato", "sec": "94", "term": "Patrimonio separato", "def": "Parte del patrimonio dello stesso soggetto riservata a certi creditori, solo nei casi di legge" },
+    { "id": "k8-autonomo", "sec": "94", "term": "Patrimonio autonomo", "def": "Patrimonio attribuito a un nuovo soggetto, un ente con autonomia perfetta o imperfetta" },
+    { "id": "k8-trust", "sec": "94", "term": "Trust", "def": "Il settlor trasferisce beni a un trustee per una finalità: formano un patrimonio separato (L. 364/1989)" },
+    { "id": "k8-beni-pubbl-sogg", "sec": "95", "term": "Beni pubblici in senso soggettivo", "def": "Beni appartenenti a un ente pubblico; se né demaniali né indisponibili seguono il diritto privato" },
+    { "id": "k8-demanio-nec", "sec": "95", "term": "Demanio necessario", "def": "Immobili che appartengono necessariamente allo Stato: marittimo, idrico, militare" },
+    { "id": "k8-demanio-acc", "sec": "95", "term": "Demanio accidentale", "def": "Beni demaniali solo se appartengono a un ente territoriale: strade, aerodromi, acquedotti, beni culturali" },
+    { "id": "k8-indisponibile", "sec": "95", "term": "Patrimonio indisponibile", "def": "Beni pubblici con vincolo di destinazione (foreste, miniere, caserme, uffici): circolano ma restano vincolati" },
+    { "id": "k8-disponibile", "sec": "95", "term": "Patrimonio disponibile", "def": "Beni pubblici non destinati a fini pubblici: seguono il codice civile, alienabili e usucapibili" },
+    { "id": "k8-sdemanial", "sec": "95", "term": "Sdemanializzazione", "def": "Sottrazione di un bene alla destinazione pubblica, solo per volontà inequivocabile della PA" },
+    { "id": "k8-beni-comuni", "sec": "95", "term": "Beni comuni", "def": "Beni pubblici o privati funzionali a interessi della collettività, che ne ha l'uso diretto (Cass. s.u. 3665/2011)" },
+    { "id": "k8-beni-coll", "sec": "95", "term": "Beni collettivi", "def": "Terre di proprietà collettiva delle comunità locali, tipizzate dalla L. 168/2017" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx8-sempl-comp", "sec": "90", "title": "Bene semplice o composto?",
+      "cols": ["Semplice", "Composto"],
+      "facts": [
+        ["Un animale vivo", 0],
+        ["Un'automobile", 1],
+        ["Una pianta", 0],
+        ["Una casa di mattoni e cemento", 0],
+        ["L'individualità dei componenti resta latente e può riaffiorare", 1]
+      ]
+    },
+    {
+      "id": "cx8-pertinenza", "sec": "91", "title": "Pertinenza o parte integrante?",
+      "cols": ["Pertinenza", "Parte integrante"],
+      "facts": [
+        ["Il box dell'appartamento", 0],
+        ["Il motore dell'automobile", 1],
+        ["L'autoradio", 0],
+        ["La caldaia dell'impianto di riscaldamento", 0],
+        ["Indispensabile all'esistenza del tutto", 1],
+        ["Può circolare separatamente dalla cosa principale", 0],
+        ["Serve la volontà di destinazione del proprietario", 0]
+      ]
+    },
+    {
+      "id": "cx8-tipi-pert", "sec": "91", "title": "Che tipo di vincolo pertinenziale?",
+      "cols": ["Immobile a immobile", "Mobile a immobile", "Mobile a mobile"],
+      "facts": [
+        ["Cantina al servizio di una casa", 0],
+        ["Climatizzatore di un appartamento", 1],
+        ["Scialuppa di una nave", 2],
+        ["Giardino a ornamento della villa", 0],
+        ["Scorte di un fondo agricolo", 1],
+        ["Autoradio di un'automobile", 2]
+      ]
+    },
+    {
+      "id": "cx8-complessi", "sec": "92", "title": "Cosa composta, complesso pertinenziale o universalità?",
+      "cols": ["Cosa composta", "Complesso pertinenziale", "Universalità di mobili"],
+      "facts": [
+        ["Automobile", 0],
+        ["Casa e box", 1],
+        ["Biblioteca", 2],
+        ["Gregge", 2],
+        ["Coesione fisica tra gli elementi", 0],
+        ["Rapporto di subordinazione: servizio o ornamento", 1],
+        ["Niente possesso vale titolo, usucapione decennale", 2]
+      ]
+    },
+    {
+      "id": "cx8-univ", "sec": "92", "title": "Universitas facti o universitas iuris?",
+      "cols": ["Universitas facti", "Universitas iuris"],
+      "facts": [
+        ["Solo beni mobili", 0],
+        ["Beni e rapporti giuridici", 1],
+        ["Unità creata dalla volontà del titolare", 0],
+        ["Unità creata dalla legge", 1],
+        ["Collezione di francobolli", 0],
+        ["Eredità", 1],
+        ["Fondo patrimoniale", 1]
+      ]
+    },
+    {
+      "id": "cx8-impr-az", "sec": "93", "title": "Imprenditore, impresa o azienda?",
+      "cols": ["Imprenditore", "Impresa", "Azienda"],
+      "facts": [
+        ["Soggetto che assume iniziativa e rischio", 0],
+        ["Attività economica organizzata svolta professionalmente", 1],
+        ["Complesso dei beni organizzati per esercitarla", 2],
+        ["Art. 2082 c.c.", 0],
+        ["Art. 2555 c.c.", 2],
+        ["Si può possedere e usucapire (Cass. s.u. 5087/2014)", 2]
+      ]
+    },
+    {
+      "id": "cx8-patr", "sec": "94", "title": "Patrimonio separato o autonomo?",
+      "cols": ["Separato", "Autonomo"],
+      "facts": [
+        ["Resta dello stesso soggetto", 0],
+        ["Appartiene a un nuovo soggetto (ente)", 1],
+        ["Fondo patrimoniale", 0],
+        ["Patrimonio di una s.p.a.", 1],
+        ["Beni in trust", 0],
+        ["Fondo comune di un'associazione non riconosciuta", 1],
+        ["Eredità accettata con beneficio d'inventario", 0]
+      ]
+    },
+    {
+      "id": "cx8-demanio", "sec": "95", "title": "Demanio necessario o accidentale?",
+      "cols": ["Necessario", "Accidentale"],
+      "facts": [
+        ["Spiaggia", 0],
+        ["Autostrada", 1],
+        ["Fiume", 0],
+        ["Acquedotto", 1],
+        ["Caserma fortificata per la difesa", 0],
+        ["Museo statale con le sue raccolte", 1],
+        ["Appartiene necessariamente allo Stato", 0]
+      ]
+    },
+    {
+      "id": "cx8-pubblici", "sec": "95", "title": "Demanio, patrimonio indisponibile o disponibile?",
+      "cols": ["Demanio", "Patrimonio indisponibile", "Patrimonio disponibile"],
+      "facts": [
+        ["Porto", 0],
+        ["Foresta", 1],
+        ["Un appartamento del Comune dato in affitto", 2],
+        ["Miniera", 1],
+        ["Edificio sede di un ufficio pubblico", 1],
+        ["Incommerciabile (art. 823)", 0],
+        ["Può circolare ma resta vincolato all'uso pubblico", 1],
+        ["Alienabile e usucapibile", 2]
+      ]
+    },
+    {
+      "id": "cx8-comuni-coll", "sec": "95", "title": "Beni comuni o beni collettivi?",
+      "cols": ["Beni comuni", "Beni collettivi"],
+      "facts": [
+        ["Categoria giurisprudenziale (Cass. s.u. 3665/2011)", 0],
+        ["Categoria legale (L. 168/2017)", 1],
+        ["Strade vicinali private soggette a pubblico transito", 0],
+        ["Terre di proprietà collettiva degli abitanti di una frazione", 1],
+        ["Inalienabili, indivisibili, a destinazione agro-silvo-pastorale", 1]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf8b-1", "sec": "90", "s": "Il possesso vale titolo si applica all'universalità di mobili come alla cosa composta.", "v": false, "why": "Non si applica all'universalità (art. 1156)." },
+    { "id": "tf8b-2", "sec": "91", "s": "La pertinenza è necessaria all'esistenza della cosa principale.", "v": false, "why": "Ne accresce utilità o pregio, ma non è indispensabile." },
+    { "id": "tf8b-3", "sec": "91", "s": "Se il contratto non lo menziona, la vendita della casa non comprende il box.", "v": false, "why": "Lo comprende, salvo diversa volontà (art. 818, c. 1)." },
+    { "id": "tf8b-4", "sec": "91", "s": "L'inquilino può destinare una cosa a pertinenza dell'appartamento.", "v": false, "why": "Solo il proprietario o il titolare di un diritto reale (art. 817, c. 2)." },
+    { "id": "tf8b-5", "sec": "91", "s": "La piscina è sempre pertinenza della villa.", "v": false, "why": "Ha autonomia funzionale (Cons. Stato 3597/2025)." },
+    { "id": "tf8b-6", "sec": "92", "s": "Un'universalità di mobili può comprendere beni di proprietari diversi.", "v": false, "why": "Le cose devono appartenere alla stessa persona (art. 816)." },
+    { "id": "tf8b-7", "sec": "92", "s": "Il possesso di un'universalità di mobili è tutelato anche con l'azione di manutenzione.", "v": true, "why": "Art. 1170 c.c., non concessa per i singoli mobili." },
+    { "id": "tf8b-8", "sec": "93", "s": "Azienda e impresa sono sinonimi.", "v": false, "why": "L'azienda è il complesso di beni, l'impresa l'attività." },
+    { "id": "tf8b-9", "sec": "93", "s": "L'avviamento coincide con la clientela.", "v": false, "why": "La clientela ne è l'effetto; per la Cassazione è una qualità dell'azienda." },
+    { "id": "tf8b-10", "sec": "93", "s": "L'azienda può essere usucapita.", "v": true, "why": "È un bene unitario (Cass. s.u. 5087/2014)." },
+    { "id": "tf8b-11", "sec": "93", "s": "L'affittuario di un'azienda non ne è titolare perché non è proprietario dei beni.", "v": false, "why": "Conta chi organizza l'attività e ne assume il rischio." },
+    { "id": "tf8b-12", "sec": "94", "s": "Chi ha solo debiti non ha un patrimonio.", "v": false, "why": "Il patrimonio può essere anche solo passivo." },
+    { "id": "tf8b-13", "sec": "94", "s": "Patrimonio separato e patrimonio autonomo sono la stessa cosa.", "v": false, "why": "Il separato resta dello stesso soggetto, l'autonomo appartiene a un nuovo soggetto." },
+    { "id": "tf8b-14", "sec": "94", "s": "Un privato può liberamente riservare alcuni suoi beni solo a certi creditori.", "v": false, "why": "Solo nei casi previsti dalla legge (art. 2740, c. 2)." },
+    { "id": "tf8b-15", "sec": "95", "s": "I beni del patrimonio indisponibile sono incommerciabili come i demaniali.", "v": false, "why": "Possono circolare, ma con il vincolo di destinazione." },
+    { "id": "tf8b-16", "sec": "95", "s": "Le strade di un privato fanno parte del demanio stradale.", "v": false, "why": "Il demanio stradale richiede l'appartenenza a un ente territoriale." },
+    { "id": "tf8b-17", "sec": "95", "s": "I beni demaniali non si possono usucapire.", "v": true, "why": "Il loro possesso è senza effetto (art. 1145)." },
+    { "id": "tf8b-18", "sec": "95", "s": "Con il federalismo demaniale le spiagge trasferite ai comuni diventano patrimonio disponibile.", "v": false, "why": "Il demanio marittimo resta soggetto al regime demaniale." },
+    { "id": "tf8b-19", "sec": "95", "s": "Una chiesa può appartenere a un privato.", "v": true, "why": "Ma non può essere sottratta al culto finché non è sconsacrata (art. 831)." }
+  ],
+  "sequences": [],
+  "cases": [
+    { "id": "c8b-1", "sec": "90", "text": "Il meccanico monta per errore sull'auto di Luca le gomme nuove di Paolo.", "q": "Paolo può riaverle?", "ok": "Sì, se si possono separare senza notevole deterioramento", "no": ["No: per accessione sono di Luca", "No: diventano comuni in ogni caso", "Solo con il consenso di Luca"], "why": "Art. 939 c.c.: tutto mobile, separazione o comunione." },
+    { "id": "c8b-2", "sec": "91", "text": "Anna vende la casa con il contratto che non dice nulla della cantina. Poi vende la cantina a Marco.", "q": "Di chi è la cantina?", "ok": "Del primo acquirente della casa: la seconda vendita non gli è opponibile", "no": ["Di Marco, che l'ha comprata espressamente", "Ancora di Anna", "In comune tra i due acquirenti"], "why": "Artt. 818, cc. 1 e 3, c.c." },
+    { "id": "c8b-3", "sec": "91", "text": "L'inquilino installa un condizionatore suo e lo considera pertinenza dell'appartamento.", "q": "È una pertinenza?", "ok": "No: il conduttore non può costituire il vincolo pertinenziale", "no": ["Sì, è al servizio dell'appartamento", "Sì, se è fissato al muro", "Sì, dopo un anno"], "why": "Art. 817, c. 2, c.c." },
+    { "id": "c8b-4", "sec": "92", "text": "Compri in buona fede un'intera biblioteca da chi non ne era proprietario e la ricevi.", "q": "Ne diventi subito proprietario?", "ok": "No: serve l'usucapione decennale", "no": ["Sì, per il possesso vale titolo", "Sì, ma solo dei singoli libri", "No, mai"], "why": "Artt. 1156 e 1160, c. 2, c.c." },
+    { "id": "c8b-5", "sec": "92", "text": "Ho l'usufrutto di un gregge di 100 pecore; ne muoiono 10 e ne nascono 15.", "q": "Quanti agnelli posso tenere come frutti?", "ok": "5: i primi 10 nati servono a reintegrare il gregge", "no": ["15", "Nessuno", "10"], "why": "Art. 994 c.c." },
+    { "id": "c8b-6", "sec": "93", "text": "Un ristoratore gestisce da anni un'azienda altrui come se fosse sua, senza titolo.", "q": "Può usucapirla?", "ok": "Sì: l'azienda è un bene unitario, possedibile e usucapibile", "no": ["No: si usucapiscono solo i singoli beni", "No: l'azienda è un'attività", "Solo gli immobili dell'azienda"], "why": "Cass. s.u. 5087/2014." },
+    { "id": "c8b-7", "sec": "93", "text": "Il proprietario non rinnova la locazione dei locali in cui da vent'anni c'è una farmacia.", "q": "Che cosa spetta al farmacista?", "ok": "L'indennità per la perdita dell'avviamento", "no": ["Nulla", "La proprietà dei locali", "Il rinnovo automatico"], "why": "Art. 34 L. 392/1978." },
+    { "id": "c8b-8", "sec": "94", "text": "Due coniugi mettono la casa in un fondo patrimoniale. Il marito fa un debito per comprarsi una moto da corsa e il creditore lo sa.", "q": "Il creditore può pignorare la casa?", "ok": "No: il debito è estraneo ai bisogni della famiglia e lui lo sapeva", "no": ["Sì, come ogni bene del debitore", "Sì, per metà", "Sì, dopo dieci anni"], "why": "Art. 170 c.c.: patrimonio separato." },
+    { "id": "c8b-9", "sec": "94", "text": "Mario ha beni per 50.000 euro e debiti per 100.000.", "q": "Ha un patrimonio?", "ok": "Sì: il patrimonio comprende attività e passività", "no": ["No: ha più debiti che beni", "Solo dopo aver pagato", "Solo per 50.000 euro"], "why": "Nozione giuridica, non contabile." },
+    { "id": "c8b-10", "sec": "95", "text": "Un privato recinta da trent'anni un tratto di spiaggia comportandosi da proprietario.", "q": "L'ha usucapito?", "ok": "No: i beni demaniali non si possono possedere né usucapire", "no": ["Sì, dopo vent'anni", "Sì, se nessuno ha protestato", "Sì, ma solo l'uso"], "why": "Artt. 823 e 1145 c.c." },
+    { "id": "c8b-11", "sec": "95", "text": "Il Comune vende a un privato l'edificio sede degli uffici comunali, che continua a ospitarli.", "q": "Il compratore può trasformarlo in un albergo?", "ok": "No, finché il vincolo di destinazione non è rimosso", "no": ["Sì, ora è suo", "Sì, se paga una tassa", "La vendita è nulla"], "why": "Patrimonio indisponibile: art. 828 c.c." },
+    { "id": "c8b-12", "sec": "95", "text": "Un imprenditore compra una chiesa consacrata di proprietà privata e vuole farne una discoteca.", "q": "Può farlo?", "ok": "No, finché la chiesa non è sconsacrata", "no": ["Sì, la proprietà è sua", "La vendita è nulla", "Sì, con l'autorizzazione del Comune"], "why": "Art. 831, c. 2, c.c." }
+  ]
+}

@@ -28,11 +28,11 @@ export function buildCourse(course, chapters) {
   const cases = new Map();
   const lessons = [];
 
-  chapters.sort((a, b) => a.num - b.num);
+  chapters.sort((a, b) => a.num - b.num || String(a.label || '').localeCompare(String(b.label || '')));
 
   for (const ch of chapters) {
     const secTitle = Object.fromEntries(ch.sections.map((s) => [s.id, s.title]));
-    const where = (sec) => ({ ch: ch.id, sec, chNum: ch.num, secTitle: secTitle[sec] || '' });
+    const where = (sec) => ({ ch: ch.id, sec, chNum: ch.label || ch.num, secTitle: secTitle[sec] || '' });
 
     for (const a of ch.articles || []) {
       const loc = where(a.sec);
@@ -82,7 +82,7 @@ export function buildCourse(course, chapters) {
     subtitle: course.subtitle,
     version: course.version,
     tags: course.tags || {},
-    chapters: chapters.map((c) => ({ id: c.id, num: c.num, title: c.title, source: c.source, sections: c.sections })),
+    chapters: chapters.map((c) => ({ id: c.id, num: c.num, label: c.label || String(c.num), title: c.title, source: c.source, sections: c.sections })),
     lessons,
     articles,
     concepts,

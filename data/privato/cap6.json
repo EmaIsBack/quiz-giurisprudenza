@@ -1,0 +1,400 @@
+{
+  "id": "cap6",
+  "num": 6,
+  "title": "Le situazioni giuridiche soggettive",
+  "source": "Manuale, Cap. VI, §§ 33-40",
+  "sections": [
+    { "id": "33", "title": "Il rapporto giuridico" },
+    { "id": "34", "title": "Situazioni soggettive attive" },
+    { "id": "35", "title": "L'esercizio del diritto soggettivo" },
+    { "id": "36", "title": "Categorie di diritti soggettivi" },
+    { "id": "37", "title": "Gli interessi legittimi" },
+    { "id": "38", "title": "Situazioni di fatto" },
+    { "id": "39", "title": "Situazioni soggettive passive" },
+    { "id": "40", "title": "Vicende del rapporto giuridico" }
+  ],
+  "lessons": [
+    { "id": "c6-l1", "title": "Rapporto giuridico e situazioni attive", "secs": ["33", "34"] },
+    { "id": "c6-l2", "title": "Esercizio e abuso del diritto", "secs": ["35"] },
+    { "id": "c6-l3", "title": "Categorie di diritti", "secs": ["36"] },
+    { "id": "c6-l4", "title": "Interessi legittimi e situazioni di fatto", "secs": ["37", "38"] },
+    { "id": "c6-l5", "title": "Situazioni passive", "secs": ["39"] },
+    { "id": "c6-l6", "title": "Acquisto, successione, estinzione", "secs": ["40"] }
+  ],
+  "articles": [
+    {
+      "id": "cc-1005", "ref": "Art. 1005 c.c.", "fonte": "c.c.", "sec": "33",
+      "tema": "Riparazioni straordinarie nell'usufrutto (a carico del proprietario)",
+      "desc": "Le riparazioni straordinarie della cosa data in usufrutto sono a carico del proprietario: esempio di rapporto giuridico tra proprietario e usufruttuario.",
+      "tags": ["situazioni"]
+    },
+    { "id": "cc-1372", "sec": "33" },
+    {
+      "id": "cc-832", "ref": "Art. 832 c.c.", "fonte": "c.c.", "sec": "34",
+      "tema": "Contenuto del diritto di proprietà",
+      "desc": "Il proprietario ha diritto di godere e disporre delle cose in modo pieno ed esclusivo, entro i limiti e con l'osservanza degli obblighi stabiliti dall'ordinamento: tipico diritto soggettivo assoluto (ius excludendi alios).",
+      "es": "Il proprietario può vietare a chiunque di entrare nel suo giardino.",
+      "tags": ["situazioni"],
+      "links": [{ "to": "cc-833", "why": "Limite: il divieto di atti emulativi (art. 833)." }]
+    },
+    {
+      "id": "cc-841", "ref": "Art. 841 c.c.", "fonte": "c.c.", "sec": "34",
+      "tema": "Chiusura del fondo (facoltà del proprietario)",
+      "desc": "Il proprietario può chiudere in qualunque tempo il fondo: è una facoltà, che non si prescrive per non uso (in facultativis non datur praescriptio).",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cc-1356", "ref": "Art. 1356 c.c.", "fonte": "c.c.", "sec": "34",
+      "tema": "Atti conservativi in pendenza della condizione",
+      "desc": "In pendenza della condizione sospensiva l'acquirente di un diritto può compiere atti conservativi: tutela dell'aspettativa.",
+      "es": "L'erede istituito «se si laurea» può chiedere il sequestro dei beni per evitarne la dispersione.",
+      "tags": ["situazioni"],
+      "links": [{ "to": "cc-1353", "why": "La condizione sospensiva (art. 1353) crea una fattispecie a formazione progressiva." }]
+    },
+    { "id": "cc-316", "sec": "34" },
+    {
+      "id": "cc-2934", "ref": "Art. 2934 c.c.", "fonte": "c.c.", "sec": "34",
+      "tema": "Estinzione dei diritti per prescrizione",
+      "desc": "Ogni diritto si estingue per prescrizione quando il titolare non lo esercita per il tempo determinato dalla legge; non sono soggetti a prescrizione i diritti indisponibili e gli altri indicati dalla legge. Le facoltà, invece, non si prescrivono da sole.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cc-833", "ref": "Art. 833 c.c.", "fonte": "c.c.", "sec": "35",
+      "tema": "Divieto di atti emulativi",
+      "desc": "Il proprietario non può fare atti i quali non abbiano altro scopo che quello di nuocere o recare molestia ad altri: ipotesi espressa di divieto di abuso del diritto.",
+      "es": "Alzare un muro altissimo e inutile solo per togliere la vista al vicino.",
+      "tags": ["situazioni", "abuso"],
+      "links": [{ "to": "cc-844", "why": "Anche il divieto di immissioni intollerabili tempera la proprietà." }]
+    },
+    {
+      "id": "cc-844", "ref": "Art. 844 c.c.", "fonte": "c.c.", "sec": "35",
+      "tema": "Immissioni",
+      "desc": "Il proprietario non può impedire le immissioni di fumo, calore, rumori e simili provenienti dal fondo del vicino se non superano la normale tollerabilità: le immissioni intollerabili sono vietate.",
+      "tags": ["situazioni", "abuso"]
+    },
+    {
+      "id": "cc-1175", "ref": "Art. 1175 c.c.", "fonte": "c.c.", "sec": "35",
+      "tema": "Comportamento secondo correttezza",
+      "desc": "Il debitore e il creditore devono comportarsi secondo le regole della correttezza: fonda il divieto di abuso nei rapporti di credito.",
+      "es": "La banca che revoca il fido all'improvviso e pretende il rientro immediato può violare correttezza e buona fede.",
+      "tags": ["situazioni", "abuso"]
+    },
+    { "id": "cc-1375", "sec": "35" },
+    {
+      "id": "cc-2910", "ref": "Art. 2910 c.c.", "fonte": "c.c.", "sec": "35",
+      "tema": "Espropriazione forzata dei beni del debitore",
+      "desc": "Il creditore, per conseguire quanto gli è dovuto, può far espropriare i beni del debitore: realizzazione coattiva del diritto.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "l192-9", "ref": "Art. 9 L. 192/1998", "fonte": "L. 192/1998", "sec": "35",
+      "tema": "Abuso di dipendenza economica",
+      "desc": "Vieta l'abuso, da parte di una o più imprese, dello stato di dipendenza economica in cui si trova un'impresa cliente o fornitrice (disciplina della subfornitura): abuso di una situazione di vantaggio di fatto.",
+      "tags": ["situazioni", "abuso"]
+    },
+    {
+      "id": "l287-3", "ref": "Art. 3 L. 287/1990", "fonte": "L. 287/1990", "sec": "35",
+      "tema": "Abuso di posizione dominante",
+      "desc": "La legge antitrust vieta l'abuso di posizione dominante nel mercato nazionale: anche qui si reprime l'abuso di una situazione di fatto, non di un diritto soggettivo.",
+      "tags": ["situazioni", "abuso"]
+    },
+    {
+      "id": "cc-1111", "ref": "Art. 1111 c.c.", "fonte": "c.c.", "sec": "36",
+      "tema": "Scioglimento della comunione (diritto alla divisione)",
+      "desc": "Ciascuno dei partecipanti può sempre domandare lo scioglimento della comunione: esempio di diritto potestativo, a cui corrisponde la soggezione degli altri.",
+      "es": "Tre fratelli ereditano una casa: uno solo può chiedere la divisione e gli altri non possono impedirlo.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cc-447", "ref": "Art. 447 c.c.", "fonte": "c.c.", "sec": "36",
+      "tema": "Incedibilità del credito alimentare",
+      "desc": "Il credito alimentare non può essere ceduto: esempio di diritto patrimoniale indisponibile.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cost-36-3", "ref": "Art. 36, c. 3, Cost.", "fonte": "Cost.", "sec": "36",
+      "tema": "Irrinunciabilità del riposo e delle ferie",
+      "desc": "Il lavoratore ha diritto al riposo settimanale e a ferie annuali retribuite, e non può rinunziarvi: diritto indisponibile.",
+      "tags": ["situazioni"]
+    },
+    { "id": "cc-2043", "sec": "36" },
+    { "id": "cost-24", "sec": "37" },
+    { "id": "cost-113", "sec": "37" },
+    {
+      "id": "cost-103", "ref": "Art. 103 Cost.", "fonte": "Cost.", "sec": "37",
+      "tema": "Giurisdizione del Consiglio di Stato e dei giudici amministrativi",
+      "desc": "Il Consiglio di Stato e gli altri organi di giustizia amministrativa hanno giurisdizione per la tutela degli interessi legittimi nei confronti della pubblica amministrazione.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cpa-7-4", "ref": "Art. 7, c. 4, D.Lgs. 104/2010", "fonte": "Cod. proc. amm.", "sec": "37",
+      "tema": "Risarcimento del danno da lesione di interessi legittimi",
+      "desc": "Il codice del processo amministrativo attribuisce al giudice amministrativo le controversie sul risarcimento del danno da lesione di interessi legittimi, consacrando l'indirizzo di Cass. s.u. 500/1999.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cc-1140", "ref": "Art. 1140 c.c.", "fonte": "c.c.", "sec": "38",
+      "tema": "Possesso",
+      "desc": "Il possesso è il potere sulla cosa che si manifesta in un'attività corrispondente all'esercizio della proprietà o di altro diritto reale: situazione di fatto tutelata anche se non corrisponde al diritto.",
+      "es": "Chi coltiva da anni un terreno altrui come se fosse suo ne è possessore, anche senza esserne proprietario.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cc-2126", "ref": "Art. 2126 c.c.", "fonte": "c.c.", "sec": "38",
+      "tema": "Prestazione di fatto con violazione di legge",
+      "desc": "La nullità o l'annullamento del contratto di lavoro non produce effetti per il periodo in cui il rapporto ha avuto esecuzione, salvo che derivi dall'illiceità dell'oggetto o della causa: rapporto di lavoro di fatto.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cc-1495", "ref": "Art. 1495 c.c.", "fonte": "c.c.", "sec": "39",
+      "tema": "Denuncia dei vizi nella vendita (8 giorni)",
+      "desc": "Il compratore decade dal diritto alla garanzia se non denuncia i vizi al venditore entro otto giorni dalla scoperta: esempio di onere.",
+      "es": "Compri una lavatrice che perde acqua: se non lo segnali entro otto giorni dalla scoperta, perdi la garanzia.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cc-2697", "ref": "Art. 2697 c.c.", "fonte": "c.c.", "sec": "39",
+      "tema": "Onere della prova",
+      "desc": "Chi vuol far valere un diritto in giudizio deve provare i fatti che ne costituiscono il fondamento; chi eccepisce che il diritto si è modificato o estinto deve provare i fatti su cui l'eccezione si fonda. È una regola di giudizio, non un onere in senso tecnico.",
+      "tags": ["situazioni"]
+    },
+    {
+      "id": "cc-923", "ref": "Art. 923 c.c.", "fonte": "c.c.", "sec": "40",
+      "tema": "Occupazione di cose mobili abbandonate o senza padrone",
+      "desc": "Le cose mobili che non sono proprietà di alcuno si acquistano con l'occupazione (es. animali pescati o cacciati): acquisto a titolo originario. Le cose abbandonate (derelictio) perdono il proprietario.",
+      "es": "Il pescatore diventa proprietario dei pesci che cattura.",
+      "tags": ["situazioni"]
+    },
+    { "id": "cc-1158", "sec": "40" },
+    { "id": "cc-1153", "sec": "40" },
+    { "id": "cc-1236", "sec": "40" },
+    {
+      "id": "cc-1256", "ref": "Art. 1256 c.c.", "fonte": "c.c.", "sec": "40",
+      "tema": "Impossibilità definitiva della prestazione",
+      "desc": "L'obbligazione si estingue quando, per una causa non imputabile al debitore, la prestazione diventa impossibile: esempio di estinzione del rapporto.",
+      "tags": ["situazioni"]
+    }
+  ],
+  "concepts": [
+    { "id": "k6-rapporto", "sec": "33", "term": "Rapporto giuridico", "def": "Relazione tra due o più soggetti regolata dall'ordinamento, con un soggetto attivo e uno passivo" },
+    { "id": "k6-sogg-attivo", "sec": "33", "term": "Soggetto attivo", "def": "Chi nel rapporto ha un potere o diritto soggettivo (es. pretendere il pagamento)" },
+    { "id": "k6-sogg-passivo", "sec": "33", "term": "Soggetto passivo", "def": "Chi nel rapporto ha un dovere (es. pagare il debito): è anch'esso parte" },
+    { "id": "k6-terzo", "sec": "33", "term": "Terzo", "def": "Soggetto estraneo a un rapporto tra altri, di regola non ne subisce gli effetti" },
+    { "id": "k6-res-inter", "sec": "33", "term": "Res inter alios acta", "def": "Il rapporto tra altri non giova né nuoce al terzo (tertio neque prodest neque nocet)" },
+    { "id": "k6-situazione", "sec": "33", "term": "Situazione giuridica", "def": "Categoria più ampia del rapporto: comprende anche le qualificazioni di persone (capacità) o cose (demanialità)" },
+    { "id": "k6-diritto-sogg", "sec": "34", "term": "Diritto soggettivo", "def": "Potere di agire (agere licere) per soddisfare un proprio interesse protetto dall'ordinamento; esercizio libero" },
+    { "id": "k6-potesta", "sec": "34", "term": "Potestà (ufficio)", "def": "Potere attribuito per realizzare un interesse altrui, che è insieme un dovere (genitori, tutore)" },
+    { "id": "k6-facolta", "sec": "34", "term": "Facoltà", "def": "Manifestazione non autonoma di un diritto: si estingue solo con il diritto, non si prescrive da sola" },
+    { "id": "k6-in-facultativis", "sec": "34", "term": "In facultativis non datur praescriptio", "def": "Le facoltà non si prescrivono per il solo non esercizio" },
+    { "id": "k6-aspettativa", "sec": "34", "term": "Aspettativa (di diritto)", "def": "Attesa tutelata di un diritto la cui fattispecie non è ancora completa: tutela provvisoria e strumentale" },
+    { "id": "k6-asp-fatto", "sec": "34", "term": "Aspettativa di fatto", "def": "Mera speranza, priva di tutela giuridica" },
+    { "id": "k6-status", "sec": "34", "term": "Status", "def": "Qualità della persona per la sua posizione in un gruppo (cittadino, figlio, coniuge), fonte di diritti e doveri" },
+    { "id": "k6-esercizio", "sec": "35", "term": "Esercizio del diritto", "def": "Esplicazione dei poteri che il diritto conferisce al titolare" },
+    { "id": "k6-realizzazione", "sec": "35", "term": "Realizzazione del diritto", "def": "Concreta soddisfazione dell'interesse protetto, spontanea o coattiva" },
+    { "id": "k6-qui-iure", "sec": "35", "term": "Qui iure suo utitur neminem laedit", "def": "Chi esercita legittimamente un proprio diritto non risponde dei pregiudizi causati ad altri" },
+    { "id": "k6-abuso", "sec": "35", "term": "Abuso del diritto", "def": "Esercizio dei poteri per finalità eccedenti l'interesse per cui il diritto è attribuito: limite funzionale" },
+    { "id": "k6-exceptio-doli", "sec": "35", "term": "Exceptio doli generalis", "def": "Rimedio giurisprudenziale che paralizza la pretesa esercitata in modo sleale, contraddittorio o in mala fede" },
+    { "id": "k6-venire-contra", "sec": "35", "term": "Venire contra factum proprium", "def": "Pretesa in contrasto con le proprie precedenti condotte: paralizzabile con l'exceptio doli" },
+    { "id": "k6-assoluti", "sec": "36", "term": "Diritti assoluti", "def": "Diritti che si fanno valere verso tutti (erga omnes): reali e della personalità" },
+    { "id": "k6-relativi", "sec": "36", "term": "Diritti relativi", "def": "Diritti che si fanno valere verso soggetti determinati: diritti di credito" },
+    { "id": "k6-reali-god", "sec": "36", "term": "Diritti reali di godimento", "def": "Diritti sul bene (ius in re): superficie, usufrutto, servitù" },
+    { "id": "k6-pers-god", "sec": "36", "term": "Diritti personali di godimento", "def": "Diritti verso un soggetto obbligato a far godere il bene: comodato, locazione, affitto" },
+    { "id": "k6-indisponibili", "sec": "36", "term": "Diritti indisponibili", "def": "Diritti a cui non si può rinunciare né disporne (es. alimenti, ferie), anche se si può non esercitarli" },
+    { "id": "k6-potestativi", "sec": "36", "term": "Diritti potestativi", "def": "Potere di modificare con la sola propria iniziativa la situazione giuridica altrui, che è in soggezione" },
+    { "id": "k6-norme-azione", "sec": "37", "term": "Norme di azione", "def": "Norme che regolano il funzionamento della PA (concorsi, espropri, appalti): da esse nascono interessi legittimi" },
+    { "id": "k6-norme-relazione", "sec": "37", "term": "Norme di relazione", "def": "Norme che regolano i rapporti tra PA e privati: da esse nascono diritti soggettivi" },
+    { "id": "k6-int-legittimo", "sec": "37", "term": "Interesse legittimo", "def": "Interesse qualificato al corretto esercizio del potere pubblico: tutela mediata o strumentale" },
+    { "id": "k6-pretensivo", "sec": "37", "term": "Interesse legittimo pretensivo", "def": "Interesse a ottenere un provvedimento favorevole (es. il candidato, chi chiede il permesso di costruire)" },
+    { "id": "k6-oppositivo", "sec": "37", "term": "Interesse legittimo oppositivo", "def": "Interesse a conservare un bene contro un provvedimento sfavorevole (es. il proprietario espropriato)" },
+    { "id": "k6-sit-fatto", "sec": "38", "term": "Situazioni di fatto", "def": "Situazioni tutelate in sé, a prescindere dalla conformità al diritto (possesso, detenzione)" },
+    { "id": "k6-dovere-gen", "sec": "39", "term": "Dovere generico di astensione", "def": "Dovere di tutti i consociati di non interferire con un diritto assoluto" },
+    { "id": "k6-obbligo", "sec": "39", "term": "Obbligo", "def": "Dovere di un soggetto determinato di eseguire una prestazione nell'interesse del creditore" },
+    { "id": "k6-soggezione", "sec": "39", "term": "Soggezione", "def": "Situazione di chi subisce l'esercizio di un diritto potestativo senza poterlo impedire" },
+    { "id": "k6-onere", "sec": "39", "term": "Onere", "def": "Comportamento necessario per esercitare un proprio potere, non sanzionato: se manca si perde il vantaggio" },
+    { "id": "k6-modus", "sec": "39", "term": "Onere come modus", "def": "Elemento accidentale del negozio (donazione modale, onere testamentario)" },
+    { "id": "k6-titolo", "sec": "40", "term": "Titolo d'acquisto", "def": "L'atto o fatto giuridico che giustifica l'acquisto di un diritto (causa adquirendi)" },
+    { "id": "k6-originario", "sec": "40", "term": "Acquisto a titolo originario", "def": "Il diritto sorge senza essere trasmesso da altri (pesca, occupazione, usucapione)" },
+    { "id": "k6-derivativo", "sec": "40", "term": "Acquisto a titolo derivativo", "def": "Il diritto è trasmesso da un altro soggetto e dipende dal suo diritto (compravendita)" },
+    { "id": "k6-dante-causa", "sec": "40", "term": "Dante causa e avente causa", "def": "Chi perde il diritto (autore, alienante) e chi lo acquista (successore, acquirente)" },
+    { "id": "k6-traslativo", "sec": "40", "term": "Acquisto derivativo-traslativo", "def": "All'acquirente passa lo stesso diritto del dante causa (vendita della proprietà)" },
+    { "id": "k6-costitutivo", "sec": "40", "term": "Acquisto derivativo-costitutivo", "def": "Nasce un diritto diverso, ricavato da quello del dante causa, che conserva un diritto compresso (usufrutto)" },
+    { "id": "k6-nemo-plus", "sec": "40", "term": "Nemo plus iuris", "def": "Nessuno può trasferire un diritto più ampio di quello che ha" },
+    { "id": "k6-universale", "sec": "40", "term": "Successione a titolo universale", "def": "Subentro in tutti i rapporti attivi e passivi o in una quota (erede, fusione di società)" },
+    { "id": "k6-particolare", "sec": "40", "term": "Successione a titolo particolare", "def": "Subentro in uno o più rapporti determinati (legatario, acquirente di un bene)" },
+    { "id": "k6-estinzione", "sec": "40", "term": "Estinzione del diritto", "def": "Il titolare perde il diritto senza che passi ad altri (abbandono, remissione, impossibilità)" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx6-relazioni", "sec": "33", "title": "Che rilevanza giuridica ha questa relazione?",
+      "cols": ["Irrilevante", "Rilevante solo se diventa istituto", "Essenzialmente giuridica"],
+      "facts": [
+        ["Amicizia", 0],
+        ["Relazione sentimentale", 1],
+        ["Creditore e debitore", 2],
+        ["Aspettarsi un favore da un amico", 0]
+      ]
+    },
+    {
+      "id": "cx6-attive", "sec": "34", "title": "Quale situazione attiva?",
+      "cols": ["Diritto soggettivo", "Potestà", "Facoltà", "Aspettativa", "Status"],
+      "facts": [
+        ["Proprietà di una casa", 0],
+        ["Poteri dei genitori sui figli", 1],
+        ["Chiudere il proprio fondo", 2],
+        ["Eredità sotto condizione sospensiva di laurea", 3],
+        ["Essere coniuge", 4],
+        ["Poteri del tutore sull'incapace", 1],
+        ["Essere cittadino", 4]
+      ]
+    },
+    {
+      "id": "cx6-eserc-real", "sec": "35", "title": "Esercizio o realizzazione del diritto?",
+      "cols": ["Esercizio", "Realizzazione"],
+      "facts": [
+        ["Il creditore chiede il pagamento", 0],
+        ["Il debitore paga", 1],
+        ["Il creditore espropria i beni del debitore", 1],
+        ["Dipende solo dal titolare", 0]
+      ]
+    },
+    {
+      "id": "cx6-abuso", "sec": "35", "title": "Tesi restrittiva o estensiva sull'abuso del diritto?",
+      "cols": ["Restrittiva", "Estensiva (prevalente)"],
+      "facts": [
+        ["Abuso rilevante solo nei casi previsti (artt. 833, 844, 1175)", 0],
+        ["Abuso come principio generale", 1],
+        ["Fondamento: certezza del diritto", 0],
+        ["Fondamento: solidarietà, correttezza e buona fede", 1],
+        ["Timore della discrezionalità del giudice", 0]
+      ]
+    },
+    {
+      "id": "cx6-ass-rel", "sec": "36", "title": "Diritto assoluto o relativo?",
+      "cols": ["Assoluto", "Relativo"],
+      "facts": [
+        ["Proprietà", 0],
+        ["Credito del mutuante alla restituzione", 1],
+        ["Diritto all'immagine", 0],
+        ["Usufrutto", 0],
+        ["Diritto del comodatario a usare la cosa", 1],
+        ["Vi corrisponde un dovere generico di astensione", 0],
+        ["Vi corrisponde un obbligo di soggetti determinati", 1]
+      ]
+    },
+    {
+      "id": "cx6-godimento", "sec": "36", "title": "Diritto reale o personale di godimento?",
+      "cols": ["Reale", "Personale"],
+      "facts": [
+        ["Usufrutto", 0],
+        ["Affitto", 1],
+        ["Servitù", 0],
+        ["Comodato", 1],
+        ["Superficie", 0],
+        ["Locazione", 1],
+        ["Ius in re", 0]
+      ]
+    },
+    {
+      "id": "cx6-ds-il", "sec": "37", "title": "Diritto soggettivo o interesse legittimo?",
+      "cols": ["Diritto soggettivo", "Interesse legittimo"],
+      "facts": [
+        ["Il privato che vende un'area al Comune", 0],
+        ["Il candidato a un concorso pubblico", 1],
+        ["Il proprietario espropriato", 1],
+        ["L'architetto incaricato dal Comune del progetto", 0],
+        ["Tutela diretta dell'interesse", 0],
+        ["Tutela mediata: corretto esercizio del potere", 1],
+        ["Giudice amministrativo (TAR, Consiglio di Stato)", 1]
+      ]
+    },
+    {
+      "id": "cx6-passive", "sec": "39", "title": "Quale situazione passiva?",
+      "cols": ["Dovere generico", "Obbligo", "Soggezione", "Onere"],
+      "facts": [
+        ["Non turbare la proprietà altrui", 0],
+        ["Pagare il prezzo pattuito", 1],
+        ["Il comproprietario che subisce la divisione", 2],
+        ["Denunciare i vizi entro otto giorni per avere la garanzia", 3],
+        ["Se non si tiene la condotta, si perde un vantaggio senza sanzioni", 3],
+        ["Grava su tutti i consociati", 0]
+      ]
+    },
+    {
+      "id": "cx6-acquisto", "sec": "40", "title": "Acquisto a titolo originario o derivativo?",
+      "cols": ["Originario", "Derivativo"],
+      "facts": [
+        ["Il pescatore cattura un pesce", 0],
+        ["Compri una casa dal proprietario", 1],
+        ["Usucapione", 0],
+        ["Factoring di crediti", 1],
+        ["Acquisto in buona fede di un mobile da un non proprietario (art. 1153)", 0],
+        ["Vale il principio nemo plus iuris", 1]
+      ]
+    },
+    {
+      "id": "cx6-trasl-cost", "sec": "40", "title": "Derivativo-traslativo o derivativo-costitutivo?",
+      "cols": ["Traslativo", "Costitutivo"],
+      "facts": [
+        ["Vendita della proprietà di una casa", 0],
+        ["Costituzione di un usufrutto", 1],
+        ["Il dante causa perde il diritto", 0],
+        ["Il dante causa conserva la nuda proprietà", 1]
+      ]
+    },
+    {
+      "id": "cx6-successione", "sec": "40", "title": "Successione a titolo universale o particolare?",
+      "cols": ["Universale", "Particolare"],
+      "facts": [
+        ["Erede", 0],
+        ["Legatario", 1],
+        ["Società incorporante nella fusione", 0],
+        ["Acquirente di una singola casa", 1],
+        ["Erede per un terzo del patrimonio", 0]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf6-1", "sec": "33", "s": "Il soggetto passivo di un rapporto è un terzo.", "v": false, "why": "Anche il soggetto passivo è parte del rapporto." },
+    { "id": "tf6-2", "sec": "33", "s": "Rapporto giuridico e situazione giuridica sono sinonimi.", "v": false, "why": "Il rapporto è una specie della situazione giuridica, che comprende anche qualificazioni di persone o cose." },
+    { "id": "tf6-3", "sec": "33", "s": "Il terzo è sempre indifferente alle vicende del rapporto.", "v": false, "why": "La legge ne regola spesso la posizione (es. il subacquirente)." },
+    { "id": "tf6-4", "sec": "34", "s": "Una facoltà si può perdere per prescrizione se non esercitata a lungo.", "v": false, "why": "In facultativis non datur praescriptio: si estingue solo con il diritto." },
+    { "id": "tf6-5", "sec": "34", "s": "La potestà è un diritto soggettivo come gli altri.", "v": false, "why": "Manca la libertà di esercizio: è funzionale all'interesse altrui." },
+    { "id": "tf6-6", "sec": "34", "s": "L'aspettativa equivale già al diritto.", "v": false, "why": "È un'attesa tutelata in modo provvisoria e strumentale." },
+    { "id": "tf6-7", "sec": "34", "s": "Dal 2013 il codice parla di «responsabilità genitoriale» al posto della potestà.", "v": true, "why": "D.Lgs. 154/2013: resta un potere-dovere nell'interesse dei figli." },
+    { "id": "tf6-8", "sec": "35", "s": "Esercizio e realizzazione del diritto coincidono sempre.", "v": false, "why": "Il creditore esercita chiedendo, ma realizza solo quando il debitore paga." },
+    { "id": "tf6-9", "sec": "35", "s": "Qui iure suo utitur neminem laedit copre anche l'esercizio abusivo.", "v": false, "why": "L'esercizio abusivo è vietato e può obbligare al risarcimento." },
+    { "id": "tf6-10", "sec": "35", "s": "Il codice contiene una norma generale sull'abuso del diritto.", "v": false, "why": "Ci sono solo previsioni specifiche (artt. 833, 844, 1175); la generalità è frutto di dottrina e giurisprudenza." },
+    { "id": "tf6-11", "sec": "35", "s": "L'abuso di dipendenza economica è abuso di un diritto soggettivo.", "v": false, "why": "È abuso di una situazione di vantaggio di fatto." },
+    { "id": "tf6-12", "sec": "36", "s": "Comodato e locazione sono diritti reali.", "v": false, "why": "Danno diritti personali di godimento." },
+    { "id": "tf6-13", "sec": "36", "s": "Un diritto indisponibile non può essere esercitato.", "v": false, "why": "Si può non esercitarlo; non vi si può rinunciare." },
+    { "id": "tf6-14", "sec": "36", "s": "Al diritto potestativo corrisponde un obbligo.", "v": false, "why": "Corrisponde una soggezione." },
+    { "id": "tf6-15", "sec": "36", "s": "Anche un diritto relativo può essere leso da un terzo, che ne risponde ex art. 2043.", "v": true, "why": "Tutela aquiliana del credito (caso Meroni, Cass. s.u. 174/1971)." },
+    { "id": "tf6-16", "sec": "37", "s": "Il candidato a un concorso ha diritto a vincerlo.", "v": false, "why": "Ha un interesse legittimo al regolare svolgimento della procedura." },
+    { "id": "tf6-17", "sec": "37", "s": "La lesione di un interesse legittimo non è mai risarcibile.", "v": false, "why": "Tesi superata da Cass. s.u. 500/1999." },
+    { "id": "tf6-18", "sec": "37", "s": "Ogni rapporto con la PA dà solo interessi legittimi.", "v": false, "why": "Quando la PA usa strumenti di diritto privato ci sono diritti e obblighi." },
+    { "id": "tf6-19", "sec": "38", "s": "La tutela del possesso presuppone la proprietà.", "v": false, "why": "Il possesso è tutelato in sé, anche se non corrisponde al diritto." },
+    { "id": "tf6-20", "sec": "39", "s": "L'onere è un obbligo la cui violazione è sanzionata.", "v": false, "why": "Se non lo si assolve si perde solo un vantaggio, senza sanzioni." },
+    { "id": "tf6-21", "sec": "39", "s": "L'onere della prova è un onere in senso tecnico.", "v": false, "why": "È una regola di giudizio (art. 2697)." },
+    { "id": "tf6-22", "sec": "39", "s": "L'obbligo è imposto nell'interesse altrui, l'onere nell'interesse proprio.", "v": true, "why": "È il criterio che li distingue." },
+    { "id": "tf6-23", "sec": "40", "s": "Chi usucapisce un bene già di altri acquista a titolo derivativo.", "v": false, "why": "L'usucapione è un acquisto a titolo originario." },
+    { "id": "tf6-24", "sec": "40", "s": "Il legatario è un successore a titolo universale.", "v": false, "why": "Succede a titolo particolare, in rapporti determinati." },
+    { "id": "tf6-25", "sec": "40", "s": "Con l'acquisto costitutivo il costituente perde il suo diritto.", "v": false, "why": "Lo conserva, compresso (es. nuda proprietà)." },
+    { "id": "tf6-26", "sec": "40", "s": "Anche l'erede di una sola quota è successore a titolo universale.", "v": true, "why": "Subentra in una quota dell'intero patrimonio." }
+  ],
+  "sequences": [],
+  "cases": [
+    { "id": "c6-1", "sec": "33", "text": "Tizio vende un'auto a Caio, che la rivende a Sempronio. Poi la prima vendita viene annullata.", "q": "Che ruolo ha Sempronio rispetto alla prima vendita?", "ok": "È un terzo, ma la legge si occupa della sua posizione", "no": ["È parte della prima vendita", "È soggetto passivo", "È del tutto indifferente"], "why": "Res inter alios acta, ma l'invalidità può incidere sul subacquirente." },
+    { "id": "c6-2", "sec": "34", "text": "Un nonno lascia la casa al nipote «se si laureerà». Il nipote teme che gli altri eredi la svuotino nel frattempo.", "q": "Che cosa può fare?", "ok": "Compiere atti conservativi, come chiedere il sequestro", "no": ["Nulla finché non si laurea", "Vendere subito la casa", "Prendere possesso della casa come proprietario"], "why": "Aspettativa tutelata (art. 1356 c.c.)." },
+    { "id": "c6-3", "sec": "34", "text": "Per trent'anni Paolo non ha mai recintato il suo terreno.", "q": "Ha perso il diritto di recintarlo?", "ok": "No: è una facoltà, non si prescrive", "no": ["Sì, dopo vent'anni", "Sì, per usucapione del vicino", "Sì, se il vicino si oppone"], "why": "In facultativis non datur praescriptio (art. 841)." },
+    { "id": "c6-4", "sec": "35", "text": "Un proprietario costruisce un muro altissimo che non gli serve a nulla, solo per togliere luce al vicino.", "q": "È lecito?", "ok": "No: è un atto emulativo vietato (art. 833)", "no": ["Sì: esercita la sua proprietà", "Sì, se rispetta le distanze", "No, ma solo se il vicino è anziano"], "why": "Abuso del diritto di proprietà." },
+    { "id": "c6-5", "sec": "35", "text": "Una banca, pur potendo recedere dal fido, lo revoca senza preavviso e pretende il rientro immediato da un cliente sempre puntuale.", "q": "Che cosa ha violato?", "ok": "La buona fede e la correttezza nell'esecuzione del contratto", "no": ["Nulla: il contratto lo consentiva", "Il divieto di atti emulativi", "La legge antitrust"], "why": "Cass. 4538/1997: esercizio abusivo del diritto di recesso." },
+    { "id": "c6-6", "sec": "35", "text": "Un creditore chiede di nuovo il pagamento dopo aver dichiarato per iscritto al debitore che non l'avrebbe mai preteso, inducendolo a contare su questo.", "q": "Quale strumento può paralizzare la pretesa?", "ok": "L'exceptio doli generalis (venire contra factum proprium)", "no": ["La prescrizione", "Il divieto di atti emulativi", "L'azione surrogatoria"], "why": "Pretesa in contrasto con le precedenti condotte del titolare." },
+    { "id": "c6-7", "sec": "36", "text": "Tre fratelli ereditano una casa. Uno vuole dividerla, gli altri no.", "q": "Che diritto ha il primo?", "ok": "Un diritto potestativo: gli altri sono in soggezione", "no": ["Un diritto di credito verso i fratelli", "Nessuno, serve l'unanimità", "Una semplice aspettativa"], "why": "Art. 1111 c.c." },
+    { "id": "c6-8", "sec": "36", "text": "Un lavoratore firma un accordo con cui rinuncia per sempre alle ferie in cambio di un premio.", "q": "La rinuncia è valida?", "ok": "No: è un diritto indisponibile (art. 36 Cost.)", "no": ["Sì, se il premio è adeguato", "Sì, se c'è il consenso del sindacato", "È annullabile entro cinque anni"], "why": "La rinuncia a un diritto indisponibile è nulla." },
+    { "id": "c6-9", "sec": "37", "text": "Giulia partecipa a un concorso pubblico e scopre che la commissione ha valutato i candidati in modo irregolare.", "q": "Che situazione giuridica ha?", "ok": "Un interesse legittimo al corretto svolgimento del concorso", "no": ["Un diritto soggettivo a vincere", "Un diritto potestativo", "Nessuna tutela"], "why": "Tutela davanti al giudice amministrativo." },
+    { "id": "c6-10", "sec": "37", "text": "A Marco viene illegittimamente negato il permesso di costruire e perde un affare.", "q": "Può ottenere il risarcimento?", "ok": "Sì: anche la lesione di un interesse legittimo è risarcibile", "no": ["No: gli interessi legittimi non sono risarcibili", "Solo se il permesso gli spettava per contratto", "Solo davanti alla Corte costituzionale"], "why": "Cass. s.u. 500/1999; art. 7 cod. proc. amm." },
+    { "id": "c6-11", "sec": "39", "text": "Compri una lavatrice difettosa e ti accorgi del difetto, ma lo segnali al venditore dopo un mese.", "q": "Che cosa è successo?", "ok": "Hai perso la garanzia: non hai assolto l'onere di denuncia", "no": ["Devi pagare una sanzione", "Nulla: la garanzia dura due anni", "Il venditore è inadempiente"], "why": "Art. 1495 c.c.: onere, non obbligo." },
+    { "id": "c6-12", "sec": "40", "text": "Anna è proprietaria di un appartamento e concede al figlio l'usufrutto, restando nuda proprietaria.", "q": "Che tipo di acquisto fa il figlio?", "ok": "Derivativo-costitutivo", "no": ["Derivativo-traslativo", "A titolo originario", "A titolo universale"], "why": "Nasce un diritto diverso, ricavato dalla proprietà di Anna." },
+    { "id": "c6-13", "sec": "40", "text": "Luca compra un terreno da Paolo, che in realtà non ne era proprietario.", "q": "Luca diventa proprietario per effetto della vendita?", "ok": "No: nemo plus iuris, il dante causa non aveva il diritto", "no": ["Sì, l'atto è valido", "Sì, se ha pagato il prezzo", "Sì, se il notaio ha firmato"], "why": "L'acquisto derivativo dipende dal diritto del dante causa (per i mobili vale l'eccezione dell'art. 1153)." }
+  ]
+}

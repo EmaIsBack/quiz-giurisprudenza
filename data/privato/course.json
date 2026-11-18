@@ -2,7 +2,7 @@
  "id": "privato",
  "title": "Diritto privato",
  "subtitle": "Prof. Dellacasa · Prova intermedia gennaio 2027",
- "version": "2026-11-18.2",
+ "version": "2026-11-19.1",
  "tags": {
   "costituzione-principi": "i principi e i diritti della Costituzione",
   "fonti-ue": "il diritto dell'Unione europea",
@@ -24,13 +24,57 @@
   "esempi-interpretazione": "gli esempi del prof sugli argomenti interpretativi",
   "cassazione-precedente": "il giudicato, il precedente e la Cassazione",
   "contratto": "il contratto",
-  "responsabilita": "la responsabilità e il risarcimento del danno"
+  "responsabilita": "la responsabilità e il risarcimento del danno",
+  "straniero": "la condizione dello straniero e la cittadinanza europea",
+  "persone": "la persona fisica",
+  "concepito": "il concepito e il nascituro",
+  "incapacita-speciali": "le incapacità speciali",
+  "minori": "la minore età",
+  "protezione": "le misure di protezione degli incapaci",
+  "ads": "l'amministrazione di sostegno",
+  "incapacita-naturale": "l'incapacità naturale",
+  "legittimazione": "la legittimazione e l'apparenza",
+  "sede": "domicilio, residenza e dimora",
+  "cittadinanza": "la cittadinanza italiana",
+  "famiglia": "parentela e affinità",
+  "assenza": "scomparsa, assenza e morte presunta",
+  "stato-civile": "gli atti dello stato civile",
+  "personalita": "i diritti della personalità",
+  "vita": "il diritto alla vita e il fine vita",
+  "salute": "il diritto alla salute",
+  "nome": "il diritto al nome",
+  "onore": "l'integrità morale",
+  "immagine": "il diritto all'immagine",
+  "privacy": "la riservatezza e i dati personali",
+  "enti": "gli enti",
+  "associazioni": "le associazioni",
+  "fondazioni": "le fondazioni",
+  "comitati": "i comitati",
+  "terzo-settore": "il Terzo settore",
+  "situazioni": "le situazioni giuridiche soggettive",
+  "abuso": "l'abuso del diritto",
+  "beni": "i beni",
+  "finanza": "i prodotti finanziari",
+  "azienda": "l'azienda e l'impresa",
+  "patrimonio": "il patrimonio separato",
+  "beni-pubblici": "i beni pubblici",
+  "negozio": "fatti, atti e negozio giuridico"
  },
  "chapters": [
   "cap1.json",
   "cap2.json",
   "cap3.json",
-  "cap4.json"
+  "cap4.json",
+  "cap5.json",
+  "cap6.json",
+  "cap7a.json",
+  "cap7b.json",
+  "cap7c.json",
+  "cap7d.json",
+  "cap7e.json",
+  "cap8a.json",
+  "cap8b.json",
+  "cap9.json"
  ],
  "fascicoli": [
   {
@@ -49,17 +93,27 @@
    "num": 2,
    "title": "I soggetti",
    "scope": "§ 32 + Cap. 7",
-   "chapters": [],
-   "status": "done",
-   "note": "Studiato: in attesa dei file"
+   "chapters": [
+    "cap5",
+    "cap7a",
+    "cap7b",
+    "cap7c",
+    "cap7d",
+    "cap7e"
+   ],
+   "status": "done"
   },
   {
    "num": 3,
    "title": "Situazioni, beni, fatti e atti",
    "scope": "Capp. 6, 8, 9",
-   "chapters": [],
-   "status": "done",
-   "note": "Completo: in attesa dei file"
+   "chapters": [
+    "cap6",
+    "cap8a",
+    "cap8b",
+    "cap9"
+   ],
+   "status": "done"
   },
   {
    "num": 4,

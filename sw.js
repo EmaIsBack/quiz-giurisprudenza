@@ -1,6 +1,6 @@
 // Service worker: l'app funziona anche offline.
 // Prima la rete, così aggiornamenti e nuovi capitoli arrivano subito; offline usa la cache.
-const VERSION = 'v2-2026-11-18';
+const VERSION = 'v3-2026-11-19';
 const CACHE = 'qg-' + VERSION;
 const SHELL = [
   './', 'index.html', 'css/style.css', 'js/app.js', 'js/engine.js', 'js/store.js', 'js/content.js',

@@ -391,3 +391,6 @@ h1, h2, h3 { margin: 0; line-height: 1.2; }
 .fasc.empty { padding: 14px; border-radius: var(--r); border: 1px dashed var(--line); margin: 14px 0; opacity: .85; }
 .fasc.empty .fasc-num { background: var(--surface-2); color: var(--ink-2); box-shadow: none; }
 .fasc.empty h2 { font-size: 17px; }
+
+.fasc-head .fasc-txt { flex: 1; min-width: 0; }
+.fasc-btn { flex-shrink: 0; align-self: center; padding: 8px 12px; border-radius: 12px; font-weight: 800; font-size: 13px; color: var(--navy); border: 2px solid var(--line); background: var(--surface); }

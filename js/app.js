@@ -172,6 +172,7 @@ function fascicoloBlock(f) {
       <div class="fasc-num">${f.num}</div>
       <div class="fasc-txt"><div class="fasc-kicker">Fascicolo ${f.num} · ${esc(f.scope || '')}</div><h2>${esc(f.title)}</h2>
       <div class="fasc-note">${status}<span>${pct}% padroneggiato</span></div></div>
+      <button class="fasc-btn" data-act="fascreview" data-f="f${f.num}">Ripassa</button>
     </div>
     ${chs.map((ch) => chapterBlock(ch)).join('')}
   </section>`;
@@ -200,7 +201,7 @@ function chapterBlock(ch) {
   const allDone = lessons.every((l) => lessonState(l.id).level >= 1);
   return `<section class="chapter">
     <div class="ch-head">
-      <div class="ch-num">Cap. ${ch.num}</div>
+      <div class="ch-num">Cap. ${ch.label}</div>
       <h2>${esc(ch.title)}</h2>
       <div class="bar"><i style="width:${Math.round(m.pct * 100)}%"></i></div>
       <div class="ch-meta">${Math.round(m.pct * 100)}% padroneggiato · ${m.seen}/${m.total} elementi visti</div>
@@ -215,14 +216,16 @@ function chapterBlock(ch) {
 }
 
 // ---------------- ARTICOLI ----------------
+function fascById(id) { return course.fascicoli.find((f) => 'f' + f.num === id); }
+
 function viewCodex() {
   const q = codexFilter.q.trim().toLowerCase();
   const arts = [...course.articles.values()]
-    .filter((a) => codexFilter.ch === 'all' || a.locs.some((l) => l.ch === codexFilter.ch))
+    .filter((a) => codexFilter.ch === 'all' || a.locs.some((l) => (fascById(codexFilter.ch)?.chapters || []).includes(l.ch)))
     .filter((a) => !q || (a.ref + ' ' + a.tema + ' ' + a.desc).toLowerCase().includes(q))
     .sort((a, b) => fonteOrder(a) - fonteOrder(b) || numVal(a.ref) - numVal(b.ref));
   const chips = [`<button class="chip ${codexFilter.ch === 'all' ? 'on' : ''}" data-ch="all">Tutti</button>`,
-    ...course.chapters.map((c) => `<button class="chip ${codexFilter.ch === c.id ? 'on' : ''}" data-ch="${c.id}">Cap. ${c.num}</button>`)].join('');
+    ...course.fascicoli.filter((f) => f.chapters.length).map((f) => `<button class="chip ${codexFilter.ch === 'f' + f.num ? 'on' : ''}" data-ch="f${f.num}">Fasc. ${f.num} · ${esc(f.title)}</button>`)].join('');
   const list = arts.map((a) => {
     const it = E.itemState(S, course.id, 'art:' + a.id);
     const m = E.masteryOf(it);
@@ -243,7 +246,7 @@ function viewCodex() {
   <div class="codex-head">
     <input class="search" type="search" placeholder="Cerca articolo o argomento…" value="${esc(codexFilter.q)}" id="q" autocomplete="off">
     <div class="chips">${chips}</div>
-    <div class="codex-count">${arts.length} articoli${codexFilter.ch !== 'all' ? ` · <button class="link" data-act="chreview" data-ch="${codexFilter.ch}">Allenati su questo capitolo →</button>` : ''}</div>
+    <div class="codex-count">${arts.length} articoli${codexFilter.ch !== 'all' ? ` · <button class="link" data-act="fascreview" data-f="${codexFilter.ch}">Allenati su questo fascicolo →</button>` : ''}</div>
   </div>
   <div class="art-list">${list || '<p class="empty">Nessun articolo trovato.</p>'}</div>`;
 }
@@ -264,7 +267,7 @@ function viewStats() {
   const bars = days.map((d) => `<div class="day"><div class="col"><i style="height:${Math.round((d.xp / max) * 100)}%" class="${d.xp >= S.goal ? 'hit' : ''}"></i></div><span>${d.label}</span></div>`).join('');
   const chs = course.chapters.map((c) => {
     const m = E.scopeMastery(S, course, { ch: c.id });
-    return `<div class="mrow"><div class="mrow-t">Cap. ${c.num} · ${esc(c.title)}</div><div class="bar"><i style="width:${Math.round(m.pct * 100)}%"></i></div><div class="mrow-n">${Math.round(m.pct * 100)}%</div></div>`;
+    return `<div class="mrow"><div class="mrow-t">Cap. ${c.label} · ${esc(c.title)}</div><div class="bar"><i style="width:${Math.round(m.pct * 100)}%"></i></div><div class="mrow-n">${Math.round(m.pct * 100)}%</div></div>`;
   }).join('');
   const weak = [...course.articles.values()]
     .map((a) => ({ a, it: E.itemState(S, course.id, 'art:' + a.id) }))
@@ -372,7 +375,11 @@ async function act(a, el) {
   if (a === 'chreview') {
     if (el.dataset.locked) return toast('🏆 Si sblocca completando tutte le lezioni del capitolo');
     const ch = course.chapters.find((c) => c.id === el.dataset.ch);
-    return startRun({ mode: 'lesson', scope: { ch: ch.id }, title: `Ripasso Cap. ${ch.num}`, size: 15, lessonId: 'review-' + ch.id });
+    return startRun({ mode: 'lesson', scope: { ch: ch.id }, title: `Ripasso Cap. ${ch.label}`, size: 15, lessonId: 'review-' + ch.id });
+  }
+  if (a === 'fascreview') {
+    const f = fascById(el.dataset.f);
+    return startRun({ mode: 'lesson', scope: { chs: f.chapters }, title: `Ripasso Fascicolo ${f.num}`, size: 15 });
   }
   if (a === 'review') return startRun({ mode: 'review', scope: { all: true }, title: 'Ripasso intelligente', size: 12 });
   if (a === 'blitz') return startRun({ mode: 'blitz', scope: { all: true }, title: 'Sfida lampo', size: 25 });
@@ -400,7 +407,7 @@ function lessonSheet(id) {
   const secs = l.secs.map((s) => ch.sections.find((x) => x.id === s)).filter(Boolean)
     .map((s) => `<li>§ ${esc(s.id.replace('-p', ''))} · ${esc(s.title)}</li>`).join('');
   sheet(`<div class="ls">
-    <div class="ch-num">Cap. ${ch.num}</div>
+    <div class="ch-num">Cap. ${ch.label}</div>
     <h2>${esc(l.title)}</h2>
     <ul class="secs">${secs}</ul>
     <div class="ls-stats"><div><b>${'★'.repeat(ls.level)}${'☆'.repeat(5 - ls.level)}</b><span>livello</span></div><div><b>${Math.round(m.pct * 100)}%</b><span>padronanza</span></div><div><b>${m.total}</b><span>elementi</span></div></div>

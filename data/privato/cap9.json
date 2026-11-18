@@ -1,0 +1,578 @@
+{
+  "id": "cap9",
+  "num": 9,
+  "title": "Il fatto, l'atto e il negozio giuridico",
+  "source": "Manuale, Cap. IX, §§ 96-107",
+  "sections": [
+    { "id": "96", "title": "I fatti giuridici" },
+    { "id": "97", "title": "Classificazione degli atti giuridici" },
+    { "id": "98", "title": "Il negozio giuridico" },
+    { "id": "99", "title": "Negozi: struttura soggettiva" },
+    { "id": "100", "title": "Negozi: funzione e oggetto" },
+    { "id": "101", "title": "Titolo gratuito e titolo oneroso" },
+    { "id": "102", "title": "La rinuncia" },
+    { "id": "103", "title": "Elementi del negozio giuridico" },
+    { "id": "104", "title": "La dichiarazione" },
+    { "id": "105", "title": "La forma" },
+    { "id": "106", "title": "Il bollo e la registrazione" },
+    { "id": "107", "title": "La pubblicità" }
+  ],
+  "lessons": [
+    { "id": "c9-l1", "title": "Fatti e atti giuridici", "secs": ["96", "97"] },
+    { "id": "c9-l2", "title": "Il negozio e le sue strutture", "secs": ["98", "99"] },
+    { "id": "c9-l3", "title": "Funzione e oggetto dei negozi", "secs": ["100"] },
+    { "id": "c9-l4", "title": "Gratuito, oneroso, rinuncia", "secs": ["101", "102"] },
+    { "id": "c9-l5", "title": "Elementi e dichiarazione", "secs": ["103", "104"] },
+    { "id": "c9-l6", "title": "Forma, bollo, registrazione", "secs": ["105", "106"] },
+    { "id": "c9-l7", "title": "La pubblicità", "secs": ["107"] }
+  ],
+  "articles": [
+    { "id": "cc-820", "sec": "96" },
+    { "id": "cc-456", "sec": "96" },
+    {
+      "id": "cc-946", "ref": "Art. 946 c.c.", "fonte": "c.c.", "sec": "96",
+      "tema": "Alveo abbandonato",
+      "desc": "Se un fiume o torrente forma un nuovo letto abbandonando l'antico, il terreno abbandonato appartiene al demanio pubblico: esempio di fatto giuridico in senso stretto.",
+      "tags": ["negozio"]
+    },
+    { "id": "cc-1372", "sec": "96" },
+    { "id": "cc-923", "sec": "96" },
+    { "id": "cc-2934", "sec": "96" },
+    {
+      "id": "cc-2901", "ref": "Art. 2901 c.c.", "fonte": "c.c.", "sec": "96",
+      "tema": "Azione revocatoria",
+      "desc": "Il creditore può far dichiarare inefficaci nei suoi confronti gli atti di disposizione con cui il debitore pregiudica le sue ragioni, se il debitore conosceva il pregiudizio (fatto psicologico) e, per gli atti onerosi, il terzo ne era consapevole. È salvo il terzo acquirente a titolo oneroso in buona fede.",
+      "tags": ["negozio"]
+    },
+    { "id": "cc-2043", "sec": "97" },
+    {
+      "id": "cc-1219", "ref": "Art. 1219 c.c.", "fonte": "c.c.", "sec": "97",
+      "tema": "Costituzione in mora",
+      "desc": "Il debitore è costituito in mora mediante intimazione o richiesta fatta per iscritto: atto giuridico in senso stretto, i cui effetti sono fissati dalla legge anche se il creditore non li voleva. Interrompe anche la prescrizione (art. 2943, c. 4).",
+      "es": "Una lettera «pagami entro dieci giorni» fa scattare la mora del debitore, anche se chi scrive non conosce l'art. 1219.",
+      "tags": ["negozio"],
+      "links": [{ "to": "cc-2943", "why": "La stessa intimazione interrompe la prescrizione." }]
+    },
+    {
+      "id": "cc-2943", "ref": "Art. 2943 c.c.", "fonte": "c.c.", "sec": "97",
+      "tema": "Interruzione della prescrizione",
+      "desc": "La prescrizione è interrotta, tra l'altro, dalla domanda giudiziale e da ogni atto che valga a costituire in mora il debitore (c. 4).",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-2730", "ref": "Art. 2730 c.c.", "fonte": "c.c.", "sec": "97",
+      "tema": "Confessione",
+      "desc": "La confessione è la dichiarazione che una parte fa della verità di fatti a sé sfavorevoli e favorevoli all'altra: dichiarazione di scienza, non negozio. Gli effetti probatori li fissa la legge.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-1324", "ref": "Art. 1324 c.c.", "fonte": "c.c.", "sec": "98",
+      "tema": "Norme applicabili agli atti unilaterali",
+      "desc": "Salvo diverse disposizioni di legge, le norme sui contratti si osservano, in quanto compatibili, per gli atti unilaterali tra vivi aventi contenuto patrimoniale. Il contratto diventa così il paradigma dei negozi patrimoniali inter vivos, ma restano fuori testamento e negozi familiari.",
+      "es": "Alla rinuncia a un credito o al recesso si applicano, se compatibili, le regole del contratto.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-1321", "ref": "Art. 1321 c.c.", "fonte": "c.c.", "sec": "98",
+      "tema": "Nozione di contratto",
+      "desc": "Il contratto è l'accordo di due o più parti per costituire, regolare o estinguere tra loro un rapporto giuridico patrimoniale: negozio patrimoniale per eccellenza.",
+      "tags": ["negozio", "contratto"]
+    },
+    {
+      "id": "cc-1334", "ref": "Art. 1334 c.c.", "fonte": "c.c.", "sec": "99",
+      "tema": "Efficacia degli atti unilaterali recettizi",
+      "desc": "Gli atti unilaterali producono effetto dal momento in cui pervengono a conoscenza della persona alla quale sono destinati (es. proposta, disdetta, recesso).",
+      "es": "Il recesso dal contratto di palestra ha effetto quando la palestra riceve la tua comunicazione, non quando la scrivi.",
+      "tags": ["negozio"]
+    },
+    { "id": "cc-1376", "sec": "100" },
+    {
+      "id": "cc-1476", "ref": "Art. 1476 c.c.", "fonte": "c.c.", "sec": "100",
+      "tema": "Obbligazioni principali del venditore",
+      "desc": "Il venditore deve consegnare la cosa, farne acquistare la proprietà al compratore se l'acquisto non è effetto immediato del contratto (n. 2: es. vendita sulla pianta) e garantirlo dall'evizione e dai vizi (n. 3).",
+      "tags": ["negozio", "contratto"],
+      "links": [{ "to": "cc-1487", "why": "La garanzia per evizione è un effetto naturale, che le parti possono escludere (art. 1487)." }]
+    },
+    {
+      "id": "cc-757", "ref": "Art. 757 c.c.", "fonte": "c.c.", "sec": "100",
+      "tema": "Effetto dichiarativo della divisione",
+      "desc": "Ogni coerede è reputato solo e immediato successore in tutti i beni componenti la sua quota e si considera come se non avesse mai avuto la proprietà degli altri beni ereditari: effetto retroattivo, vicino al negozio di accertamento.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-769", "ref": "Art. 769 c.c.", "fonte": "c.c.", "sec": "101",
+      "tema": "Donazione",
+      "desc": "La donazione è il contratto con cui, per spirito di liberalità, una parte arricchisce l'altra disponendo a suo favore di un diritto o assumendo verso di essa un'obbligazione: contratto essenzialmente gratuito.",
+      "tags": ["negozio", "contratto"],
+      "links": [{ "to": "cc-782", "why": "La donazione richiede l'atto pubblico (art. 782)." }]
+    },
+    {
+      "id": "cc-1767", "ref": "Art. 1767 c.c.", "fonte": "c.c.", "sec": "101",
+      "tema": "Gratuità presunta del deposito",
+      "desc": "Il deposito si presume gratuito, salvo che dalla qualità professionale del depositario o da altre circostanze si debba desumere una diversa volontà delle parti.",
+      "tags": ["negozio", "contratto"]
+    },
+    {
+      "id": "cc-1709", "ref": "Art. 1709 c.c.", "fonte": "c.c.", "sec": "101",
+      "tema": "Onerosità presunta del mandato",
+      "desc": "Il mandato si presume oneroso: la misura del compenso, se non è stabilita dalle parti, è determinata dalle tariffe o dagli usi o, in mancanza, dal giudice.",
+      "tags": ["negozio", "contratto"]
+    },
+    { "id": "cc-1815", "sec": "101" },
+    { "id": "cc-1803", "sec": "101" },
+    {
+      "id": "cc-798", "ref": "Art. 798 c.c.", "fonte": "c.c.", "sec": "101",
+      "tema": "Garanzia per i vizi della cosa donata",
+      "desc": "Il donante, salvo patto speciale, non risponde dei vizi della cosa donata, a meno che sia in dolo: l'acquirente gratuito è tutelato meno del compratore.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-1445", "ref": "Art. 1445 c.c.", "fonte": "c.c.", "sec": "101",
+      "tema": "Effetti dell'annullamento nei confronti dei terzi",
+      "desc": "L'annullamento che non dipende da incapacità legale non pregiudica i diritti acquistati a titolo oneroso dai terzi di buona fede, salvi gli effetti della trascrizione della domanda.",
+      "tags": ["negozio"]
+    },
+    { "id": "cc-1371", "sec": "101" },
+    { "id": "cc-1236", "sec": "102" },
+    {
+      "id": "cc-478", "ref": "Art. 478 c.c.", "fonte": "c.c.", "sec": "102",
+      "tema": "Rinuncia all'eredità verso corrispettivo",
+      "desc": "La rinuncia ai diritti di successione fatta verso corrispettivo o a favore di alcuni soltanto dei chiamati importa accettazione dell'eredità.",
+      "es": "Rinuncio all'eredità del nonno ma mi faccio pagare 10.000 euro dai cugini: in realtà ho accettato.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-782", "ref": "Art. 782 c.c.", "fonte": "c.c.", "sec": "102",
+      "tema": "Forma della donazione (atto pubblico)",
+      "desc": "La donazione deve essere fatta per atto pubblico, sotto pena di nullità, alla presenza di due testimoni. La rinuncia all'usufrutto non la richiede, perché il nudo proprietario non acquista dal rinunciante.",
+      "tags": ["negozio"]
+    },
+    { "id": "cc-827", "sec": "102" },
+    {
+      "id": "cc-1325", "ref": "Art. 1325 c.c.", "fonte": "c.c.", "sec": "103",
+      "tema": "Requisiti del contratto",
+      "desc": "I requisiti del contratto sono: l'accordo delle parti, la causa, l'oggetto, la forma quando è prescritta dalla legge sotto pena di nullità. Sono gli elementi essenziali.",
+      "es": "Una vendita senza prezzo manca di un elemento essenziale del tipo.",
+      "tags": ["negozio", "contratto"],
+      "links": [{ "to": "cc-1418", "why": "La mancanza di un requisito rende il contratto nullo (art. 1418)." }]
+    },
+    {
+      "id": "cc-1418", "ref": "Art. 1418 c.c.", "fonte": "c.c.", "sec": "103",
+      "tema": "Cause di nullità del contratto",
+      "desc": "Il contratto è nullo quando è contrario a norme imperative, quando manca uno dei requisiti dell'art. 1325, quando la causa o l'oggetto sono illeciti, e negli altri casi stabiliti dalla legge.",
+      "tags": ["negozio", "contratto"]
+    },
+    {
+      "id": "cc-1487", "ref": "Art. 1487 c.c.", "fonte": "c.c.", "sec": "103",
+      "tema": "Modificazione o esclusione della garanzia per evizione",
+      "desc": "Le parti possono escludere la garanzia per evizione (effetto naturale della vendita); ma il venditore risponde sempre dell'evizione derivante da un fatto suo proprio (c. 2).",
+      "tags": ["negozio", "contratto"]
+    },
+    {
+      "id": "cc-1237", "ref": "Art. 1237 c.c.", "fonte": "c.c.", "sec": "104",
+      "tema": "Restituzione volontaria del titolo",
+      "desc": "La restituzione volontaria del titolo originale del credito, fatta dal creditore al debitore, costituisce prova della liberazione: dichiarazione tacita (comportamento concludente).",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-2937", "ref": "Art. 2937 c.c.", "fonte": "c.c.", "sec": "104",
+      "tema": "Rinunzia alla prescrizione",
+      "desc": "Si può rinunciare alla prescrizione solo quando è compiuta; la rinuncia può risultare da un fatto incompatibile con la volontà di valersene (es. chiedere una dilazione per pagare).",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-1937", "ref": "Art. 1937 c.c.", "fonte": "c.c.", "sec": "104",
+      "tema": "Fideiussione: volontà espressa",
+      "desc": "La volontà di prestare fideiussione deve essere espressa: non basta un comportamento concludente.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-1333", "ref": "Art. 1333 c.c.", "fonte": "c.c.", "sec": "104",
+      "tema": "Contratto con obbligazioni del solo proponente",
+      "desc": "La proposta diretta a concludere un contratto da cui derivano obbligazioni solo per il proponente è irrevocabile appena giunge al destinatario, che può rifiutarla entro il termine; in mancanza del rifiuto il contratto è concluso: caso in cui la legge dà valore al silenzio.",
+      "tags": ["negozio", "contratto"]
+    },
+    { "id": "cc-1350", "sec": "105" },
+    { "id": "cc-1341-2", "sec": "105" },
+    {
+      "id": "cc-1284-3", "ref": "Art. 1284, c. 3, c.c.", "fonte": "c.c.", "sec": "105",
+      "tema": "Interessi ultralegali per iscritto",
+      "desc": "Gli interessi superiori alla misura legale devono essere determinati per iscritto; altrimenti sono dovuti nella misura legale: forma a tutela di una parte.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-2125", "ref": "Art. 2125 c.c.", "fonte": "c.c.", "sec": "105",
+      "tema": "Patto di non concorrenza del lavoratore",
+      "desc": "Il patto con cui si limita l'attività del lavoratore dopo la fine del rapporto è nullo se non risulta da atto scritto, se non prevede un corrispettivo e non ha limiti di oggetto, tempo e luogo.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-1352", "ref": "Art. 1352 c.c.", "fonte": "c.c.", "sec": "105",
+      "tema": "Forme convenzionali",
+      "desc": "Se le parti hanno convenuto per iscritto di adottare una determinata forma per la futura conclusione di un contratto, si presume che la forma sia stata voluta per la validità.",
+      "es": "«Ogni modifica va fatta per iscritto a pena di nullità»: una modifica fatta solo a voce non vale.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-1967", "ref": "Art. 1967 c.c.", "fonte": "c.c.", "sec": "105",
+      "tema": "Prova della transazione (forma ad probationem)",
+      "desc": "La transazione deve essere provata per iscritto: l'accordo orale è valido, ma non si può provare con testimoni o presunzioni. Se riguarda diritti reali immobiliari, lo scritto è richiesto ad substantiam (art. 1350, n. 12).",
+      "tags": ["negozio"],
+      "links": [{ "to": "cc-2725", "why": "L'art. 2725 esclude la prova per testimoni quando lo scritto è richiesto per la prova." }]
+    },
+    {
+      "id": "cc-2725", "ref": "Art. 2725 c.c.", "fonte": "c.c.", "sec": "105",
+      "tema": "Atti per i quali è richiesta la prova per iscritto",
+      "desc": "Quando la legge o la volontà delle parti richiede la forma scritta per la prova del contratto, la prova per testimoni è ammessa solo se il documento è stato perso senza colpa.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-2328", "ref": "Art. 2328 c.c.", "fonte": "c.c.", "sec": "105",
+      "tema": "Atto costitutivo della s.p.a. (atto pubblico)",
+      "desc": "La società per azioni deve essere costituita per atto pubblico: forma ad substantiam.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "l311-1-346", "ref": "Art. 1, c. 346, L. 311/2004", "fonte": "L. 311/2004", "sec": "106",
+      "tema": "Nullità della locazione non registrata",
+      "desc": "I contratti di locazione di immobili sono nulli se, ricorrendone i presupposti, non sono registrati: eccezione alla regola per cui la mancata registrazione dà solo sanzioni fiscali. La registrazione tardiva sana ex tunc (Cass. s.u. 23601/2017).",
+      "es": "Un affitto «in nero» di un appartamento è nullo.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-2704", "ref": "Art. 2704 c.c.", "fonte": "c.c.", "sec": "106",
+      "tema": "Data della scrittura privata nei confronti dei terzi",
+      "desc": "La data della scrittura privata non autenticata è certa e computabile riguardo ai terzi dal giorno della registrazione o da altro fatto che stabilisca in modo certo l'anteriorità.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "dpr642-20", "ref": "Art. 20 D.P.R. 642/1972", "fonte": "D.P.R. 642/1972", "sec": "106",
+      "tema": "Cambiale e assegno non bollati",
+      "desc": "La cambiale e l'assegno non regolarmente bollati sin dall'emissione restano validi, ma non hanno efficacia di titolo esecutivo: eccezione alla regola per cui il bollo non incide sull'atto.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-93", "ref": "Art. 93 c.c.", "fonte": "c.c.", "sec": "107",
+      "tema": "Pubblicazioni di matrimonio",
+      "desc": "La celebrazione del matrimonio deve essere preceduta dalla pubblicazione: pubblicità-notizia. Se omessa, ci sono solo sanzioni amministrative e il matrimonio resta valido (art. 134).",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-2644", "ref": "Art. 2644 c.c.", "fonte": "c.c.", "sec": "107",
+      "tema": "Effetti della trascrizione (conflitto tra acquirenti)",
+      "desc": "Gli atti soggetti a trascrizione non hanno effetto riguardo ai terzi che hanno acquistato diritti sugli immobili e hanno trascritto prima: tra due acquirenti dallo stesso venditore prevale chi trascrive per primo. Pubblicità dichiarativa.",
+      "es": "Primus vende la casa a Secundus e poi a Tertius; Tertius trascrive per primo e vince, ma la vendita a Secundus resta valida tra le parti.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-2808", "ref": "Art. 2808 c.c.", "fonte": "c.c.", "sec": "107",
+      "tema": "Costituzione dell'ipoteca con l'iscrizione",
+      "desc": "L'ipoteca si costituisce mediante iscrizione nei registri immobiliari: pubblicità costitutiva, senza la quale non c'è effetto nemmeno tra le parti.",
+      "tags": ["negozio"]
+    },
+    {
+      "id": "cc-2331", "ref": "Art. 2331 c.c.", "fonte": "c.c.", "sec": "107",
+      "tema": "Iscrizione della s.p.a. nel registro delle imprese",
+      "desc": "Con l'iscrizione nel registro delle imprese la società per azioni acquista la personalità giuridica: pubblicità costitutiva.",
+      "tags": ["negozio"]
+    }
+  ],
+  "concepts": [
+    { "id": "k9-fatto-giur", "sec": "96", "term": "Fatto giuridico", "def": "Qualsiasi accadimento a cui una norma ricollega una conseguenza giuridica" },
+    { "id": "k9-fatto-stretto", "sec": "96", "term": "Fatto giuridico in senso stretto", "def": "Evento naturale a cui la legge collega effetti, a prescindere dall'intervento umano (morte, frutti naturali)" },
+    { "id": "k9-atto-giur", "sec": "96", "term": "Atto giuridico", "def": "Azione umana consapevole e volontaria rilevante per il diritto, anche omissiva o psicologica" },
+    { "id": "k9-operazioni", "sec": "97", "term": "Operazioni (atti materiali)", "def": "Comportamenti che modificano il mondo esterno (presa di possesso, costruzione)" },
+    { "id": "k9-dich-volonta", "sec": "97", "term": "Dichiarazione di volontà", "def": "Dichiarazione con cui si vuole produrre effetti giuridici: è il negozio" },
+    { "id": "k9-dich-scienza", "sec": "97", "term": "Dichiarazione di scienza", "def": "Comunicazione di una conoscenza, non volontà di effetti (confessione, inventario, quietanza)" },
+    { "id": "k9-atto-stretto", "sec": "97", "term": "Atto giuridico in senso stretto", "def": "Atto voluto i cui effetti sono fissati dalla legge anche se l'agente non li voleva (costituzione in mora)" },
+    { "id": "k9-atto-dovuto", "sec": "97", "term": "Atto dovuto", "def": "Adempimento di un obbligo (pagamento di un debito): non è esplicazione di autonomia" },
+    { "id": "k9-negozio", "sec": "98", "term": "Negozio giuridico", "def": "Dichiarazione di volontà a cui l'ordinamento collega effetti conformi al voluto: strumento dell'autonomia privata" },
+    { "id": "k9-pandettistica", "sec": "98", "term": "Pandettistica", "def": "Scuola tedesca dell'Ottocento che ha elaborato per astrazione la figura del negozio giuridico" },
+    { "id": "k9-intento", "sec": "98", "term": "Intento empirico", "def": "Il risultato pratico perseguito dalle parti, a cui l'ordinamento collega effetti giuridici" },
+    { "id": "k9-parte", "sec": "99", "term": "Parte (del negozio)", "def": "Centro di interessi, non singola persona: può essere soggettivamente complessa" },
+    { "id": "k9-collegiale", "sec": "99", "term": "Atto collegiale", "def": "Dichiarazioni che formano la volontà di un organo collettivo, con il principio maggioritario" },
+    { "id": "k9-complesso", "sec": "99", "term": "Atto complesso", "def": "Più volontà che si fondono in una sola (inabilitato e curatore): il vizio di una travolge l'atto" },
+    { "id": "k9-resistenza", "sec": "99", "term": "Prova di resistenza", "def": "Verifica se la maggioranza regge anche senza i voti viziati: se sì la delibera resta valida" },
+    { "id": "k9-recettizi", "sec": "99", "term": "Negozi recettizi", "def": "Producono effetto quando giungono a conoscenza del destinatario (proposta, recesso, disdetta)" },
+    { "id": "k9-non-recettizi", "sec": "99", "term": "Negozi non recettizi", "def": "Producono effetto senza comunicazione a un destinatario (testamento, riconoscimento del figlio)" },
+    { "id": "k9-plurilaterale", "sec": "99", "term": "Negozio plurilaterale", "def": "Negozio con almeno tre parti, ciascuna con interesse autonomo (contratto di società)" },
+    { "id": "k9-mortis-causa", "sec": "100", "term": "Negozio mortis causa", "def": "Negozio i cui effetti presuppongono la morte di una persona (testamento)" },
+    { "id": "k9-dispositivo", "sec": "100", "term": "Negozio dispositivo", "def": "Negozio che produce un'immediata variazione nel patrimonio delle parti (vendita di cosa determinata)" },
+    { "id": "k9-obbligatorio", "sec": "100", "term": "Negozio obbligatorio", "def": "Negozio che fa nascere solo un'obbligazione, anche se diretta al trasferimento (vendita sulla pianta)" },
+    { "id": "k9-abdicativo", "sec": "100", "term": "Negozio abdicativo", "def": "Negozio che estingue un diritto senza che passi a un avente causa (rinuncia, remissione)" },
+    { "id": "k9-accertamento", "sec": "100", "term": "Negozio di accertamento", "def": "Negozio che elimina dubbi su una situazione esistente, con effetto retroattivo" },
+    { "id": "k9-gratuito", "sec": "101", "term": "Negozio a titolo gratuito", "def": "Un soggetto ottiene un vantaggio senza alcun sacrificio corrispondente" },
+    { "id": "k9-oneroso", "sec": "101", "term": "Negozio a titolo oneroso", "def": "Un soggetto accetta un sacrificio per ottenere un vantaggio" },
+    { "id": "k9-liberalita", "sec": "101", "term": "Liberalità", "def": "Intento di arricchire l'altro: causa della donazione, categoria più ristretta della gratuità" },
+    { "id": "k9-rinuncia", "sec": "102", "term": "Rinuncia", "def": "Dichiarazione unilaterale con cui il titolare dismette un diritto senza trasferirlo" },
+    { "id": "k9-elasticita", "sec": "102", "term": "Elasticità del dominio", "def": "Venuto meno il diritto che la limitava, la proprietà si riespande automaticamente (es. fine dell'usufrutto)" },
+    { "id": "k9-rif-impeditivo", "sec": "102", "term": "Rifiuto impeditivo", "def": "Impedisce l'ingresso di un diritto non ancora acquistato (rinuncia all'eredità)" },
+    { "id": "k9-rif-eliminativo", "sec": "102", "term": "Rifiuto eliminativo", "def": "Elimina retroattivamente un diritto già acquistato ma non stabile (rinuncia al legato)" },
+    { "id": "k9-essentialia", "sec": "103", "term": "Elementi essenziali", "def": "Elementi senza i quali il negozio è nullo (accordo, causa, oggetto, forma prescritta)" },
+    { "id": "k9-accidentalia", "sec": "103", "term": "Elementi accidentali", "def": "Condizione, termine, modo: le parti scelgono se apporli e incidono sull'efficacia" },
+    { "id": "k9-presupposti", "sec": "103", "term": "Presupposti del negozio", "def": "Circostanze esterne necessarie alla validità (capacità di agire, legittimazione)" },
+    { "id": "k9-naturalia", "sec": "103", "term": "Effetti naturali (naturalia negotii)", "def": "Effetti prodotti dalla legge senza clausole, derogabili dalle parti (garanzia per evizione)" },
+    { "id": "k9-espressa", "sec": "104", "term": "Dichiarazione espressa", "def": "Volontà manifestata con segni linguistici: parole, cenni, linguaggio dei segni, linguaggio informatico" },
+    { "id": "k9-tacita", "sec": "104", "term": "Dichiarazione tacita", "def": "Comportamento concludente, incompatibile con la volontà contraria" },
+    { "id": "k9-silenzio-circ", "sec": "104", "term": "Silenzio circostanziato", "def": "Silenzio che vale consenso perché si aveva l'onere o il dovere di parlare (qui tacet consentire videtur, si loqui debuisset ac potuisset)" },
+    { "id": "k9-liberta-forme", "sec": "105", "term": "Libertà delle forme", "def": "Principio per cui, salvo norme o patti, la volontà si può manifestare in qualsiasi modo" },
+    { "id": "k9-ad-subst", "sec": "105", "term": "Forma ad substantiam", "def": "Forma richiesta a pena di nullità" },
+    { "id": "k9-ad-prob", "sec": "105", "term": "Forma ad probationem", "def": "Forma richiesta solo per la prova: l'atto è valido, ma sono esclusi di regola testimoni e presunzioni" },
+    { "id": "k9-convenzionale", "sec": "105", "term": "Forma convenzionale", "def": "Forma scelta dalle parti; se pattuita per iscritto si presume voluta per la validità (art. 1352)" },
+    { "id": "k9-data-certa", "sec": "106", "term": "Data certa", "def": "Data della scrittura privata opponibile ai terzi, ad esempio dalla registrazione (art. 2704)" },
+    { "id": "k9-pubbl-notizia", "sec": "107", "term": "Pubblicità-notizia", "def": "Rende conoscibile l'atto; se manca ci sono sanzioni, ma l'atto è valido e opponibile (obbligo)" },
+    { "id": "k9-pubbl-dich", "sec": "107", "term": "Pubblicità dichiarativa", "def": "Rende l'atto opponibile ai terzi; se manca l'atto vale tra le parti (onere)" },
+    { "id": "k9-pubbl-cost", "sec": "107", "term": "Pubblicità costitutiva", "def": "Elemento della fattispecie: senza di essa l'atto non produce effetti neppure tra le parti" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx9-fatto-atto", "sec": "96", "title": "Fatto giuridico in senso stretto o atto giuridico?",
+      "cols": ["Fatto in senso stretto", "Atto giuridico"],
+      "facts": [
+        ["La morte di una persona", 0],
+        ["La stipula di un contratto", 1],
+        ["La nascita dei frutti naturali, anche se l'uomo ha coltivato", 0],
+        ["L'occupazione di una res nullius", 1],
+        ["L'inerzia che porta alla prescrizione", 1],
+        ["Il fiume che abbandona il vecchio letto", 0],
+        ["La conoscenza del pregiudizio nella revocatoria", 1]
+      ]
+    },
+    {
+      "id": "cx9-atti", "sec": "97", "title": "Che tipo di atto giuridico?",
+      "cols": ["Operazione", "Negozio", "Dichiarazione di scienza", "Atto in senso stretto", "Atto dovuto"],
+      "facts": [
+        ["Costruire un edificio", 0],
+        ["Fare testamento", 1],
+        ["Confessione", 2],
+        ["Intimazione scritta ad adempiere", 3],
+        ["Pagare un debito", 4],
+        ["Rilasciare una quietanza", 2],
+        ["Recedere da un contratto", 1]
+      ]
+    },
+    {
+      "id": "cx9-neg-stretto", "sec": "97", "title": "Negozio o atto giuridico in senso stretto?",
+      "cols": ["Negozio", "Atto in senso stretto"],
+      "facts": [
+        ["Gli effetti corrispondono alla volontà del dichiarante", 0],
+        ["Gli effetti li fissa la legge, anche se non voluti", 1],
+        ["Serve la capacità legale di agire", 0],
+        ["Basta di regola la capacità di intendere e di volere", 1],
+        ["Esplicazione dell'autonomia privata", 0],
+        ["Costituzione in mora del debitore", 1]
+      ]
+    },
+    {
+      "id": "cx9-parti", "sec": "99", "title": "Negozio unilaterale, bilaterale o plurilaterale?",
+      "cols": ["Unilaterale", "Bilaterale", "Plurilaterale"],
+      "facts": [
+        ["Testamento", 0],
+        ["Vendita di un appartamento a due coniugi", 1],
+        ["Contratto di società tra tre soci", 2],
+        ["Procura a vendere conferita da più comproprietari", 0],
+        ["Divisione tra quattro comproprietari", 2],
+        ["Recesso", 0],
+        ["Locazione", 1]
+      ]
+    },
+    {
+      "id": "cx9-coll-compl", "sec": "99", "title": "Atto collegiale o atto complesso?",
+      "cols": ["Collegiale", "Complesso"],
+      "facts": [
+        ["Delibera dell'assemblea di condominio", 0],
+        ["Vendita dell'inabilitato con il curatore", 1],
+        ["Principio maggioritario", 0],
+        ["Il vizio di una volontà travolge l'intero atto", 1],
+        ["Prova di resistenza", 0]
+      ]
+    },
+    {
+      "id": "cx9-recettizi", "sec": "99", "title": "Negozio recettizio o non recettizio?",
+      "cols": ["Recettizio", "Non recettizio"],
+      "facts": [
+        ["Proposta contrattuale", 0],
+        ["Testamento", 1],
+        ["Disdetta", 0],
+        ["Accettazione dell'eredità", 1],
+        ["Riconoscimento del figlio", 1],
+        ["Recesso", 0]
+      ]
+    },
+    {
+      "id": "cx9-disp-obbl", "sec": "100", "title": "Negozio dispositivo o obbligatorio?",
+      "cols": ["Dispositivo", "Obbligatorio"],
+      "facts": [
+        ["Vendita di una cosa determinata del venditore", 0],
+        ["Vendita di un appartamento sulla pianta", 1],
+        ["Rinuncia a un diritto", 0],
+        ["Contratto di lavoro subordinato", 1],
+        ["Costituzione di una servitù", 0]
+      ]
+    },
+    {
+      "id": "cx9-dispositivi", "sec": "100", "title": "Negozio traslativo, traslativo-costitutivo o abdicativo?",
+      "cols": ["Traslativo", "Traslativo-costitutivo", "Abdicativo"],
+      "facts": [
+        ["Vendita di un appartamento", 0],
+        ["Costituzione di una servitù a favore del vicino", 1],
+        ["Rinuncia alla proprietà", 2],
+        ["Costituzione di usufrutto", 1],
+        ["Remissione del debito", 2],
+        ["Il dante causa resta proprietario", 1]
+      ]
+    },
+    {
+      "id": "cx9-gratuito", "sec": "101", "title": "Gratuito o oneroso?",
+      "cols": ["Gratuito", "Oneroso"],
+      "facts": [
+        ["Donazione (sempre)", 0],
+        ["Mutuo (presunto)", 1],
+        ["Deposito (presunto)", 0],
+        ["Mandato (presunto)", 1],
+        ["Comodato (sempre)", 0],
+        ["Il cedente risponde dei vizi", 1],
+        ["Interpretazione nel senso meno gravoso per l'obbligato", 0]
+      ]
+    },
+    {
+      "id": "cx9-liber-grat", "sec": "101", "title": "Liberalità o semplice gratuità?",
+      "cols": ["Liberalità", "Gratuità senza liberalità"],
+      "facts": [
+        ["Donazione di un anello alla fidanzata", 0],
+        ["Navetta gratuita dell'hotel per i clienti", 1],
+        ["Trasporto gratuito dei dipendenti dalla stazione", 1],
+        ["Intento di arricchire l'altro", 0]
+      ]
+    },
+    {
+      "id": "cx9-rifiuto", "sec": "102", "title": "Rifiuto impeditivo o eliminativo?",
+      "cols": ["Impeditivo", "Eliminativo"],
+      "facts": [
+        ["Rinuncia all'eredità", 0],
+        ["Rinuncia al legato", 1],
+        ["Il diritto non è mai entrato nel patrimonio", 0],
+        ["Il diritto era già entrato e viene eliminato retroattivamente", 1]
+      ]
+    },
+    {
+      "id": "cx9-elementi", "sec": "103", "title": "Elemento essenziale, accidentale, presupposto o effetto naturale?",
+      "cols": ["Essenziale", "Accidentale", "Presupposto", "Effetto naturale"],
+      "facts": [
+        ["Causa", 0],
+        ["Condizione", 1],
+        ["Capacità di agire", 2],
+        ["Garanzia per evizione nella vendita", 3],
+        ["Prezzo nella vendita", 0],
+        ["Termine", 1],
+        ["Legittimazione a disporre", 2],
+        ["Onerosità del mutuo", 3]
+      ]
+    },
+    {
+      "id": "cx9-dichiarazione", "sec": "104", "title": "Dichiarazione espressa, tacita o silenzio?",
+      "cols": ["Espressa", "Tacita", "Silenzio"],
+      "facts": [
+        ["Segnali di bandiere tra navi", 0],
+        ["Restituire al debitore il titolo del credito", 1],
+        ["Mettere la merce sul nastro della cassa", 1],
+        ["Non restituire il libro mandato dal libraio di fiducia, come d'abitudine", 2],
+        ["Chiedere una dilazione dopo che il debito è prescritto", 1],
+        ["Linguaggio dei segni", 0]
+      ]
+    },
+    {
+      "id": "cx9-forme", "sec": "105", "title": "Forma ad substantiam, ad probationem o convenzionale?",
+      "cols": ["Ad substantiam", "Ad probationem", "Convenzionale"],
+      "facts": [
+        ["Vendita di un immobile (art. 1350)", 0],
+        ["Transazione (art. 1967)", 1],
+        ["Clausola «modifiche solo per iscritto a pena di nullità»", 2],
+        ["Donazione per atto pubblico", 0],
+        ["Atto costitutivo della s.p.a.", 0],
+        ["Se manca, l'atto è valido ma non si prova con testimoni", 1],
+        ["Si presume voluta per la validità (art. 1352)", 2]
+      ]
+    },
+    {
+      "id": "cx9-bollo-reg", "sec": "106", "title": "Bollo o registrazione?",
+      "cols": ["Bollo", "Registrazione"],
+      "facts": [
+        ["D.P.R. 642/1972", 0],
+        ["D.P.R. 131/1986", 1],
+        ["Cambiale non bollata: valida ma non titolo esecutivo", 0],
+        ["Locazione di immobili non registrata: nulla", 1],
+        ["Dà data certa alla scrittura privata", 1]
+      ]
+    },
+    {
+      "id": "cx9-pubblicita", "sec": "107", "title": "Che tipo di pubblicità?",
+      "cols": ["Notizia", "Dichiarativa", "Costitutiva"],
+      "facts": [
+        ["Pubblicazioni di matrimonio", 0],
+        ["Trascrizione della vendita di un immobile", 1],
+        ["Iscrizione dell'ipoteca", 2],
+        ["Iscrizione della s.p.a. nel registro delle imprese", 2],
+        ["Se manca: sanzioni, ma atto valido e opponibile", 0],
+        ["Se manca: atto valido tra le parti ma non opponibile ai terzi", 1],
+        ["Se manca: nessun effetto nemmeno tra le parti", 2]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf9-1", "sec": "96", "s": "Un fatto è giuridico per sua natura.", "v": false, "why": "È giuridico solo perché una norma gli collega effetti." },
+    { "id": "tf9-2", "sec": "96", "s": "Anche un'omissione può essere un atto giuridico.", "v": true, "why": "Es. l'inerzia che porta alla prescrizione (art. 2934)." },
+    { "id": "tf9-3", "sec": "96", "s": "I frutti naturali sono un atto giuridico se l'uomo ha coltivato il campo.", "v": false, "why": "Restano un fatto in senso stretto: «vi concorra o no l'opera dell'uomo» (art. 820)." },
+    { "id": "tf9-4", "sec": "97", "s": "Per un atto giuridico in senso stretto serve la capacità legale di agire.", "v": false, "why": "Basta di regola la capacità di intendere e di volere." },
+    { "id": "tf9-5", "sec": "97", "s": "Il pagamento di un debito è un negozio giuridico.", "v": false, "why": "È un atto dovuto: presuppone un obbligo." },
+    { "id": "tf9-6", "sec": "97", "s": "La confessione è un negozio giuridico.", "v": false, "why": "È una dichiarazione di scienza: gli effetti probatori li fissa la legge." },
+    { "id": "tf9-7", "sec": "97", "s": "La costituzione in mora produce effetti anche se il creditore non li voleva.", "v": true, "why": "È un atto giuridico in senso stretto (art. 1219)." },
+    { "id": "tf9-8", "sec": "98", "s": "Il codice civile disciplina il negozio giuridico in generale.", "v": false, "why": "Disciplina le singole figure; il contratto fa da paradigma grazie all'art. 1324." },
+    { "id": "tf9-9", "sec": "98", "s": "Le norme sul contratto si applicano automaticamente al testamento e al matrimonio.", "v": false, "why": "L'art. 1324 riguarda solo gli atti unilaterali tra vivi patrimoniali; per gli altri, al più, analogia caso per caso." },
+    { "id": "tf9-10", "sec": "98", "s": "La figura del negozio giuridico nasce dalla pandettistica tedesca.", "v": true, "why": "Per astrazione da contratto, testamento, matrimonio." },
+    { "id": "tf9-11", "sec": "99", "s": "La vendita a due coniugi che acquistano insieme è un negozio plurilaterale.", "v": false, "why": "È bilaterale: la parte acquirente è soggettivamente complessa." },
+    { "id": "tf9-12", "sec": "99", "s": "Il vizio del voto di un socio rende sempre invalida la delibera.", "v": false, "why": "Si applica la prova di resistenza." },
+    { "id": "tf9-13", "sec": "99", "s": "Il testamento è un negozio recettizio.", "v": false, "why": "Produce effetto senza comunicazione a un destinatario." },
+    { "id": "tf9-14", "sec": "100", "s": "Ogni vendita è un negozio dispositivo.", "v": false, "why": "La vendita sulla pianta fa nascere solo obbligazioni." },
+    { "id": "tf9-15", "sec": "100", "s": "Con la costituzione di una servitù il proprietario perde la proprietà.", "v": false, "why": "È un negozio traslativo-costitutivo: resta proprietario." },
+    { "id": "tf9-16", "sec": "100", "s": "L'accertamento dei rapporti giuridici è riservato al giudice.", "v": false, "why": "Oggi si ammettono i negozi di accertamento." },
+    { "id": "tf9-17", "sec": "101", "s": "«Gratuito» e «liberale» sono sinonimi.", "v": false, "why": "La gratuità è più ampia: comprende atti gratuiti interessati (navetta dell'hotel)." },
+    { "id": "tf9-18", "sec": "101", "s": "Il mutuo si presume gratuito.", "v": false, "why": "Si presume oneroso (art. 1815)." },
+    { "id": "tf9-19", "sec": "101", "s": "Il donante risponde dei vizi della cosa come il venditore.", "v": false, "why": "Non risponde, salvo dolo (art. 798)." },
+    { "id": "tf9-20", "sec": "101", "s": "L'acquirente a titolo gratuito è tutelato meno di quello a titolo oneroso.", "v": true, "why": "Es. artt. 1445 e 2901 salvano solo l'acquirente oneroso in buona fede." },
+    { "id": "tf9-21", "sec": "102", "s": "Con la rinuncia all'usufrutto il diritto passa al nudo proprietario.", "v": false, "why": "L'usufrutto si estingue e la proprietà si riespande per elasticità del dominio." },
+    { "id": "tf9-22", "sec": "102", "s": "Una dismissione fatta dietro pagamento è una rinuncia.", "v": false, "why": "Manca l'unilateralità; per l'eredità vale come accettazione (art. 478)." },
+    { "id": "tf9-23", "sec": "102", "s": "Secondo le Sezioni unite del 2025 si può rinunciare alla proprietà di un immobile.", "v": true, "why": "Cass. s.u. 23093/2025: l'immobile va allo Stato (art. 827)." },
+    { "id": "tf9-24", "sec": "103", "s": "La condizione è un elemento essenziale del contratto.", "v": false, "why": "È un elemento accidentale." },
+    { "id": "tf9-25", "sec": "103", "s": "La capacità di agire è un elemento essenziale del negozio.", "v": false, "why": "È un presupposto, esterno al negozio." },
+    { "id": "tf9-26", "sec": "103", "s": "Anche se esclusa, il venditore risponde dell'evizione derivante da un fatto suo.", "v": true, "why": "Art. 1487, c. 2." },
+    { "id": "tf9-27", "sec": "104", "s": "Nel diritto privato chi tace acconsente.", "v": false, "why": "Il silenzio vale solo se circostanziato." },
+    { "id": "tf9-28", "sec": "104", "s": "La fideiussione si può prestare per fatti concludenti.", "v": false, "why": "La volontà deve essere espressa (art. 1937)." },
+    { "id": "tf9-29", "sec": "105", "s": "Il contratto senza la forma richiesta ad probationem è nullo.", "v": false, "why": "È valido; ci sono solo limiti alla prova." },
+    { "id": "tf9-30", "sec": "105", "s": "Esiste una forma generale obbligatoria per tutti i contratti.", "v": false, "why": "Vale la libertà delle forme, salvo norme o patti." },
+    { "id": "tf9-31", "sec": "106", "s": "Un contratto non registrato è sempre nullo.", "v": false, "why": "Lo è solo la locazione di immobili non registrata." },
+    { "id": "tf9-32", "sec": "107", "s": "La vendita non trascritta è inefficace anche tra le parti.", "v": false, "why": "È valida ed efficace tra le parti; non è opponibile ai terzi." },
+    { "id": "tf9-33", "sec": "107", "s": "Il matrimonio celebrato senza pubblicazioni è invalido.", "v": false, "why": "È valido; ci sono solo sanzioni amministrative (art. 134)." }
+  ],
+  "sequences": [],
+  "cases": [
+    { "id": "c9-1", "sec": "96", "text": "Un fiume cambia corso e lascia asciutto il vecchio letto.", "q": "Che cos'è questo evento per il diritto?", "ok": "Un fatto giuridico in senso stretto: l'alveo va al demanio", "no": ["Un negozio giuridico", "Un atto giuridico in senso stretto", "Un fatto irrilevante"], "why": "Art. 946 c.c." },
+    { "id": "c9-2", "sec": "97", "text": "Un creditore scrive al debitore «pagami entro dieci giorni», senza sapere nulla di mora e prescrizione.", "q": "Quali effetti produce la lettera?", "ok": "Costituisce in mora e interrompe la prescrizione, per legge", "no": ["Nessuno: il creditore non li voleva", "Solo quelli che il creditore conosceva", "È un negozio annullabile per errore"], "why": "Atto in senso stretto: artt. 1219 e 2943, c. 4." },
+    { "id": "c9-3", "sec": "97", "text": "In causa, Paolo ammette di aver ricevuto il prestito che l'altra parte gli contesta.", "q": "Che cos'è la sua dichiarazione?", "ok": "Una confessione: dichiarazione di scienza", "no": ["Un negozio di riconoscimento", "Un atto dovuto", "Una rinuncia"], "why": "Art. 2730 c.c." },
+    { "id": "c9-4", "sec": "98", "text": "Un creditore rinuncia per iscritto al suo credito. Ci si chiede se valgano le regole sui vizi della volontà dei contratti.", "q": "Si applicano?", "ok": "Sì, in quanto compatibili, per l'art. 1324", "no": ["No: si applicano solo ai contratti", "Solo se c'è il consenso del debitore", "Solo per analogia vietata"], "why": "Atto unilaterale tra vivi a contenuto patrimoniale." },
+    { "id": "c9-5", "sec": "99", "text": "Un'assemblea approva una delibera con 60 voti su 100; 5 voti erano viziati da violenza.", "q": "La delibera resta valida?", "ok": "Sì: senza i voti viziati restano 55, la maggioranza regge", "no": ["No: un solo voto viziato la invalida", "È nulla", "Va ripetuta da capo"], "why": "Prova di resistenza." },
+    { "id": "c9-6", "sec": "99", "text": "Il curatore di un inabilitato presta il consenso alla vendita di un bene perché minacciato.", "q": "Che sorte ha la vendita?", "ok": "È annullabile per intero: il vizio di una volontà travolge l'atto complesso", "no": ["Resta valida: l'inabilitato ha voluto", "Vale solo per metà", "È valida se il prezzo è giusto"], "why": "Nell'atto complesso le volontà si fondono." },
+    { "id": "c9-7", "sec": "100", "text": "Un costruttore vende un appartamento ancora da costruire.", "q": "Il compratore diventa subito proprietario?", "ok": "No: nasce un'obbligazione, la proprietà passa quando l'appartamento esiste", "no": ["Sì, per il principio consensualistico", "Sì, con il pagamento", "Sì, con la trascrizione"], "why": "Negozio obbligatorio (artt. 1472 e 1476, n. 2)." },
+    { "id": "c9-8", "sec": "101", "text": "Un hotel offre ai clienti una navetta gratuita dall'aeroporto.", "q": "Si tratta di una liberalità?", "ok": "No: è un atto gratuito mosso da un interesse economico", "no": ["Sì: è gratuito", "È una donazione modale", "È un contratto oneroso"], "why": "La gratuità è più ampia della liberalità." },
+    { "id": "c9-9", "sec": "101", "text": "Ricevi in dono un'auto che poi si rivela difettosa; il donante non ne sapeva nulla.", "q": "Il donante risponde dei vizi?", "ok": "No, salvo dolo o patto speciale (art. 798)", "no": ["Sì, come un venditore", "Sì, per due anni", "Sì, se l'auto valeva molto"], "why": "L'acquirente gratuito è tutelato meno." },
+    { "id": "c9-10", "sec": "102", "text": "Il nipote rinuncia all'eredità del nonno, ma si fa pagare dai cugini 20.000 euro.", "q": "Che cosa ha fatto in realtà?", "ok": "Ha accettato l'eredità (art. 478)", "no": ["Una valida rinuncia", "Una donazione ai cugini", "Un rifiuto eliminativo"], "why": "La rinuncia verso corrispettivo importa accettazione." },
+    { "id": "c9-11", "sec": "102", "text": "L'usufruttuaria rinuncia all'usufrutto sulla casa del figlio, nudo proprietario.", "q": "Serve l'atto pubblico della donazione?", "ok": "No: la proprietà si riespande per elasticità, non c'è trasferimento", "no": ["Sì: il figlio si arricchisce", "Sì, con due testimoni", "Serve l'autorizzazione del giudice"], "why": "Rinuncia abdicativa: il vantaggio è solo indiretto." },
+    { "id": "c9-12", "sec": "103", "text": "Un contratto di vendita non dice nulla sulla garanzia se il bene risulta di un terzo.", "q": "Il compratore è garantito?", "ok": "Sì: la garanzia per evizione è un effetto naturale", "no": ["No: serve una clausola", "Solo se l'ha pagato in contanti", "Il contratto è nullo"], "why": "Art. 1476, n. 3, c.c." },
+    { "id": "c9-13", "sec": "104", "text": "Un editore sconosciuto ti spedisce una rivista: «chi non la restituisce sarà considerato abbonato». Non la restituisci.", "q": "Sei abbonato?", "ok": "No: il tuo è un silenzio semplice, senza valore", "no": ["Sì: chi tace acconsente", "Sì, per un anno", "Sì, se la leggi"], "why": "Non avevi né dovere né onere di parlare." },
+    { "id": "c9-14", "sec": "104", "text": "Il debito di Marco è prescritto, ma lui chiede al creditore una dilazione per pagarlo.", "q": "Che cosa ha fatto?", "ok": "Ha rinunciato tacitamente alla prescrizione", "no": ["Nulla: il debito resta prescritto", "Un nuovo contratto di mutuo", "Una confessione"], "why": "Art. 2937 c.c.: comportamento concludente." },
+    { "id": "c9-15", "sec": "105", "text": "Due vicini raggiungono a voce una transazione su un debito, senza scrivere nulla. Poi uno nega l'accordo.", "q": "Che cosa succede?", "ok": "L'accordo è valido, ma non si può provare con testimoni", "no": ["L'accordo è nullo", "Basta un testimone", "Decide il giudice secondo equità"], "why": "Forma ad probationem (artt. 1967 e 2725)." },
+    { "id": "c9-16", "sec": "106", "text": "Un proprietario affitta un appartamento senza registrare il contratto.", "q": "Che sorte ha la locazione?", "ok": "È nulla, ma la registrazione tardiva la sana", "no": ["È valida, c'è solo una multa", "È annullabile dall'inquilino", "È valida se c'è la ricevuta"], "why": "Art. 1, c. 346, L. 311/2004; Cass. s.u. 23601/2017." },
+    { "id": "c9-17", "sec": "107", "text": "Primus vende la stessa casa a Secundus e poi a Tertius; Tertius trascrive per primo.", "q": "Chi è proprietario?", "ok": "Tertius; Secundus può chiedere a Primus prezzo e danni", "no": ["Secundus, che ha comprato prima", "Entrambi in comproprietà", "Nessuno: le vendite sono nulle"], "why": "Art. 2644: pubblicità dichiarativa." },
+    { "id": "c9-18", "sec": "107", "text": "Una banca e un cliente firmano un atto di ipoteca, ma l'ipoteca non viene iscritta.", "q": "L'ipoteca esiste tra le parti?", "ok": "No: l'iscrizione è costitutiva", "no": ["Sì, ma non verso i terzi", "Sì, basta la firma", "Sì, dopo un anno"], "why": "Art. 2808 c.c." }
+  ]
+}

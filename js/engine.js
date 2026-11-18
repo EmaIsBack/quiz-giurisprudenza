@@ -49,6 +49,7 @@ export function masteryOf(it) {
 // ---------- elementi di un ambito ----------
 function inScope(locs, scope) {
   if (!scope || scope.all) return true;
+  if (scope.chs) return locs.some((l) => scope.chs.includes(l.ch));
   return locs.some((l) => l.ch === scope.ch && (!scope.secs || scope.secs.includes(l.sec)));
 }
 
@@ -161,7 +162,7 @@ export function buildSession(state, course, { scope, mode = 'lesson', size = 10 
 function makeCtx(course, scope) {
   const arts = [...course.articles.values()];
   const local = arts.filter((a) => inScope(a.locs, scope));
-  const chScope = scope && scope.ch ? { ch: scope.ch } : { all: true };
+  const chScope = scope && scope.ch ? { ch: scope.ch } : scope && scope.chs ? { chs: scope.chs } : { all: true };
   const chapter = arts.filter((a) => inScope(a.locs, chScope));
   const cons = [...course.concepts.values()];
   return {

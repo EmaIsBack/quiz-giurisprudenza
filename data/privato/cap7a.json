@@ -1,0 +1,446 @@
+{
+  "id": "cap7a",
+  "num": 7,
+  "label": "7.1",
+  "title": "Persona fisica: capacità, concepito, minori, interdizione",
+  "source": "Manuale, Cap. VII, §§ 41-48",
+  "sections": [
+    { "id": "41", "title": "Soggetto e persona" },
+    { "id": "42", "title": "La capacità giuridica della persona fisica" },
+    { "id": "43", "title": "La nascita e la morte" },
+    { "id": "44", "title": "Le incapacità speciali" },
+    { "id": "45", "title": "Il concepito" },
+    { "id": "46", "title": "La capacità di agire" },
+    { "id": "47", "title": "La minore età" },
+    { "id": "48", "title": "L'interdizione giudiziale" }
+  ],
+  "lessons": [
+    { "id": "c7a-l1", "title": "Soggetto e capacità giuridica", "secs": ["41", "42"] },
+    { "id": "c7a-l2", "title": "Nascita, morte, incapacità speciali", "secs": ["43", "44"] },
+    { "id": "c7a-l3", "title": "Il concepito", "secs": ["45"] },
+    { "id": "c7a-l4", "title": "Capacità di agire", "secs": ["46"] },
+    { "id": "c7a-l5", "title": "La minore età", "secs": ["47"] },
+    { "id": "c7a-l6", "title": "L'interdizione giudiziale", "secs": ["48"] }
+  ],
+  "articles": [
+    {
+      "id": "cc-1", "ref": "Art. 1 c.c.", "fonte": "c.c.", "sec": "42",
+      "tema": "Capacità giuridica (acquisto con la nascita)",
+      "desc": "La capacità giuridica si acquista dal momento della nascita (c. 1). I diritti che la legge riconosce a favore del concepito sono subordinati all'evento della nascita (c. 2).",
+      "es": "Un neonato che vive anche solo un istante acquista la capacità giuridica: non serve la vitalità.",
+      "tags": ["persone"],
+      "links": [
+        { "to": "cost-22", "why": "Nessuno può essere privato della capacità giuridica per motivi politici (art. 22 Cost.)." },
+        { "to": "cc-2", "why": "Capacità giuridica (nascita, art. 1) e capacità di agire (maggiore età, art. 2)." }
+      ]
+    },
+    {
+      "id": "cost-22", "ref": "Art. 22 Cost.", "fonte": "Cost.", "sec": "42",
+      "tema": "Divieto di privare della capacità giuridica per motivi politici",
+      "desc": "Nessuno può essere privato, per motivi politici, della capacità giuridica, della cittadinanza, del nome.",
+      "es": "Le leggi razziali del 1938-1942, che limitavano la capacità per motivi di razza, sono state abrogate nel 1944.",
+      "tags": ["persone", "costituzione-principi"]
+    },
+    { "id": "cost-3-1", "sec": "42" },
+    { "id": "cost-3-2", "sec": "42" },
+    { "id": "dp-16", "sec": "42" },
+    {
+      "id": "cc-4", "ref": "Art. 4 c.c.", "fonte": "c.c.", "sec": "43",
+      "tema": "Commorienza",
+      "desc": "Quando non si sa quale di più persone sia morta prima, si presume, fino a prova contraria (data con qualunque mezzo), che siano morte nello stesso momento.",
+      "es": "Padre e figlio muoiono nello stesso incidente e non si sa chi sia morto prima: si presumono morti insieme, nessuno eredita dall'altro.",
+      "tags": ["persone"]
+    },
+    { "id": "cc-456", "sec": "43" },
+    {
+      "id": "l578-1", "ref": "Art. 1 L. 578/1993", "fonte": "L. 578/1993", "sec": "43",
+      "tema": "Definizione legale di morte",
+      "desc": "La morte si identifica con la cessazione irreversibile di tutte le funzioni dell'encefalo. Serve anche a fissare il momento del prelievo di organi (L. 91/1999).",
+      "es": "Un paziente in morte cerebrale con respirazione artificiale è giuridicamente morto, anche se il cuore batte.",
+      "tags": ["persone"]
+    },
+    {
+      "id": "cc-84-2", "ref": "Art. 84, c. 2, c.c.", "fonte": "c.c.", "sec": "44",
+      "tema": "Età per il matrimonio (16 anni con ammissione del giudice)",
+      "desc": "Il tribunale può ammettere al matrimonio chi ha compiuto sedici anni: sotto i sedici c'è un'incapacità speciale assoluta.",
+      "tags": ["persone", "incapacita-speciali"]
+    },
+    {
+      "id": "cc-591-2", "ref": "Art. 591, c. 2, c.c.", "fonte": "c.c.", "sec": "44",
+      "tema": "Incapaci di testare (minori, interdetti, incapaci naturali)",
+      "desc": "Non possono fare testamento i minori (n. 1), gli interdetti per infermità di mente (n. 2) e chi era incapace di intendere o di volere al momento del testamento (n. 3).",
+      "es": "Un diciassettenne non può fare testamento, nemmeno tramite i genitori.",
+      "tags": ["persone", "incapacita-speciali"]
+    },
+    {
+      "id": "cc-596", "ref": "Art. 596 c.c.", "fonte": "c.c.", "sec": "44",
+      "tema": "Incapacità del tutore a succedere per testamento al tutelato",
+      "desc": "Il tutore (che non sia ascendente, discendente, fratello, sorella o coniuge) non può succedere per testamento alla persona sottoposta alla sua tutela: incapacità speciale relativa.",
+      "tags": ["persone", "incapacita-speciali"]
+    },
+    {
+      "id": "cc-1471", "ref": "Art. 1471 c.c.", "fonte": "c.c.", "sec": "44",
+      "tema": "Divieti speciali di comprare",
+      "desc": "Non possono essere compratori, ad esempio, gli amministratori pubblici dei beni dell'ente che amministrano (n. 1) e i pubblici ufficiali dei beni venduti con il loro concorso (n. 2): incapacità speciali relative.",
+      "es": "Il funzionario che cura un'asta pubblica non può comprare il bene messo all'asta.",
+      "tags": ["persone", "incapacita-speciali"]
+    },
+    {
+      "id": "cc-462", "ref": "Art. 462 c.c.", "fonte": "c.c.", "sec": "45",
+      "tema": "Capacità di succedere del concepito e del non concepito",
+      "desc": "Il concepito al momento dell'apertura della successione può succedere per legge e per testamento (c. 1). Il non ancora concepito può ricevere solo per testamento, se figlio di una persona vivente all'apertura della successione (c. 3).",
+      "es": "Il padre muore quando la moglie è incinta: il figlio, se nasce, eredita.",
+      "tags": ["persone", "concepito"],
+      "links": [{ "to": "cc-784", "why": "Concepito e non concepito possono anche ricevere per donazione (art. 784)." }]
+    },
+    {
+      "id": "cc-784", "ref": "Art. 784 c.c.", "fonte": "c.c.", "sec": "45",
+      "tema": "Donazione a favore di concepiti e nascituri",
+      "desc": "La donazione può essere fatta a favore di chi è soltanto concepito, o anche dei figli non ancora concepiti di una determinata persona vivente al tempo della donazione.",
+      "es": "Il nonno dona un appartamento al nipote ancora nel ventre materno.",
+      "tags": ["persone", "concepito"]
+    },
+    {
+      "id": "cc-1425", "ref": "Art. 1425 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Annullabilità del contratto per incapacità legale",
+      "desc": "Il contratto è annullabile se una delle parti era legalmente incapace di contrattare (minore, interdetto). Vale anche se il minore era in concreto maturo.",
+      "es": "Un sedicenne compra un'auto usata: il contratto è annullabile.",
+      "tags": ["persone", "minori"],
+      "links": [{ "to": "cc-1426", "why": "Eccezione: il minore che con raggiri ha nascosto la sua età." }, { "to": "cc-1441", "why": "Solo l'incapace (o il suo rappresentante) può chiedere l'annullamento." }]
+    },
+    {
+      "id": "cc-1426", "ref": "Art. 1426 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Raggiri usati dal minore per occultare la minore età",
+      "desc": "Il contratto non è annullabile se il minore, con raggiri, ha occultato la sua minore età; la semplice dichiarazione di essere maggiorenne non basta.",
+      "es": "Il diciassettenne che altera la carta d'identità per comprare un motorino non può poi chiedere l'annullamento.",
+      "tags": ["persone", "minori"]
+    },
+    {
+      "id": "cc-1441", "ref": "Art. 1441 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Legittimazione all'azione di annullamento",
+      "desc": "L'annullamento può essere chiesto solo dalla parte nel cui interesse è stabilito dalla legge (es. il minore o il suo rappresentante), non dalla controparte: per questo si parla di negozi claudicanti.",
+      "tags": ["persone", "minori"]
+    },
+    {
+      "id": "cc-1442", "ref": "Art. 1442 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Prescrizione dell'azione di annullamento (5 anni)",
+      "desc": "L'azione di annullamento si prescrive in cinque anni; per l'incapacità decorre dal giorno in cui è cessato lo stato di interdizione o di inabilitazione o il minore ha raggiunto la maggiore età.",
+      "es": "Contratto firmato a 16 anni: c'è tempo fino ai 23 anni per chiederne l'annullamento.",
+      "tags": ["persone", "minori"]
+    },
+    {
+      "id": "cc-1443", "ref": "Art. 1443 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Restituzioni a carico del contraente incapace",
+      "desc": "Annullato il contratto, l'incapace deve restituire la prestazione ricevuta solo nei limiti in cui è stata rivolta a suo vantaggio.",
+      "es": "Il minore ha speso al gioco i soldi ricevuti: annullato il contratto, non deve restituirli.",
+      "tags": ["persone", "minori"]
+    },
+    { "id": "cc-2", "sec": "47", "links": [{ "to": "cc-1425", "why": "Prima dei 18 anni il soggetto è legalmente incapace e i suoi contratti sono annullabili." }] },
+    { "id": "cc-409-2", "sec": "47" },
+    {
+      "id": "cc-316", "ref": "Art. 316 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Responsabilità genitoriale esercitata di comune accordo",
+      "desc": "Entrambi i genitori hanno la responsabilità genitoriale, esercitata di comune accordo; in caso di contrasto su questioni di particolare importanza può decidere il giudice, dopo aver ascoltato il figlio.",
+      "tags": ["persone", "minori"]
+    },
+    {
+      "id": "cc-320", "ref": "Art. 320 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Rappresentanza e amministrazione dei beni del minore",
+      "desc": "Gli atti di ordinaria amministrazione possono essere compiuti disgiuntamente da ciascun genitore; quelli di straordinaria amministrazione (e la concessione o l'acquisto di diritti personali di godimento) di comune accordo e, per i più rischiosi, con l'autorizzazione del giudice tutelare.",
+      "es": "Riscuotere l'affitto dell'appartamento del minore: basta un genitore. Venderlo: servono entrambi e l'autorizzazione.",
+      "tags": ["persone", "minori"],
+      "links": [{ "to": "cc-322", "why": "Gli atti compiuti senza autorizzazione sono annullabili (art. 322)." }]
+    },
+    {
+      "id": "cc-322", "ref": "Art. 322 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Annullabilità degli atti compiuti senza autorizzazione",
+      "desc": "Gli atti compiuti dai genitori senza l'autorizzazione richiesta sono annullabili su istanza dei genitori stessi o del figlio divenuto maggiorenne.",
+      "tags": ["persone", "minori"]
+    },
+    {
+      "id": "dlgs149-21", "ref": "Art. 21 D.Lgs. 149/2022", "fonte": "D.Lgs. 149/2022", "sec": "47",
+      "tema": "Autorizzazione del notaio al posto del giudice tutelare",
+      "desc": "Per gli atti pubblici e le scritture private autenticate in cui è parte un minore (o un interdetto), l'autorizzazione può essere rilasciata dal notaio rogante anziché dal giudice tutelare; il notaio stabilisce anche il reimpiego del corrispettivo.",
+      "tags": ["persone", "minori"]
+    },
+    {
+      "id": "cc-343", "ref": "Art. 343 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Apertura della tutela del minore",
+      "desc": "Se entrambi i genitori sono morti o non possono esercitare la responsabilità genitoriale, si apre la tutela: il tutore (nominato dal giudice tutelare, art. 348) gestisce e rappresenta il minore.",
+      "tags": ["persone", "minori"]
+    },
+    {
+      "id": "cc-315-bis-3", "ref": "Art. 315-bis, c. 3, c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Diritto del minore di essere ascoltato",
+      "desc": "Il figlio che ha compiuto dodici anni, o anche più piccolo se capace di discernimento, ha diritto di essere ascoltato in tutte le questioni e procedure che lo riguardano.",
+      "es": "I genitori litigano sulla scuola da scegliere: il giudice ascolta il figlio di 13 anni.",
+      "tags": ["persone", "minori"],
+      "links": [{ "to": "cc-250", "why": "Ascolto (discernimento, 12 anni) e consenso (14 anni) sono istituti diversi." }]
+    },
+    {
+      "id": "cc-250", "ref": "Art. 250 c.c.", "fonte": "c.c.", "sec": "47",
+      "tema": "Riconoscimento del figlio nato fuori del matrimonio",
+      "desc": "Il riconoscimento del figlio che ha compiuto quattordici anni non produce effetto senza il suo assenso (c. 2). Il genitore può riconoscere dai sedici anni, prima se autorizzato dal giudice (c. 5).",
+      "tags": ["persone", "minori"]
+    },
+    {
+      "id": "cc-414", "ref": "Art. 414 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Persone che possono essere interdette",
+      "desc": "Il maggiorenne (e il minore emancipato) in condizioni di abituale infermità di mente che lo rendono incapace di provvedere ai propri interessi è interdetto quando ciò è necessario per assicurarne l'adeguata protezione (carattere residuale rispetto all'amministrazione di sostegno).",
+      "es": "Una persona con grave malattia mentale che svende i propri beni, se l'amministrazione di sostegno non basta.",
+      "tags": ["persone", "protezione"],
+      "links": [
+        { "to": "cc-421", "why": "Gli effetti decorrono dalla pubblicazione della sentenza di primo grado." },
+        { "to": "cc-424", "why": "L'interdetto è nella condizione del minore." }
+      ]
+    },
+    {
+      "id": "cc-416", "ref": "Art. 416 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Interdizione nell'ultimo anno della minore età",
+      "desc": "Il minore può essere interdetto nell'ultimo anno della minore età, con effetto dal giorno in cui diventa maggiorenne.",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-417", "ref": "Art. 417 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Chi può chiedere l'interdizione",
+      "desc": "L'interdicendo stesso, il coniuge, il partner dell'unione civile, la persona stabilmente convivente, i parenti entro il quarto grado, gli affini entro il secondo, il pubblico ministero.",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-419", "ref": "Art. 419 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Esame dell'interdicendo e tutore provvisorio",
+      "desc": "Il giudice esamina direttamente l'interdicendo, eventualmente con un consulente tecnico; dopo l'esame può nominare un tutore provvisorio.",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-421", "ref": "Art. 421 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Decorrenza degli effetti dell'interdizione",
+      "desc": "L'interdizione produce i suoi effetti dal giorno della pubblicazione della sentenza di primo grado, anche se non è passata in giudicato.",
+      "tags": ["persone", "protezione"],
+      "links": [{ "to": "cc-431", "why": "Asimmetria: la revoca ha effetto solo dal passaggio in giudicato (art. 431)." }]
+    },
+    {
+      "id": "cc-424", "ref": "Art. 424 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Tutela dell'interdetto",
+      "desc": "All'interdetto si applicano le norme sulla tutela dei minori: lo rappresenta un tutore e può compiere da solo solo gli atti della vita quotidiana.",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-427", "ref": "Art. 427 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Atti compiuti dall'interdetto",
+      "desc": "La sentenza può consentire all'interdetto alcuni atti di ordinaria amministrazione, da solo o con l'assistenza del tutore (c. 1). Gli atti compiuti dall'interdetto dopo la sentenza (o dopo la nomina del tutore provvisorio) sono annullabili (c. 2).",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-429", "ref": "Art. 429 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Revoca dell'interdizione",
+      "desc": "Cessata la causa, l'interdizione è revocata dal tribunale; in sede di revoca si può passare all'inabilitazione o all'amministrazione di sostegno.",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-431", "ref": "Art. 431 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Effetti della sentenza di revoca",
+      "desc": "La sentenza che revoca l'interdizione produce i suoi effetti solo dal passaggio in giudicato: prima di restituire la capacità serve certezza.",
+      "tags": ["persone", "protezione"]
+    },
+    {
+      "id": "cc-85", "ref": "Art. 85 c.c.", "fonte": "c.c.", "sec": "48",
+      "tema": "Interdetto: divieto di matrimonio",
+      "desc": "Non può contrarre matrimonio l'interdetto per infermità di mente: atto personalissimo precluso, che neppure il tutore può compiere.",
+      "tags": ["persone", "protezione"]
+    }
+  ],
+  "concepts": [
+    { "id": "k7-soggetto", "sec": "41", "term": "Soggetto di diritto", "def": "Centro cui fanno capo le situazioni giuridiche soggettive" },
+    { "id": "k7-cap-giuridica", "sec": "41", "term": "Capacità giuridica", "def": "Idoneità a essere titolare di situazioni giuridiche soggettive" },
+    { "id": "k7-persone-giur", "sec": "41", "term": "Persone giuridiche", "def": "Enti con autonomia patrimoniale perfetta: associazioni riconosciute, società di capitali, enti pubblici" },
+    { "id": "k7-enti-non-pers", "sec": "41", "term": "Enti non dotati di personalità", "def": "Soggetti privi di autonomia patrimoniale perfetta: associazioni non riconosciute, società di persone" },
+    { "id": "k7-auton-perfetta", "sec": "41", "term": "Autonomia patrimoniale perfetta", "def": "Delle obbligazioni dell'ente risponde solo l'ente con il proprio patrimonio" },
+    { "id": "k7-centri-imput", "sec": "41", "term": "Centri autonomi di imputazione", "def": "Strutture trattate a certi fini come soggetti: rete, condominio, associazioni professionali" },
+    { "id": "k7-status", "sec": "42", "term": "Status differenziati", "def": "Condizioni giuridiche diverse per classe, religione o sesso, tipiche dell'ancien régime" },
+    { "id": "k7-docimasia", "sec": "43", "term": "Docimasia polmonare", "def": "Accertamento per stabilire se i polmoni del neonato hanno respirato, cioè se è nato vivo" },
+    { "id": "k7-vitalita", "sec": "43", "term": "Vitalità", "def": "Idoneità fisica alla sopravvivenza: non è richiesta per acquistare la capacità giuridica" },
+    { "id": "k7-commorienza", "sec": "43", "term": "Presunzione di commorienza", "def": "Nel dubbio su chi sia morto prima, si presume che più persone siano morte nello stesso momento (art. 4 c.c.)" },
+    { "id": "k7-incap-assolute", "sec": "44", "term": "Incapacità speciali assolute", "def": "Il rapporto o l'atto è precluso in sé, di solito per mancanza di un'età (es. testamento sotto i 18 anni)" },
+    { "id": "k7-incap-relative", "sec": "44", "term": "Incapacità speciali relative", "def": "Il rapporto è precluso solo con certe persone o in certe circostanze (es. tutore erede del tutelato)" },
+    { "id": "k7-pena-accessoria", "sec": "44", "term": "Pene accessorie interdittive", "def": "Incapacità usate dal legislatore penale (es. incapacità di contrattare con la PA, art. 32-ter c.p.)" },
+    { "id": "k7-cap-prenatale", "sec": "45", "term": "Capacità giuridica prenatale", "def": "Tesi per cui il concepito avrebbe una capacità parziale e condizionata (contro: è solo oggetto di tutela)" },
+    { "id": "k7-nascituro", "sec": "45", "term": "Nascituro non concepito", "def": "Chi non è ancora concepito: può ricevere solo per testamento o donazione, se figlio di persona vivente" },
+    { "id": "k7-cap-agire", "sec": "46", "term": "Capacità di agire", "def": "Idoneità a compiere personalmente atti negoziali con effetti nella propria sfera giuridica (capacità negoziale)" },
+    { "id": "k7-atto-disposizione", "sec": "46", "term": "Atto di disposizione", "def": "Atto con cui un soggetto acquista, trasferisce o limita un proprio diritto" },
+    { "id": "k7-cap-extracontr", "sec": "46", "term": "Capacità extracontrattuale", "def": "Idoneità a rispondere delle conseguenze dannose dei propri atti illeciti" },
+    { "id": "k7-atti-senso-stretto", "sec": "46", "term": "Atti giuridici in senso stretto", "def": "Atti che l'incapace può compiere se non gliene derivano effetti sfavorevoli (es. richiesta di risarcimento)" },
+    { "id": "k7-claudicanti", "sec": "47", "term": "Negozi claudicanti", "def": "Contratti annullabili solo su iniziativa dell'incapace, non della controparte" },
+    { "id": "k7-ordinaria", "sec": "47", "term": "Ordinaria amministrazione", "def": "Atti utili alla conservazione del patrimonio, di valore e rischio contenuti: i genitori agiscono disgiuntamente" },
+    { "id": "k7-straordinaria", "sec": "47", "term": "Straordinaria amministrazione", "def": "Atti che possono incidere sulla struttura del patrimonio: genitori insieme e, se rischiosi, con autorizzazione" },
+    { "id": "k7-giudice-tutelare", "sec": "47", "term": "Giudice tutelare", "def": "Giudice che autorizza gli atti più rischiosi sul patrimonio di minori e incapaci" },
+    { "id": "k7-tutore", "sec": "47", "term": "Tutore", "def": "Chi rappresenta e gestisce il patrimonio del minore senza genitori o dell'interdetto" },
+    { "id": "k7-curatore-spec", "sec": "47", "term": "Curatore speciale del minore", "def": "Nominato quando i genitori sono per gravi ragioni temporaneamente inadeguati (art. 473-bis.8 c.p.c.)" },
+    { "id": "k7-ascolto", "sec": "47", "term": "Diritto di ascolto", "def": "Diritto del minore di 12 anni, o capace di discernimento, di essere sentito nelle procedure che lo riguardano" },
+    { "id": "k7-interdizione", "sec": "48", "term": "Interdizione giudiziale", "def": "Sentenza che toglie la capacità d'agire al maggiorenne con abituale infermità di mente, se l'AdS non basta" },
+    { "id": "k7-residuale", "sec": "48", "term": "Carattere residuale dell'interdizione", "def": "Si interdice solo se strumenti meno invasivi (amministrazione di sostegno) non bastano (Corte cost. 167/2023)" },
+    { "id": "k7-tutore-provv", "sec": "48", "term": "Tutore provvisorio", "def": "Tutore nominato durante il giudizio di interdizione, dopo l'esame dell'interdicendo" }
+  ],
+  "contrasts": [
+    {
+      "id": "cx7-soggetti", "sec": "41", "title": "È un soggetto? È una persona?",
+      "cols": ["Soggetto e persona", "Soggetto ma non persona", "Né soggetto né persona"],
+      "facts": [
+        ["Società per azioni", 0],
+        ["Associazione non riconosciuta", 1],
+        ["Animale d'affezione", 2],
+        ["Ogni essere umano nato", 0],
+        ["Società di persone", 1],
+        ["Condominio (secondo un'opinione diffusa)", 1],
+        ["Ente pubblico", 0]
+      ]
+    },
+    {
+      "id": "cx7-eguaglianza", "sec": "42", "title": "Eguaglianza formale o sostanziale nella capacità?",
+      "cols": ["Formale (art. 3, c. 1)", "Sostanziale (art. 3, c. 2)"],
+      "facts": [
+        ["Abrogazione delle leggi razziali (1944)", 0],
+        ["Accesso delle donne alla magistratura (L. 66/1963)", 0],
+        ["Parificazione dei figli nati fuori del matrimonio (1975, 2012)", 0],
+        ["Azioni positive del codice pari opportunità (D.Lgs. 198/2006)", 1],
+        ["Quote rosa nei CdA delle società quotate", 1]
+      ]
+    },
+    {
+      "id": "cx7-nascita-morte", "sec": "43", "title": "Nascita o morte?",
+      "cols": ["Nascita", "Morte"],
+      "facts": [
+        ["Inizio della respirazione polmonare", 0],
+        ["Cessazione irreversibile di tutte le funzioni dell'encefalo", 1],
+        ["Definita dalla scienza medico-legale (silenzio del codice)", 0],
+        ["Definita dalla L. 578/1993", 1],
+        ["Va dichiarata entro 10 giorni", 0],
+        ["Va dichiarata entro 24 ore", 1]
+      ]
+    },
+    {
+      "id": "cx7-incapacita", "sec": "44", "title": "Incapacità speciale o incapacità d'agire?",
+      "cols": ["Incapacità speciale", "Incapacità d'agire"],
+      "facts": [
+        ["Limita la capacità giuridica", 0],
+        ["Limita la capacità di compiere atti", 1],
+        ["Neppure il rappresentante può compiere l'atto", 0],
+        ["Il rappresentante agisce in nome dell'incapace", 1],
+        ["L'atto è nullo", 0],
+        ["L'atto è annullabile", 1]
+      ]
+    },
+    {
+      "id": "cx7-assolute", "sec": "44", "title": "Incapacità speciale assoluta o relativa?",
+      "cols": ["Assoluta", "Relativa"],
+      "facts": [
+        ["Matrimonio sotto i 16 anni", 0],
+        ["Testamento sotto i 18 anni", 0],
+        ["Lavoro subordinato sotto i 16 anni", 0],
+        ["Il tutore non può succedere per testamento al tutelato", 1],
+        ["Il pubblico ufficiale non può comprare i beni venduti con il suo concorso", 1]
+      ]
+    },
+    {
+      "id": "cx7-concepito", "sec": "45", "title": "Concepito o non ancora concepito?",
+      "cols": ["Concepito", "Non concepito"],
+      "facts": [
+        ["Può succedere per legge", 0],
+        ["Può succedere solo per testamento, se figlio di persona vivente", 1],
+        ["Può chiedere, una volta nato, il risarcimento dei danni prenatali", 0],
+        ["Art. 462, c. 3, c.c.", 1],
+        ["Art. 462, c. 1, c.c.", 0]
+      ]
+    },
+    {
+      "id": "cx7-capacita", "sec": "46", "title": "Capacità giuridica o capacità di agire?",
+      "cols": ["Capacità giuridica", "Capacità di agire"],
+      "facts": [
+        ["Si acquista con la nascita (art. 1)", 0],
+        ["Si acquista a 18 anni (art. 2)", 1],
+        ["Ce l'ha ogni essere umano nato", 0],
+        ["Manca ai minori e agli interdetti", 1],
+        ["Essere titolare di diritti", 0],
+        ["Disporre personalmente dei propri diritti", 1]
+      ]
+    },
+    {
+      "id": "cx7-amministrazione", "sec": "47", "title": "Ordinaria o straordinaria amministrazione?",
+      "cols": ["Ordinaria", "Straordinaria"],
+      "facts": [
+        ["Riscuotere i canoni di locazione del minore", 0],
+        ["Vendere l'appartamento del minore", 1],
+        ["Accettare un'eredità per il minore", 1],
+        ["Ciascun genitore può agire da solo", 0],
+        ["Servono entrambi i genitori e l'autorizzazione", 1],
+        ["Costituire un'ipoteca", 1],
+        ["Valore e rischio contenuti", 0]
+      ]
+    },
+    {
+      "id": "cx7-interd-revoca", "sec": "48", "title": "Sentenza di interdizione o di revoca?",
+      "cols": ["Interdizione", "Revoca"],
+      "facts": [
+        ["Effetti dalla pubblicazione della sentenza di primo grado", 0],
+        ["Effetti dal passaggio in giudicato", 1],
+        ["Art. 421 c.c.", 0],
+        ["Art. 431 c.c.", 1],
+        ["Ragione: protezione immediata", 0],
+        ["Ragione: certezza prima di restituire la capacità", 1]
+      ]
+    }
+  ],
+  "truefalse": [
+    { "id": "tf7a-1", "sec": "41", "s": "Sono soggetti di diritto solo le persone fisiche e le persone giuridiche.", "v": false, "why": "Lo sono anche gli enti non dotati di personalità (associazioni non riconosciute, società di persone)." },
+    { "id": "tf7a-2", "sec": "41", "s": "Per il diritto civile gli animali sono titolari di diritti.", "v": false, "why": "Restano cose mobili; la loro tutela è pubblicistica (penale, amministrativa)." },
+    { "id": "tf7a-3", "sec": "41", "s": "La personalità giuridica coincide con l'autonomia patrimoniale perfetta, non con la soggettività.", "v": true, "why": "«Soggetto» è il genere, «persona» la specie." },
+    { "id": "tf7a-4", "sec": "42", "s": "L'eguaglianza nella capacità giuridica è sempre esistita.", "v": false, "why": "È una conquista recente: a Roma lo schiavo era oggetto di proprietà; nell'ancien régime c'erano status differenziati." },
+    { "id": "tf7a-5", "sec": "42", "s": "Le quote rosa sono una deroga al principio di eguaglianza.", "v": false, "why": "Sono applicazioni dell'eguaglianza sostanziale (art. 3, c. 2, Cost.)." },
+    { "id": "tf7a-6", "sec": "43", "s": "Per acquistare la capacità giuridica il neonato deve essere vitale.", "v": false, "why": "Basta un istante di vita: non serve la vitalità." },
+    { "id": "tf7a-7", "sec": "43", "s": "Per il diritto la morte coincide con l'arresto cardiaco.", "v": false, "why": "È la cessazione irreversibile di tutte le funzioni dell'encefalo (L. 578/1993)." },
+    { "id": "tf7a-8", "sec": "43", "s": "La presunzione di commorienza ammette prova contraria.", "v": true, "why": "È una presunzione relativa, superabile con qualunque mezzo." },
+    { "id": "tf7a-9", "sec": "43", "s": "Con la morte si estinguono tutti i rapporti del defunto.", "v": false, "why": "Alcuni si estinguono (matrimonio), quelli patrimoniali si trasmettono agli eredi." },
+    { "id": "tf7a-10", "sec": "44", "s": "L'atto compiuto violando un'incapacità speciale è annullabile.", "v": false, "why": "È nullo: è una limitazione della capacità giuridica." },
+    { "id": "tf7a-11", "sec": "44", "s": "Il rappresentante può compiere l'atto precluso da un'incapacità speciale.", "v": false, "why": "Il rapporto non è accessibile neppure tramite rappresentante." },
+    { "id": "tf7a-12", "sec": "45", "s": "Il concepito acquista i diritti al momento del concepimento.", "v": false, "why": "Li acquista solo se nasce (art. 1, c. 2, c.c.)." },
+    { "id": "tf7a-13", "sec": "45", "s": "Il non ancora concepito può succedere per legge.", "v": false, "why": "Può ricevere solo per testamento o donazione, se figlio di una persona vivente." },
+    { "id": "tf7a-14", "sec": "45", "s": "Il fondamento costituzionale della tutela del concepito è l'art. 2 Cost.", "v": true, "why": "Corte cost. 27/1975." },
+    { "id": "tf7a-15", "sec": "46", "s": "Chi non ha capacità d'agire non ha nemmeno capacità giuridica.", "v": false, "why": "Il minore non ha capacità d'agire ma ha la capacità giuridica." },
+    { "id": "tf7a-16", "sec": "46", "s": "L'interdizione legale ha funzione di protezione come le altre misure.", "v": false, "why": "È l'unica con funzione sanzionatoria." },
+    { "id": "tf7a-17", "sec": "47", "s": "Il contratto del minore è nullo.", "v": false, "why": "È annullabile (art. 1425 c.c.)." },
+    { "id": "tf7a-18", "sec": "47", "s": "Anche la controparte maggiorenne può chiedere l'annullamento del contratto concluso con il minore.", "v": false, "why": "Solo il minore o il suo rappresentante (art. 1441): negozi claudicanti." },
+    { "id": "tf7a-19", "sec": "47", "s": "Per escludere l'annullamento basta che il minore abbia dichiarato di essere maggiorenne.", "v": false, "why": "Servono raggiri (art. 1426 c.c.)." },
+    { "id": "tf7a-20", "sec": "47", "s": "I genitori agiscono sempre congiuntamente.", "v": false, "why": "Per l'ordinaria amministrazione disgiuntamente." },
+    { "id": "tf7a-21", "sec": "47", "s": "La locazione dell'appartamento del minore richiede l'accordo di entrambi i genitori.", "v": true, "why": "Concessione di diritti personali di godimento (art. 320, c. 1, c.c.)." },
+    { "id": "tf7a-22", "sec": "47", "s": "Ascolto del minore e consenso del minore sono la stessa cosa.", "v": false, "why": "Ascolto: 12 anni o capacità di discernimento; consenso: 14 anni (es. riconoscimento, adozione)." },
+    { "id": "tf7a-23", "sec": "48", "s": "Gli effetti dell'interdizione decorrono dal passaggio in giudicato.", "v": false, "why": "Dalla pubblicazione della sentenza di primo grado (art. 421). Dal giudicato decorre la revoca." },
+    { "id": "tf7a-24", "sec": "48", "s": "Il tutore può fare testamento in nome dell'interdetto.", "v": false, "why": "Testamento, matrimonio, donazione sono atti preclusi anche al tutore." },
+    { "id": "tf7a-25", "sec": "48", "s": "Per l'interdizione basta la malattia mentale.", "v": false, "why": "Servono anche abitualità, incapacità di provvedere ai propri interessi e necessità di protezione." },
+    { "id": "tf7a-26", "sec": "48", "s": "Tra gli interessi rilevanti per l'interdizione rientra anche la cura della salute.", "v": true, "why": "Cass. 14669/2018." }
+  ],
+  "sequences": [
+    {
+      "id": "seq7-eta", "sec": "47", "title": "Le età del minore",
+      "prompt": "Metti in ordine dall'età più bassa alla più alta",
+      "steps": ["12 anni: diritto di essere ascoltato", "14 anni: consenso al riconoscimento e all'adozione", "16 anni: contratto di lavoro e matrimonio con ammissione", "18 anni: capacità di agire e di testare"]
+    }
+  ],
+  "cases": [
+    { "id": "c7a-1", "sec": "41", "text": "Laura lascia in testamento tutti i suoi beni al suo gatto.", "q": "Il gatto può diventarne proprietario?", "ok": "No: gli animali non hanno capacità giuridica, sono cose", "no": ["Sì, la Costituzione tutela gli animali", "Sì, tramite un tutore", "Solo se è un animale d'affezione registrato"], "why": "La tutela degli animali è pubblicistica; per il diritto civile restano cose mobili." },
+    { "id": "c7a-2", "sec": "43", "text": "Un neonato vive solo pochi minuti. Il padre era morto durante la gravidanza.", "q": "Il neonato ha ereditato dal padre?", "ok": "Sì: ha acquistato la capacità giuridica anche solo per un istante", "no": ["No: non era vitale", "No: serve almeno un giorno di vita", "Solo se era stato riconosciuto"], "why": "Basta la nascita (respirazione polmonare), non la vitalità (artt. 1 e 462 c.c.)." },
+    { "id": "c7a-3", "sec": "43", "text": "Madre e figlia muoiono nello stesso incidente; non si sa chi sia morta prima.", "q": "Che cosa presume la legge?", "ok": "Che siano morte nello stesso momento (commorienza)", "no": ["Che sia morta prima la più anziana", "Che sia morta prima la più giovane", "Lo decide il notaio"], "why": "Art. 4 c.c.: presunzione relativa, superabile con prova contraria." },
+    { "id": "c7a-4", "sec": "44", "text": "Il tutore di Marco, che non è suo parente, viene nominato erede nel suo testamento.", "q": "La disposizione è valida?", "ok": "No: è un'incapacità speciale relativa (art. 596 c.c.)", "no": ["Sì, il testatore è libero", "È annullabile", "Sì, se il giudice tutelare autorizza"], "why": "Incapacità speciale: l'atto è nullo." },
+    { "id": "c7a-5", "sec": "45", "text": "Il padre muore in un incidente stradale causato da un terzo, mentre la madre è incinta. Il bambino nasce.", "q": "Il figlio può chiedere il risarcimento?", "ok": "Sì, una volta nato, per la perdita del padre", "no": ["No: al momento del fatto non era nato", "Solo la madre, mai il figlio", "Solo se il padre lo aveva riconosciuto prima"], "why": "La giurisprudenza ammette il risarcimento dei danni da fatti avvenuti durante la gestazione (Cass. 5509/2014)." },
+    { "id": "c7a-6", "sec": "45", "text": "Per un errore medico la gravidanza si interrompe.", "q": "Chi ha diritto al risarcimento?", "ok": "I genitori, per il danno subito da loro", "no": ["Il concepito, tramite un curatore", "Nessuno", "Il concepito, se aveva più di tre mesi"], "why": "I diritti del concepito sono subordinati alla nascita (art. 1, c. 2, c.c.)." },
+    { "id": "c7a-7", "sec": "45", "text": "Una nonna lascia per testamento una casa «al primo figlio che avrà mia figlia Anna», che ancora non ha figli.", "q": "La disposizione è valida?", "ok": "Sì: il non concepito può ricevere per testamento se figlio di persona vivente", "no": ["No: chi non è nato non ha capacità", "Solo se Anna è già incinta", "Sì, ma solo per donazione"], "why": "Art. 462, c. 3, c.c." },
+    { "id": "c7a-8", "sec": "46", "text": "Un bambino di 8 anni, tramite i genitori, scrive al responsabile per chiedere il risarcimento di un danno, interrompendo la prescrizione.", "q": "L'atto è efficace?", "ok": "Sì: è un atto in senso stretto da cui non derivano effetti sfavorevoli", "no": ["No: il minore non ha capacità d'agire", "È annullabile", "Solo se lo firma un notaio"], "why": "Cass. 24077/2017: l'incapace può compiere atti in senso stretto vantaggiosi." },
+    { "id": "c7a-9", "sec": "47", "text": "Un sedicenne compra un costoso orologio. Il venditore poi se ne pente.", "q": "Il venditore può chiedere l'annullamento?", "ok": "No: può chiederlo solo il minore o il suo rappresentante", "no": ["Sì, entro cinque anni", "Sì, perché il contratto è nullo", "Sì, se restituisce il prezzo"], "why": "Art. 1441 c.c.: negozio claudicante, la legge protegge il minore." },
+    { "id": "c7a-10", "sec": "47", "text": "Un diciassettenne falsifica la carta d'identità per comprare uno scooter.", "q": "Potrà chiedere l'annullamento?", "ok": "No: ha usato raggiri per nascondere l'età (art. 1426)", "no": ["Sì, perché era minorenne", "Sì, ma solo entro un anno", "Sì, se restituisce lo scooter"], "why": "La semplice dichiarazione non basterebbe; i raggiri sì." },
+    { "id": "c7a-11", "sec": "47", "text": "Una quindicenne compra da sola un libro e un biglietto del cinema.", "q": "I contratti sono annullabili?", "ok": "No: sono atti della vita quotidiana", "no": ["Sì, come ogni atto del minore", "Sì, ma solo dai genitori", "Sono nulli"], "why": "Applicazione analogica dell'art. 409, c. 2, c.c. (o mandato implicito dei genitori)." },
+    { "id": "c7a-12", "sec": "47", "text": "Il padre vuole vendere da solo l'appartamento ereditato dal figlio di 10 anni.", "q": "Può farlo?", "ok": "No: servono entrambi i genitori e l'autorizzazione del giudice tutelare (o del notaio)", "no": ["Sì, ciascun genitore può agire da solo", "Sì, se il figlio è d'accordo", "Sì, basta la firma del notaio senza autorizzazione"], "why": "Atto di straordinaria amministrazione (art. 320 c.c.); senza autorizzazione è annullabile (art. 322)." },
+    { "id": "c7a-13", "sec": "47", "text": "Una minorenne, annullato il contratto, aveva già speso al gioco il denaro ricevuto.", "q": "Deve restituirlo?", "ok": "No: restituisce solo nei limiti del vantaggio ricevuto", "no": ["Sì, tutto", "Sì, con gli interessi", "Lo pagano i genitori"], "why": "Art. 1443 c.c." },
+    { "id": "c7a-14", "sec": "48", "text": "Il tribunale pronuncia l'interdizione di Paolo; Paolo fa appello.", "q": "Da quando l'interdizione produce effetti?", "ok": "Dalla pubblicazione della sentenza di primo grado", "no": ["Dal passaggio in giudicato", "Dalla sentenza d'appello", "Dall'annotazione sull'atto di nascita"], "why": "Art. 421 c.c.: protezione immediata." },
+    { "id": "c7a-15", "sec": "48", "text": "Un interdetto vorrebbe sposarsi e il tutore è d'accordo.", "q": "È possibile?", "ok": "No: il matrimonio è precluso all'interdetto (art. 85)", "no": ["Sì, con il consenso del tutore", "Sì, se lo autorizza il giudice tutelare", "Sì, il tutore si sposa in suo nome"], "why": "Atto personalissimo precluso." },
+    { "id": "c7a-16", "sec": "48", "text": "Un pensionato con una lieve malattia mentale gestisce bene la sua sola pensione.", "q": "Va interdetto?", "ok": "No: manca l'incapacità di provvedere ai propri interessi e la necessità di protezione", "no": ["Sì: basta la malattia mentale", "Sì, se lo chiedono i parenti", "Sì, ma solo temporaneamente"], "why": "Carattere residuale dell'interdizione; eventualmente basta l'amministrazione di sostegno." }
+  ]
+}
