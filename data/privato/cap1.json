@@ -136,7 +136,8 @@
      "to": "cost-97-2",
      "why": "L'eguaglianza riguarda il contenuto della legge, l'imparzialità la sua applicazione da parte della PA."
     }
-   ]
+   ],
+   "es": "Escludere le donne dalla magistratura (fino al 1963) violava l'eguaglianza."
   },
   {
    "id": "cost-3-2",
@@ -147,7 +148,8 @@
    "desc": "La Repubblica rimuove gli ostacoli di ordine economico e sociale che, limitando di fatto libertà ed eguaglianza, impediscono il pieno sviluppo della persona umana. Si rivolge agli organi dello Stato: servizi pubblici, azioni positive.",
    "tags": [
     "costituzione-principi"
-   ]
+   ],
+   "es": "Obbligo per le imprese di assumere una quota di persone con disabilità."
   },
   {
    "id": "cost-97-2",
@@ -230,7 +232,8 @@
    "desc": "Alla Corte EDU si accede solo dopo aver esaurito i rimedi giurisdizionali nazionali.",
    "tags": [
     "cedu"
-   ]
+   ],
+   "es": "Prima di andare a Strasburgo bisogna percorrere tutti i gradi di giudizio italiani."
   },
   {
    "id": "cedu-46-1",
@@ -282,7 +285,8 @@
    "tags": [
     "responsabilita",
     "fattispecie"
-   ]
+   ],
+   "es": "Tizio, distratto alla guida, investe un pedone: deve risarcire il danno."
   },
   {
    "id": "cc-1229",
@@ -294,7 +298,8 @@
    "tags": [
     "cogenti",
     "responsabilita"
-   ]
+   ],
+   "es": "Un patto «il fornitore non risponde mai, nemmeno se agisce con dolo» è nullo."
   },
   {
    "id": "cc-1350",
@@ -306,7 +311,8 @@
    "tags": [
     "cogenti",
     "contratto"
-   ]
+   ],
+   "es": "La vendita di un appartamento fatta solo a voce è nulla."
   },
   {
    "id": "cc-2744",
@@ -317,7 +323,8 @@
    "desc": "È nullo il patto con cui si conviene che, in mancanza di pagamento, la proprietà della cosa data in garanzia passi al creditore: norma cogente.",
    "tags": [
     "cogenti"
-   ]
+   ],
+   "es": "«Se non restituisci il prestito, la casa data in garanzia diventa mia»: patto nullo."
   },
   {
    "id": "cc-1294",
@@ -340,7 +347,8 @@
    "tags": [
     "dispositive",
     "usi"
-   ]
+   ],
+   "es": "Le parti non dicono dove consegnare la merce: decide la norma suppletiva."
   },
   {
    "id": "cc-1158",
@@ -351,7 +359,8 @@
    "desc": "Chi possiede un immobile per vent'anni ne acquista la proprietà: norma che collega a una fattispecie l'acquisto di un diritto.",
    "tags": [
     "fattispecie"
-   ]
+   ],
+   "es": "Paolo possiede un terreno da vent'anni come se fosse suo: ne diventa proprietario."
   },
   {
    "id": "cc-1236",
@@ -362,7 +371,8 @@
    "desc": "La dichiarazione del creditore di rimettere il debito estingue l'obbligazione: fattispecie con effetto estintivo.",
    "tags": [
     "fattispecie"
-   ]
+   ],
+   "es": "Il creditore dichiara di rinunciare al credito: l'obbligazione si estingue."
   },
   {
    "id": "cc-1241",
@@ -373,7 +383,8 @@
    "desc": "Quando due persone sono obbligate l'una verso l'altra, i due debiti si estinguono per le quantità corrispondenti.",
    "tags": [
     "fattispecie"
-   ]
+   ],
+   "es": "Mario deve 100 a Luca e Luca deve 60 a Mario: resta un debito di 40."
   },
   {
    "id": "cp-575",
@@ -395,7 +406,8 @@
    "desc": "La successione si apre al momento della morte: esempio di fattispecie semplice (un solo fatto).",
    "tags": [
     "fattispecie"
-   ]
+   ],
+   "es": "La morte di una persona basta da sola ad aprire la successione."
   },
   {
    "id": "cc-107",
@@ -406,7 +418,8 @@
    "desc": "Servono il consenso dei nubendi e la dichiarazione dell'ufficiale dello stato civile: esempio di fattispecie complessa (più fatti, tutti necessari).",
    "tags": [
     "fattispecie"
-   ]
+   ],
+   "es": "Il matrimonio richiede sia il sì degli sposi sia la dichiarazione dell'ufficiale."
   },
   {
    "id": "cc-1353",
@@ -418,7 +431,8 @@
    "tags": [
     "fattispecie",
     "contratto"
-   ]
+   ],
+   "es": "Ti vendo l'auto «se ti laurei entro l'anno»: intanto hai un'aspettativa."
   },
   {
    "id": "cc-1375",
@@ -462,7 +476,8 @@
    "desc": "Il giudice può fissare una somma dovuta per ogni violazione o ritardo nell'attuazione del provvedimento: misura di dissuasione, utile quando l'obbligato non può essere costretto materialmente.",
    "tags": [
     "sanzione"
-   ]
+   ],
+   "es": "Per ogni giorno di ritardo nell'eseguire l'ordine del giudice si paga una somma."
   },
   {
    "id": "cc-315-bis-4",
@@ -473,7 +488,8 @@
    "desc": "Affermazione di principio priva di sanzione, con funzione di indirizzo: dimostra che la sanzione non è indispensabile in ogni norma.",
    "tags": [
     "sanzione"
-   ]
+   ],
+   "es": "Il figlio deve rispettare i genitori, ma nessuna sanzione è prevista."
   },
   {
    "id": "cc-2933",
@@ -484,7 +500,8 @@
    "desc": "Si può ottenere che sia distrutto, a spese dell'obbligato, ciò che è stato fatto in violazione dell'obbligo di non fare: esempio di sanzione diretta.",
    "tags": [
     "sanzione"
-   ]
+   ],
+   "es": "Il vicino costruisce violando un obbligo di non fare: si distrugge l'opera a sue spese."
   },
   {
    "id": "cc-2",
@@ -527,7 +544,8 @@
      "to": "cpc-114",
      "why": "Sono i due casi di equità decisoria: giudice di pace e richiesta concorde delle parti."
     }
-   ]
+   ],
+   "es": "Causa da 800 euro per un piccolo danno: il giudice di pace decide secondo equità."
   },
   {
    "id": "cpc-114",
@@ -550,7 +568,8 @@
    "tags": [
     "equita",
     "responsabilita"
-   ]
+   ],
+   "es": "Danno certo ma impossibile da quantificare al centesimo: il giudice lo stima."
   },
   {
    "id": "cc-1371",
@@ -587,7 +606,8 @@
    "tags": [
     "equita",
     "contratto"
-   ]
+   ],
+   "es": "Penale di 50.000 euro per un giorno di ritardo: il giudice può ridurla."
   },
   {
    "id": "cost-70",
@@ -1563,5 +1583,241 @@
    "why": "Art. 113, c. 2, c.p.c.: per tutelare chi aderisce al contratto."
   }
  ],
- "sequences": []
+ "sequences": [],
+ "cases": [
+  {
+   "id": "c1-1",
+   "sec": "1",
+   "text": "Tizio, distratto alla guida, investe e uccide Caio.",
+   "q": "Che cosa ha commesso Tizio?",
+   "ok": "Un reato e insieme un illecito civile (doppio illecito)",
+   "no": [
+    "Solo un reato: il risarcimento è escluso",
+    "Solo un illecito civile",
+    "Solo un illecito amministrativo"
+   ],
+   "why": "Lo stesso fatto è reato e illecito civile che obbliga al risarcimento (art. 2043 c.c.)."
+  },
+  {
+   "id": "c1-2",
+   "sec": "1",
+   "text": "Prendi una multa per divieto di sosta.",
+   "q": "Che tipo di sanzione è?",
+   "ok": "Amministrativa",
+   "no": [
+    "Penale",
+    "Civile",
+    "Disciplinare"
+   ],
+   "why": "Le sanzioni sono civili (risarcimento), penali (multa, ammenda, arresto, reclusione) e amministrative (es. divieto di sosta)."
+  },
+  {
+   "id": "c1-3",
+   "sec": "2",
+   "text": "Marco è cattolico ed è tesserato di una federazione sportiva.",
+   "q": "A quali ordinamenti è soggetto?",
+   "ok": "A quello statale, a quello canonico e a quello sportivo insieme",
+   "no": [
+    "Solo a quello statale",
+    "A quello che sceglie di volta in volta",
+    "Solo al canonico per le questioni morali"
+   ],
+   "why": "Pluralità degli ordinamenti (Santi Romano): la stessa persona è soggetta a più ordinamenti a titoli diversi."
+  },
+  {
+   "id": "c1-4",
+   "sec": "3",
+   "text": "Una legge italiana contrasta con la CEDU e non si riesce a interpretarla in modo conforme.",
+   "q": "Che cosa fa il giudice?",
+   "ok": "Solleva questione di legittimità costituzionale (art. 117 Cost.)",
+   "no": [
+    "Disapplica la legge",
+    "Applica la legge senza fare nulla",
+    "Rinvia alla Corte di giustizia UE"
+   ],
+   "why": "Con la CEDU non c'è disapplicazione (che vale per il diritto UE): la norma CEDU è parametro interposto dell'art. 117, c. 1."
+  },
+  {
+   "id": "c1-5",
+   "sec": "3",
+   "text": "Anna ritiene che una sentenza di primo grado violi un suo diritto CEDU, ma non ha fatto appello.",
+   "q": "Può già ricorrere a Strasburgo?",
+   "ok": "No: prima deve esaurire le vie di ricorso interne",
+   "no": [
+    "Sì, subito",
+    "Sì, ma solo tramite il Governo",
+    "No: alla Corte EDU possono ricorrere solo gli Stati"
+   ],
+   "why": "Art. 35, § 1, CEDU: esaurimento delle vie di ricorso interne."
+  },
+  {
+   "id": "c1-6",
+   "sec": "4",
+   "text": "Nel 1949 al Torino fu negato il risarcimento per i calciatori morti a Superga; nel 1971, per la morte di Meroni, le Sezioni unite lo ammisero.",
+   "q": "Che cosa dimostra la vicenda?",
+   "ok": "Lo stesso testo (art. 2043 c.c.) può esprimere norme diverse nel tempo",
+   "no": [
+    "Che l'art. 2043 fu modificato nel 1971",
+    "Che le sentenze della Cassazione valgono come leggi",
+    "Che il diritto naturale prevale sul codice"
+   ],
+   "why": "Disposizione e norma non coincidono: il testo è rimasto identico, la norma ricavata è cambiata (Cass. s.u. 174/1971)."
+  },
+  {
+   "id": "c1-7",
+   "sec": "4",
+   "text": "Le parti si accordano a voce per la vendita di un appartamento.",
+   "q": "Che sorte ha il contratto?",
+   "ok": "È nullo: l'art. 1350 c.c. è una norma cogente",
+   "no": [
+    "È valido: le parti possono derogare",
+    "È valido ma inefficace verso i terzi",
+    "È annullabile su richiesta del venditore"
+   ],
+   "why": "L'art. 1350 impone la forma scritta a pena di nullità: la previsione di nullità rivela l'inderogabilità."
+  },
+  {
+   "id": "c1-8",
+   "sec": "4",
+   "text": "In una vendita le parti non dicono nulla sul luogo di consegna.",
+   "q": "Che cosa succede?",
+   "ok": "Si applica la norma suppletiva dell'art. 1510 c.c.",
+   "no": [
+    "Il contratto è nullo",
+    "Decide il giudice secondo equità",
+    "Sceglie liberamente il venditore"
+   ],
+   "why": "Le norme suppletive colmano ciò che le parti non hanno regolato."
+  },
+  {
+   "id": "c1-9",
+   "sec": "6",
+   "text": "Paolo possiede un immobile, comportandosi da proprietario, da vent'anni.",
+   "q": "Qual è l'effetto giuridico?",
+   "ok": "Acquista la proprietà per usucapione (art. 1158 c.c.)",
+   "no": [
+    "Diventa usufruttuario",
+    "Nessuno: serve un contratto",
+    "Acquista un credito verso il proprietario"
+   ],
+   "why": "Schema «se… allora…»: alla fattispecie (possesso ventennale) la norma collega l'acquisto del diritto."
+  },
+  {
+   "id": "c1-10",
+   "sec": "6",
+   "text": "Tizio vende un bene a Caio «se Caio si laureerà entro l'anno».",
+   "q": "Che tipo di fattispecie è?",
+   "ok": "A formazione progressiva: intanto Caio ha un'aspettativa",
+   "no": [
+    "Semplice",
+    "Complessa, senza alcun effetto prima della laurea",
+    "Nessuna: il contratto è nullo"
+   ],
+   "why": "Condizione sospensiva (artt. 1353 ss.): prima dell'evento si producono effetti prodromici, cioè un'aspettativa tutelata."
+  },
+  {
+   "id": "c1-11",
+   "sec": "7",
+   "text": "Un cantante si rifiuta di esibirsi nel concerto per cui è stato pagato.",
+   "q": "Che cosa può ottenere l'organizzatore?",
+   "ok": "Il risarcimento: nemo ad factum cogi potest",
+   "no": [
+    "Che la polizia lo costringa a cantare",
+    "La distruzione del palco a sue spese",
+    "Nulla, perché manca una sanzione"
+   ],
+   "why": "Sanzione indiretta: non si ottiene la prestazione ma un equivalente (risarcimento)."
+  },
+  {
+   "id": "c1-12",
+   "sec": "7",
+   "text": "Il vicino costruisce un muro violando un obbligo di non fare.",
+   "q": "Quale sanzione è possibile?",
+   "ok": "La distruzione del muro a sue spese (art. 2933 c.c.)",
+   "no": [
+    "Solo una multa amministrativa",
+    "Solo il risarcimento",
+    "La reclusione"
+   ],
+   "why": "Sanzione diretta: si ottiene proprio il risultato prescritto."
+  },
+  {
+   "id": "c1-13",
+   "sec": "8",
+   "text": "La L. 17/1982 (art. 5) dichiara disciolta la Loggia P2.",
+   "q": "Che tipo di disposizione è?",
+   "ok": "Una legge-provvedimento, ammessa se rispetta l'eguaglianza",
+   "no": [
+    "Una norma generale e astratta",
+    "Una legge costituzionale",
+    "Una legge nulla perché ad personam"
+   ],
+   "why": "Regola un caso concreto: le leggi-provvedimento sono ammesse con il controllo di eguaglianza e ragionevolezza."
+  },
+  {
+   "id": "c1-14",
+   "sec": "8-bis",
+   "text": "Fino al 1963 le donne erano escluse dalla magistratura.",
+   "q": "Quale principio violava questa regola?",
+   "ok": "L'eguaglianza formale (art. 3, c. 1, Cost.)",
+   "no": [
+    "L'imparzialità della PA (art. 97)",
+    "Il principio di effettività",
+    "La riserva di legge"
+   ],
+   "why": "Differenziazione irragionevole per sesso tra situazioni omogenee."
+  },
+  {
+   "id": "c1-15",
+   "sec": "8-bis",
+   "text": "Una legge obbliga le imprese ad assumere una quota di persone con disabilità.",
+   "q": "Che cosa attua?",
+   "ok": "L'eguaglianza sostanziale (art. 3, c. 2, Cost.)",
+   "no": [
+    "Una violazione dell'eguaglianza formale",
+    "L'imparzialità della PA",
+    "La sussidiarietà orizzontale"
+   ],
+   "why": "È un'azione positiva per rimuovere ostacoli di fatto: differenziazione ragionevole a favore dei più deboli."
+  },
+  {
+   "id": "c1-16",
+   "sec": "9",
+   "text": "Davanti al giudice di pace c'è una causa da 900 euro nata da un contratto firmato su un modulo standard.",
+   "q": "Come decide il giudice?",
+   "ok": "Secondo diritto: i contratti con moduli o formulari sono esclusi dall'equità",
+   "no": [
+    "Secondo equità, perché è sotto i 1.100 euro",
+    "Secondo equità, se lo chiede una parte",
+    "Secondo gli usi"
+   ],
+   "why": "Art. 113, c. 2, c.p.c.: l'esclusione tutela chi aderisce al contratto."
+  },
+  {
+   "id": "c1-17",
+   "sec": "9",
+   "text": "Tizio deve 1.000 euro a Caio, ma viene rapinato e resta senza soldi.",
+   "q": "Caio può pretendere il pagamento?",
+   "ok": "Sì: il giudice decide secondo diritto",
+   "no": [
+    "No: per equità il debito si estingue",
+    "Solo se Tizio è d'accordo",
+    "Solo metà, per equità"
+   ],
+   "why": "La certezza del diritto prevale sulla giustizia del caso singolo, salvo i casi di equità previsti dalla legge."
+  },
+  {
+   "id": "c1-18",
+   "sec": "9",
+   "text": "Un contratto prevede una penale di 50.000 euro per un giorno di ritardo.",
+   "q": "Che cosa può fare il giudice?",
+   "ok": "Ridurla equamente (art. 1384 c.c.)",
+   "no": [
+    "Nulla: il contratto ha forza di legge",
+    "Dichiarare nullo tutto il contratto",
+    "Aumentarla per punire il debitore"
+   ],
+   "why": "Equità correttiva: corregge un elemento voluto dalle parti."
+  }
+ ]
 }

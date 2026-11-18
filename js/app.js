@@ -53,12 +53,23 @@ function beep(kind) {
 }
 function buzz(ms) { if (S && S.settings.haptics && navigator.vibrate) navigator.vibrate(ms); }
 
+matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => applyTheme());
+function applyTheme() {
+  const t = (S && S.settings.theme) || 'dark';
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem('qg-theme', t); } catch { /* ignore */ }
+  const dark = t === 'dark' || (t === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
+  document.documentElement.dataset.dark = dark ? '1' : '0';
+  document.querySelector('meta[name=theme-color]').setAttribute('content', dark ? '#0c0f1d' : '#f6f4ef');
+}
+
 // ---------------- avvio ----------------
 async function init() {
   const { state } = await store.loadState();
   S = state;
   S.stats = { correct: 0, answered: 0, sessions: 0, perfect: 0, ...(S.stats || {}) };
   S.blitzBest = S.blitzBest || {};
+  applyTheme();
   store.requestPersistence();
   try {
     catalog = await loadCatalog();
@@ -125,7 +136,7 @@ function viewLearn() {
     cards.push(`<div class="card hint warn"><div class="hint-ico">💾</div><div><b>${S.lastBackup ? 'Aggiorna il backup' : 'Fai il primo backup'}</b><p>Salva una copia dei progressi su iCloud Drive: un tocco e sei al sicuro.</p><button class="btn small" data-act="backup">Salva backup</button></div></div>`);
   }
 
-  const chapters = course.chapters.map((ch) => chapterBlock(ch)).join('');
+  const chapters = course.fascicoli.map((f) => fascicoloBlock(f)).join('');
   return `${topbar()}
   <section class="hero-row">
     <button class="hero review" data-act="review">
@@ -141,6 +152,29 @@ function viewLearn() {
   ${cards.join('')}
   ${chapters}
   <p class="foot">Contenuti: ${esc(course.subtitle || '')}<br>versione ${esc(course.version)}</p>`;
+}
+
+const FSTATUS = { done: 'Studiato', progress: 'In corso', todo: 'Da studiare' };
+function fascicoloBlock(f) {
+  const chs = f.chapters.map((id) => course.chapters.find((c) => c.id === id)).filter(Boolean);
+  const status = `<span class="fstatus ${f.status || ''}">${FSTATUS[f.status] || ''}</span>`;
+  if (!chs.length) {
+    return `<section class="fasc empty">
+      <div class="fasc-num">${f.num}</div>
+      <div class="fasc-txt"><div class="fasc-kicker">Fascicolo ${f.num} · ${esc(f.scope || '')}</div><h2>${esc(f.title)}</h2>
+      <div class="fasc-note">${status}<span>${esc(f.note || 'Contenuti in arrivo')}</span></div></div>
+    </section>`;
+  }
+  const total = chs.reduce((acc, c) => { const m = E.scopeMastery(S, course, { ch: c.id }); acc.p += m.pct * m.total; acc.t += m.total; return acc; }, { p: 0, t: 0 });
+  const pct = total.t ? Math.round((total.p / total.t) * 100) : 0;
+  return `<section class="fasc">
+    <div class="fasc-head">
+      <div class="fasc-num">${f.num}</div>
+      <div class="fasc-txt"><div class="fasc-kicker">Fascicolo ${f.num} · ${esc(f.scope || '')}</div><h2>${esc(f.title)}</h2>
+      <div class="fasc-note">${status}<span>${pct}% padroneggiato</span></div></div>
+    </div>
+    ${chs.map((ch) => chapterBlock(ch)).join('')}
+  </section>`;
 }
 
 function lessonState(id) { return (S.lessons[course.id] && S.lessons[course.id][id]) || { level: 0, best: 0, plays: 0 }; }
@@ -200,7 +234,7 @@ function viewCodex() {
     const where = a.locs.map((l) => `Cap. ${l.chNum}, § ${esc(l.sec.replace('-p', ''))} ${esc(l.secTitle)}`).join(' · ');
     return `<details class="art">
       <summary><div class="art-ref">${esc(a.ref)}</div><div class="art-tema">${esc(a.tema)}</div><div class="dots">${dots}</div></summary>
-      <div class="art-body"><p>${esc(a.desc)}</p>
+      <div class="art-body"><p>${esc(a.desc)}</p>${a.es ? `<p class="es">💡 <b>Esempio:</b> ${esc(a.es)}</p>` : ''}
       ${links ? `<div class="art-links"><span>Collegamenti</span><ul>${links}</ul></div>` : ''}
       <div class="art-where">${where}</div></div>
     </details>`;
@@ -283,6 +317,10 @@ function viewSettings() {
     <div class="chips">${goals}</div>
   </section>
   <section class="card">
+    <h3>Tema</h3>
+    <div class="chips">${[['dark', '🌙 Scuro'], ['light', '☀️ Chiaro'], ['auto', '📱 Come l\'iPhone']].map(([v, l]) => `<button class="chip ${(S.settings.theme || 'dark') === v ? 'on' : ''}" data-theme="${v}">${l}</button>`).join('')}</div>
+  </section>
+  <section class="card">
     <h3>Preferenze</h3>
     <label class="toggle"><span>Suoni</span><input type="checkbox" id="snd" ${S.settings.sound ? 'checked' : ''}><i></i></label>
   </section>
@@ -306,6 +344,7 @@ function bindTab() {
   if (q) q.oninput = () => { codexFilter.q = q.value; const pos = q.selectionStart; render(); const n = document.getElementById('q'); n.focus(); n.setSelectionRange(pos, pos); };
   $app.querySelectorAll('.chip[data-ch]').forEach((b) => b.onclick = () => { codexFilter.ch = b.dataset.ch; render(); });
   $app.querySelectorAll('.chip[data-goal]').forEach((b) => b.onclick = () => { S.goal = +b.dataset.goal; store.saveState(S); render(); });
+  $app.querySelectorAll('.chip[data-theme]').forEach((b) => b.onclick = () => { S.settings.theme = b.dataset.theme; applyTheme(); store.saveState(S); render(); });
   $app.querySelectorAll('[data-course]').forEach((b) => b.onclick = () => selectCourse(b.dataset.course));
   const snd = document.getElementById('snd');
   if (snd) snd.onchange = () => { S.settings.sound = snd.checked; store.saveState(S); };
@@ -415,7 +454,7 @@ function renderRun() {
 }
 
 const KIND_LABEL = { mc: 'Scegli la risposta', tf: 'Vero o falso', match: 'Abbinamenti', seq: 'Metti in ordine' };
-const TPL_LABEL = { artToTema: 'Articolo → argomento', temaToArt: 'Argomento → articolo', descToArt: 'Riconosci l\'articolo', link: 'Collegamenti', odd: 'Trova l\'intruso', cxSort: 'Classifica', cxOdd: 'Trova l\'intruso', conDef: 'Concetti', defCon: 'Concetti', artTF: 'Vero o falso', conTF: 'Vero o falso', tf: 'Tranelli d\'esame', match: 'Abbinamenti', conMatch: 'Abbinamenti', seq: 'Metti in ordine' };
+const TPL_LABEL = { artToTema: 'Articolo → argomento', temaToArt: 'Argomento → articolo', descToArt: 'Riconosci l\'articolo', link: 'Collegamenti', odd: 'Trova l\'intruso', cxSort: 'Classifica', cxOdd: 'Trova l\'intruso', conDef: 'Concetti', defCon: 'Concetti', artTF: 'Vero o falso', conTF: 'Vero o falso', tf: 'Tranelli d\'esame', case: 'Caso pratico', match: 'Abbinamenti', conMatch: 'Abbinamenti', seq: 'Metti in ordine' };
 
 function questionHTML(q) {
   const tag = `<div class="q-kind">${TPL_LABEL[q.template] || KIND_LABEL[q.type]}</div>`;
@@ -557,7 +596,7 @@ function showFeedback(q, ok, correctLabel, customHead) {
   fb.innerHTML = `<div class="fb-in">
     <div class="fb-head">${ok ? I.check : I.close}<b>${esc(customHead || (ok ? praise : 'Non proprio…'))}</b></div>
     ${!ok && correctLabel ? `<div class="fb-correct">Risposta giusta: <b>${esc(correctLabel)}</b></div>` : ''}
-    ${ex ? `<div class="fb-ex"><b>${esc(ex.head)}</b><p>${esc(ex.body).replace(/\n/g, '<br>')}</p></div>` : ''}
+    ${ex ? `<div class="fb-ex"><b>${esc(ex.head)}</b><p>${esc(ex.body).replace(/\n/g, '<br>')}</p>${ex.es ? `<p class="es">💡 <b>Esempio:</b> ${esc(ex.es)}</p>` : ''}</div>` : ''}
     <button class="btn big ${ok ? '' : 'red'}" id="next">Continua</button>
   </div>`;
   document.getElementById('next').onclick = next;

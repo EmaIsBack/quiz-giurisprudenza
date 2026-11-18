@@ -1,30 +1,97 @@
 {
-  "id": "privato",
-  "title": "Diritto privato",
-  "subtitle": "Prof. Dellacasa · Prova intermedia gennaio 2027",
-  "version": "2026-11-18.1",
-  "tags": {
-    "costituzione-principi": "i principi e i diritti della Costituzione",
-    "fonti-ue": "il diritto dell'Unione europea",
-    "cedu": "la CEDU",
-    "cogenti": "le norme cogenti (inderogabili)",
-    "dispositive": "le norme dispositive o suppletive",
-    "equita": "l'equità",
-    "fattispecie": "gli esempi di fattispecie ed effetti giuridici",
-    "sanzione": "la sanzione e gli strumenti per l'osservanza",
-    "legge-procedimento": "la formazione e l'entrata in vigore della legge",
-    "atti-governo": "gli atti del Governo con forza di legge",
-    "regioni": "il riparto di competenze tra Stato e Regioni",
-    "corte-cost": "la Corte costituzionale",
-    "revisione": "la revisione della Costituzione",
-    "usi": "gli usi (consuetudine)",
-    "tempo": "l'efficacia della legge nel tempo",
-    "interpretazione": "l'interpretazione e l'integrazione della legge",
-    "analogia": "l'analogia",
-    "esempi-interpretazione": "gli esempi del prof sugli argomenti interpretativi",
-    "cassazione-precedente": "il giudicato, il precedente e la Cassazione",
-    "contratto": "il contratto",
-    "responsabilita": "la responsabilità e il risarcimento del danno"
+ "id": "privato",
+ "title": "Diritto privato",
+ "subtitle": "Prof. Dellacasa · Prova intermedia gennaio 2027",
+ "version": "2026-11-18.2",
+ "tags": {
+  "costituzione-principi": "i principi e i diritti della Costituzione",
+  "fonti-ue": "il diritto dell'Unione europea",
+  "cedu": "la CEDU",
+  "cogenti": "le norme cogenti (inderogabili)",
+  "dispositive": "le norme dispositive o suppletive",
+  "equita": "l'equità",
+  "fattispecie": "gli esempi di fattispecie ed effetti giuridici",
+  "sanzione": "la sanzione e gli strumenti per l'osservanza",
+  "legge-procedimento": "la formazione e l'entrata in vigore della legge",
+  "atti-governo": "gli atti del Governo con forza di legge",
+  "regioni": "il riparto di competenze tra Stato e Regioni",
+  "corte-cost": "la Corte costituzionale",
+  "revisione": "la revisione della Costituzione",
+  "usi": "gli usi (consuetudine)",
+  "tempo": "l'efficacia della legge nel tempo",
+  "interpretazione": "l'interpretazione e l'integrazione della legge",
+  "analogia": "l'analogia",
+  "esempi-interpretazione": "gli esempi del prof sugli argomenti interpretativi",
+  "cassazione-precedente": "il giudicato, il precedente e la Cassazione",
+  "contratto": "il contratto",
+  "responsabilita": "la responsabilità e il risarcimento del danno"
+ },
+ "chapters": [
+  "cap1.json",
+  "cap2.json",
+  "cap3.json",
+  "cap4.json"
+ ],
+ "fascicoli": [
+  {
+   "num": 1,
+   "title": "Il diritto e le fonti",
+   "scope": "Capp. 1-4",
+   "chapters": [
+    "cap1",
+    "cap2",
+    "cap3",
+    "cap4"
+   ],
+   "status": "done"
   },
-  "chapters": ["cap1.json", "cap2.json", "cap3.json", "cap4.json"]
+  {
+   "num": 2,
+   "title": "I soggetti",
+   "scope": "§ 32 + Cap. 7",
+   "chapters": [],
+   "status": "done",
+   "note": "Studiato: in attesa dei file"
+  },
+  {
+   "num": 3,
+   "title": "Situazioni, beni, fatti e atti",
+   "scope": "Capp. 6, 8, 9",
+   "chapters": [],
+   "status": "done",
+   "note": "Completo: in attesa dei file"
+  },
+  {
+   "num": 4,
+   "title": "Diritti reali, possesso, trascrizione",
+   "scope": "§ 131, §§ 132-173, §§ 174-188, Cap. 81",
+   "chapters": [],
+   "status": "todo",
+   "note": "Da fare: tutto già spiegato"
+  },
+  {
+   "num": 5,
+   "title": "Obbligazioni e garanzia patrimoniale",
+   "scope": "§§ 189-200 e seguenti",
+   "chapters": [],
+   "status": "progress",
+   "note": "Appena iniziato"
+  },
+  {
+   "num": 6,
+   "title": "Responsabilità extracontrattuale",
+   "scope": "Cap. 55",
+   "chapters": [],
+   "status": "todo",
+   "note": "Su Panopto o sul manuale"
+  },
+  {
+   "num": 7,
+   "title": "Tutela dei diritti, prove, prescrizione e decadenza",
+   "scope": "Capp. 10-12",
+   "chapters": [],
+   "status": "todo",
+   "note": "Non ancora spiegato"
+  }
+ ]
 }

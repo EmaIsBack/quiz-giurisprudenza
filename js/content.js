@@ -25,6 +25,7 @@ export function buildCourse(course, chapters) {
   const contrasts = new Map();
   const truefalse = new Map();
   const sequences = new Map();
+  const cases = new Map();
   const lessons = [];
 
   chapters.sort((a, b) => a.num - b.num);
@@ -39,7 +40,7 @@ export function buildCourse(course, chapters) {
       if (!prev) {
         articles.set(a.id, { ...a, tags: [...(a.tags || [])], links: [...(a.links || [])], locs: [loc] });
       } else {
-        for (const k of ['ref', 'fonte', 'tema', 'desc']) if (a[k] && (!prev[k] || a.override)) prev[k] = a[k];
+        for (const k of ['ref', 'fonte', 'tema', 'desc', 'es']) if (a[k] && (!prev[k] || a.override)) prev[k] = a[k];
         for (const t of a.tags || []) if (!prev.tags.includes(t)) prev.tags.push(t);
         for (const l of a.links || []) if (!prev.links.some((x) => x.to === l.to)) prev.links.push(l);
         if (!prev.locs.some((x) => x.ch === loc.ch && x.sec === loc.sec)) prev.locs.push(loc);
@@ -52,6 +53,7 @@ export function buildCourse(course, chapters) {
     put(contrasts, ch.contrasts);
     put(truefalse, ch.truefalse);
     put(sequences, ch.sequences);
+    put(cases, ch.cases);
     for (const l of ch.lessons || []) lessons.push({ ...l, ch: ch.id, chNum: ch.num });
   }
 
@@ -86,6 +88,8 @@ export function buildCourse(course, chapters) {
     concepts,
     contrasts,
     truefalse,
-    sequences
+    sequences,
+    cases,
+    fascicoli: course.fascicoli || [{ num: 1, title: course.title, chapters: chapters.map((c) => c.id), status: 'done' }]
   };
 }

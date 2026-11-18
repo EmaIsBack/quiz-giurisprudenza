@@ -82,7 +82,8 @@
      "to": "cc-2935",
      "why": "La prescrizione decorre da quando il diritto può essere fatto valere (per la giurisprudenza, da quando il danno è percepibile)."
     }
-   ]
+   ],
+   "es": "Il diritto al risarcimento per un incidente si prescrive in cinque anni."
   },
   {
    "id": "cc-2935",
@@ -93,7 +94,8 @@
    "desc": "La prescrizione comincia a decorrere dal giorno in cui il diritto può essere fatto valere; per il danno, secondo la giurisprudenza, da quando si manifesta ed è percepibile da chi lo subisce.",
    "tags": [
     "responsabilita"
-   ]
+   ],
+   "es": "Danno che si scopre anni dopo: la prescrizione parte da quando è percepibile."
   },
   {
    "id": "cc-1669",
@@ -104,7 +106,8 @@
    "desc": "Responsabilità dell'appaltatore per rovina e gravi difetti di immobili destinati a lunga durata. Esempio di vaghezza: le Sezioni unite (7756/2017) lo applicano anche alle ristrutturazioni.",
    "tags": [
     "esempi-interpretazione"
-   ]
+   ],
+   "es": "Gravi difetti dopo una ristrutturazione: si applica anche qui (Cass. s.u. 7756/2017)."
   },
   {
    "id": "cpc-113-2",
@@ -159,7 +162,8 @@
    "desc": "L'accertamento contenuto nella sentenza passata in giudicato fa stato a ogni effetto fra le parti, i loro eredi o aventi causa: l'interpretazione giudiziale vincola formalmente solo le parti.",
    "tags": [
     "cassazione-precedente"
-   ]
+   ],
+   "es": "La sentenza definitiva vincola le parti e i loro eredi, non terzi estranei."
   },
   {
    "id": "cost-101-2",
@@ -203,7 +207,8 @@
    "desc": "La sezione semplice che non condivide il principio di diritto enunciato dalle sezioni unite deve rimettere a queste la decisione con ordinanza motivata. I giudici di merito restano liberi.",
    "tags": [
     "cassazione-precedente"
-   ]
+   ],
+   "es": "La sezione semplice in disaccordo con le Sezioni unite deve rimettere loro la causa."
   },
   {
    "id": "cpc-363",
@@ -243,7 +248,8 @@
    "tags": [
     "esempi-interpretazione",
     "contratto"
-   ]
+   ],
+   "es": "L'imprenditore muore dopo aver fatto una proposta: la proposta resta valida."
   },
   {
    "id": "codcons-33",
@@ -315,7 +321,8 @@
      "to": "dp-14",
      "why": "L'art. 14 vieta l'analogia per le leggi penali ed eccezionali."
     }
-   ]
+   ],
+   "es": "Il recesso per giusta causa dell'agente: si applica per analogia l'art. 2119."
   },
   {
    "id": "dp-14",
@@ -327,7 +334,8 @@
    "tags": [
     "interpretazione",
     "analogia"
-   ]
+   ],
+   "es": "Non si può punire per analogia un fatto simile a un reato ma non previsto."
   },
   {
    "id": "cc-2119",
@@ -338,7 +346,8 @@
    "desc": "Ciascuna parte può recedere senza preavviso se si verifica una causa che non consente la prosecuzione, anche provvisoria, del rapporto. La giurisprudenza lo applica per analogia al contratto di agenzia (stessa ratio: rapporto stabile e fiduciario).",
    "tags": [
     "analogia"
-   ]
+   ],
+   "es": "Il dipendente che ruba in azienda può essere licenziato senza preavviso."
   },
   {
    "id": "cc-409-2",
@@ -349,7 +358,8 @@
    "desc": "Il beneficiario può sempre compiere gli atti necessari a soddisfare le esigenze della vita quotidiana: regola applicata per analogia agli atti della vita quotidiana del minore.",
    "tags": [
     "analogia"
-   ]
+   ],
+   "es": "Per analogia, il quindicenne può comprare da solo un panino al bar."
   },
   {
    "id": "cc-1343",
@@ -360,7 +370,8 @@
    "desc": "La causa è illecita quando è contraria a norme imperative, all'ordine pubblico o al buon costume: il contratto contrario ai principi fondamentali è nullo anche senza un divieto specifico (collegamento con l'analogia iuris).",
    "tags": [
     "contratto"
-   ]
+   ],
+   "es": "Un contratto contrario ai principi fondamentali è nullo anche senza un divieto espresso."
   },
   {
    "id": "cc-1385",
@@ -378,7 +389,8 @@
      "to": "cc-1384",
      "why": "La riduzione equitativa della penale (art. 1384) non si estende per analogia alla caparra."
     }
-   ]
+   ],
+   "es": "Consegni 5.000 euro di caparra: se l'altro è inadempiente puoi recedere e chiederne il doppio."
   },
   {
    "id": "cc-1384",
@@ -1246,6 +1258,177 @@
     "I due casi sono simili",
     "La stessa ratio giustifica la regola anche per il caso non regolato"
    ]
+  }
+ ],
+ "cases": [
+  {
+   "id": "c4-1",
+   "sec": "23",
+   "text": "Ogni mese Giulia paga l'affitto puntualmente.",
+   "q": "Come si chiama questo modo di applicare la legge?",
+   "ok": "Applicazione spontanea",
+   "no": [
+    "Applicazione giudiziale",
+    "Interpretazione autentica",
+    "Analogia"
+   ],
+   "why": "È il modo più diffuso di attuare le norme."
+  },
+  {
+   "id": "c4-2",
+   "sec": "24",
+   "text": "Un danno da fatto illecito si manifesta sei anni dopo il fatto.",
+   "q": "Da quando decorrono i 5 anni di prescrizione?",
+   "ok": "Da quando il danno si manifesta ed è percepibile",
+   "no": [
+    "Dal giorno del fatto",
+    "Dalla sentenza",
+    "Non si prescrive mai"
+   ],
+   "why": "Interpretazione sistematica: artt. 2043, 2947 e 2935 c.c. letti insieme."
+  },
+  {
+   "id": "c4-3",
+   "sec": "24",
+   "text": "Una ditta ristruttura un vecchio edificio, che dopo pochi anni presenta gravi difetti.",
+   "q": "Si applica l'art. 1669 c.c.?",
+   "ok": "Sì: per le Sezioni unite vale anche per le ristrutturazioni",
+   "no": [
+    "No: riguarda solo le nuove costruzioni",
+    "Solo se l'edificio crolla del tutto",
+    "No: si applica solo l'art. 2043"
+   ],
+   "why": "Esempio di vaghezza chiarita dalla Cassazione (s.u. 7756/2017)."
+  },
+  {
+   "id": "c4-4",
+   "sec": "24-p",
+   "text": "Un tribunale decide in modo diverso da un precedente della Cassazione, motivando.",
+   "q": "Può farlo?",
+   "ok": "Sì: il giudice è soggetto solo alla legge",
+   "no": [
+    "No: i precedenti sono vincolanti",
+    "Solo con l'autorizzazione della Cassazione",
+    "Sì, ma la sentenza è nulla"
+   ],
+   "why": "Art. 101, c. 2, Cost.: nel civil law il precedente è persuasivo."
+  },
+  {
+   "id": "c4-5",
+   "sec": "24-p",
+   "text": "Una sezione semplice della Cassazione non condivide un principio delle Sezioni unite.",
+   "q": "Che cosa deve fare?",
+   "ok": "Rimettere la decisione alle Sezioni unite",
+   "no": [
+    "Decidere liberamente in modo diverso",
+    "Rivolgersi alla Corte costituzionale",
+    "Applicare il principio senza discutere"
+   ],
+   "why": "Art. 374, c. 3, c.p.c.: ordinanza motivata di rimessione."
+  },
+  {
+   "id": "c4-6",
+   "sec": "24-p",
+   "text": "Una nuova legge dice: «l'art. X si interpreta nel senso che…».",
+   "q": "Che efficacia ha?",
+   "ok": "Retroattiva, ma non tocca i giudicati",
+   "no": [
+    "Solo per il futuro",
+    "Retroattiva anche sui giudicati",
+    "Nessuna: le leggi non possono interpretare"
+   ],
+   "why": "Interpretazione autentica, naturalmente retroattiva salvo il giudicato."
+  },
+  {
+   "id": "c4-7",
+   "sec": "25",
+   "text": "Un privato non imprenditore fa una proposta di contratto e muore prima dell'accettazione.",
+   "q": "Con quale argomento si conclude che la proposta perde efficacia?",
+   "ok": "A contrario dall'art. 1330 c.c.",
+   "no": [
+    "A simili dall'art. 1330",
+    "Ad absurdum dall'art. 1218",
+    "Per analogia iuris"
+   ],
+   "why": "L'art. 1330 salva solo la proposta dell'imprenditore: per gli altri vale il contrario."
+  },
+  {
+   "id": "c4-8",
+   "sec": "25",
+   "text": "Un'interpretazione dell'art. 1218 c.c. renderebbe il debitore responsabile anche per eventi impossibili da evitare.",
+   "q": "Quale argomento la scarta?",
+   "ok": "L'argomento ad absurdum",
+   "no": [
+    "L'argomento a fortiori",
+    "L'argomento a contrario",
+    "Il criterio storico"
+   ],
+   "why": "Esempio del prof: si esclude l'interpretazione che porta a un esito assurdo."
+  },
+  {
+   "id": "c4-9",
+   "sec": "26",
+   "text": "Un agente scopre che il preponente lo inganna gravemente e vuole recedere subito. La disciplina dell'agenzia tace.",
+   "q": "Come si risolve?",
+   "ok": "Analogia legis con l'art. 2119 c.c. (giusta causa)",
+   "no": [
+    "Non può recedere: la legge tace",
+    "Analogia iuris con i principi generali",
+    "Interpretazione autentica"
+   ],
+   "why": "Stessa ratio: anche l'agenzia è un rapporto stabile e fiduciario."
+  },
+  {
+   "id": "c4-10",
+   "sec": "26",
+   "text": "Un ragazzo di 15 anni compra un panino al bar.",
+   "q": "Su quale base l'atto è valido?",
+   "ok": "Analogia con l'art. 409, c. 2, c.c. (atti della vita quotidiana)",
+   "no": [
+    "Il minore ha piena capacità di agire",
+    "L'art. 2 c.c. lo consente espressamente",
+    "Non è valido"
+   ],
+   "why": "Esempio del prof di analogia legis."
+  },
+  {
+   "id": "c4-11",
+   "sec": "26",
+   "text": "Una caparra confirmatoria sembra eccessiva rispetto al contratto.",
+   "q": "Il giudice può ridurla come una penale?",
+   "ok": "No: l'art. 1384 non si applica per analogia alla caparra",
+   "no": [
+    "Sì, per analogia con l'art. 1384",
+    "Sì, secondo equità",
+    "Sì, se lo chiede il debitore"
+   ],
+   "why": "Esempio del prof sui limiti dell'analogia."
+  },
+  {
+   "id": "c4-12",
+   "sec": "26",
+   "text": "Il pubblico ministero vuole punire per analogia un comportamento simile a un reato, ma non previsto dalla legge.",
+   "q": "È possibile?",
+   "ok": "No: l'analogia in malam partem è vietata",
+   "no": [
+    "Sì, se c'è identità di ratio",
+    "Sì, se lo decide la Cassazione",
+    "Sì, per i reati minori"
+   ],
+   "why": "Art. 14 disp. prel. e art. 25, c. 2, Cost.: nullum crimen sine praevia lege poenali."
+  },
+  {
+   "id": "c4-13",
+   "sec": "26",
+   "text": "Un contratto, non vietato da nessuna norma specifica, viola i principi fondamentali dell'ordinamento.",
+   "q": "Che sorte ha?",
+   "ok": "È nullo per contrarietà all'ordine pubblico",
+   "no": [
+    "È valido: manca un divieto espresso",
+    "È annullabile",
+    "Decide il giudice secondo equità"
+   ],
+   "why": "Art. 1343 c.c.: collegamento con l'analogia iuris e i principi generali."
   }
  ]
 }

@@ -61,6 +61,7 @@ export function scopeItems(course, scope) {
   }
   for (const t of course.truefalse.values()) if (inScope(t.locs, scope)) out.push({ key: 'tf:' + t.id, kind: 'tf', ref: t });
   for (const s of course.sequences.values()) if (inScope(s.locs, scope)) out.push({ key: 'seq:' + s.id, kind: 'seq', ref: s });
+  for (const c of course.cases.values()) if (inScope(c.locs, scope)) out.push({ key: 'case:' + c.id, kind: 'case', ref: c });
   return out;
 }
 
@@ -114,11 +115,16 @@ export function buildSession(state, course, { scope, mode = 'lesson', size = 10 
   // Gli articoli sono il cuore del gioco: almeno metà della sessione, se disponibili
   const artQuota = Math.ceil(size * 0.55);
   const arts = ranked.filter((i) => i.kind === 'art').slice(0, artQuota);
-  const others = ranked.filter((i) => i.kind !== 'art' || !arts.includes(i));
+  // Casi pratici: 2-3 per sessione, perché gli esempi aiutano a capire
+  const cases = ranked.filter((i) => i.kind === 'case').slice(0, Math.max(2, Math.round(size * 0.25)));
+  const others = ranked.filter((i) => !arts.includes(i) && !cases.includes(i));
   const merged = [];
-  while (arts.length || others.length) {
+  let turn = 0;
+  while (arts.length || others.length || cases.length) {
     if (arts.length) merged.push(arts.shift());
-    if (others.length) merged.push(others.shift());
+    if (turn++ % 2 === 0 && cases.length) merged.push(cases.shift());
+    else if (others.length) merged.push(others.shift());
+    else if (cases.length) merged.push(cases.shift());
   }
   // Al massimo 2 fatti dello stesso confronto e 1 sequenza per sessione
   const perCx = {};
@@ -215,7 +221,7 @@ function mcq({ template, prompt, quote, options, correct, explain, items, title,
 }
 
 function artExplain(a) {
-  return { head: `${a.ref}: ${a.tema}`, body: a.desc };
+  return { head: `${a.ref}: ${a.tema}`, body: a.desc, es: a.es };
 }
 
 function makeQuestion(ctx, item, { mode, allowMatch, avoid }) {
@@ -255,7 +261,7 @@ function makeQuestion(ctx, item, { mode, allowMatch, avoid }) {
       const other = truth ? a : artDistractors(ctx, a, 1)[0];
       if (!other) return null;
       return { type: 'tf', template: t, prompt: fill(pick(P.artTF), { ref: a.ref, tema: other.tema }), answer: truth,
-        explain: truth ? artExplain(a) : { head: `Falso. ${a.ref}: ${a.tema}`, body: `«${other.tema}» è l'${other.ref}. ${a.desc}` },
+        explain: truth ? artExplain(a) : { head: `Falso. ${a.ref}: ${a.tema}`, body: `«${other.tema}» è l'${other.ref}. ${a.desc}`, es: a.es },
         items: [item.key] };
     }
     if (t === 'link') {
@@ -341,6 +347,13 @@ function makeQuestion(ctx, item, { mode, allowMatch, avoid }) {
     const t = item.ref;
     return { type: 'tf', template: 'tf', prompt: pick(P.tf), quote: t.s, answer: t.v,
       explain: { head: t.v ? 'Vero' : 'Falso', body: t.why }, items: [item.key] };
+  }
+
+  if (item.kind === 'case') {
+    const c = item.ref;
+    return mcq({ template: 'case', prompt: c.q, quote: c.text,
+      options: [{ label: c.ok, small: true }, ...c.no.map((n) => ({ label: n, small: true }))], correct: 0,
+      explain: { head: c.ok, body: c.why }, items: [item.key] });
   }
 
   if (item.kind === 'seq') {

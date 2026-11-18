@@ -88,7 +88,8 @@
      "to": "dp-10-1",
      "why": "Anche l'art. 10 disp. prel. fissa la vacatio legis di regola in quindici giorni."
     }
-   ]
+   ],
+   "es": "Legge pubblicata il 1° marzo: entra in vigore il 16 marzo."
   },
   {
    "id": "cost-87-5",
@@ -140,7 +141,8 @@
      "to": "codcons-52",
      "why": "L'art. 52 cod. cons. deroga all'art. 1372 c.c. per i contratti a distanza e fuori dei locali commerciali."
     }
-   ]
+   ],
+   "es": "Firmato il contratto, non puoi scioglierlo da solo quando vuoi."
   },
   {
    "id": "codcons-52",
@@ -151,7 +153,8 @@
    "desc": "Il consumatore può recedere entro quattordici giorni: norma speciale che deroga all'art. 1372 c.c., il quale resta applicabile a tutti gli altri contratti (lex specialis derogat generali).",
    "tags": [
     "contratto"
-   ]
+   ],
+   "es": "Compri online un telefono: puoi recedere entro 14 giorni."
   },
   {
    "id": "cost-75",
@@ -205,7 +208,8 @@
    "tags": [
     "tempo",
     "costituzione-principi"
-   ]
+   ],
+   "es": "Un comportamento lecito ieri non può essere punito da una legge penale di oggi."
   },
   {
    "id": "l689-1",
@@ -233,7 +237,8 @@
    "desc": "Estese la comunione legale anche alle coppie già sposate, ma consentì per un periodo transitorio a ciascun coniuge di impedirla con una dichiarazione unilaterale.",
    "tags": [
     "tempo"
-   ]
+   ],
+   "es": "Le coppie sposate prima del 1975 potevano evitare la comunione legale con una dichiarazione."
   }
  ],
  "concepts": [
@@ -816,6 +821,164 @@
     "Decorso della vacatio legis",
     "Entrata in vigore"
    ]
+  }
+ ],
+ "cases": [
+  {
+   "id": "c3-1",
+   "sec": "19",
+   "text": "Una legge è pubblicata in Gazzetta il 1° marzo e non fissa un termine diverso.",
+   "q": "Quando entra in vigore?",
+   "ok": "Il 16 marzo, dopo la vacatio legis",
+   "no": [
+    "Il 1° marzo",
+    "Il giorno della promulgazione",
+    "Il 1° aprile"
+   ],
+   "why": "Quindicesimo giorno successivo alla pubblicazione (art. 73, c. 3, Cost.; art. 10 disp. prel.)."
+  },
+  {
+   "id": "c3-2",
+   "sec": "19",
+   "text": "Sara firma un contratto e poi dice di non conoscere la legge che lo rende nullo.",
+   "q": "La sua ignoranza conta?",
+   "ok": "No: nel diritto privato l'ignoranza della legge non scusa mai",
+   "no": [
+    "Sì, se era inevitabile",
+    "Sì, se è in buona fede",
+    "Solo se è minorenne"
+   ],
+   "why": "La scusabilità dell'ignoranza inevitabile vale solo nel penale (Corte cost. 364/1988)."
+  },
+  {
+   "id": "c3-3",
+   "sec": "20",
+   "text": "Una legge del 2020 dice «bianco»; una del 2024 sulla stessa cosa dice «nero», senza abrogare espressamente la prima.",
+   "q": "Che cosa succede alla legge del 2020?",
+   "ok": "È abrogata tacitamente per incompatibilità",
+   "no": [
+    "Restano in vigore entrambe",
+    "Prevale la più vecchia",
+    "Serve un regolamento che la abroghi"
+   ],
+   "why": "Art. 15 disp. prel.: impossibile applicarle insieme."
+  },
+  {
+   "id": "c3-4",
+   "sec": "20",
+   "text": "Compri online un telefono e dopo 10 giorni vuoi restituirlo, anche se l'art. 1372 c.c. dice che il contratto ha forza di legge.",
+   "q": "Puoi recedere?",
+   "ok": "Sì: l'art. 52 cod. cons. deroga all'art. 1372",
+   "no": [
+    "No: l'art. 1372 lo vieta",
+    "Sì, perché l'art. 1372 è abrogato",
+    "Solo con il consenso del venditore"
+   ],
+   "why": "Deroga: la regola speciale vale per i suoi casi, l'art. 1372 resta per tutti gli altri."
+  },
+  {
+   "id": "c3-5",
+   "sec": "20",
+   "text": "Una norma in vigore dal 2010 è dichiarata incostituzionale nel 2026. Una causa su un fatto del 2020 è ancora in corso.",
+   "q": "Il giudice può applicare la norma?",
+   "ok": "No: la dichiarazione opera ex tunc",
+   "no": [
+    "Sì, perché il fatto è anteriore",
+    "Sì, se la causa era iniziata prima",
+    "Solo in appello"
+   ],
+   "why": "La norma era viziata fin dall'origine: non si applica più nemmeno ai fatti anteriori."
+  },
+  {
+   "id": "c3-6",
+   "sec": "20",
+   "text": "Stessa norma incostituzionale: una causa del 2020 era già chiusa con sentenza definitiva.",
+   "q": "Che cosa succede a quella sentenza?",
+   "ok": "Resta ferma: è un rapporto esaurito",
+   "no": [
+    "Viene annullata automaticamente",
+    "La causa si riapre",
+    "Chi ha vinto deve restituire tutto"
+   ],
+   "why": "Limite dei rapporti esauriti: giudicato, prescrizione, decadenza."
+  },
+  {
+   "id": "c3-7",
+   "sec": "20",
+   "text": "La legge B abroga la legge A; poi la legge C abroga la legge B senza dire altro.",
+   "q": "La legge A torna in vigore?",
+   "ok": "No, salvo una norma ripristinatoria espressa",
+   "no": [
+    "Sì, automaticamente",
+    "Sì, ma solo per il passato",
+    "Lo decide il giudice"
+   ],
+   "why": "L'abrogazione della norma abrogante non fa rivivere la norma originaria."
+  },
+  {
+   "id": "c3-8",
+   "sec": "21",
+   "text": "Una nuova legge punisce come reato un comportamento tenuto da Luca l'anno prima, quando era lecito.",
+   "q": "Luca può essere punito?",
+   "ok": "No: art. 25, c. 2, Cost. e art. 2 c.p.",
+   "no": [
+    "Sì, se la legge lo prevede espressamente",
+    "Sì, se il giudice lo ritiene giusto",
+    "Solo con una multa"
+   ],
+   "why": "Il divieto di retroattività penale ha rango costituzionale."
+  },
+  {
+   "id": "c3-9",
+   "sec": "21",
+   "text": "Il legislatore approva una legge civile che si applica anche ai contratti già conclusi.",
+   "q": "È ammessa?",
+   "ok": "Sì, entro ragionevolezza, eguaglianza e tutela dell'affidamento",
+   "no": [
+    "No, mai: lo vieta l'art. 11 disp. prel.",
+    "Sì, senza alcun limite",
+    "Solo con legge costituzionale"
+   ],
+   "why": "L'art. 11 disp. prel. è legge ordinaria: una legge di pari grado può derogarvi."
+  },
+  {
+   "id": "c3-10",
+   "sec": "22",
+   "text": "Una legge allunga il termine di prescrizione, ma il diritto di Anna si era già prescritto prima.",
+   "q": "Il diritto di Anna rinasce?",
+   "ok": "No: il fatto si era già compiuto",
+   "no": [
+    "Sì, si applica il termine più lungo",
+    "Sì, se Anna lo chiede entro un anno",
+    "Lo decide la Corte costituzionale"
+   ],
+   "why": "Teoria del fatto compiuto."
+  },
+  {
+   "id": "c3-11",
+   "sec": "22",
+   "text": "Chi ha già maturato i requisiti per la pensione si vede cambiare le regole da una nuova legge.",
+   "q": "Quale teoria viene in gioco?",
+   "ok": "La teoria dei diritti quesiti",
+   "no": [
+    "La teoria del fatto compiuto",
+    "L'interpretazione autentica",
+    "La vacatio legis"
+   ],
+   "why": "Problema: distinguere il diritto già acquisito dalla semplice aspettativa."
+  },
+  {
+   "id": "c3-12",
+   "sec": "22",
+   "text": "Nel 1975 la comunione legale diventa il regime dei coniugi, ma per un periodo chi era già sposato può opporsi con una dichiarazione.",
+   "q": "Che cos'è questa regola?",
+   "ok": "Una disposizione transitoria (art. 228 L. 151/1975)",
+   "no": [
+    "Un caso di ultrattività vietata",
+    "Una legge interpretativa",
+    "Un uso normativo"
+   ],
+   "why": "Le disposizioni transitorie regolano il passaggio dalla legge vecchia alla nuova."
   }
  ]
 }
